@@ -1,0 +1,184 @@
+"""Train exactly one v2 PAD arm/seed; this module cannot load DermatoNet."""
+from __future__ import annotations
+
+import argparse
+import os
+import sys
+from pathlib import Path
+
+import numpy as np
+import torch
+from torch.utils.data import DataLoader, WeightedRandomSampler
+
+from common import ARMS, PROJECT, atomic_json, model_code, output_dir, pad_images, sha256
+from data_v2 import META_COLUMNS, encode_pad_metadata, fit_age_stats, load_pad_train_valid
+from model_v2 import count_trainable, make_model
+
+os.environ["TORCH_HOME"] = str(PROJECT / "cache")
+sys.path.insert(0, str(model_code()))
+from custom_dataset import meta_img_dataset, meta_img_dataset_test  # noqa: E402
+from train_hfpa import (BalancedSoftmaxLoss, DatasetBundle, build_transforms,
+                        evaluate, set_seed, train_one_epoch)  # noqa: E402
+
+PRETRAINED_SHA256 = "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca"
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--arm", choices=ARMS, required=True)
+    parser.add_argument("--seed", type=int, required=True)
+    parser.add_argument("--batch-size", type=int, default=16)
+    parser.add_argument("--epochs", type=int, default=150)
+    parser.add_argument("--patience", type=int, default=15)
+    parser.add_argument("--lr", type=float, default=2e-4)
+    parser.add_argument("--weight-decay", type=float, default=1e-4)
+    parser.add_argument("--num-workers", type=int, default=0)
+    parser.add_argument("--output-dir", type=Path)
+    args = parser.parse_args()
+    if args.batch_size < 2 or args.epochs < 1 or args.patience < 1 or args.num_workers < 0:
+        parser.error("Invalid training parameters")
+    if args.output_dir is None:
+        args.output_dir = output_dir() / f"{args.arm}_seed{args.seed}"
+    if not args.output_dir.resolve().is_relative_to(output_dir().resolve()):
+        parser.error("Output must stay under the v2 results directory")
+    return args
+
+
+def pretrained_weight_hash() -> str:
+    from torchvision.models import ResNet50_Weights
+    from urllib.parse import urlparse
+
+    weight_url = ResNet50_Weights.IMAGENET1K_V2.url
+    filename = Path(urlparse(weight_url).path).name
+    path = Path(torch.hub.get_dir()) / "checkpoints" / filename
+    if not path.is_file() or sha256(path) != PRETRAINED_SHA256:
+        raise RuntimeError("Frozen ResNet50 ImageNet V2 weight missing or changed")
+    return PRETRAINED_SHA256
+
+
+def make_bundles():
+    train, valid, split_hash = load_pad_train_valid()
+    stats = fit_age_stats(train)
+    root = pad_images()
+    bundles = {}
+    for role, frame in (("train", train), ("valid", valid)):
+        paths = [str(root / str(name)) for name in frame["img_id"]]
+        labels = frame["diagnostic_number"].astype(int).to_numpy()
+        metadata = encode_pad_metadata(frame, stats)
+        bundles[role] = DatasetBundle(frame, paths, labels, metadata)
+    return bundles, stats, split_hash
+
+
+def make_loaders(bundles, batch_size: int, num_workers: int, seed: int):
+    train_transform, valid_transform = build_transforms(224)
+    train = bundles["train"]
+    valid = bundles["valid"]
+    train_ds = meta_img_dataset(train.img_paths, train.meta_array,
+                                train.labels.tolist(), train_transform)
+    valid_ds = meta_img_dataset_test(valid.img_paths, valid.meta_array,
+                                     valid.labels.tolist(), valid_transform)
+    counts = np.bincount(train.labels, minlength=6)
+    scc_weight = counts.sum() / (6.0 * max(int(counts[4]), 1))
+    weights = np.ones(len(train.labels), dtype=np.float64)
+    weights[train.labels == 4] = scc_weight
+    sampling_rng = torch.Generator().manual_seed(seed)
+    sampler = WeightedRandomSampler(weights, num_samples=len(weights),
+                                    replacement=True, generator=sampling_rng)
+    common = dict(batch_size=batch_size, num_workers=num_workers, pin_memory=True)
+    train_loader = DataLoader(train_ds, sampler=sampler, **common)
+    valid_loader = DataLoader(valid_ds, shuffle=False, **common)
+    return train_loader, valid_loader, counts.tolist()
+
+
+def main() -> None:
+    args = parse_args()
+    if not torch.cuda.is_available():
+        raise RuntimeError("The locked training run requires a CUDA GPU")
+    if args.output_dir.exists():
+        raise FileExistsError(f"Existing run directory must be audited, not overwritten: {args.output_dir}")
+    set_seed(args.seed, fast_mode=False)
+    weight_hash = pretrained_weight_hash()
+    bundles, stats, split_hash = make_bundles()
+    train_loader, valid_loader, counts = make_loaders(
+        bundles, args.batch_size, args.num_workers, args.seed)
+    device = torch.device("cuda:0")
+    model = make_model(args.arm, pretrained=True).to(device)
+    # Architecture-specific initialization consumes different RNG amounts.
+    # Reset before sampling/augmentation so paired seeds share a start state.
+    set_seed(args.seed, fast_mode=False)
+    config = {
+        "protocol": "pad_dermatonet_age_sex_v2", "arm": args.arm,
+        "seed": args.seed, "metadata_columns": META_COLUMNS,
+        "metadata_age_train_stats": stats.to_dict(),
+        "num_classes": 6, "input_size": 224,
+        "batch_size": args.batch_size, "epochs": args.epochs,
+        "patience": args.patience, "lr": args.lr,
+        "weight_decay": args.weight_decay, "num_workers": args.num_workers,
+        "loss": "balanced_softmax", "optimizer": "adamw", "scheduler": "cosine",
+        "oversample_scc": True, "train_class_counts": counts,
+        "sampler_generator_seed": args.seed, "rng_reset_after_model_init": True,
+        "pretrained_backbone": "ResNet50_IMAGENET1K_V2",
+        "pretrained_weight_sha256": weight_hash,
+        "selection_split": "valid", "selection_metric": "balanced_accuracy",
+        "external_evaluated": False,
+        "split_manifest_sha256": split_hash,
+        "model_source_sha256": sha256(model_code() / "models/hfpa_net.py"),
+        "v2_model_sha256": sha256(Path(__file__).with_name("model_v2.py")),
+        "v2_data_sha256": sha256(Path(__file__).with_name("data_v2.py")),
+        "v2_train_sha256": sha256(Path(__file__)),
+        "trainable_parameters": count_trainable(model),
+        "torch": torch.__version__, "cuda_build": torch.version.cuda,
+        "gpu": torch.cuda.get_device_name(0),
+        "external_policy": "Training imports no DermatoNet loader, path or label.",
+    }
+    args.output_dir.mkdir(parents=True)
+    atomic_json(args.output_dir / "config.json", config)
+    criterion = BalancedSoftmaxLoss(np.array(counts)).to(device)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epochs)
+    scaler = torch.amp.GradScaler("cuda", enabled=True)
+    history = []
+    best = -1.0
+    best_epoch = None
+    no_improve = 0
+    for epoch in range(1, args.epochs + 1):
+        train_loss, train_acc = train_one_epoch(
+            model, train_loader, criterion, optimizer, device,
+            scaler=scaler, use_amp=True, epoch=epoch, total_epochs=args.epochs)
+        valid = evaluate(
+            model, valid_loader, criterion, device, bundles["valid"], 6, "valid",
+            use_amp=True, tta_horizontal_flip=False,
+            epoch=epoch, total_epochs=args.epochs)
+        score = float(valid["bac"])
+        if not np.isfinite(score):
+            raise RuntimeError("Non-finite validation BACC")
+        record = {"epoch": epoch, "train_loss": float(train_loss),
+                  "train_acc": float(train_acc), "valid": valid,
+                  "lr": float(optimizer.param_groups[0]["lr"])}
+        history.append(record)
+        if score > best:
+            best, best_epoch, no_improve = score, epoch, 0
+            checkpoint = {"model_state_dict": model.state_dict(), "epoch": epoch,
+                          "arm": args.arm, "seed": args.seed,
+                          "validation_bac": best, "config": config}
+            temporary = args.output_dir / "best_valid.pth.tmp"
+            torch.save(checkpoint, temporary)
+            temporary.replace(args.output_dir / "best_valid.pth")
+        else:
+            no_improve += 1
+        scheduler.step()
+        atomic_json(args.output_dir / "history.json",
+                    {"best_epoch": best_epoch, "best_valid_bac": best,
+                     "epochs": history, "external_evaluated": False})
+        print(f"Epoch {epoch} | train_loss={train_loss:.4f} "
+              f"valid_BACC={score:.4f} best={best:.4f}", flush=True)
+        if no_improve >= args.patience:
+            break
+    atomic_json(args.output_dir / "summary.json",
+                {"best_epoch": best_epoch, "best_valid_bac": best,
+                 "epochs_completed": len(history), "checkpoint": "best_valid.pth",
+                 "external_evaluated": False})
+
+
+if __name__ == "__main__":
+    main()

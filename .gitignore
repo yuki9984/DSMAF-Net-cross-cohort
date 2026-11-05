@@ -1,0 +1,52 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env*
+*.csv
+!examples/synthetic/train.csv
+!examples/synthetic/tuning.csv
+!examples/synthetic/external.csv
+*.npz
+*.npy
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.pkl
+*.pickle
+*.zip
+*.7z
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.log
+demo_output*/
+.neural_runtime/
+outputs/
+runs/
+private_inputs/
+worker_locations.json
+source_manifest.json
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/1、AgentAttention（ECCV 2024）.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/1、BFAM（2024 Top）.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/1、DA_Block（2024）.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/AFPN.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/B2CNet.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/custom_dataset.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/decoders-mscam.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/HLFDB.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/models/b2c_bfam.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/models/module_wrappers.py
+/historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/train_hfpa.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/1、AgentAttention（ECCV 2024）.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/1、BFAM（2024 Top）.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/1、DA_Block（2024）.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/AFPN.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/B2CNet.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/custom_dataset.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/decoders-mscam.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/HLFDB.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/models/b2c_bfam.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/models/module_wrappers.py
+/extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/train_hfpa.py

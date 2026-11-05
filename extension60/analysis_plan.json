@@ -1,0 +1,119 @@
+{
+  "version": "PAA_60_BASE_LOCK_20261029",
+  "date_china": "2026-10-29",
+  "scope": "Implement the accepted 60-fit plan on the original RTX4060 after qualification and engineering trials; no extra arms, backbone or cohort",
+  "execution_ready": false,
+  "new_training_started": false,
+  "base_new_fits": 60,
+  "optional_same_architecture_control_fits": 15,
+  "optional_selected": false,
+  "reuse_fits": 45,
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "fold_manifest_sha256": "9e76ecd94475540729156c928984560f3fe5d3cfab031532bc2df9d0dc7e73e5",
+  "backbone": "ResNet50 ImageNet1K V2",
+  "initialization_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "training": {
+    "batch_size": 16,
+    "max_epochs": 150,
+    "patience": 15,
+    "optimizer": "AdamW",
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR T_max=150",
+    "loss": "BalancedSoftmax",
+    "sampler": "Existing SCC-only weighted replacement sampler, inner-training counts only",
+    "augmentation": "Unchanged train_hfpa.build_transforms(224)",
+    "selection": "First strict maximum of inner-validation BACC",
+    "amp": true,
+    "num_workers": 0,
+    "randomness": "Reset the paired seed after model initialization; preserve original seeded sampler",
+    "hyperparameter_search": false
+  },
+  "encodings": {
+    "full_age_sex": "[age_z,age_missing,F,M,1-F-M]",
+    "age_only": "[age_z,age_missing,0,0,1] in train/valid/internal/external",
+    "age_recorded": "[age_z,age_missing,r/2,r/2,1-r], r=F+M, in train/valid/internal/external",
+    "constant_metadata_optional": "[0,0,0,0,1] in every phase; full DSMAF graph retained"
+  },
+  "reference_rg": {
+    "repository": "https://github.com/life-ufes/rg-dermnet",
+    "commit": "940c1cd3598b5a887aaec118371164dc256d1cb3",
+    "branch": "att-intramodal+residual+cross-attention-metadados",
+    "common_dim_proposed": 512,
+    "num_heads_proposed": 8,
+    "metadata_input_dim": 5,
+    "license": "CC BY-NC 4.0; retain attribution and do not relicense the reference as MIT",
+    "status": "Candidate adaptation; synthetic fusion-only probe passed; full visual adapter not implemented or tested",
+    "caveat": "Single-token attention weights are identically one. Retain and disclose the released numerical-metadata behavior. No silent tokenization changes. Author page labels paper preprint, proceedings citation pending."
+  },
+  "inference": {
+    "internal": "One held-out prediction per image per seed; pooled OOF over frozen five outer folds",
+    "external": "Original 1701 cases, exact original ordering/exclusions; evaluate all five fold models; aggregate per-class recalls with original fixed fold support weights; no probability ensemble",
+    "tta": false,
+    "training_phase_external_access": false,
+    "evaluation_release": "Freeze all chosen new fits and checkpoint inventories before any new outer/external outcome access"
+  },
+  "statistics": {
+    "primary_information_contrasts": [
+      "C-B: age_recorded minus age_only",
+      "D-C: existing full DSMAF minus age_recorded"
+    ],
+    "secondary_information_contrast": "B-A: age_only DSMAF minus existing image_only; whole-model difference with architecture confounding, not isolated age effect",
+    "optional_age_contrast": "B-A0 only if the 15 constant-metadata full-architecture controls are selected before training",
+    "baseline_comparisons": [
+      "Each new method minus existing image_only",
+      "Each new method minus existing late_fusion",
+      "Each new method minus existing full DSMAF"
+    ],
+    "metrics": [
+      "BACC in percent; differences in percentage points",
+      "six class recalls",
+      "NLL with probability clip 1e-12",
+      "multiclass Brier"
+    ],
+    "bootstrap_repeats": 2000,
+    "bootstrap_seed": 2026102901,
+    "bootstrap_scope": "Independent patient-cluster sampling within each cohort, shared draws across arms and seeds; fixed models and fixed external fold weights. Percentile 95% descriptive unadjusted intervals. No model-fit resampling.",
+    "seed_summary": "Show all three paired seed deltas, mean and sample SD; never label as five-seed results",
+    "prohibited_claims": [
+      "Preregistered independent external confirmation",
+      "Causal effect of recording or biological sex",
+      "State-of-the-art superiority from adapted five-feature baselines",
+      "Isolated fusion-mechanism effect where visual representations and heads differ",
+      "General validity across training recipes from a single chosen recipe"
+    ]
+  },
+  "preflight_requirements": [
+    "New adapters and evaluation collector must be implemented and checked before training",
+    "Verify original ImageNet V2 initialization on GPU worker",
+    "Use matching worker environment or declare and assess changes",
+    "Complete full-backbone synthetic forward/loss checks and memory/timing benchmark without external-outcome tuning",
+    "Select 60-fit or optional 75-fit scope before training"
+  ],
+  "failure_policy": "Document all failed attempts. Restart a failed fit from its fixed seed only for technical reasons, retaining logs. If protocol changes affect comparability, version the plan before outcomes; do not selectively rerun poor results or add seeds based on significance.",
+  "public_release_policy": "No new case-level public release is authorized by this plan. Existing code-publication task and data-disclosure decision remain separate.",
+  "implementation_status": "Complete worker orchestration prepared; CPU validation and archive qualification pending final run",
+  "hypothesis_policy": "Method changes must be justified against related work and selected with internal development data only. No stronger claims before new results.",
+  "bootstrap_seed": 2026102901,
+  "bootstrap_repeats": 2000,
+  "engineering_trials": {
+    "fold": 0,
+    "seed": 20261013,
+    "epochs_per_arm": 1,
+    "uses_outer_or_external": false,
+    "reuse_for_formal_training": false
+  },
+  "readiness_policy": "No GPU result is assumed. The worker must qualify all models and pass four one-epoch trials before the fixed formal matrix can start.",
+  "working_data_policy": "Local handoff to the original RTX4060 only; no public patient-level upload and no journal submission by this pipeline."
+}
