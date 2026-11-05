@@ -32,7 +32,7 @@ def main():
  assert all(v['patients']==12 for v in audit['cohort_counts'].values())
  coverage=tables['cohort_field_coverage']
  assert list(coverage.loc[coverage.field=='sex','missing_images'])==[4,4,4]
- checks.append('Synthetic audit counts and sex encodings match known generated inputs.')
+ checks.append('Synthetic audit counts and sex encodings match the specified synthetic inputs.')
  # Unequal frozen fold weights make metric aggregation distinguishable from ensembling.
  yi=np.tile(np.arange(6),10);folds=np.repeat([0,0,0,0,0,1,1,2,3,4],6)
  ye=np.tile(np.arange(6),4)

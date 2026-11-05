@@ -6,3 +6,5 @@ The RG-DermNet adapter uses the author's [original implementation](https://githu
 The historical DSMAF assembly imports Haar decomposition, attention, multi-scale convolution and feature-pyramid components through module_wrappers.py. That wrapper embeds third-party class implementations too. The legacy component copies and the wrapper are withheld pending file-specific permission. A list of required study-snapshot filenames and checksums is in NEURAL_DEPENDENCIES.json. An authorized local copy must match the recorded snapshot for exact reruns. The archived workers used the historical originals; different versions require verification. The synthetic example does not import these modules.
 
 Torch, torchvision, timm, einops and PyWavelets are external dependencies under their respective licenses.
+
+See [component sources and redistribution decisions](COMPONENT_SOURCES.md) for file-level findings and pinned links.

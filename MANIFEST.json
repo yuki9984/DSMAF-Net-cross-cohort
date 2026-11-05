@@ -9,20 +9,24 @@
       "sha256": "188d234e549bc8f897e0a72444113980254d05fb7992d58367a7f2458bec231b"
     },
     {
+      "path": "COMPONENT_SOURCES.md",
+      "sha256": "1b94ad4d3d0402531be049de16b68d94235502f4386dad9a44f49c0d614047fb"
+    },
+    {
       "path": "NEURAL_DEPENDENCIES.json",
       "sha256": "612f68cdbc10623fc8d08c9dfc6b4648284f5e3a6c162f7c99748a2cdf7c26df"
     },
     {
       "path": "README.md",
-      "sha256": "61217792b07737a40d9b8c53efc9d79db7f0343aa8083c7d822cdaa2a678596f"
+      "sha256": "23143eb695cf79bbf3a5500827c96467c97c28c89df2c8ebc54743b52095da05"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "sha256": "4b00481421db6f2b7d2e513555aa173bebf6e9c631e3502156eadab8d8ec748d"
+      "sha256": "7933e62372a2139a6950c537f592ce98086934ef356ab5e14d2eb52d430d7606"
     },
     {
       "path": "THIRD_PARTY.md",
-      "sha256": "5eaac5d616a8d844423ff81f90783c9e7c62f3753993fc066ab9720343284d76"
+      "sha256": "982bef410b3df825a5372fdadb9bd78eb79f08bc98b7f0c6bf1a1d14d9c02c76"
     },
     {
       "path": "examples/synthetic/audit_config.json",
@@ -178,7 +182,7 @@
     },
     {
       "path": "run_synthetic_demo.py",
-      "sha256": "5670cfc287dd9efa18a1929705a62c44462346268dbe0048d6c9b4659337ded1"
+      "sha256": "38576cf6b5ce7343cbf8bd10877d04f70e0c3a653278d966ba6b5bc58123ac34"
     }
   ]
 }
