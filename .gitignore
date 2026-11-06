@@ -50,3 +50,16 @@ source_manifest.json
 /extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/models/b2c_bfam.py
 /extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/models/module_wrappers.py
 /extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/train_hfpa.py
+
+# Private MILK and reviewer assets
+external_milk/raw/
+external_milk/prepared/
+external_milk/reports/
+external_milk/evaluation/
+external_milk/weights/
+external_milk/dependencies/
+external_milk/tmp/
+materials/
+private_review*/
+author_keys/
+*.dpapi

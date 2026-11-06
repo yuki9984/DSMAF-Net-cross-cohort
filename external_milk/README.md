@@ -1,0 +1,13 @@
+# MILK10k external-evaluation source snapshot
+
+This directory preserves the numerical evaluation and metadata-audit source used for the additional clinical-photograph cohort. Obtain the release from https://api.isic-archive.com/doi/milk10k/ and retain the MILK study team's attribution and CC BY-NC terms. Dermoscopic images are not inputs to this study.
+
+The six-class mapping uses fine diagnoses: actinic keratosis; basal cell carcinoma; primary invasive or in situ melanoma; nevi; invasive squamous cell carcinoma; seborrheic keratosis. SCC in situ, keratoacanthoma, melanoma metastases and other benign keratotic lesions are excluded. The locked study cohort comprises 4,474 images and lesions; patient linkage is unavailable. Sex is recorded for every lesion. Released age is approximate, and the original PAD training parameters are retained.
+
+milk_statistics.py is a NumPy-only module for per-model responses, fixed fold weights and paired class-stratified lesion intervals. It does not ensemble probability vectors. audit_metadata.py checks the four source metadata tables and records the fine-diagnosis mapping. run_milk.py and staged_milk.py preserve CPU float32 inference and the staged outcome embargo. analyze_milk.py requires all 135 saved-prediction receipts before calculation.
+
+These source snapshots retain the study's relative project layout, hash locks and dependency checks. They require the authorized original preparation directory, source/input manifests, frozen models and the PAA60/PAA30 worker bundles. Those private inputs and some third-party neural components are not included in this public repository. This is not a one-command neural reproduction package. Do not edit the frozen protocol or bypass its checks to use another input set.
+
+The duplicate-candidate review used AI-assisted visual screening without independent human adjudication; no image-match result proves patient independence. Intervals resample lesions and do not account for unknown within-patient dependence. CPU synthetic qualification does not establish equivalence to earlier CUDA mixed-precision predictions.
+
+The complete 135-model evaluation and both 2,000-draw analyses passed independent recomputation from the saved predictions. The first 105 prediction arrays were verified unchanged. The confidential numerical review copy contains coded saved correctness and loss responses, labels, lesion codes, histopathology membership and fixed fold weights, together with a CPU replay. It does not contain clinical photos, original research identifiers, demographic fields or model weights. Its distribution channel must be agreed with the handling editor; no approved access route or reviewer delivery is claimed here.
