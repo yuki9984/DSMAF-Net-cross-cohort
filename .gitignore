@@ -63,3 +63,9 @@ materials/
 private_review*/
 author_keys/
 *.dpapi
+
+# Externally obtained research dependencies and local verification artifacts
+external_dependencies/
+local_verification/
+
+!**/models/module_wrappers.py

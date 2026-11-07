@@ -1,4 +1,4 @@
-"""Seven locked model arms built from the unmodified v1 architecture source."""
+"""Seven locked model arms built from the qualified release-compatible architecture."""
 from __future__ import annotations
 
 import sys
@@ -33,11 +33,11 @@ def _reject_dwt_fallback(self: HLFDBWrapper, _tensor: torch.Tensor) -> None:
 
 
 def strict_architecture_checks(model: HFPA_Net, arm: str) -> None:
-    needed = ["AFPN.py", "1、DA_Block（2024）.py"]
+    needed = ["licensed_afpn.py", "licensed_attention.py"]
     if model.use_dsmaf:
         needed.append("decoders-mscam.py")
     if model.use_dsdm:
-        needed.append("HLFDB.py")
+        needed.append("licensed_wavelet.py")
     failures = {name: wrappers._LOAD_ERRORS[name] for name in needed
                 if wrappers._LOAD_ERRORS.get(name)}
     if failures or wrappers.DA_Block is None:

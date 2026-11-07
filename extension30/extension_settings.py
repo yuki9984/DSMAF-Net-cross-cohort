@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,os,sys
 BUNDLE=Path(__file__).resolve().parent
-PROJECT=BUNDLE/'runtime'
+PROJECT=BUNDLE.parent/'extension60/runtime'
 PLAN=BUNDLE/'analysis_plan.json'
 SPLITS=PROJECT/'protocol_v2_supplemental_20261019/splits'
 MATERIALS=BUNDLE/'materials'

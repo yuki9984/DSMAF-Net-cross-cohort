@@ -1,7 +1,9 @@
 """Portable I/O adapter for the preserved study training loops.
 
-This launcher changes data/output locations and release-integrity checks only.
-It does not change the model, loss, sampler, checkpoint rule or training loop.
+This launcher provides data/output locations and release-integrity checks.
+The model assembly uses release-compatible modules and the fixed-recipe helper
+runtime described in DEPENDENCY_ACCESS.md. Sampler and checkpoint rules remain
+those of the executed protocol; compatibility-check limits are documented.
 A successful input check is not evidence of a completed GPU reproduction.
 """
 from pathlib import Path

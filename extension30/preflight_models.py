@@ -23,7 +23,7 @@ def main():
  rows=[];initials={};device=torch.device(a.device)
  import sys
  sys.path.insert(0,str(S.setup_original().model_code()))
- from train_hfpa import set_seed
+ from study_runtime import set_seed
  for arm in S.ARMS:
   set_seed(S.SEEDS[0],fast_mode=False);model=extension_models.make_model(arm,pretrained=a.qualify_training)
   if arm.startswith('late_age_'):initials[arm]=state_fingerprint(model)

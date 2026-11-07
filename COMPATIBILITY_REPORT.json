@@ -1,0 +1,284 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_SCOPE",
+  "date": "2026-11-07",
+  "environment": {
+    "device": "CPU",
+    "precision": "float32",
+    "python": "3.13",
+    "torch": "2.11.0+cpu",
+    "torchvision": "0.26.0+cpu",
+    "timm": "1.0.22",
+    "einops": "0.8.1",
+    "PyWavelets_runtime_reported": "1.8.0",
+    "PyWavelets_local_dist_metadata": "1.9.0 (stale; not used as runtime version)"
+  },
+  "scope": "One real frozen checkpoint per condition (fold 0, seed 20261013), synthetic inputs and first eight cached MILK evaluation images. No full-cohort rerun.",
+  "model_checks": [
+    {
+      "arm": "image_only",
+      "checkpoint_sha256": "f8d2780b1cabe5d168acbe8c91b9325164323becc3b486b3101277177ac21260",
+      "strict_load": true,
+      "state_entries": 1309,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_max_abs": {
+        "synthetic": 0.0,
+        "clinical": 0.0,
+        "probabilities": 0.0
+      },
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "late_fusion",
+      "checkpoint_sha256": "8fe4f209c6a6ca60721f0ebed1d7d421da31d1abb756247a139340af17ecbf9e",
+      "strict_load": true,
+      "state_entries": 1318,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_max_abs": {
+        "synthetic": 0.0,
+        "clinical": 0.0,
+        "probabilities": 0.0
+      },
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "full",
+      "checkpoint_sha256": "1971c800a212ef2539057e993bd64b83153f6fa4accb2ebe4b7459715e451599",
+      "strict_load": true,
+      "state_entries": 1794,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_max_abs": {
+        "synthetic": 0.0,
+        "clinical": 0.0,
+        "probabilities": 0.0
+      },
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "metablock_cv",
+      "checkpoint_sha256": "531b26ad0122aad886ae50bf7b9b0c52233ece08a85d8460c1e92dec2c322051",
+      "strict_load": true,
+      "state_entries": 341,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "rg_dermnet_adapted_cv",
+      "checkpoint_sha256": "784d338bf1e49f466b3f22751392f19849fa5f6909af40c8a29efe68be1ed6c8",
+      "strict_load": true,
+      "state_entries": 394,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "dsmaf_age_only",
+      "checkpoint_sha256": "c5ab1b51ad0b3f8161441a06855ffc59fbe257487bf79a7ec7075ddedfbafeef",
+      "strict_load": true,
+      "state_entries": 1794,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "dsmaf_age_recorded",
+      "checkpoint_sha256": "b6585d0292b8b489d89494f46befae00efb3febbfcdac3c755ac81e24762fe8d",
+      "strict_load": true,
+      "state_entries": 1794,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "late_age_only",
+      "checkpoint_sha256": "833c99a93004e7e182e687f8123374bb5f708ea24ab7596818f82dccb8e9f928",
+      "strict_load": true,
+      "state_entries": 1318,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_bitwise_equal": true
+    },
+    {
+      "arm": "late_age_recorded",
+      "checkpoint_sha256": "ae80dc8a470195c6184b930862150610653816cb3cb948ef1aca2869e1e517cc",
+      "strict_load": true,
+      "state_entries": 1318,
+      "archived_logits_max_abs": 0.0,
+      "checkpoint_file_unmodified": true,
+      "old_new_bitwise_equal": true
+    }
+  ],
+  "pairwise_checks": [
+    {
+      "condition_or_component": "dsmaf_age_only",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "dsmaf_age_recorded",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "full",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "image_only",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "late_age_only",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "late_age_recorded",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "late_fusion",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "metablock_cv",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "rg_dermnet_adapted_cv",
+      "arrays_compared": 3,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "wavelet_gradient",
+      "arrays_compared": 2,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "attention_gradient",
+      "arrays_compared": 24,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "condition_or_component": "pyramid_gradient",
+      "arrays_compared": 524,
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "helper_checks": {
+    "status": "PASS",
+    "transform_checks": [
+      {
+        "seed": 0,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 0,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 1,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 1,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 2,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 2,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 3,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 3,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 4,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 4,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 5,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 5,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 6,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 6,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 7,
+        "mode": "training",
+        "bitwise_equal": true
+      },
+      {
+        "seed": 7,
+        "mode": "evaluation",
+        "bitwise_equal": true
+      }
+    ],
+    "one_epoch_cpu_synthetic_optimizer_parameters_bitwise_equal": true,
+    "training_loss_and_validation_metrics_equal": true,
+    "cuda_amp_tested": false,
+    "full_training_rerun": false
+  },
+  "exclusions": [
+    "No full-cohort inference rerun",
+    "No full training rerun",
+    "No CUDA AMP parity claim",
+    "Other historical ablation checkpoints were not reloaded in this qualification"
+  ],
+  "case_data_in_this_report": false
+}

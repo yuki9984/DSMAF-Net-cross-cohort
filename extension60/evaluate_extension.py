@@ -86,8 +86,8 @@ def infer_arrays(model,frame,metadata,labels,image_root):
  sys_common=S.setup_original()
  import sys
  sys.path.insert(0,str(sys_common.model_code()))
- from custom_dataset import meta_img_dataset_test
- from train_hfpa import build_transforms
+ from study_runtime import meta_img_dataset_test
+ from study_runtime import build_transforms
  root=Path(image_root).resolve();paths=[]
  for name in frame.img_id:
   p=(root/str(name)).resolve()

@@ -18,8 +18,8 @@ from model_v2 import count_trainable, make_model
 
 os.environ["TORCH_HOME"] = str(PROJECT / "cache")
 sys.path.insert(0, str(model_code()))
-from custom_dataset import meta_img_dataset, meta_img_dataset_test  # noqa: E402
-from train_hfpa import (DatasetBundle, build_transforms,
+from study_runtime import meta_img_dataset, meta_img_dataset_test  # noqa: E402
+from study_runtime import (DatasetBundle, build_transforms,
                         evaluate, set_seed, train_one_epoch)  # noqa: E402
 
 PRETRAINED_SHA256 = "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca"

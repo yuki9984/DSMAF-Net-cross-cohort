@@ -1,6 +1,6 @@
 """Adapt reference fusion mechanisms without changing their executable class ASTs."""
 from pathlib import Path
-import ast,importlib.util,sys
+import ast,importlib.util,sys,os,hashlib
 from extension_settings import BUNDLE,setup_original
 ORIGINAL_MAKE_MODEL=None
 
@@ -23,7 +23,11 @@ def rg_model(pretrained=True):
  import torch
  from torch import nn
  from torchvision.models import resnet50,ResNet50_Weights
- ref=BUNDLE/'references'
+ ref=Path(os.environ.get('DSMAF_RG_DIR',str(BUNDLE.parent/'external_dependencies/rg_dermnet')))
+ for name,expected in {'gatedResidualBlock.py': '2e5ee97690a5e9bcb9d25fbdbdafe27a1d3fb4d704572108ee0d06831465ba1f', 'metablock.py': 'd2c40b2d4c2845a80c0baf6853f10c56e5c2ac9d21ac4baefb877a3a7b01f18d', 'multimodalIntraInterModal.py': 'bc61d427aedad2075f61489a6336bf4f4b1a08798fca3ed9f4a3f58492a78e51'}.items():
+  path=ref/name
+  if not path.is_file():raise FileNotFoundError("Obtain the pinned RG-DermNet sources; see DEPENDENCY_ACCESS.md")
+  if hashlib.sha256(path.read_text(encoding="utf-8-sig").encode()).hexdigest()!=expected:raise RuntimeError("RG-DermNet source differs from qualified version: "+name)
  gate=load_module('paa_rg_gates',ref/'gatedResidualBlock.py')
  meta=load_module('paa_rg_metablock',ref/'metablock.py')
  class CommonBackboneLoader:

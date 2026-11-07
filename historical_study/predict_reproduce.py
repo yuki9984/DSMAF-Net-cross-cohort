@@ -65,8 +65,8 @@ def main():
  from torch.utils.data import DataLoader
  from model_v2 import make_model
  sys.path.insert(0,str(common.model_code()))
- from custom_dataset import meta_img_dataset_test
- from train_hfpa import build_transforms
+ from study_runtime import meta_img_dataset_test
+ from study_runtime import build_transforms
  sys.path.insert(0,str(ROOT/'followup/neural_source'))
  from inference_core import direct_logits,probabilities
  if checkpoint is None:checkpoint=torch.load(a.checkpoint,map_location='cpu',weights_only=False)

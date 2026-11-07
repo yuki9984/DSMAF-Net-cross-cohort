@@ -1,93 +1,30 @@
 {
-  "scope": "Expected local-only files from the reviewed historical source snapshot. Some optional modules are imported by the historical wrapper.",
-  "files": [
+  "status": "QUALIFIED_CPU_REPRESENTATIVE_CHECKPOINTS",
+  "external": [
     {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/1、AgentAttention（ECCV 2024）.py",
-      "sha256": "d0f5c6540622be275be5b1fe1a9c8e958ca64d5dbe0a0a0abf6bdc5102563a54"
+      "component": "EMCAD MSCBLayer",
+      "license": "UT Austin Research License",
+      "commit": "26c9c31f731f749b62c5fe83f44376dac75f3aa8",
+      "url": "https://github.com/SLDGroup/EMCAD/blob/26c9c31f731f749b62c5fe83f44376dac75f3aa8/lib/decoders.py",
+      "normalized_source_sha256": "4b36981117376ea005aed8844f4ea9c846f432286695b85c1530797a20157a18"
     },
     {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/1、BFAM（2024 Top）.py",
-      "sha256": "fbbb8509584cd27c8f20ca5f8647dee3a9647930bc177337e241d0350e34a595"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/1、DA_Block（2024）.py",
-      "sha256": "417fbb03812a0ac87b86930483264df920b050e4e3a7a602ae43fca5d6e42fc9"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/AFPN.py",
-      "sha256": "8d40d1d68e92abe91d034b6abaa55833501cd1f76dee0bb0565e5c5fb9cd5a51"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/B2CNet.py",
-      "sha256": "453999dc7b265d92fe1c4957523e0d7f793cdaeacec30343f143e7dd769ad96e"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/custom_dataset.py",
-      "sha256": "74f73ec6181e82d88535f6563fc45fcc377d6cdc4a5ea412a9e8d14c6d1b8fb8"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/decoders-mscam.py",
-      "sha256": "4b36981117376ea005aed8844f4ea9c846f432286695b85c1530797a20157a18"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/HLFDB.py",
-      "sha256": "80282b07b6ee25f48897bda51775a4fcd61200d30708face6757a9a5087d8d6c"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/models/b2c_bfam.py",
-      "sha256": "221e1dd8ba620e2b37c39c33e6b0c5113abdae36aa1c7ee0d6a78f8ff9726a36"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/models/module_wrappers.py",
-      "sha256": "d363240a65022ed40a385cf6b93adfa230d587e2cfd16228eb5a6291e235c538"
-    },
-    {
-      "path": "historical_study/model_sources/compute_checks/20261014_transfer/gpu_probe/code/train_hfpa.py",
-      "sha256": "7f5df23f85a2f8dd9918a6ee36985b37fd56de7759d399292200926339bc2434"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/1、AgentAttention（ECCV 2024）.py",
-      "sha256": "d0f5c6540622be275be5b1fe1a9c8e958ca64d5dbe0a0a0abf6bdc5102563a54"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/1、BFAM（2024 Top）.py",
-      "sha256": "fbbb8509584cd27c8f20ca5f8647dee3a9647930bc177337e241d0350e34a595"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/1、DA_Block（2024）.py",
-      "sha256": "417fbb03812a0ac87b86930483264df920b050e4e3a7a602ae43fca5d6e42fc9"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/AFPN.py",
-      "sha256": "8d40d1d68e92abe91d034b6abaa55833501cd1f76dee0bb0565e5c5fb9cd5a51"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/B2CNet.py",
-      "sha256": "453999dc7b265d92fe1c4957523e0d7f793cdaeacec30343f143e7dd769ad96e"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/custom_dataset.py",
-      "sha256": "74f73ec6181e82d88535f6563fc45fcc377d6cdc4a5ea412a9e8d14c6d1b8fb8"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/decoders-mscam.py",
-      "sha256": "4b36981117376ea005aed8844f4ea9c846f432286695b85c1530797a20157a18"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/HLFDB.py",
-      "sha256": "80282b07b6ee25f48897bda51775a4fcd61200d30708face6757a9a5087d8d6c"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/models/b2c_bfam.py",
-      "sha256": "221e1dd8ba620e2b37c39c33e6b0c5113abdae36aa1c7ee0d6a78f8ff9726a36"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/models/module_wrappers.py",
-      "sha256": "d363240a65022ed40a385cf6b93adfa230d587e2cfd16228eb5a6291e235c538"
-    },
-    {
-      "path": "extension60/runtime/compute_checks/20261014_transfer/gpu_probe/code/train_hfpa.py",
-      "sha256": "7f5df23f85a2f8dd9918a6ee36985b37fd56de7759d399292200926339bc2434"
+      "component": "RG-DermNet",
+      "license": "CC BY-NC 4.0",
+      "commit": "940c1cd3598b5a887aaec118371164dc256d1cb3",
+      "url": "https://github.com/life-ufes/rg-dermnet/tree/940c1cd3598b5a887aaec118371164dc256d1cb3/src/scripts/benchmark/models",
+      "normalized_source_sha256": {
+        "gatedResidualBlock.py": "2e5ee97690a5e9bcb9d25fbdbdafe27a1d3fb4d704572108ee0d06831465ba1f",
+        "metablock.py": "d2c40b2d4c2845a80c0baf6853f10c56e5c2ac9d21ac4baefb877a3a7b01f18d",
+        "multimodalIntraInterModal.py": "bc61d427aedad2075f61489a6336bf4f4b1a08798fca3ed9f4a3f58492a78e51"
+      }
     }
-  ]
+  ],
+  "removed": [
+    "AgentAttention legacy helper",
+    "BFAM/B2CNet",
+    "HLNet network and IDWT",
+    "embedded AFPN/MSCB fallback implementations"
+  ],
+  "original_artifacts_unchanged": true
 }
