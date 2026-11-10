@@ -1,6 +1,6 @@
 # Age-and-Sex Fusion Across Cohorts
 
-**Release status:** The source and numerical study inputs are available below. Transfer of the large checkpoint/image assets is in progress; the release download becomes public after the complete remote checks. See RELEASE_STATUS.json.
+**Release status:** Source code and numerical study inputs are public. The large-file transfer is incomplete: checkpoint and image-cache downloads are not public yet. The release will become available after the remaining uploads and complete server-checksum verification.
 
 Code, study inputs and individual model outputs for **Age-and-Sex Fusion Across Cohorts: Separating Recording Status from Recorded Values in Skin Lesion Classification**.
 
