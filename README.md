@@ -2,6 +2,8 @@
 
 **Release status:** Complete reproduction release. All 135 numerical checkpoints and the exact MILK input cache are available in the linked release; every server SHA256 matches the local artifact manifest. See ASSET_VERIFICATION.json.
 
+**Archived snapshot:** The same frozen code, processed study inputs, 135 core numerical checkpoints and exact MILK cache are preserved at [10.5281/zenodo.24110942](https://doi.org/10.5281/zenodo.24110942). The archive retains the component-specific source terms and references the original frozen source commit.
+
 Code, study inputs and individual model outputs for **Age-and-Sex Fusion Across Cohorts: Separating Recording Status from Recorded Values in Skin Lesion Classification**.
 
 The study separates sex-recording status from recorded female/male categories within DSMAF-Net and ordinary late fusion. Nine conditions use five patient-grouped PAD folds and three paired seeds; the same 135 frozen models are evaluated on DermatoNet and MILK10k.

@@ -1,0 +1,14 @@
+{
+  "status": "ZENODO_PUBLIC_ARCHIVE_COMPLETE",
+  "record_id": 24110942,
+  "doi": "10.5281/zenodo.24110942",
+  "doi_url": "https://doi.org/10.5281/zenodo.24110942",
+  "record_url": "https://zenodo.org/records/24110942",
+  "concept_doi": "10.5281/zenodo.24110941",
+  "files": 15,
+  "weights": 135,
+  "source_commit": "3062a27804ec311f1ee3873a07c1156ae6a4c337",
+  "all_server_md5_verified": true,
+  "anonymous_record_access": true,
+  "github_release": "https://github.com/yuki9984/DSMAF-Net-cross-cohort/releases/tag/reproduction-2026-11-10"
+}

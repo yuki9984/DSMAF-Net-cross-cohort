@@ -613,13 +613,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3685,
-      "sha256": "21a2fa224b2b80d0cd447994c54d278285a4a5e1b8bbf1b5488dff5721a69a97"
+      "bytes": 4000,
+      "sha256": "750ea943ae2975c4dd43291e5cb2837ded1b629166e1658e7e1eb6d67610e5e9"
     },
     {
       "path": "RELEASE_STATUS.json",
-      "bytes": 485,
-      "sha256": "e5f4d2a8920f32852da476abcbe3ba94b205bb2dc69052ac5bfda2a5da9b841a"
+      "bytes": 625,
+      "sha256": "277934b5ef3a4cd02d549144f8ef8a7b58f46ee503d52c452517a52af42fd716"
     },
     {
       "path": "reproduce_training.py",
@@ -7925,6 +7925,11 @@
       "path": "ASSET_VERIFICATION.json",
       "bytes": 30506,
       "sha256": "7c37634e896c1b431305653fbd82d90b9c6fb961ea6656d19381211f9ae3bc39"
+    },
+    {
+      "path": "ZENODO_ARCHIVE.json",
+      "bytes": 556,
+      "sha256": "702f3db8f5359ed74e02f9776bcc2b4c6a0d7bd266124c368d301aaf36b33c89"
     }
   ]
 }

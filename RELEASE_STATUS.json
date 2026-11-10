@@ -10,5 +10,8 @@
   "completed_weights_verified_on_server": 135,
   "total_core_weights": 135,
   "image_cache_public": true,
-  "server_verified_assets": 137
+  "server_verified_assets": 137,
+  "zenodo_record_public": true,
+  "zenodo_doi": "10.5281/zenodo.24110942",
+  "zenodo_record_url": "https://zenodo.org/records/24110942"
 }
