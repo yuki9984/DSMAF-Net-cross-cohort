@@ -1,0 +1,832 @@
+{
+  "status": "ALL_137_SERVER_ASSET_DIGESTS_MATCH",
+  "release_tag": "reproduction-2026-11-10",
+  "weight_files": 135,
+  "image_cache_files": 1,
+  "manifest_files": 1,
+  "assets": [
+    {
+      "name": "fold_00_image_only_seed20261013.pth",
+      "bytes": 103053186,
+      "sha256": "b27a9644eaa03af49dff6711aa1d73f7f50c0815175a64b867805d5e9911781e",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_image_only_seed20261013.pth",
+      "bytes": 103053186,
+      "sha256": "584113c0c803b74c03f70442aea4ff196b66d52f554ac18841c6da7891e005bb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_image_only_seed20261013.pth",
+      "bytes": 103053186,
+      "sha256": "0f5a6114d2f6da572cc78eced460a2ade579055490b76c52f8fba984632be02e",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_image_only_seed20261013.pth",
+      "bytes": 103053186,
+      "sha256": "e18badcfe20a185dc726bfe5afde6644f736bed119945fcf27532498ec0547be",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_image_only_seed20261013.pth",
+      "bytes": 103053186,
+      "sha256": "7bba95c51857eac0e25855d4eb0f1c5380c5b58bbd4f94f553f86aebe1038a3d",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_image_only_seed20261014.pth",
+      "bytes": 103053186,
+      "sha256": "2a046cf432c8ff8cc3fa468a276c5d7d75fcdcacba52e8a4ae696177214bc1dc",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_image_only_seed20261014.pth",
+      "bytes": 103053186,
+      "sha256": "75d516326f1983436123d6e3cd7248f6377aaa863556a47b1443dfdacf9028f4",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_image_only_seed20261014.pth",
+      "bytes": 103053186,
+      "sha256": "8e3d34100184be2d578a3c17ad22a9cdf44d219acefee461c7eb3a6ca3270deb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_image_only_seed20261014.pth",
+      "bytes": 103053186,
+      "sha256": "54fb7449b7c452411818ad675c7c922a66df6e191dd2256b2f77b1427020cdcc",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_image_only_seed20261014.pth",
+      "bytes": 103053186,
+      "sha256": "88c192741f302ef3e876965720a5adb256211241176093e143d099b2e94c23ec",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_image_only_seed20261015.pth",
+      "bytes": 103053186,
+      "sha256": "c7d9733154345f0626d2b34e15db57fd773b7f102b71e4ddb4994c8f5643c061",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_image_only_seed20261015.pth",
+      "bytes": 103053186,
+      "sha256": "e66accfe1c5fdb973b72a306aa356230b2d5877368cf8cd1925f7d8b0f8e50a8",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_image_only_seed20261015.pth",
+      "bytes": 103053186,
+      "sha256": "d0260729e39ac84903cc160c5be8367c02be1f3171db3331bfa5a40460c4cca8",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_image_only_seed20261015.pth",
+      "bytes": 103053186,
+      "sha256": "5c493fc48a75a201218a89efeee3094a0e62e63839b039f20ad2ed8360c912d2",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_image_only_seed20261015.pth",
+      "bytes": 103053186,
+      "sha256": "8df766188506ed84153774ff582bc93805e5332f301324e65b98674e73060a5c",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_fusion_seed20261013.pth",
+      "bytes": 103337341,
+      "sha256": "8fc882ff52181beea9b6c3374c56c317fcafd5b01948a7b044b8aaf5f37bf5a3",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_fusion_seed20261013.pth",
+      "bytes": 103337341,
+      "sha256": "14ab73bb1059290e2a348aea3cf8058da15f11e1bb19b00cf4a4b3e438cd7bcb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_fusion_seed20261013.pth",
+      "bytes": 103337341,
+      "sha256": "ce0f5fd5385c9f90f34a1eb9b8612b3853c5f24bf5df832c017ab50f1a4ed732",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_fusion_seed20261013.pth",
+      "bytes": 103337341,
+      "sha256": "7af69db32b4318d66b7772d3f3b2eea0687e730c5375ced07562d0744d71f74a",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_fusion_seed20261013.pth",
+      "bytes": 103337341,
+      "sha256": "95bd7f6732591644ce3598679e07e3a1de2f922f38a597d19dd8d928de1c55c1",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_fusion_seed20261014.pth",
+      "bytes": 103337341,
+      "sha256": "e0eeff993cd9a4955ee1cf847b11f01760bc6980abcb1da8ceee5ee3c8c121b0",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_fusion_seed20261014.pth",
+      "bytes": 103337341,
+      "sha256": "9aa140a0f368c435de2d07261eecd2f75487ab82433e1067884d9d5329c74ee5",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_fusion_seed20261014.pth",
+      "bytes": 103337341,
+      "sha256": "5fb277e86184aee5125e9bafcd72b46fa6f78e8a053f7cdd8df48ea2b83f4106",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_fusion_seed20261014.pth",
+      "bytes": 103337341,
+      "sha256": "f165ac3e5297d1987c07e6d2e679c49dd53bd54da6d17b9c7551355fe7542092",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_fusion_seed20261014.pth",
+      "bytes": 103337341,
+      "sha256": "42fb45e3cd707974169dd950e725db1e43f75498e666e8b70ab72ae976d16ff3",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_fusion_seed20261015.pth",
+      "bytes": 103337341,
+      "sha256": "c343f0503e1d32b05574a3cf859d102f84e452915a957afdad29c410f443d2b7",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_fusion_seed20261015.pth",
+      "bytes": 103337341,
+      "sha256": "4bf4dd6cd929776f5fe91ba8a580efe1824f2bc0218f1dc583b807b32a6069cf",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_fusion_seed20261015.pth",
+      "bytes": 103337341,
+      "sha256": "5719799491908d1cbb9a7df8eb1c02a02913e692d7208727eb0ba6ce0041a305",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_fusion_seed20261015.pth",
+      "bytes": 103337341,
+      "sha256": "ba615ad8ba710a111dfc9409aa3ed04ba0dbf48d3e921b4317d7f06aab053efb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_fusion_seed20261015.pth",
+      "bytes": 103337341,
+      "sha256": "d0400f0597a50a603de2a7888b0e8a044971fb3fff8674cc0eb14f8955fb118f",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_full_seed20261013.pth",
+      "bytes": 142893221,
+      "sha256": "61c9b0b980cb21231722621017ec8396731ac124d1472b7730605ac5a48a48f5",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_full_seed20261013.pth",
+      "bytes": 142893221,
+      "sha256": "f9ed8012ff5dee20a4a76e6420dc2a227df36a1a090f5b9d98f2eb5b4622499f",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_full_seed20261013.pth",
+      "bytes": 142893221,
+      "sha256": "d84223b762e28e9db9d399955d334dbcca92eb8fb3f1fa7423fe7643eab790cb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_full_seed20261013.pth",
+      "bytes": 142893221,
+      "sha256": "c1a5baecb1de99d4c8b3e32c09b1cec40af83aba2750d0291371df0c7d1443d0",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_full_seed20261013.pth",
+      "bytes": 142893221,
+      "sha256": "6a4196667327a771d629001217fd8aefcc0a5b1f2202a598f2ab47748f4a390e",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_full_seed20261014.pth",
+      "bytes": 142893221,
+      "sha256": "f98622a8212e36d29459b985c32b2b003916430e6a7dcbb8d39b2446006dda44",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_full_seed20261014.pth",
+      "bytes": 142893221,
+      "sha256": "b9b3d7abe8f0b0693702cdfb8c0c62e1706325bdaf9536a8166281b2ddcf907b",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_full_seed20261014.pth",
+      "bytes": 142893221,
+      "sha256": "1be96a9ac04c395dc65b5bf3884fc24304ed0c999fca105f331bf70cc967f9d9",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_full_seed20261014.pth",
+      "bytes": 142893221,
+      "sha256": "256878732520c63b4a7d2ba17346bdd8162692142e4f53e2cedeefbf6d9dc5fe",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_full_seed20261014.pth",
+      "bytes": 142893221,
+      "sha256": "df60e46a88fe5a823fa670f693563b1c41afa2f88e47be6292e47d5c4c6aa9b9",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_full_seed20261015.pth",
+      "bytes": 142893221,
+      "sha256": "815c31452a45d9e820ac03edc5b19e24a478bd5daa4a9cc64b254c07bdd50679",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_full_seed20261015.pth",
+      "bytes": 142893221,
+      "sha256": "7b675ec0e180d8f50fb77c2f456a6359a62873c58a6beb150bdc61eac38878be",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_full_seed20261015.pth",
+      "bytes": 142893221,
+      "sha256": "1284f15d818bf0e925f20c5d15a9bfac3ccc34a408149d121ee37e1248134c51",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_full_seed20261015.pth",
+      "bytes": 142893221,
+      "sha256": "f1777cf8e587de4786d2cefc365fa838bb6ec61299324c877b157636f7384106",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_full_seed20261015.pth",
+      "bytes": 142893221,
+      "sha256": "8c19ddb6022c9fe26e60c1edffd8cf52ac19a0c320fbaffb476e4ced2311bdc7",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_metablock_cv_seed20261013.pth",
+      "bytes": 96479955,
+      "sha256": "786aae3483427c9a18878eed640548e766d65a5f6aaefcabe4cfd3c31b42d6c0",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_metablock_cv_seed20261013.pth",
+      "bytes": 96479955,
+      "sha256": "ab732f61c6e2cb4eb18d1c53f8c4c32bafee8e18b04cad8cd0532b014b67c0f2",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_metablock_cv_seed20261013.pth",
+      "bytes": 96479955,
+      "sha256": "68ec6bb13ddf5cfae48ae415d95ba0666b95fc548fdafd6e81058886094ae5b5",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_metablock_cv_seed20261013.pth",
+      "bytes": 96479955,
+      "sha256": "0e993b63c06372417708063905c25074d559a1392c362c98d1f3441704982ffe",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_metablock_cv_seed20261013.pth",
+      "bytes": 96479955,
+      "sha256": "f3422ff67bae9a3caf874841ad87624b7c1088eacf67a8f963d7ae82ff8c5fd2",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_metablock_cv_seed20261014.pth",
+      "bytes": 96479955,
+      "sha256": "9688691815d7925ccd5ae058c5c9786e13da77306bbb1a65e9c26c869fa0e155",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_metablock_cv_seed20261014.pth",
+      "bytes": 96479955,
+      "sha256": "41cbc20a9d1e99782bc0a826ff007a84459ec62309c8f38eadf0e2ad8392b21b",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_metablock_cv_seed20261014.pth",
+      "bytes": 96479955,
+      "sha256": "a7df140c5f0e9118b265214881396ff1914a0835e0691b1ffde592920b7202d3",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_metablock_cv_seed20261014.pth",
+      "bytes": 96479955,
+      "sha256": "8790d35d49739c6fa678ba9f839c95db93048f27bfc699bfcf573a2b71cf0257",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_metablock_cv_seed20261014.pth",
+      "bytes": 96479955,
+      "sha256": "bd6186264c01ed019ba2d4723c40e95687c6b02da4c9893ea73eba53a44747e7",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_metablock_cv_seed20261015.pth",
+      "bytes": 96479955,
+      "sha256": "cb8b3c5c50af0eb002a127be882e18e2b364c6461bd4843d0a66fc30949260e4",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_metablock_cv_seed20261015.pth",
+      "bytes": 96479955,
+      "sha256": "a1c5a7942b5f438f83c9161715a5e06b1e080ecc113675a54937f30068d54529",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_metablock_cv_seed20261015.pth",
+      "bytes": 96479955,
+      "sha256": "389f97e00c2aa75deaa6b95dab19c4b7366acece5f78c93713a55822061459c9",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_metablock_cv_seed20261015.pth",
+      "bytes": 96479955,
+      "sha256": "f55179224e90f51b1aed56920fc549da6d60b5dc193cc4732df84f668d0857e0",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_metablock_cv_seed20261015.pth",
+      "bytes": 96479955,
+      "sha256": "ce9c2e1075c2ba7ea39ab21de06a67be0559a0c9f54ced027fc75622b73db16c",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_rg_dermnet_adapted_cv_seed20261013.pth",
+      "bytes": 146508059,
+      "sha256": "cd17e9b93e6196feb51be96037203e90408dea3e7ba8a56ec23cdcec90fac029",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_rg_dermnet_adapted_cv_seed20261013.pth",
+      "bytes": 146508059,
+      "sha256": "7b2347cdda899b0be8bcf6f685ac87b97931f3fc29913d6aa58c49219b2a2e76",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_rg_dermnet_adapted_cv_seed20261013.pth",
+      "bytes": 146508059,
+      "sha256": "11fb308ed6239dd26404a300de5e73db9a298f13c8314bc8e31922b27983ec06",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_rg_dermnet_adapted_cv_seed20261013.pth",
+      "bytes": 146508059,
+      "sha256": "505846183bb6a46d90d25d475297a6ad8da09a8fb83e1699ed25c0151c8fc4bc",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_rg_dermnet_adapted_cv_seed20261013.pth",
+      "bytes": 146508059,
+      "sha256": "9dc58865092d95f7063843c1ef319f32f6dc2996aa266d0831d3512415e05536",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_rg_dermnet_adapted_cv_seed20261014.pth",
+      "bytes": 146508059,
+      "sha256": "10d05f207548e89011840aa87cde32199bc4e738ab3c1ec4f97032a5cef7c607",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_rg_dermnet_adapted_cv_seed20261014.pth",
+      "bytes": 146508059,
+      "sha256": "cf159be9eba3471b1b60a282cea2cbbcce46c2de52f4cf68d68e57b73d8e8d93",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_rg_dermnet_adapted_cv_seed20261014.pth",
+      "bytes": 146508059,
+      "sha256": "1564c88c0898beffca95ab6b77f476544dfc97ee0934e225a79d2a1a3c21beeb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_rg_dermnet_adapted_cv_seed20261014.pth",
+      "bytes": 146508059,
+      "sha256": "1e591f25624cc4851fb7938b5015b0c00c32817edbae1610a74df621a9f5ea11",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_rg_dermnet_adapted_cv_seed20261014.pth",
+      "bytes": 146508059,
+      "sha256": "0e7ce6a40322a58d043d4c1c4af9292ec5db968af61c9f294c13b69031ad7d97",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_rg_dermnet_adapted_cv_seed20261015.pth",
+      "bytes": 146508059,
+      "sha256": "509afecc984c9b72cf3cbc918cae97e57642b7e732f672cca0a6795e2ccd3e1f",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_rg_dermnet_adapted_cv_seed20261015.pth",
+      "bytes": 146508059,
+      "sha256": "0a9c413f00654344ed32fab8c126dd7508b06b64be473a9e20f098c5a345206d",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_rg_dermnet_adapted_cv_seed20261015.pth",
+      "bytes": 146508059,
+      "sha256": "9d456c549524dd7fbc68a35a28426e5d05022f4bfd4b790f5e7716fbd2c76d6e",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_rg_dermnet_adapted_cv_seed20261015.pth",
+      "bytes": 146508059,
+      "sha256": "9033931a95a151da3b2d25653e5b45cd478915454510b20e644969b5d4bb73c0",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_rg_dermnet_adapted_cv_seed20261015.pth",
+      "bytes": 146508059,
+      "sha256": "47e8c6a24eb0c67f50fdf23fcf37c11d551b29b24e9a66bcc8fd73609085060a",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_dsmaf_age_only_seed20261013.pth",
+      "bytes": 142912309,
+      "sha256": "8b44ea565991a853f38f2fb09f9ab2ca109bc0e18d4fcea5874551707f485ded",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_dsmaf_age_only_seed20261013.pth",
+      "bytes": 142912309,
+      "sha256": "860dc1bc1ead895c67d7cb1eb8317b30eb47f23bb4574985c1c6b77627e1ed08",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_dsmaf_age_only_seed20261013.pth",
+      "bytes": 142912309,
+      "sha256": "93ef48d6822bf9d5b6c1a7cc135c413bd0eb931aa682aa7fb50106983ebeb9ea",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_dsmaf_age_only_seed20261013.pth",
+      "bytes": 142912309,
+      "sha256": "77a7af10b1300a7fe3c77a0d5f56414811645bdb4890ad35507b18516c491fb0",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_dsmaf_age_only_seed20261013.pth",
+      "bytes": 142912309,
+      "sha256": "22cd063bf1f2617e7d7b6d9367a3534dbeb02ff2539cdc057b4af947ce4198f5",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_dsmaf_age_only_seed20261014.pth",
+      "bytes": 142912309,
+      "sha256": "8fa39755ead42789a3dc07738494a6a0eecde8a99abc4a53522ec51fac3154c9",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_dsmaf_age_only_seed20261014.pth",
+      "bytes": 142912309,
+      "sha256": "b49a53c678be715ba41f8bc02bd6618482d07374a6192ab0c1706dc919c3926c",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_dsmaf_age_only_seed20261014.pth",
+      "bytes": 142912309,
+      "sha256": "de5fdea1023f667bf9af63eb6e151012aaab187e2f5335c7b24f3709dac1deb4",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_dsmaf_age_only_seed20261014.pth",
+      "bytes": 142912309,
+      "sha256": "7678e6d2af0b30ade27489aff3595912615328622188e739e5c65158175c0b22",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_dsmaf_age_only_seed20261014.pth",
+      "bytes": 142912309,
+      "sha256": "8cf103fe19b412811c63649a73ba96e79a7e5bc12b33cdf1a717afdcf0098642",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_dsmaf_age_only_seed20261015.pth",
+      "bytes": 142912309,
+      "sha256": "29381f5153155750e203dcce02cb5375ab254a13ade66741bfadb061500a28f7",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_dsmaf_age_only_seed20261015.pth",
+      "bytes": 142912309,
+      "sha256": "9db2252c6ffc598a5a9b4a36c326832900f951682bd02f00a107855fa3f4fff5",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_dsmaf_age_only_seed20261015.pth",
+      "bytes": 142912309,
+      "sha256": "a7553cdcf1922d4389fad1cc8d456b77308f18e027ba9dea165a0633a09c5a23",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_dsmaf_age_only_seed20261015.pth",
+      "bytes": 142912309,
+      "sha256": "c12899728cea6c9e3e9f66064774642ccc0cdac4b344b3d85bf533967c9424eb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_dsmaf_age_only_seed20261015.pth",
+      "bytes": 142912309,
+      "sha256": "5e9fcd368907432cdeb060aa6f3755fbce46873476cb0b95f6f905b721f6dd46",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_dsmaf_age_recorded_seed20261013.pth",
+      "bytes": 142927125,
+      "sha256": "bbf9840dad3701bf5d330c65c885468d1b5fd7394e7d336d62e8378d30c79bf6",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_dsmaf_age_recorded_seed20261013.pth",
+      "bytes": 142927125,
+      "sha256": "d58418beb4025d126e153b38614a0622a06096feeea34a3ca43d211d29dc1931",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_dsmaf_age_recorded_seed20261013.pth",
+      "bytes": 142927125,
+      "sha256": "e039ef0a813c5b5dd1e9c96f48be3c947db2fd03997537957cb14e81b7352cb1",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_dsmaf_age_recorded_seed20261013.pth",
+      "bytes": 142927125,
+      "sha256": "6d8e8df625209e6da9492feff9cc0c2dcd9b47a268a8cc005f890fdebf3a8a8d",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_dsmaf_age_recorded_seed20261013.pth",
+      "bytes": 142927125,
+      "sha256": "248b94c02c76c9324bcea8a22c6a639ced954fbaa72ab8babeaa4cbd87c0eb67",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_dsmaf_age_recorded_seed20261014.pth",
+      "bytes": 142927125,
+      "sha256": "c5a57829587c164cedf037ba5d587497ebf6c3b1085a94c31faaeed736c5c222",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_dsmaf_age_recorded_seed20261014.pth",
+      "bytes": 142927125,
+      "sha256": "749e3294f5ba8ffd133cd12880108e0a4370929473e0ee982c43a0ce99cc4496",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_dsmaf_age_recorded_seed20261014.pth",
+      "bytes": 142927125,
+      "sha256": "fbac64f099210932ffb24cdb7db403de3fd1b6d4bd180adeea789fbd056a7ead",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_dsmaf_age_recorded_seed20261014.pth",
+      "bytes": 142927125,
+      "sha256": "ac046288cdcaa99e440771d497a05f5a867adec0804f2ba1a797dc10cba7341c",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_dsmaf_age_recorded_seed20261014.pth",
+      "bytes": 142927125,
+      "sha256": "8fac7b6f18deafd27205d5316d3250ca8b68aa0e1d0376afed692c82aaab5790",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_dsmaf_age_recorded_seed20261015.pth",
+      "bytes": 142927125,
+      "sha256": "283bcb6ac58c090cc6039c6a4172b766e6bf7b01c78d3c521043c73aaa2de10e",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_dsmaf_age_recorded_seed20261015.pth",
+      "bytes": 142927125,
+      "sha256": "5e3f247724a3aaea0057654c1f2410438fe7e3a623972b07bbbb627a72c11554",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_dsmaf_age_recorded_seed20261015.pth",
+      "bytes": 142927125,
+      "sha256": "1713095349b05087d330edde484e800594537b763ae4d3ad97f69f3e666c000b",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_dsmaf_age_recorded_seed20261015.pth",
+      "bytes": 142927125,
+      "sha256": "168260530ffcb9a9b4011f6edd783e8745129efac0c2ab98d434f77bdc1a3a98",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_dsmaf_age_recorded_seed20261015.pth",
+      "bytes": 142927125,
+      "sha256": "ca766bebdce0e3aeb4e0b101bbf3d48682943f71a2d3eff4f627bc6f6570df1a",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_age_only_seed20261013.pth",
+      "bytes": 103340629,
+      "sha256": "32100faa3e10ac9bbd9180e13cd726751a5842c1ecd40bb9c2b65790ec049372",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_age_only_seed20261013.pth",
+      "bytes": 103340629,
+      "sha256": "591fd71400b82eacfe05512ff78af5e3ee0b0b6271c6cc4799e9c211883b7590",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_age_only_seed20261013.pth",
+      "bytes": 103340629,
+      "sha256": "39db99d688835a421d158a248b949114dd8096290640a2c4aa4b7f19bdc367c1",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_age_only_seed20261013.pth",
+      "bytes": 103340629,
+      "sha256": "8439abd6b0dbcfbddd75cbbb798c642683dd2edfa2c8098fc98154ba1e1cac1f",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_age_only_seed20261013.pth",
+      "bytes": 103340629,
+      "sha256": "306a43264166e1e250c906a90953b09ff8e6f4610567241f10ab24ae2483d51b",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_age_only_seed20261014.pth",
+      "bytes": 103340629,
+      "sha256": "dafdac10155b74fe42d79b526baa21aa6f018184b38b7fb50b872220ef2482ca",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_age_only_seed20261014.pth",
+      "bytes": 103340629,
+      "sha256": "bedb2feaf72bbba79bc6ddbb2425920887f95037704d9e198cae3b34c9570871",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_age_only_seed20261014.pth",
+      "bytes": 103340629,
+      "sha256": "0b2ae6e5c251d554726fe52f59e39b2578b31a53507bca4dd1d02e5c80802a80",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_age_only_seed20261014.pth",
+      "bytes": 103340629,
+      "sha256": "40d98cd284d65110ffdd7cb154494f69f4448e034c6621ffb046722e9272d97f",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_age_only_seed20261014.pth",
+      "bytes": 103340629,
+      "sha256": "76f59934ea9f51f5f2e9c806c389eae9cb23e980124f8504e95d05ffdb6441cf",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_age_only_seed20261015.pth",
+      "bytes": 103340629,
+      "sha256": "4afc663d87ddc27c7852fa8d9b3ff533811a412c87d6f284f93ac75b67afcf9f",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_age_only_seed20261015.pth",
+      "bytes": 103340629,
+      "sha256": "59a137cc01135fe17ff451bc0d3fb4f4c19b5bcc1333abfb12202a776c8c35c7",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_age_only_seed20261015.pth",
+      "bytes": 103340629,
+      "sha256": "5aabded3a1439e7cb7bef92211d32f604ac521da668ac2c3ae2939d83f59a4e3",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_age_only_seed20261015.pth",
+      "bytes": 103340629,
+      "sha256": "6de2620564ecf02115a2250879a310a340a401bd9aecab85209d910708f1aa74",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_age_only_seed20261015.pth",
+      "bytes": 103340629,
+      "sha256": "cb994bc11c84272c6919cfd738b06bdbe7b1dcafb96061dff3570d9dba5256ca",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_age_recorded_seed20261013.pth",
+      "bytes": 103353541,
+      "sha256": "38d549349452fef2c30f20917db63c601a28606c1b09f09a7d755af57191b191",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_age_recorded_seed20261013.pth",
+      "bytes": 103353541,
+      "sha256": "bba8d967eece4e0661b3d7700d738b72cb9e8a9368bc15bd430b0cf68f561f5b",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_age_recorded_seed20261013.pth",
+      "bytes": 103353541,
+      "sha256": "add4f245984e381771f1c0d1fc870dcc78d93b6924a44a0f37680b8af641633b",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_age_recorded_seed20261013.pth",
+      "bytes": 103353541,
+      "sha256": "b6b15cd31f5892ced7a9882143e39fc6c92b9df7f80c450d3070e7c346c0427a",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_age_recorded_seed20261013.pth",
+      "bytes": 103353541,
+      "sha256": "654fc0723b7fbb643414e48cd0904f8fc7655ce38696fd20729f0dec38069b68",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_age_recorded_seed20261014.pth",
+      "bytes": 103353541,
+      "sha256": "a5fbc08dd38b27307f28dc9bae3bb368a14dbe99b5659c5329c48229a0894833",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_age_recorded_seed20261014.pth",
+      "bytes": 103353541,
+      "sha256": "3db31197c81e89f630567d85f05922487bf9ddd3eea9495439c8f7d8c4aede33",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_age_recorded_seed20261014.pth",
+      "bytes": 103353541,
+      "sha256": "f227b6f8f54b6c47f72968e15ab617e64f7d4017bbbd2bc7e5f41f64b4895ebe",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_age_recorded_seed20261014.pth",
+      "bytes": 103353541,
+      "sha256": "e2cff18357c8322345110b866e6ffc6ec9d724153d01b9c69e425424db7b7a66",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_age_recorded_seed20261014.pth",
+      "bytes": 103353541,
+      "sha256": "e4cfdd82ed1651087f93bd8875dac56960b696a15ceb546c1f84f7097df97f93",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_00_late_age_recorded_seed20261015.pth",
+      "bytes": 103353541,
+      "sha256": "049fd85d092804f1bb10fcb6ae00e9530c0d16caac24dbc36c267132f583b89e",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_01_late_age_recorded_seed20261015.pth",
+      "bytes": 103353541,
+      "sha256": "c1fb5e4cd2e199eed47eae0ab1eaccb7757d474c2bcfdac7c9ae8006788264f2",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_02_late_age_recorded_seed20261015.pth",
+      "bytes": 103353541,
+      "sha256": "cbbd77b2a926a889e7e44c8bf221cb6d2d0893da1eb30137d471843eb79cafd7",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_03_late_age_recorded_seed20261015.pth",
+      "bytes": 103353541,
+      "sha256": "4317fb0f9aaedbc1af424ee2aee44cfbefddb0bb4352d2e8ff6a41e41239e774",
+      "server_digest_matches": true
+    },
+    {
+      "name": "fold_04_late_age_recorded_seed20261015.pth",
+      "bytes": 103353541,
+      "sha256": "543d8514abed9c6ed0c3f066df0fe25948a194dfbb7d29dccb83dd40c7cce464",
+      "server_digest_matches": true
+    },
+    {
+      "name": "candidate_rgb224.npy",
+      "bytes": 674064512,
+      "sha256": "e04b15c51bf9f0bbc5e676a440f896b088a55a5921bb901863dc622b9d97aacb",
+      "server_digest_matches": true
+    },
+    {
+      "name": "public_assets_manifest.json",
+      "bytes": 67946,
+      "sha256": "4901dbb722fe76b446ca16a38178759680ff83084f117a7a7071c76f031abe1c",
+      "server_digest_matches": true
+    }
+  ],
+  "new_training_performed": false
+}

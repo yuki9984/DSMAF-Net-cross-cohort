@@ -120,5 +120,5 @@
   "full_new_gpu_training_performed": false,
   "public_input_projection_proof": "study_inputs/internal75/splits/PUBLIC_INPUT_PROJECTION.json",
   "source_terms": "DATA_LICENSES.md",
-  "large_assets_status": "Not public: upload incomplete. Existing source and numerical data remain available."
+  "large_assets_status": "All 135 checkpoint assets, the exact image cache and asset manifest passed complete server SHA256 verification. See ASSET_VERIFICATION.json."
 }

@@ -1,6 +1,6 @@
 # Age-and-Sex Fusion Across Cohorts
 
-**Release status:** Source code and numerical study inputs are public. The large-file transfer is incomplete: checkpoint and image-cache downloads are not public yet. The release will become available after the remaining uploads and complete server-checksum verification.
+**Release status:** Complete reproduction release. All 135 numerical checkpoints and the exact MILK input cache are available in the linked release; every server SHA256 matches the local artifact manifest. See ASSET_VERIFICATION.json.
 
 Code, study inputs and individual model outputs for **Age-and-Sex Fusion Across Cohorts: Separating Recording Status from Recorded Values in Skin Lesion Classification**.
 

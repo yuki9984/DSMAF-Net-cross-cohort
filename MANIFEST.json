@@ -613,13 +613,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3683,
-      "sha256": "adce8dd00dc32558b8047ca8e31619803aa226f33046a1ac12b585ec65d0dbbb"
+      "bytes": 3685,
+      "sha256": "21a2fa224b2b80d0cd447994c54d278285a4a5e1b8bbf1b5488dff5721a69a97"
     },
     {
       "path": "RELEASE_STATUS.json",
-      "bytes": 473,
-      "sha256": "5302c5654bfc89041e8527a6052aca5bff189613c378aa77c4f71e2babc1886a"
+      "bytes": 485,
+      "sha256": "e5f4d2a8920f32852da476abcbe3ba94b205bb2dc69052ac5bfda2a5da9b841a"
     },
     {
       "path": "reproduce_training.py",
@@ -7920,6 +7920,11 @@
       "path": "THIRD_PARTY.md",
       "bytes": 682,
       "sha256": "44139ab5f33869a8ebeae468a53c357ed5d010f267fa00d4f8113cb99717fab2"
+    },
+    {
+      "path": "ASSET_VERIFICATION.json",
+      "bytes": 30506,
+      "sha256": "7c37634e896c1b431305653fbd82d90b9c6fb961ea6656d19381211f9ae3bc39"
     }
   ]
 }
