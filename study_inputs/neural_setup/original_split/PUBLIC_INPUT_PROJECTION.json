@@ -1,0 +1,50 @@
+{
+  "scope": "Drop unused clinical attributes; preserve actual model inputs and row order.",
+  "files": [
+    {
+      "file": "pad_test.csv",
+      "original_sha256": "0ea5d49ea6f7ea6fab6f8fede5ff90c6f47d7f61878a5384ae8bc5896c3a95b1",
+      "sha256": "98232c07d3b224e1d2ae585d2dc3323b1ac580990fa1389cb1ba453b1f1a63be",
+      "columns": [
+        "img_id",
+        "patient_id",
+        "diagnostic_number",
+        "age",
+        "gender_FEMALE",
+        "gender_MALE"
+      ],
+      "rows": 476,
+      "actual_input_values_unchanged": true
+    },
+    {
+      "file": "pad_train.csv",
+      "original_sha256": "75830b098dbec597406b912d7049dab32728e4177426c757aa3a0dacc75857e0",
+      "sha256": "924043195896b15630e0111f05cde82dfe96aa3a97b5f1fff41963bfef5c2e82",
+      "columns": [
+        "img_id",
+        "patient_id",
+        "diagnostic_number",
+        "age",
+        "gender_FEMALE",
+        "gender_MALE"
+      ],
+      "rows": 1379,
+      "actual_input_values_unchanged": true
+    },
+    {
+      "file": "pad_valid.csv",
+      "original_sha256": "ce2ee3790d13766eceab1eb7b3a70dd19fff169f44ef72ca3c922380c4bf223b",
+      "sha256": "ba7626a965504be72feb3f9f59f4b24ac0a62da17a23435192403502239d0a6e",
+      "columns": [
+        "img_id",
+        "patient_id",
+        "diagnostic_number",
+        "age",
+        "gender_FEMALE",
+        "gender_MALE"
+      ],
+      "rows": 443,
+      "actual_input_values_unchanged": true
+    }
+  ]
+}

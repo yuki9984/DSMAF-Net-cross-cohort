@@ -1,0 +1,6 @@
+reference_model,status,reason
+intercept_only,FITTED,
+age_only,FITTED,
+recording_only,FITTED,
+age_recording,FITTED,
+age_recorded_sex,FITTED,

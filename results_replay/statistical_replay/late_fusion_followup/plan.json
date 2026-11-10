@@ -1,0 +1,26 @@
+{
+  "methods": [
+    "full",
+    "image_only",
+    "late_fusion",
+    "late_age_only",
+    "late_age_recorded"
+  ],
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "pairs": [
+    [
+      "late_age_recorded",
+      "late_age_only"
+    ],
+    [
+      "late_fusion",
+      "late_age_recorded"
+    ]
+  ],
+  "bootstrap_seed": 2026110301,
+  "bootstrap_repeats": 2000
+}

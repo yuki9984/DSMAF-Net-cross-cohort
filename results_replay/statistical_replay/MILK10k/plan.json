@@ -1,0 +1,49 @@
+{
+  "pairs": [
+    [
+      "dsmaf_age_recorded",
+      "dsmaf_age_only"
+    ],
+    [
+      "full",
+      "dsmaf_age_recorded"
+    ],
+    [
+      "late_age_recorded",
+      "late_age_only"
+    ],
+    [
+      "late_fusion",
+      "late_age_recorded"
+    ],
+    [
+      "late_fusion",
+      "image_only"
+    ],
+    [
+      "full",
+      "image_only"
+    ],
+    [
+      "metablock_cv",
+      "image_only"
+    ],
+    [
+      "rg_dermnet_adapted_cv",
+      "image_only"
+    ],
+    [
+      "full",
+      "late_fusion"
+    ],
+    [
+      "dsmaf_age_only",
+      "image_only"
+    ]
+  ],
+  "repeats": 2000,
+  "seed": 20261104,
+  "cluster_unit": "lesion_not_patient",
+  "source_doi": "10.34970/648456",
+  "source_terms": "CC BY-NC; retain attribution and source terms"
+}

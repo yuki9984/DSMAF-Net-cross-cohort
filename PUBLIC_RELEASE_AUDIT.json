@@ -1,0 +1,124 @@
+{
+  "status": "LOCAL_QUALIFICATION_PASS",
+  "files_in_manifest": 1584,
+  "bytes": 284678534,
+  "python_files_parsed": 111,
+  "secret_pattern_hits": 0,
+  "direct_identifier_column_hits": 0,
+  "statistical_and_input_validation_checks": [
+    {
+      "name": "core_statistics",
+      "returncode": 0,
+      "seconds": 45.5511109999934
+    },
+    {
+      "name": "image_exclusion",
+      "returncode": 0,
+      "seconds": 3.4223389999970095
+    },
+    {
+      "name": "historical_audits",
+      "returncode": 0,
+      "seconds": 782.031582399999
+    },
+    {
+      "name": "input_control",
+      "returncode": 0,
+      "seconds": 147.83304450000287
+    },
+    {
+      "name": "input_dsmaf",
+      "returncode": 0,
+      "seconds": 5.253792200004682
+    },
+    {
+      "name": "input_late",
+      "returncode": 0,
+      "seconds": 1.8111992000049213
+    },
+    {
+      "name": "dependency_hashes",
+      "returncode": 0,
+      "seconds": 0.9484127000032458
+    }
+  ],
+  "all135_weight_tensors_preserved": true,
+  "representative_cpu_models": [
+    {
+      "arm": "image_only",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "late_fusion",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "full",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "metablock_cv",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "rg_dermnet_adapted_cv",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "dsmaf_age_only",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "dsmaf_age_recorded",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "late_age_only",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    },
+    {
+      "arm": "late_age_recorded",
+      "fold": 0,
+      "seed": 20261013,
+      "strict_checkpoint_load": true,
+      "images": 8,
+      "max_absolute_logit_error": 0.0
+    }
+  ],
+  "full_new_gpu_training_performed": false,
+  "public_input_projection_proof": "study_inputs/internal75/splits/PUBLIC_INPUT_PROJECTION.json",
+  "source_terms": "DATA_LICENSES.md",
+  "large_assets_status": "Uploading; see RELEASE_STATUS.json."
+}

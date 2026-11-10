@@ -20,8 +20,8 @@ def build_model(condition,device="cpu"):
     return model.to(target)
 def load_frozen_checkpoint(path,condition,device="cpu"):
     import torch
-    # Only locally trusted study checkpoints should be loaded.
-    checkpoint=torch.load(path,map_location="cpu",weights_only=False)
+    # Public release checkpoints contain tensors and primitive configuration values.
+    checkpoint=torch.load(path,map_location="cpu",weights_only=True)
     config=checkpoint.get("config",{})
     if config.get("arm")!=condition:
         raise ValueError("Requested condition differs from the checkpoint configuration")

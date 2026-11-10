@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-10",
+  "status": "SOURCE_AND_NUMERICAL_DATA_READY_LARGE_ASSETS_UPLOADING",
+  "large_release_public": false,
+  "all_local_statistical_and_input_checks_pass": true,
+  "models_with_tensor_equality_check": 135,
+  "representative_cpu_forward_checks": 9,
+  "max_representative_logit_error": 0.0,
+  "new_gpu_training_performed": false
+}

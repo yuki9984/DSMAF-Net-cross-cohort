@@ -1,0 +1,72 @@
+{
+  "classes": [
+    "ACK",
+    "BCC",
+    "MEL",
+    "NEV",
+    "SCC",
+    "SEK"
+  ],
+  "training_cohort": "train",
+  "age_range": [
+    0,
+    120
+  ],
+  "fixed_references": true,
+  "cohorts": [
+    {
+      "id": "img_id",
+      "patient": "patient_id",
+      "age": "age",
+      "sex": "gender",
+      "name": "train",
+      "csv": "data/train.csv",
+      "diagnosis": "diagnostic",
+      "sex_mapping": {
+        "FEMALE": "female",
+        "MALE": "male",
+        "": "unknown"
+      },
+      "reference_standard": "biopsed",
+      "encoding": {
+        "female": "gender_FEMALE",
+        "male": "gender_MALE"
+      }
+    },
+    {
+      "id": "img_id",
+      "patient": "patient_id",
+      "age": "age",
+      "sex": "gender",
+      "name": "tuning",
+      "csv": "data/tuning.csv",
+      "diagnosis": "diagnostic",
+      "sex_mapping": {
+        "FEMALE": "female",
+        "MALE": "male",
+        "": "unknown"
+      },
+      "reference_standard": "biopsed",
+      "encoding": {
+        "female": "gender_FEMALE",
+        "male": "gender_MALE"
+      }
+    },
+    {
+      "id": "img_id",
+      "patient": "patient_id",
+      "age": "age",
+      "sex": "gender",
+      "name": "external",
+      "csv": "data/external.csv",
+      "diagnosis": "label_name",
+      "sex_mapping": {
+        "FEMININO": "female",
+        "MASCULINO": "male",
+        "": "unknown"
+      }
+    }
+  ],
+  "prediction_inputs": [],
+  "scope": "Released de-identified metadata projection for reproducing this paper audit. Values are descriptive, not a clinical validation."
+}

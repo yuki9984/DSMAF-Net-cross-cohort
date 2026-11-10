@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parent
 LABELS=('ACK','BCC','MEL','NEV','SCC','SEK')
 def main():
  p=argparse.ArgumentParser(description=__doc__)
- p.add_argument('--study-inputs',type=Path,required=True,help='Locally authorized study-input folder; never included in the public code candidate.')
+ p.add_argument('--study-inputs',type=Path,required=True,help='Public study_inputs directory in this repository.')
  p.add_argument('--cohort',choices=['internal','external'],required=True)
  p.add_argument('--checkpoint',type=Path)
  p.add_argument('--config',type=Path,help='Training configuration, also usable without weights for input validation.')

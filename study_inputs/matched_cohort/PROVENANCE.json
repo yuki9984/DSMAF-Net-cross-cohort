@@ -1,0 +1,14 @@
+{
+  "returned_archive_sha256": "895d510403f2a5ce9cf55645401a92a53a2bf4126f3391d64fbe776cb5ff60e1",
+  "dispatched_archive_sha256": "964e7e60ad320986baeac0cdc7a8c1dcf967ad0b55e60a7bdd74a5f3c69784ea",
+  "plan_sha256": "a463fd5b0ca2286db9f725f1428869f26a6d38cfb5d9ee6feb066902a234270b",
+  "projection": "Numeric/unicode arrays from all original held-out and 75 returned external probability CSVs, with patient/image IDs and fold labels. NPZ is a semantic projection, not a byte-identical CSV export.",
+  "study_original_primary_unchanged": true,
+  "post_hoc": true,
+  "original_internal_bootstrap_seed": 20261019,
+  "matched_bootstrap_seed": 20261022,
+  "no_probability_ensemble": true,
+  "no_neural_training": true,
+  "receiver_checks": "All raw prediction file hashes, internal hard-prediction reproductions, checkpoint inventory hashes and data/plan bindings were verified before this anonymous projection was made.",
+  "reviewer_scope": "Saved-prediction/statistical verification only. No trained tensors, raw images, machine paths or operator logs. Fixed-model inference source retained for inspection."
+}

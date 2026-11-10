@@ -1,0 +1,1082 @@
+[
+  {
+    "name": "fold_00_image_only_seed20261013",
+    "arm": "image_only",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "f8d2780b1cabe5d168acbe8c91b9325164323becc3b486b3101277177ac21260",
+    "configuration": "study_inputs/model_configs/fold_00_image_only_seed20261013.json"
+  },
+  {
+    "name": "fold_01_image_only_seed20261013",
+    "arm": "image_only",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "424985d85bb63af714e1cdef870ca741d406d9bd391e19726ca319c9a0b01191",
+    "configuration": "study_inputs/model_configs/fold_01_image_only_seed20261013.json"
+  },
+  {
+    "name": "fold_02_image_only_seed20261013",
+    "arm": "image_only",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "97b920332f533e29bb1dd7c8c8a01b6ac35e00e1f27d43012379750fdd3cd8c9",
+    "configuration": "study_inputs/model_configs/fold_02_image_only_seed20261013.json"
+  },
+  {
+    "name": "fold_03_image_only_seed20261013",
+    "arm": "image_only",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "ef69a44bb124ae0fc3873617831af477f64d9403a8ae3965615b84a3c83d35a1",
+    "configuration": "study_inputs/model_configs/fold_03_image_only_seed20261013.json"
+  },
+  {
+    "name": "fold_04_image_only_seed20261013",
+    "arm": "image_only",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "5cf073c0976a30cf522256a10b42fdea035963cca081d5a9ce299a13785663eb",
+    "configuration": "study_inputs/model_configs/fold_04_image_only_seed20261013.json"
+  },
+  {
+    "name": "fold_00_image_only_seed20261014",
+    "arm": "image_only",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "579763a591beae584b9ad66f41bd087dd0f0c44e64f5ca857776eb221d9a202e",
+    "configuration": "study_inputs/model_configs/fold_00_image_only_seed20261014.json"
+  },
+  {
+    "name": "fold_01_image_only_seed20261014",
+    "arm": "image_only",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "2413bc30855acbd813b1f7fdf3a163f5547a25265746ee53931de173868d0c19",
+    "configuration": "study_inputs/model_configs/fold_01_image_only_seed20261014.json"
+  },
+  {
+    "name": "fold_02_image_only_seed20261014",
+    "arm": "image_only",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "836b63cfbfef68403f30ecfe2696eb971cb4bd6b6ce937d7af2f5fce21fe4bf5",
+    "configuration": "study_inputs/model_configs/fold_02_image_only_seed20261014.json"
+  },
+  {
+    "name": "fold_03_image_only_seed20261014",
+    "arm": "image_only",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "149fa10ddba4a7d9baf0afdf582939f6a8a55bf571ae793fc9ce3d534494f35f",
+    "configuration": "study_inputs/model_configs/fold_03_image_only_seed20261014.json"
+  },
+  {
+    "name": "fold_04_image_only_seed20261014",
+    "arm": "image_only",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "7fbb8bbe237f44368e198fc9c3b85e5241a589e3a0d1ea949443687847062dc6",
+    "configuration": "study_inputs/model_configs/fold_04_image_only_seed20261014.json"
+  },
+  {
+    "name": "fold_00_image_only_seed20261015",
+    "arm": "image_only",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "63cb2f941af6277c9e1f0e1dc74d7ee2844a1ae5600223fe36d2be5c8a28bb08",
+    "configuration": "study_inputs/model_configs/fold_00_image_only_seed20261015.json"
+  },
+  {
+    "name": "fold_01_image_only_seed20261015",
+    "arm": "image_only",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "a985cda2777153709cae220b9c95341b8459230f648dc07ea1e72e7fcbce1c92",
+    "configuration": "study_inputs/model_configs/fold_01_image_only_seed20261015.json"
+  },
+  {
+    "name": "fold_02_image_only_seed20261015",
+    "arm": "image_only",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "52e95cee5ec8382c38e47dfe05fa0154e0a7065c5bbf8310cdbd091e2ecc9fac",
+    "configuration": "study_inputs/model_configs/fold_02_image_only_seed20261015.json"
+  },
+  {
+    "name": "fold_03_image_only_seed20261015",
+    "arm": "image_only",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "cb4468053f3772a69598c600d76ebf27dd723fa96f1e4aa4c88f879a290f5df5",
+    "configuration": "study_inputs/model_configs/fold_03_image_only_seed20261015.json"
+  },
+  {
+    "name": "fold_04_image_only_seed20261015",
+    "arm": "image_only",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "668f1120ec1894d5b36f0c102569894353df3ba0ed0576cbe23fcdbc73e5ab75",
+    "configuration": "study_inputs/model_configs/fold_04_image_only_seed20261015.json"
+  },
+  {
+    "name": "fold_00_late_fusion_seed20261013",
+    "arm": "late_fusion",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "8fe4f209c6a6ca60721f0ebed1d7d421da31d1abb756247a139340af17ecbf9e",
+    "configuration": "study_inputs/model_configs/fold_00_late_fusion_seed20261013.json"
+  },
+  {
+    "name": "fold_01_late_fusion_seed20261013",
+    "arm": "late_fusion",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "afaa8b2580fc804e591be7c39b212e1cf3925dabeae0036f05e6244cc8a4aa0a",
+    "configuration": "study_inputs/model_configs/fold_01_late_fusion_seed20261013.json"
+  },
+  {
+    "name": "fold_02_late_fusion_seed20261013",
+    "arm": "late_fusion",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "c1940f3dc35e566de7f468956c379b5c855b96644705cd16efe55458eef50963",
+    "configuration": "study_inputs/model_configs/fold_02_late_fusion_seed20261013.json"
+  },
+  {
+    "name": "fold_03_late_fusion_seed20261013",
+    "arm": "late_fusion",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "16f446751f21387444eb43ed1dcb026508871f07f65f2f3ac16265b8dfe6fe4c",
+    "configuration": "study_inputs/model_configs/fold_03_late_fusion_seed20261013.json"
+  },
+  {
+    "name": "fold_04_late_fusion_seed20261013",
+    "arm": "late_fusion",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "292737d3f5ec02de21dc955a4d62c0e88c4a9707643202187f0ec12c8cc3ba91",
+    "configuration": "study_inputs/model_configs/fold_04_late_fusion_seed20261013.json"
+  },
+  {
+    "name": "fold_00_late_fusion_seed20261014",
+    "arm": "late_fusion",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "530c753db74a1627b5a1adbb4c20198d1902543b664c2b35b4be8807ca4cd14f",
+    "configuration": "study_inputs/model_configs/fold_00_late_fusion_seed20261014.json"
+  },
+  {
+    "name": "fold_01_late_fusion_seed20261014",
+    "arm": "late_fusion",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "3ed1e7d13f4dbc8149ae1a4c982674bcb0c8dc36a3d939a3cec9a095e00f2a76",
+    "configuration": "study_inputs/model_configs/fold_01_late_fusion_seed20261014.json"
+  },
+  {
+    "name": "fold_02_late_fusion_seed20261014",
+    "arm": "late_fusion",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "f15cd90716bf92e26d3f1ea3a6bd640bb812b9948d1c9f7c0e9f7f933cf5c5eb",
+    "configuration": "study_inputs/model_configs/fold_02_late_fusion_seed20261014.json"
+  },
+  {
+    "name": "fold_03_late_fusion_seed20261014",
+    "arm": "late_fusion",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "cf6c97801426b534dd694d05f4e34c447bb552077a96a3dcd5e65b0302e9ca00",
+    "configuration": "study_inputs/model_configs/fold_03_late_fusion_seed20261014.json"
+  },
+  {
+    "name": "fold_04_late_fusion_seed20261014",
+    "arm": "late_fusion",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "e1fa5dfa344f4945f0833a5cc4bc1c2b0048da57618a15bdc834a2ed9d2cad68",
+    "configuration": "study_inputs/model_configs/fold_04_late_fusion_seed20261014.json"
+  },
+  {
+    "name": "fold_00_late_fusion_seed20261015",
+    "arm": "late_fusion",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "77b5649b5e1a0f0712f679af41d9e9b33945117676898d9b5021d93238c96118",
+    "configuration": "study_inputs/model_configs/fold_00_late_fusion_seed20261015.json"
+  },
+  {
+    "name": "fold_01_late_fusion_seed20261015",
+    "arm": "late_fusion",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "d48174cf7bf3579b425a484e4e690cb83fa1251be40983c0ccb89e2c4147241d",
+    "configuration": "study_inputs/model_configs/fold_01_late_fusion_seed20261015.json"
+  },
+  {
+    "name": "fold_02_late_fusion_seed20261015",
+    "arm": "late_fusion",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "7ccb850180bceff366c27b329c31de3caabac172d079dae62e714b68dc95cab0",
+    "configuration": "study_inputs/model_configs/fold_02_late_fusion_seed20261015.json"
+  },
+  {
+    "name": "fold_03_late_fusion_seed20261015",
+    "arm": "late_fusion",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "ff02f4357c8996dcb0387cbe525eaf51c80adda584c1a19e6de9088001f5f377",
+    "configuration": "study_inputs/model_configs/fold_03_late_fusion_seed20261015.json"
+  },
+  {
+    "name": "fold_04_late_fusion_seed20261015",
+    "arm": "late_fusion",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "93e7d89009bab0bbcdf8681e2d19e25217269e9d193141a7e1cc2ff5bb667d3f",
+    "configuration": "study_inputs/model_configs/fold_04_late_fusion_seed20261015.json"
+  },
+  {
+    "name": "fold_00_full_seed20261013",
+    "arm": "full",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "1971c800a212ef2539057e993bd64b83153f6fa4accb2ebe4b7459715e451599",
+    "configuration": "study_inputs/model_configs/fold_00_full_seed20261013.json"
+  },
+  {
+    "name": "fold_01_full_seed20261013",
+    "arm": "full",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "6c8e791e306e0f10054fb95ade9d6615325933e683ffd3986d0f9cdc266f582a",
+    "configuration": "study_inputs/model_configs/fold_01_full_seed20261013.json"
+  },
+  {
+    "name": "fold_02_full_seed20261013",
+    "arm": "full",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "9e7b1d7952529e1b42aff6284c34429dd4c902f7ad21b000d1ec8370232828a4",
+    "configuration": "study_inputs/model_configs/fold_02_full_seed20261013.json"
+  },
+  {
+    "name": "fold_03_full_seed20261013",
+    "arm": "full",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "87d9c905d7142f9626d7bc684a36e82bf1ffd72fbe1618b57b94af36c6848df5",
+    "configuration": "study_inputs/model_configs/fold_03_full_seed20261013.json"
+  },
+  {
+    "name": "fold_04_full_seed20261013",
+    "arm": "full",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "5779eedc7a103530482114b41df270ef6453deeb77765ef89ca901f56d3e5466",
+    "configuration": "study_inputs/model_configs/fold_04_full_seed20261013.json"
+  },
+  {
+    "name": "fold_00_full_seed20261014",
+    "arm": "full",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "d08f7a6cfc1cc1b2a536ed2ff499d978d96a41f80fc8245bc5e540b5f7fb0528",
+    "configuration": "study_inputs/model_configs/fold_00_full_seed20261014.json"
+  },
+  {
+    "name": "fold_01_full_seed20261014",
+    "arm": "full",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "a5597020515b50f95629758a0cb712aa5688a983baff7bde8d3c4972278885aa",
+    "configuration": "study_inputs/model_configs/fold_01_full_seed20261014.json"
+  },
+  {
+    "name": "fold_02_full_seed20261014",
+    "arm": "full",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "748989bdbc2db616dfddde6d4bc09ebc5ca0c5a35ac9c2fed868e7169ecf1f24",
+    "configuration": "study_inputs/model_configs/fold_02_full_seed20261014.json"
+  },
+  {
+    "name": "fold_03_full_seed20261014",
+    "arm": "full",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "0c111528370c71b07e10056881c0281a0ecf0029405a56b90636c8668836bd82",
+    "configuration": "study_inputs/model_configs/fold_03_full_seed20261014.json"
+  },
+  {
+    "name": "fold_04_full_seed20261014",
+    "arm": "full",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "d62945cd05da85cefb2d49924f6170ad3e78fb7ec1ae82082973c9b9e497e6c1",
+    "configuration": "study_inputs/model_configs/fold_04_full_seed20261014.json"
+  },
+  {
+    "name": "fold_00_full_seed20261015",
+    "arm": "full",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "8613d88b09278cf542313f34b189d79f4dc2b3a6a72945e184ee88e6b840fb05",
+    "configuration": "study_inputs/model_configs/fold_00_full_seed20261015.json"
+  },
+  {
+    "name": "fold_01_full_seed20261015",
+    "arm": "full",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "e4f60528114d0038c6cdd60d5aab6b16dfd9e080ab91a3d38c75f0d0afea0815",
+    "configuration": "study_inputs/model_configs/fold_01_full_seed20261015.json"
+  },
+  {
+    "name": "fold_02_full_seed20261015",
+    "arm": "full",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "f7edaa2a2dea15992bf46897b1042b2542675a2cde02969a3f23ba901dc6727e",
+    "configuration": "study_inputs/model_configs/fold_02_full_seed20261015.json"
+  },
+  {
+    "name": "fold_03_full_seed20261015",
+    "arm": "full",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "856a132aafde539da7abba353d00645b8c184082a43ee250a9c0ad72c6b7c275",
+    "configuration": "study_inputs/model_configs/fold_03_full_seed20261015.json"
+  },
+  {
+    "name": "fold_04_full_seed20261015",
+    "arm": "full",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "66f1d59bc7931730b3177d69ae3124200d1e00c824742216dcfcfbc729835abf",
+    "configuration": "study_inputs/model_configs/fold_04_full_seed20261015.json"
+  },
+  {
+    "name": "fold_00_metablock_cv_seed20261013",
+    "arm": "metablock_cv",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "531b26ad0122aad886ae50bf7b9b0c52233ece08a85d8460c1e92dec2c322051",
+    "configuration": "study_inputs/model_configs/fold_00_metablock_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_01_metablock_cv_seed20261013",
+    "arm": "metablock_cv",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "af6157e207f495ce50d5408f4249f5e81658053c767d767692e838c343550d94",
+    "configuration": "study_inputs/model_configs/fold_01_metablock_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_02_metablock_cv_seed20261013",
+    "arm": "metablock_cv",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "b9f8741ccee65dad71ebdbc9238319d9c6298faa593f1af606d17efe5d163c47",
+    "configuration": "study_inputs/model_configs/fold_02_metablock_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_03_metablock_cv_seed20261013",
+    "arm": "metablock_cv",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "04e51b654a78c0d85fc99c53cc2838114ffd7ac28cfe998a728eb48bab92eba4",
+    "configuration": "study_inputs/model_configs/fold_03_metablock_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_04_metablock_cv_seed20261013",
+    "arm": "metablock_cv",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "f8e313cf8f4578d6e3d014537c6e65c09909275431faafaee7f8f347fe3e3a36",
+    "configuration": "study_inputs/model_configs/fold_04_metablock_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_00_metablock_cv_seed20261014",
+    "arm": "metablock_cv",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "1d8524b7f4834b0b50f966e22507533d4707babaf205c04fe0a43943c1ce9eec",
+    "configuration": "study_inputs/model_configs/fold_00_metablock_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_01_metablock_cv_seed20261014",
+    "arm": "metablock_cv",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "7bb2d9be9e7ed2daf951641d2d91ee835f76bf53fc6554a71cad257b44f2c51e",
+    "configuration": "study_inputs/model_configs/fold_01_metablock_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_02_metablock_cv_seed20261014",
+    "arm": "metablock_cv",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "24f8139a5f52817603797ad0ee91abc4fbc7e669444b6f7894d13686864f5b83",
+    "configuration": "study_inputs/model_configs/fold_02_metablock_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_03_metablock_cv_seed20261014",
+    "arm": "metablock_cv",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "dbcc0fddefd0da3bea3db706e848d53f4d747a12f1aae13a8fa53261f038cead",
+    "configuration": "study_inputs/model_configs/fold_03_metablock_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_04_metablock_cv_seed20261014",
+    "arm": "metablock_cv",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "b548a5cedceab0a5af1e9f804840bf06103776aa24d9a883049ea16a7e68835c",
+    "configuration": "study_inputs/model_configs/fold_04_metablock_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_00_metablock_cv_seed20261015",
+    "arm": "metablock_cv",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "6f143e7f0972cabff860bc3bbe44c303a183a421900c57adef6fe9d31004cdd9",
+    "configuration": "study_inputs/model_configs/fold_00_metablock_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_01_metablock_cv_seed20261015",
+    "arm": "metablock_cv",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "3ccf3572e0c788e15bcd497451964c62e0a2c142dfc449adac48f43755c81c30",
+    "configuration": "study_inputs/model_configs/fold_01_metablock_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_02_metablock_cv_seed20261015",
+    "arm": "metablock_cv",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "8accd6ea6c97eaec620d6162cc5a8a99175e8286ff0e9f3df66018d28bee0d48",
+    "configuration": "study_inputs/model_configs/fold_02_metablock_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_03_metablock_cv_seed20261015",
+    "arm": "metablock_cv",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "a6aa0e36057f7c4c25f39e637d7f5cfabbd45a115ea2e7f40571d568fd524295",
+    "configuration": "study_inputs/model_configs/fold_03_metablock_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_04_metablock_cv_seed20261015",
+    "arm": "metablock_cv",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "d6c4e345d2683786d8f424a682dcc160dd6e2adc9225e4c2c4797bc3e879b573",
+    "configuration": "study_inputs/model_configs/fold_04_metablock_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_00_rg_dermnet_adapted_cv_seed20261013",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "784d338bf1e49f466b3f22751392f19849fa5f6909af40c8a29efe68be1ed6c8",
+    "configuration": "study_inputs/model_configs/fold_00_rg_dermnet_adapted_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_01_rg_dermnet_adapted_cv_seed20261013",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "3593d7fe1dec8b2c16b811d8faee8e9c7e1947301aa425d1433df23404268c13",
+    "configuration": "study_inputs/model_configs/fold_01_rg_dermnet_adapted_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_02_rg_dermnet_adapted_cv_seed20261013",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "33dfb0677dbb30e9750a58fac9a9935c589498baa19a554f88497942d0bbe6d6",
+    "configuration": "study_inputs/model_configs/fold_02_rg_dermnet_adapted_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_03_rg_dermnet_adapted_cv_seed20261013",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "c6b593703f486c5404ee0f1a1ea3894f502d2619dbeea4adbf2f7587c5125ab3",
+    "configuration": "study_inputs/model_configs/fold_03_rg_dermnet_adapted_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_04_rg_dermnet_adapted_cv_seed20261013",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "184ed6c30a1c73cff81697c27ca1d6b7e36cac25c0a2065f27549206d0f4904e",
+    "configuration": "study_inputs/model_configs/fold_04_rg_dermnet_adapted_cv_seed20261013.json"
+  },
+  {
+    "name": "fold_00_rg_dermnet_adapted_cv_seed20261014",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "f99691e3c706bc7f779b6c2f196ff8c593ebad0d067d29b24f828eb8eecb9cba",
+    "configuration": "study_inputs/model_configs/fold_00_rg_dermnet_adapted_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_01_rg_dermnet_adapted_cv_seed20261014",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "007a51a9f32c0ba4c58240a5b219f1ba05525813a0469090a402902ec5f39f53",
+    "configuration": "study_inputs/model_configs/fold_01_rg_dermnet_adapted_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_02_rg_dermnet_adapted_cv_seed20261014",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "138efe79f670467044a2b0b7efca4895642d4c9bde821a806cbc94214242fefe",
+    "configuration": "study_inputs/model_configs/fold_02_rg_dermnet_adapted_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_03_rg_dermnet_adapted_cv_seed20261014",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "6a21f0fd431390d8626ebd77667e91eccbae6f92807ef137fc94705816c47552",
+    "configuration": "study_inputs/model_configs/fold_03_rg_dermnet_adapted_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_04_rg_dermnet_adapted_cv_seed20261014",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "6aa850f57b2f1e66493c1e9bb3933e98bc019266c9f2c2cbd2866ac9ac8a7231",
+    "configuration": "study_inputs/model_configs/fold_04_rg_dermnet_adapted_cv_seed20261014.json"
+  },
+  {
+    "name": "fold_00_rg_dermnet_adapted_cv_seed20261015",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "c7dda646e958dd363f9dce011947beb59fedaa70176f92266c222f067e0b9004",
+    "configuration": "study_inputs/model_configs/fold_00_rg_dermnet_adapted_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_01_rg_dermnet_adapted_cv_seed20261015",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "b347bf95bae4355f0e4933dbe85359fc75be9f44ccf3f834e0ae1ffb7cb78202",
+    "configuration": "study_inputs/model_configs/fold_01_rg_dermnet_adapted_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_02_rg_dermnet_adapted_cv_seed20261015",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "b1d3723c886ecd21c289f099da2da8f41247dc4344e67ec60107c71ef6e9b6cb",
+    "configuration": "study_inputs/model_configs/fold_02_rg_dermnet_adapted_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_03_rg_dermnet_adapted_cv_seed20261015",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "dc17d28caa1e7f86ade1d6d4ebc3c506d4d66995658ff1b5e78ada049a49dc3a",
+    "configuration": "study_inputs/model_configs/fold_03_rg_dermnet_adapted_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_04_rg_dermnet_adapted_cv_seed20261015",
+    "arm": "rg_dermnet_adapted_cv",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "fe8ff39c6678f123f06af114edfbe4026c42ec0c8578c899f170af00e7060b85",
+    "configuration": "study_inputs/model_configs/fold_04_rg_dermnet_adapted_cv_seed20261015.json"
+  },
+  {
+    "name": "fold_00_dsmaf_age_only_seed20261013",
+    "arm": "dsmaf_age_only",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "c5ab1b51ad0b3f8161441a06855ffc59fbe257487bf79a7ec7075ddedfbafeef",
+    "configuration": "study_inputs/model_configs/fold_00_dsmaf_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_01_dsmaf_age_only_seed20261013",
+    "arm": "dsmaf_age_only",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "21b39b2b8ac67e2b1f95b11c721edb988de229c5daefc47c02d768c39af002be",
+    "configuration": "study_inputs/model_configs/fold_01_dsmaf_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_02_dsmaf_age_only_seed20261013",
+    "arm": "dsmaf_age_only",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "29bc1094056aa0b87b73bf9f0ab26d6e19af6a779a14ddb2a80bb9ba6f6e8be0",
+    "configuration": "study_inputs/model_configs/fold_02_dsmaf_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_03_dsmaf_age_only_seed20261013",
+    "arm": "dsmaf_age_only",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "b5abe0961028bc150f304f2c50f5d60b8fa44286fa8c92736bef97dba303bdf5",
+    "configuration": "study_inputs/model_configs/fold_03_dsmaf_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_04_dsmaf_age_only_seed20261013",
+    "arm": "dsmaf_age_only",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "ff50747f0e9c07bd7c42764b59e66091ccff24a88ce4706a698409e977a245b8",
+    "configuration": "study_inputs/model_configs/fold_04_dsmaf_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_00_dsmaf_age_only_seed20261014",
+    "arm": "dsmaf_age_only",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "002c9baaddcf1fb3819e99c49aeb008ebe40f2f4eac3f2eb23bacf4c19c55921",
+    "configuration": "study_inputs/model_configs/fold_00_dsmaf_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_01_dsmaf_age_only_seed20261014",
+    "arm": "dsmaf_age_only",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "757282a79ade01f48892b6e95016f0803315bb81a1c6b6df3007b3b4ab9d3cab",
+    "configuration": "study_inputs/model_configs/fold_01_dsmaf_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_02_dsmaf_age_only_seed20261014",
+    "arm": "dsmaf_age_only",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "90dcb51c99e916585279fc4006f031d8e6e205f38d996f28b8d28a1703b4b508",
+    "configuration": "study_inputs/model_configs/fold_02_dsmaf_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_03_dsmaf_age_only_seed20261014",
+    "arm": "dsmaf_age_only",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "fa73d801b9aecd2562e21bd23cede75cd51211168a75c57fc93c55688c9e059a",
+    "configuration": "study_inputs/model_configs/fold_03_dsmaf_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_04_dsmaf_age_only_seed20261014",
+    "arm": "dsmaf_age_only",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "cbf0f0a46375f0fa9e4d877731c1a1832bed83e182deab5cdf6041dcaca66ff4",
+    "configuration": "study_inputs/model_configs/fold_04_dsmaf_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_00_dsmaf_age_only_seed20261015",
+    "arm": "dsmaf_age_only",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "c24fc9ba6d69ea33f1b538b168820e13886ae57bf264af9270f43b308b18cacb",
+    "configuration": "study_inputs/model_configs/fold_00_dsmaf_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_01_dsmaf_age_only_seed20261015",
+    "arm": "dsmaf_age_only",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "22ed53469715a0e9a87cf97017bfb25fbf008e9398c083d0846f4cf34fd714d2",
+    "configuration": "study_inputs/model_configs/fold_01_dsmaf_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_02_dsmaf_age_only_seed20261015",
+    "arm": "dsmaf_age_only",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "b64eba2b5ffb7c18e4e5cf0c47976b41d5dfd396b33b25ec6885d21bdfa1a213",
+    "configuration": "study_inputs/model_configs/fold_02_dsmaf_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_03_dsmaf_age_only_seed20261015",
+    "arm": "dsmaf_age_only",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "c3e54d20196033d870f3e37600b8516c46e71b9de9a43f40cd2ada0e3f3ebed4",
+    "configuration": "study_inputs/model_configs/fold_03_dsmaf_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_04_dsmaf_age_only_seed20261015",
+    "arm": "dsmaf_age_only",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "d28debc39eff9a7185c01c00608a833600e7c8fc1a62594883da3eb5fd2b7813",
+    "configuration": "study_inputs/model_configs/fold_04_dsmaf_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_00_dsmaf_age_recorded_seed20261013",
+    "arm": "dsmaf_age_recorded",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "b6585d0292b8b489d89494f46befae00efb3febbfcdac3c755ac81e24762fe8d",
+    "configuration": "study_inputs/model_configs/fold_00_dsmaf_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_01_dsmaf_age_recorded_seed20261013",
+    "arm": "dsmaf_age_recorded",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "53ad881892e3c1f0d7e7ea0e36afe4725717643a660e383ad967006df9e98f9d",
+    "configuration": "study_inputs/model_configs/fold_01_dsmaf_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_02_dsmaf_age_recorded_seed20261013",
+    "arm": "dsmaf_age_recorded",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "c765bb2b04874bf6aafc5a64d1929ca83839bbaa8475ba82e95569c790901e41",
+    "configuration": "study_inputs/model_configs/fold_02_dsmaf_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_03_dsmaf_age_recorded_seed20261013",
+    "arm": "dsmaf_age_recorded",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "f75fb2fc70fa8b4eb2bed9c0e377481f7c4a25e1927056e90581f3ac9e9b082c",
+    "configuration": "study_inputs/model_configs/fold_03_dsmaf_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_04_dsmaf_age_recorded_seed20261013",
+    "arm": "dsmaf_age_recorded",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "6b8721e4eca00aae919546445d015d765d366c26623fc79aa871464fd95c6b95",
+    "configuration": "study_inputs/model_configs/fold_04_dsmaf_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_00_dsmaf_age_recorded_seed20261014",
+    "arm": "dsmaf_age_recorded",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "c555babc60da2c33aa6f1be03777e75fd932681fe4fdae5011863dc30e65af1b",
+    "configuration": "study_inputs/model_configs/fold_00_dsmaf_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_01_dsmaf_age_recorded_seed20261014",
+    "arm": "dsmaf_age_recorded",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "f64a04d9249c5ce55b0490d374e37ed370012c5b5e88e025fa4b56da531af782",
+    "configuration": "study_inputs/model_configs/fold_01_dsmaf_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_02_dsmaf_age_recorded_seed20261014",
+    "arm": "dsmaf_age_recorded",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "1db97717cd2e1c821fb5e2250dbeb2673b8adf7916670c6ec871579bf1fd25f8",
+    "configuration": "study_inputs/model_configs/fold_02_dsmaf_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_03_dsmaf_age_recorded_seed20261014",
+    "arm": "dsmaf_age_recorded",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "308a3c2a4688e81a0329ad2a9820a36184f4826db05d323774418bdd9947eb0d",
+    "configuration": "study_inputs/model_configs/fold_03_dsmaf_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_04_dsmaf_age_recorded_seed20261014",
+    "arm": "dsmaf_age_recorded",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "cbe204655da449e67623a7f3e0a285098298377aa6674ccfee523cd8f5d5732e",
+    "configuration": "study_inputs/model_configs/fold_04_dsmaf_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_00_dsmaf_age_recorded_seed20261015",
+    "arm": "dsmaf_age_recorded",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "30faf6ed70b85f7e8041a452ccd4019af57d381dacaa9c7b657a3a04411291be",
+    "configuration": "study_inputs/model_configs/fold_00_dsmaf_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_01_dsmaf_age_recorded_seed20261015",
+    "arm": "dsmaf_age_recorded",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "61d2bc6c93720cb5065d734c18ba04cffff80314a7d6c893563d19716f262d01",
+    "configuration": "study_inputs/model_configs/fold_01_dsmaf_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_02_dsmaf_age_recorded_seed20261015",
+    "arm": "dsmaf_age_recorded",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "9d5448b8b4966b8268f0ac6e3188688f9cd71245e121e216f0b67e630826f609",
+    "configuration": "study_inputs/model_configs/fold_02_dsmaf_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_03_dsmaf_age_recorded_seed20261015",
+    "arm": "dsmaf_age_recorded",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "703d98193e9555e0f2901c16df13ac00b6a3c3933fbeb38a32c1c2f569ff1ccb",
+    "configuration": "study_inputs/model_configs/fold_03_dsmaf_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_04_dsmaf_age_recorded_seed20261015",
+    "arm": "dsmaf_age_recorded",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "26f311b8396dfcaaea2ad47527537c1de9f69f685cf6ac90f67f5d531c0e10cc",
+    "configuration": "study_inputs/model_configs/fold_04_dsmaf_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_00_late_age_only_seed20261013",
+    "arm": "late_age_only",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "833c99a93004e7e182e687f8123374bb5f708ea24ab7596818f82dccb8e9f928",
+    "configuration": "study_inputs/model_configs/fold_00_late_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_01_late_age_only_seed20261013",
+    "arm": "late_age_only",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "0b267e48320ea7bfebc9bc6ab3a1b733053ef0597927692d06f98d2171993bdd",
+    "configuration": "study_inputs/model_configs/fold_01_late_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_02_late_age_only_seed20261013",
+    "arm": "late_age_only",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "b328e23dc84d10a2c486fa9a2f8bc1e442f5e9c7f3326698ac2f96ed45491dc7",
+    "configuration": "study_inputs/model_configs/fold_02_late_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_03_late_age_only_seed20261013",
+    "arm": "late_age_only",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "e062fa7d799d849b229cc497018586e7d196b067d2f2b6fee2ef91dd7fea0cb3",
+    "configuration": "study_inputs/model_configs/fold_03_late_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_04_late_age_only_seed20261013",
+    "arm": "late_age_only",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "fcc5c5ab62e461366478cb509db237db2fc196830468e735f8beeb102a94298b",
+    "configuration": "study_inputs/model_configs/fold_04_late_age_only_seed20261013.json"
+  },
+  {
+    "name": "fold_00_late_age_only_seed20261014",
+    "arm": "late_age_only",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "d55dcda13aeb2a7a7e742840beb74229038e2c02839e08601f5db61d5e9a70ae",
+    "configuration": "study_inputs/model_configs/fold_00_late_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_01_late_age_only_seed20261014",
+    "arm": "late_age_only",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "c1260b4cc6238ae0c9d7ab968484b434f6a91e5f4b3d97137aab6e50f5bff447",
+    "configuration": "study_inputs/model_configs/fold_01_late_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_02_late_age_only_seed20261014",
+    "arm": "late_age_only",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "407c7e70538fc2415d80b3e327cfc75e1d425af48b658fafc186ba06901aea92",
+    "configuration": "study_inputs/model_configs/fold_02_late_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_03_late_age_only_seed20261014",
+    "arm": "late_age_only",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "e047c677a0359f012447ddf20b9c51fc50cd1f51cada92a8f8efe6356681e51c",
+    "configuration": "study_inputs/model_configs/fold_03_late_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_04_late_age_only_seed20261014",
+    "arm": "late_age_only",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "b650059ca4bfb406046c97025cb650ea5c2d5e9b3baa44c4c54e337ceaa71455",
+    "configuration": "study_inputs/model_configs/fold_04_late_age_only_seed20261014.json"
+  },
+  {
+    "name": "fold_00_late_age_only_seed20261015",
+    "arm": "late_age_only",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "adef00a7bd6074ba3cb7580dcb057a453e1c166fef6398ac0126b030bd330f30",
+    "configuration": "study_inputs/model_configs/fold_00_late_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_01_late_age_only_seed20261015",
+    "arm": "late_age_only",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "14436e0558ce8c8a2cb22dff82c07ddc0db43b7b2cb8b47763cb6e446e75c5ce",
+    "configuration": "study_inputs/model_configs/fold_01_late_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_02_late_age_only_seed20261015",
+    "arm": "late_age_only",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "e8c3331a827e88148cdaa2dc23096e09e8d0bb7263f10dcd7ec2a994f7c0e096",
+    "configuration": "study_inputs/model_configs/fold_02_late_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_03_late_age_only_seed20261015",
+    "arm": "late_age_only",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "2b8b0a82175600a888da6a756a23256e916d87c076bc565862f0686e2ab7dcab",
+    "configuration": "study_inputs/model_configs/fold_03_late_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_04_late_age_only_seed20261015",
+    "arm": "late_age_only",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "c6c9401245ff61a12300d059790b91b2220eb07414d888bfe951bdbb1235d329",
+    "configuration": "study_inputs/model_configs/fold_04_late_age_only_seed20261015.json"
+  },
+  {
+    "name": "fold_00_late_age_recorded_seed20261013",
+    "arm": "late_age_recorded",
+    "fold": 0,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "ae80dc8a470195c6184b930862150610653816cb3cb948ef1aca2869e1e517cc",
+    "configuration": "study_inputs/model_configs/fold_00_late_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_01_late_age_recorded_seed20261013",
+    "arm": "late_age_recorded",
+    "fold": 1,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "a34e10b4c02bf6d3d6069f0414b3321378cf70bb82f88c919f3dff28fa0ea291",
+    "configuration": "study_inputs/model_configs/fold_01_late_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_02_late_age_recorded_seed20261013",
+    "arm": "late_age_recorded",
+    "fold": 2,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "d0843911225013158ff74e73264e95d3e9e0155c7039291d8790320991138ea4",
+    "configuration": "study_inputs/model_configs/fold_02_late_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_03_late_age_recorded_seed20261013",
+    "arm": "late_age_recorded",
+    "fold": 3,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "65557531850f1f7d0010a2128acf22dd1ca630b51cb0cefc4e12e565add1ad57",
+    "configuration": "study_inputs/model_configs/fold_03_late_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_04_late_age_recorded_seed20261013",
+    "arm": "late_age_recorded",
+    "fold": 4,
+    "seed": 20261013,
+    "original_checkpoint_sha256": "f8db33bfbc8641f8d6025a113073247a74504532cd24d28b169daddafd72f01a",
+    "configuration": "study_inputs/model_configs/fold_04_late_age_recorded_seed20261013.json"
+  },
+  {
+    "name": "fold_00_late_age_recorded_seed20261014",
+    "arm": "late_age_recorded",
+    "fold": 0,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "2c8acffd60c409fee857e39f06186472f60d03ce269e64dd922d5461151a828b",
+    "configuration": "study_inputs/model_configs/fold_00_late_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_01_late_age_recorded_seed20261014",
+    "arm": "late_age_recorded",
+    "fold": 1,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "5a11fdab315f9c554ea999f8ace5cce8c0028ce6d49c5107f367f963b4026412",
+    "configuration": "study_inputs/model_configs/fold_01_late_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_02_late_age_recorded_seed20261014",
+    "arm": "late_age_recorded",
+    "fold": 2,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "7b295058e173861e6289f9f4fadfb226b335b267dd0edb50dce88481b506b937",
+    "configuration": "study_inputs/model_configs/fold_02_late_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_03_late_age_recorded_seed20261014",
+    "arm": "late_age_recorded",
+    "fold": 3,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "0deadb8f8d21b87cb6233914c59e900fa29223120ff15682fda555cfcd1f8462",
+    "configuration": "study_inputs/model_configs/fold_03_late_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_04_late_age_recorded_seed20261014",
+    "arm": "late_age_recorded",
+    "fold": 4,
+    "seed": 20261014,
+    "original_checkpoint_sha256": "4be842e7e9968f0f004f6e43dba3df493ef2fbdb48f6626ab184a98ff07095fb",
+    "configuration": "study_inputs/model_configs/fold_04_late_age_recorded_seed20261014.json"
+  },
+  {
+    "name": "fold_00_late_age_recorded_seed20261015",
+    "arm": "late_age_recorded",
+    "fold": 0,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "9680b9228bded9756362bcf1e610035fdaa2e9feeab88f1fd673d28f042259aa",
+    "configuration": "study_inputs/model_configs/fold_00_late_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_01_late_age_recorded_seed20261015",
+    "arm": "late_age_recorded",
+    "fold": 1,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "fdfb5cd61790adb46197ab82813c99bea13ce61cff2334ec17c48780dc820b64",
+    "configuration": "study_inputs/model_configs/fold_01_late_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_02_late_age_recorded_seed20261015",
+    "arm": "late_age_recorded",
+    "fold": 2,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "7dd310a624440bb08a279e4eb8df291b57ae23c04921891d435fbe1c74c301b6",
+    "configuration": "study_inputs/model_configs/fold_02_late_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_03_late_age_recorded_seed20261015",
+    "arm": "late_age_recorded",
+    "fold": 3,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "63cc461bb2ccf77463d8f12d0008e8cd8677a56929e0e98e5228c1664bd1013f",
+    "configuration": "study_inputs/model_configs/fold_03_late_age_recorded_seed20261015.json"
+  },
+  {
+    "name": "fold_04_late_age_recorded_seed20261015",
+    "arm": "late_age_recorded",
+    "fold": 4,
+    "seed": 20261015,
+    "original_checkpoint_sha256": "489cb2672e56f588ac30328893215c0f347af2bcba886f099edfb07acf8a4c3d",
+    "configuration": "study_inputs/model_configs/fold_04_late_age_recorded_seed20261015.json"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "contrasts": [
+    {
+      "contrast": "full-minus-late_fusion",
+      "mean_delta_bacc": -0.007434812837751762,
+      "ci95_low": -0.024542757802528625,
+      "ci95_high": 0.008629187012842423,
+      "seed_sd_delta_bacc": 0.01648955780617082,
+      "per_seed_delta_bacc": [
+        0.018945320008016738,
+        -0.01981643366585105,
+        -0.006471884346768504,
+        -0.022838807066744623,
+        -0.0069922591174113756
+      ],
+      "bootstrap_repeats": 2000,
+      "bootstrap_seed": 20261019
+    },
+    {
+      "contrast": "full-minus-image_only",
+      "mean_delta_bacc": 0.07667871211763667,
+      "ci95_low": 0.056436837518670804,
+      "ci95_high": 0.09902699846439991,
+      "seed_sd_delta_bacc": 0.02463820987829419,
+      "per_seed_delta_bacc": [
+        0.10757110898028284,
+        0.0711541889371144,
+        0.0762668370276146,
+        0.0404127491657591,
+        0.08798867647741242
+      ],
+      "bootstrap_repeats": 2000,
+      "bootstrap_seed": 20261019
+    }
+  ],
+  "unit": "patient cluster; multiple images retained",
+  "scope": "fixed fitted out-of-fold models, split and initialization seeds"
+}

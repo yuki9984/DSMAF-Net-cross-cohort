@@ -1,0 +1,83 @@
+{
+  "analysis": "post hoc author-review exclusion sensitivity",
+  "created_local_date": "2026-11-09",
+  "original_outcomes_already_known": true,
+  "selection_rule": "Exclude every eligible MILK image on either side of any author-flagged same-source or uncertain pair; preserve the locked primary cohort and all saved predictions.",
+  "author_return_sha256": "fde38121ba39a91550b9515ed41caa91b8de21c7b48c98302585028d71fda606",
+  "full_cohort": 4474,
+  "removed_images": 14,
+  "retained_images": 4460,
+  "retained_class_counts": {
+    "0": 123,
+    "1": 2518,
+    "2": 434,
+    "3": 734,
+    "4": 311,
+    "5": 340
+  },
+  "all_classes_retained": true,
+  "repeats": 2000,
+  "bootstrap_seed": 20261109,
+  "fixed_fold_weights": true,
+  "cluster_unit": "class_stratified_unique_lesion_not_patient",
+  "new_training_or_inference": false,
+  "original_source_unchanged": true,
+  "excluded_lesion_codes": [
+    "L00172",
+    "L01156",
+    "L01711",
+    "L02041",
+    "L02359",
+    "L02449",
+    "L02799",
+    "L03780",
+    "L03811",
+    "L03852",
+    "L03985",
+    "L04122",
+    "L04316",
+    "L04433"
+  ],
+  "pairs": [
+    [
+      "dsmaf_age_recorded",
+      "dsmaf_age_only"
+    ],
+    [
+      "full",
+      "dsmaf_age_recorded"
+    ],
+    [
+      "late_age_recorded",
+      "late_age_only"
+    ],
+    [
+      "late_fusion",
+      "late_age_recorded"
+    ],
+    [
+      "late_fusion",
+      "image_only"
+    ],
+    [
+      "full",
+      "image_only"
+    ],
+    [
+      "metablock_cv",
+      "image_only"
+    ],
+    [
+      "rg_dermnet_adapted_cv",
+      "image_only"
+    ],
+    [
+      "full",
+      "late_fusion"
+    ],
+    [
+      "dsmaf_age_only",
+      "image_only"
+    ]
+  ]
+}

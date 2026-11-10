@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "post_hoc": true,
+  "full_PAD_images": 2298,
+  "full_PAD_patients": 1373,
+  "unrecorded_sex_images": 804,
+  "unrecorded_sex_percent": 34.9869451697128,
+  "unrecorded_sex_diagnoses": [
+    "ACK",
+    "NEV",
+    "SEK"
+  ],
+  "unrecorded_sex_biopsy_confirmed_images": 0,
+  "fold_role_partitions_audited": 15,
+  "fold_role_rows_checked": 11490,
+  "fold_role_sex_encoding_mismatches": 0,
+  "fold_role_age_value_mismatches": 0,
+  "class_seed_cohort_rows": 180,
+  "class_contrast_interval_rows": 54,
+  "BACC_contrast_rows": 9,
+  "earlier_six_BACC_intervals_max_error": 8.881784197001252e-15,
+  "bootstrap_seed": 20261022,
+  "bootstrap_repeats": 2000,
+  "rejected_missing_class_draws": {
+    "internal": 0,
+    "external": 0
+  },
+  "full_minus_image_external_seed_differences_pp": [
+    -2.8601079056207817,
+    -2.0706879668550098,
+    0.6185719944737396,
+    -1.4461711248554852,
+    -1.6433322011687508
+  ],
+  "external_full_above_image_seed_count": 1,
+  "ACK_and_SEK_BACC_change_component_pp": -8.281200935106797,
+  "total_BACC_contrast_change_pp": -9.14821665256892,
+  "decomposition_is_causal": false,
+  "new_neural_training_runs": 0
+}

@@ -1,0 +1,4 @@
+cohort,patients,patients_with_multiple_sex_states,patients_with_conflicting_recorded_sex,patients_with_known_and_unknown_sex
+train,821,0,0,0
+tuning,276,0,0,0
+external,1701,0,0,0

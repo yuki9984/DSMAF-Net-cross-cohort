@@ -1,0 +1,15 @@
+{
+  "all_135_model_metrics.csv": "65a0298e030407360c60ec82535b4436a401119b87a1ff4469049f607906ed4c",
+  "all_eligible_all_seeds.csv": "7b957b57c076da66cc21d9ae9abae7092a4463c4beb698c9bac0ec8874786bcc",
+  "all_eligible_resamples.npz": "d80d4f565faa01a4036512eab017baf70afa38d62b6aa305c0cee0404d4dbbce",
+  "all_eligible_summary.csv": "0f380eb2f71add06d3400d53091b71f168372eb6e3c1f8c437e20e0db2ce4a67",
+  "coded_responses.npz": "fa1d4c156743bb8401a35ef35258cce4e0cff407dee4b806ba2f74477c21e2ab",
+  "effective_reference.npz": "fabd0fab90eaf5d1fc59fd44235eb70edd46b267c8be3f8da5365b5f2a19f429",
+  "histopathology_only_all_seeds.csv": "a5df47dfe16200b10eaaed706761949d1b42b519379f780d362401cae172b45c",
+  "histopathology_only_resamples.npz": "e9bbbc9f460a13169a861c95cf15413dc717e60941ce481b9ca58f0fdbb2d292",
+  "histopathology_only_summary.csv": "46499e37dd43f75ec4f299a756898c03491430defe5bc37cdc928107d5c59e7c",
+  "milk_statistics.py": "3ecc7b164f60844828481bbae8e432dc0f4460e35ff7113dcdb4c44029e1476d",
+  "plan.json": "542abf1ffd3a044250daa750845e868ee52a64c012f2d2978687f503109cf816",
+  "README.txt": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a",
+  "replay.py": "a01e159eb16d57235c701a966220acd4d63999e8b409f248bd7144e942c24d15"
+}

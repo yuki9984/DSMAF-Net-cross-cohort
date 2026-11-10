@@ -65,5 +65,4 @@ Qualification results and their precise scope are in COMPATIBILITY_REPORT.json.
 
 Historical training plans describe the executed experiments, not a promise
 that newly trained random initializations will reproduce every old bit.
-Restricted splits, original manifests and case inputs are still required for
-study training and evaluation. See REPRODUCIBILITY.md.
+The study partitions, configurations and case inputs are now public under study_inputs/. See REPRODUCIBILITY.md.

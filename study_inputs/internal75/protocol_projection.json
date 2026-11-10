@@ -1,0 +1,78 @@
+{
+  "locked_at_utc": "2026-10-19T12:31:33.077853+00:00",
+  "internal_evaluation": {
+    "budget_alternative": {
+      "condition": "Choose seed budget before any outer outcomes; do not add seeds selectively based on observed significance.",
+      "fits": 45,
+      "selected": false,
+      "training_seeds": [
+        20261013,
+        20261014,
+        20261015
+      ]
+    },
+    "estimated_single_V100_hours": {
+      "45_fits": [
+        35,
+        55
+      ],
+      "75_fits": [
+        60,
+        90
+      ]
+    },
+    "fixed_training_recipe": "Keep existing architecture, transforms, loss and sampler recipe, optimizer settings, epoch cap 150 and patience 15. Fit age normalization, class counts, and SCC sampler weights on each inner training partition only.",
+    "initialization": "Each fit starts from the same verified ImageNet V2 pretrained backbone and fresh trainable modules; no reuse of PAD-trained checkpoints.",
+    "inner_selection": {
+      "method": "One patient-disjoint stratified holdout, approximately 20% of each outer development portion",
+      "outer_test_access": "No early stopping, preprocessing, loss or sampling estimates, hyperparameter selection, or architecture changes based on outer scores.",
+      "purpose": "Early stopping only; no hyperparameter search",
+      "seeds_by_outer_fold": [
+        20261100,
+        20261101,
+        20261102,
+        20261103,
+        20261104
+      ]
+    },
+    "interpretation": [
+      "This is outer grouped cross-validation with an inner early-stopping holdout, not a full nested hyperparameter search.",
+      "Historical reuse of PAD in architecture development remains a limitation; this is retrospective internal validation, not a newly untouched cohort.",
+      "The previous external evaluation remains unchanged; no evaluation or model selection on DermatoNet is needed for these new CV fits."
+    ],
+    "models": [
+      "full",
+      "image_only",
+      "late_fusion"
+    ],
+    "outer_split": {
+      "folds": 5,
+      "method": "StratifiedGroupKFold with patient and duplicate grouping",
+      "seed": 20261019,
+      "stratification_uses_labels_only_for_balance": true
+    },
+    "proposed_pool": {
+      "dataset": "PAD-UFES-20",
+      "images": 2298,
+      "patients": 1373,
+      "requirement": "Rebuild and verify patient IDs and exact duplicate groups before locking folds; do not inherit a claim that old holdout was untouched."
+    },
+    "purpose": "Out-of-fold internal performance for a now-fixed training pipeline, separate from early-stopping/model-tuning performance.",
+    "recommended_fits": 75,
+    "recommended_training_seeds": [
+      20261013,
+      20261014,
+      20261015,
+      20261016,
+      20261017
+    ],
+    "report": [
+      "Image-level pooled out-of-fold BACC per seed, with patients kept in one outer fold; do not average multiple lesions into one label without a new definition.",
+      "Internal full-minus-late-fusion BACC as main supplemental comparison; full-minus-image-only as secondary.",
+      "Per-class recall including MEL support; NLL and Brier.",
+      "Paired patient-cluster bootstrap intervals conditional on the frozen out-of-fold models, with training-seed variability reported separately. Do not treat folds or repeated predictions as independent patients."
+    ],
+    "training_budget_chosen": 75
+  },
+  "projection_note": "Internal scientific settings only; administrative/chat text excluded. Original plan SHA-256 is supplied in provenance.json."
+}

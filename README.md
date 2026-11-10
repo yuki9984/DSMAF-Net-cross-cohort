@@ -1,30 +1,39 @@
 # Age-and-Sex Fusion Across Cohorts
-Study code for *Age-and-Sex Fusion Across Cohorts: Separating Recording Status from Recorded Values in Skin Lesion Classification*.
 
-The training conditions distinguish two inputs that are often combined: whether a sex value was recorded and which category was recorded. The example below runs the study routines for input encoding, recording audits, weighted fold comparisons and paired patient-cluster intervals on synthetic inputs.
+**Release status:** The source and numerical study inputs are available below. Transfer of the large checkpoint/image assets is in progress; the release download becomes public after the complete remote checks. See RELEASE_STATUS.json.
 
-## Run the example
-Use Python 3.13 in a clean environment, from the repository root:
+Code, study inputs and individual model outputs for **Age-and-Sex Fusion Across Cohorts: Separating Recording Status from Recorded Values in Skin Lesion Classification**.
 
-    python -m pip install -r requirements_verification.txt
-    python -B run_synthetic_demo.py --output demo_output
+The study separates sex-recording status from recorded female/male categories within DSMAF-Net and ordinary late fusion. Nine conditions use five patient-grouped PAD folds and three paired seeds; the same 135 frozen models are evaluated on DermatoNet and MILK10k.
 
-The example checks the encodings, audits 36 synthetic records and computes 2,000 paired resamples. A successful run writes the check results to demo_output/SYNTHETIC_DEMO_REPORT.json. Choose a new output folder for each execution.
+## Recompute the reported statistics
 
-The separate MILK statistics example also runs without a GPU or real cases:
+Use Python 3.13 and the pinned numerical dependencies:
 
-    python -B run_synthetic_milk.py --output demo_output_milk
+```bash
+python -m pip install -r requirements_verification.txt
+python -B results_replay/statistical_replay/replay_all.py --output verification_results
+python -B results_replay/image_review_sensitivity/replay.py
+```
 
-It distinguishes scoring frozen fold models from averaging their probabilities, verifies NLL and multiclass Brier against direct formulas, and checks all 2,000 paired lesion resamples against an independent direct-index calculation. Its report is synthetic and provides no evidence of clinical performance.
+The first command checks the original primary comparison, the matched-method extension, the late-fusion information follow-up and both complete/histopathology-only MILK analyses, including all 2,000 paired resamples. The second checks the conservative author-review image-exclusion sensitivity. Earlier audits and sensitivity analyses can be rerun with `python -B study_inputs/reproduce_all.py`.
 
-## Study implementation
-* historical_study/ contains the model assembly and the original training, prediction and audit entry points.
-* extension60/ contains the four matched training conditions, the original analysis plan, the reference adapters and the paired statistical analysis.
-* extension30/ preserves the ordinary late-fusion information follow-up source and pre-training plan.
-* external_milk/ preserves metadata-audit, fixed-model inference and lesion-bootstrap source for MILK10k.
-* examples/synthetic/ contains the synthetic records used in the demonstration.
+## Obtain the inputs and rerun models
 
-For dataset links, required local inputs and third-party dependency provenance, see [Reproduction and data access](REPRODUCIBILITY.md) and [Third-party notices](THIRD_PARTY.md). The runnable example demonstrates software behavior. Reproducing the full neural experiments also requires the identified local inputs and pinned external dependencies. The 30-fit ordinary late-fusion follow-up and all 135 fixed-model MILK evaluations passed independent statistical verification. The original 105 staged MILK prediction arrays were unchanged. Both the eligible and histopathology-only MILK analyses were independently recomputed with all 2,000 paired lesion draws. These checks verify saved-output calculations and provenance; they do not repeat neural training or establish clinical validity. See each directory README for its scope and required private inputs.
+* **Exact partitions, age/sex inputs, labels, configurations and individual outputs:** directly available under [study_inputs](study_inputs/).
+* **All 135 full MILK probability/logit files:** [study_inputs/milk/predictions](study_inputs/milk/predictions/).
+* **Frozen numerical weights and exact MILK RGB input cache:** the [reproduction release](https://github.com/yuki9984/DSMAF-Net-cross-cohort/releases/tag/reproduction-2026-11-10), with checksums and individual files rather than an opaque project archive.
+* **Original images:** obtain PAD-UFES-20, DermatoNet and MILK10k from the providers listed in [data licensing and attribution](DATA_LICENSES.md). Exact research-release case IDs are included, so the study cohort does not need to be inferred from descriptions.
 
-## Load a neural model
-See [Dependency access](DEPENDENCY_ACCESS.md) for pinned upstream files, local adaptations and required license terms. The release omits unused historical modules. Use model_api.py for the nine evaluation conditions after supplying the external dependencies. Actual checkpoint checks and their limits are recorded in COMPATIBILITY_REPORT.json; the public package contains no clinical data, case predictions or model weights.
+[REPRODUCIBILITY.md](REPRODUCIBILITY.md) gives commands for input validation, training, per-checkpoint inference and result verification. [DEPENDENCY_ACCESS.md](DEPENDENCY_ACCESS.md) identifies the upstream dependencies and their terms. The EMCAD owner prohibits redistribution; readers obtain that pinned dependency directly after reviewing its research license.
+
+## Source layout
+
+* `historical_study/`: original training/inference routines and release-compatible model assembly.
+* `extension60/`: matched MetaBlock, adapted RG-DermNet and the two DSMAF information conditions.
+* `extension30/`: the two ordinary late-fusion information conditions.
+* `external_milk/`: original external-cohort preparation and analysis sources.
+* `study_inputs/`: exact tables, partitions, model configurations, historical audits and saved predictions.
+* `results_replay/`: numerical inputs and scripts for direct statistical reproduction.
+
+All original measurements and fitted-model predictions are retained. Public checkpoint containers omit machine-specific paths and unnecessary worker state; their tensor values are checked against the original checkpoints. Publishing materials does not constitute a new independent training replication. Research records retain their original source terms; see DATA_LICENSES.md. No personal correspondence, credentials, environment directories or unlicensed historical modules are included.

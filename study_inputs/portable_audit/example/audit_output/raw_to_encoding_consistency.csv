@@ -1,0 +1,4 @@
+cohort,field,rows_checked,mismatched_rows,status
+train,sex,1379,0,PASS
+tuning,sex,443,0,PASS
+external,not supplied,0,0,NOT_EVALUATED

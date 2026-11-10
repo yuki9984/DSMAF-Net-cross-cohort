@@ -1,0 +1,40 @@
+{
+  "status": "FIXED_FOR_AUTHOR_RECOMPUTATION",
+  "analysis_status": "Exploratory; reviewer supplied preliminary outcomes before this specification. Not preregistered.",
+  "scope": "Original 75 internal-fold models, five paired seeds, balanced-softmax/SCC recipe. Saved pooled OOF probabilities only.",
+  "rule": "Exclude every image belonging to a released patient_id with more than one distinct finite raw age across full PAD; derive rule without using model outcomes.",
+  "endpoints": [
+    "full-minus-image_only",
+    "late_fusion-minus-image_only",
+    "full-minus-late_fusion"
+  ],
+  "metrics": "Six-class BACC; pooled OOF per seed, then unweighted five-seed mean. Fixed argmax, no probability ensemble.",
+  "uncertainty": {
+    "unit": "retained patient_id",
+    "repeats": 2000,
+    "seed": 20261019,
+    "seed_reason": "Same deterministic RNG seed as the original pooled internal OOF analysis.",
+    "pairing": "Shared patient resamples for all models and all five seeds; all images in each selected patient retained with multiplicity.",
+    "missing_class_draw": "Reject and redraw if any diagnostic class absent.",
+    "interval": "Unadjusted 2.5/97.5 percentile; conditional on fitted models; no model or fold resampling."
+  },
+  "baseline": "Recompute full-case point estimates from same probabilities; preserve existing main estimates.",
+  "outputs": [
+    "all model/seed BACC and class recalls",
+    "all three restricted paired contrasts with intervals and seed SD",
+    "class and fold support",
+    "excluded released identifiers and image mask",
+    "bootstrap arrays and replay verifier"
+  ],
+  "limitations": [
+    "Evaluation restriction does not remove prior training or selection exposure to age-variable records.",
+    "Multiple ages need not be errors; visit timing/identity cannot be adjudicated.",
+    "Restriction changes case composition; cannot causally attribute any difference to age reliability.",
+    "No new external prediction or trained input ablation."
+  ],
+  "input_sha256": {
+    "data\\PAD_metadata.csv": "14d145235cedb022548257acb0d84dcd949e2c916f65d2baa7c38ed5339e9527",
+    "internal75\\pooled_predictions.npz": "ebf0d42cb0af9d0905aa9f1da7b67246a497d86efaeeeef1998b3bd0f4e9d5c1",
+    "matched_cohort\\probabilities.npz": "cffb58c19c7d112e20c25022df0aec52f0a98dbeeed6db1bee15cde026b2fbfc"
+  }
+}

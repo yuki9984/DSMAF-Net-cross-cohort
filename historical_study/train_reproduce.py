@@ -15,7 +15,7 @@ def read(path):return json.loads(Path(path).read_text(encoding='utf-8-sig'))
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def arguments():
  p=argparse.ArgumentParser(description=__doc__)
- p.add_argument('--study-inputs',type=Path,required=True,help='Locally authorized study-input folder; never included in the public code candidate.')
+ p.add_argument('--study-inputs',type=Path,required=True,help='Public study_inputs directory in this repository.')
  p.add_argument('--experiment',choices=['primary','cv','alternative'],default='cv')
  p.add_argument('--arm',choices=ARMS,default='full')
  p.add_argument('--seed',type=int,default=20261013)
@@ -67,7 +67,7 @@ def main():
  common.model_code=lambda:model_root
  common.pad_images=lambda:a.pad_images.resolve()
  common.split_dir=lambda:a.study_inputs/'neural_setup/original_split'
- common.output_dir=lambda:ROOT/'runs/primary'
+ common.output_dir=lambda:Path(os.environ.get('DSMAF_OUTPUT_ROOT',str(ROOT/'runs')))/'primary'
  data_v2.pad_images=common.pad_images;data_v2.split_dir=common.split_dir
  os.environ['TORCH_HOME']=str(runtime/'cache')
  def ensure_pretrained():
@@ -76,6 +76,11 @@ def main():
   torch.hub.set_dir(str(runtime/'cache/hub'))
   url=ResNet50_Weights.IMAGENET1K_V2.url
   target=Path(torch.hub.get_dir())/'checkpoints'/Path(urlparse(url).path).name
+  if os.environ.get('DSMAF_IMAGENET_WEIGHTS'):
+   import shutil
+   provided=Path(os.environ['DSMAF_IMAGENET_WEIGHTS'])
+   if provided.resolve()!=target.resolve() and not target.exists():
+    target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(provided,target)
   if not target.exists() and a.download_initialization:
    target.parent.mkdir(parents=True,exist_ok=True);torch.hub.download_url_to_file(url,str(target),progress=True)
   expected='11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca'
@@ -85,11 +90,11 @@ def main():
  else:
   module=types.ModuleType('settings' if a.experiment=='cv' else 'followup_settings')
   module.ARMS=('full','image_only','late_fusion')
-  module.SEEDS=tuple(range(20261013,20261016))
+  module.SEEDS=tuple(range(20261013,20261018 if a.experiment=='cv' else 20261016))
   module.PLAN=a.study_inputs/'neural_setup'/('locked_plan.json' if a.experiment=='cv' else 'analysis_plan.json')
   module.SPLITS=a.study_inputs/'internal75/splits'
   module.pad_images=common.pad_images
-  module.cv_run=lambda f,arm,seed:ROOT/'runs'/a.experiment/f'fold_{f:02d}'/f'{arm}_seed{seed}'
+  module.cv_run=lambda f,arm,seed:Path(os.environ.get('DSMAF_OUTPUT_ROOT',str(ROOT/'runs')))/a.experiment/f'fold_{f:02d}'/f'{arm}_seed{seed}'
   def frames_for_fold(fold,include_test=False):
    from copy import copy
    current=copy(a);current.fold=fold;f=load_frames(current)

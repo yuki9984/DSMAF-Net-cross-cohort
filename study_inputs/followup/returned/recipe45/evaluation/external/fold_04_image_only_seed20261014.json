@@ -1,0 +1,14 @@
+{
+  "fold": 4,
+  "arm": "image_only",
+  "seed": 20261014,
+  "best_epoch": 43,
+  "checkpoint_sha256": "b1e2543ffa29f978b37749bb16eb5c717446c068d93c1c53cea8881ee8b8c632",
+  "config_sha256": "33e1cb8289d271a8e2e66c8785db431440e83139d64e5866095da1dd5a47d1d9",
+  "history_sha256": "b9800cdc6d3129ea159ff2d8ce6eae03c8afa57996a12e6e424a4a6e4511bf45",
+  "summary_sha256": "82d5d402a92974d4ceecd9fbefacad3e2841d2979a0921db343d407248732a43",
+  "plan_sha256": "da91d6e46808af2c2fd8ff892555d53bcbc5d321fc0890c74de6641f83733e38",
+  "training_complete_sha256": "2ad3d2a4f31fce3d9f7998af298220efd6868d301658b611aa519009275ff975",
+  "cohort": "external",
+  "artifact_sha256": "5c6ab5301b2694e129d341438089b0ca6e262d28c0f9a80efe96328fc74f0cba"
+}

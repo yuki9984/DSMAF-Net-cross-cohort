@@ -1,0 +1,39 @@
+{
+  "status": "COHORT_FIXED_BEFORE_OUTCOMES",
+  "created_utc": "2026-11-04T02:15:55.210750+00:00",
+  "images": 4474,
+  "lesions": 4474,
+  "patients": null,
+  "age_missing": 17,
+  "sex_missing": 0,
+  "class_support": {
+    "ACK": 123,
+    "BCC": 2518,
+    "MEL": 436,
+    "NEV": 746,
+    "SCC": 311,
+    "SEK": 340
+  },
+  "exact_duplicate_groups_removed": 2,
+  "exact_duplicate_images_removed": 4,
+  "visual_screen": "114 candidate pairs; AI-assisted screen recorded with pair-specific observations; no additional image matches confirmed; no independent human adjudication",
+  "independence_limit": "Image similarity screen only; low-resolution or blurred images limit certainty. Does not establish patient independence or exclude all crops, rotations, or repeat visits.",
+  "no_model_performance_seen": true,
+  "is_public_preregistration": false,
+  "patient_cluster_intervals_permitted": false,
+  "all_new_training_must_be_frozen_before_inference": true,
+  "precision_and_runtime_qualification": "PENDING_BEFORE_FORMAL_INFERENCE",
+  "sha256": {
+    "prepared/pre_outcome_plan.json": "7f878de4c28cb1716f0f1f321adce2cade5801392a273580aeda5e432aa9d554",
+    "prepared/evaluation_cases.csv": "d429c8e5f25a97a42e3396ae5372bca7fb5c8911a787fd3063f1da451115c7d7",
+    "prepared/evaluation_cache_indices.npy": "a61063115dc60732ae3684bb59043a3d2bdb139453e9d5921c5dc39b772ea202",
+    "prepared/candidate_rgb224.npy": "e04b15c51bf9f0bbc5e676a440f896b088a55a5921bb901863dc622b9d97aacb",
+    "prepared/candidate_rgb224_ids.npy": "4ea7d067cbb3a3529742f9f3262248cf2f3c5c307ca84e60d04fb5dc300760f0",
+    "prepared/candidate_metadata_inputs.npz": "49f5e2dad8735d5342473303233e9cbaca542271646652859e62d8b8e4b9207f",
+    "prepared/excluded_exact_duplicates.csv": "f58898ddf1352d705a7a62c1a5ea246db86ae364574cda3677acdf64e8faf376",
+    "reports/near_duplicate_review_observations.csv": "38630d0e0c08975a9c3824b3555b9ecb7a198d99f913f002fba05b85c3482980",
+    "reports/near_duplicate_visual_screen.json": "3e380e4499c8b28af171fa9f0719af0c7dcd7a1f49f70cf07d4118d83a958ea3",
+    "reports/image_fingerprints.csv": "cee4526736c9553ef30b42702a3ee9956df6b83c22f10e8cce83d389de1fb293",
+    "reports/exact_duplicate_groups.json": "12cd6811e04a286a492849019792f65083a9240d2ff26c3ceed1716b9dc95470"
+  }
+}

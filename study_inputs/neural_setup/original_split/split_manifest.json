@@ -1,0 +1,73 @@
+{
+  "version": "pad_patient_split_v1",
+  "seed": 20261014,
+  "method": "StratifiedGroupKFold(n_splits=5, shuffle=True); fold 0=test, fold 1=valid, folds 2-4=train",
+  "sklearn_version": "1.7.2",
+  "source": [
+    {
+      "name": "pad-ufes-20_parsed_folders_split.csv",
+      "sha256": "c447d5424bf7a8a375d1031c512be158d1de9bf3274a33812d5cf8c6e861d600",
+      "rows": 1838
+    },
+    {
+      "name": "pad-ufes-20_parsed_test_split.csv",
+      "sha256": "2468409cb9d20fd4f59987e88f2a4b47b6b9e47447afd6e43b79c7ebdc8972e7",
+      "rows": 460
+    }
+  ],
+  "roles": {
+    "train": {
+      "file": "pad_train.csv",
+      "sha256": "75830b098dbec597406b912d7049dab32728e4177426c757aa3a0dacc75857e0",
+      "images": 1379,
+      "patients": 821,
+      "class_counts": {
+        "0": 442,
+        "1": 498,
+        "2": 33,
+        "3": 143,
+        "4": 115,
+        "5": 148
+      }
+    },
+    "valid": {
+      "file": "pad_valid.csv",
+      "sha256": "ce2ee3790d13766eceab1eb7b3a70dd19fff169f44ef72ca3c922380c4bf223b",
+      "images": 443,
+      "patients": 276,
+      "class_counts": {
+        "0": 144,
+        "1": 169,
+        "2": 9,
+        "3": 50,
+        "4": 34,
+        "5": 37
+      }
+    },
+    "test": {
+      "file": "pad_test.csv",
+      "sha256": "0ea5d49ea6f7ea6fab6f8fede5ff90c6f47d7f61878a5384ae8bc5896c3a95b1",
+      "images": 476,
+      "patients": 276,
+      "class_counts": {
+        "0": 144,
+        "1": 178,
+        "2": 10,
+        "3": 51,
+        "4": 43,
+        "5": 50
+      }
+    }
+  },
+  "notes": [
+    "Corrected patient-disjoint experiment; it cannot be compared directly with the original row-level split results.",
+    "Diagnosis labels used for fold stratification only; no model results or test outcomes used to choose folds.",
+    "Exact image duplicates in the audit share patient IDs, so patient grouping keeps them within one split.",
+    "Conflicting labels on identical full images are retained as supplied; target-lesion annotations need expert review."
+  ],
+  "exact_duplicate_groups_checked": 15,
+  "patients_disjoint": true,
+  "img_ids_disjoint": true,
+  "source_total_images": 2298,
+  "source_total_patients": 1373
+}

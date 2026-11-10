@@ -1,0 +1,22 @@
+subset,diagnosis,images,patients_with_this_diagnosis
+all_cases,ACK,730,525
+all_cases,BCC,845,513
+all_cases,MEL,52,36
+all_cases,NEV,244,185
+all_cases,SCC,192,133
+all_cases,SEK,235,176
+all_cases,All classes,2298,1373
+restricted,ACK,630,470
+restricted,BCC,709,458
+restricted,MEL,49,34
+restricted,NEV,223,170
+restricted,SCC,163,113
+restricted,SEK,208,159
+restricted,All classes,1982,1283
+excluded,ACK,100,55
+excluded,BCC,136,55
+excluded,MEL,3,2
+excluded,NEV,21,15
+excluded,SCC,29,20
+excluded,SEK,27,17
+excluded,All classes,316,90

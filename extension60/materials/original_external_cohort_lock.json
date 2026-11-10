@@ -1,0 +1,124 @@
+{
+  "dataset_doi": "10.17632/g5bj76p2z3.2",
+  "policy": "exclude_all_members_of_exact_duplicate_groups_with_conflicting_labels",
+  "source_archive_sha256": "9b93c42797139fe75ea3d76ad4c32c533b817a529f252a69d7f781bd6a494ff0",
+  "metadata_csv_sha256": "a862af6e19e6db600b9f089968ab79f404801259ba21533ae631222beff24b4a",
+  "raw_audit_sha256": "2882cf514cd544b8ed1bfa8cd39f4182b5f2d3a5acb25e0619d1ed899ca248f8",
+  "excluded_groups": [
+    {
+      "images": [
+        "DSOLCOD_125136.jpg",
+        "DSOLCOD_191394.jpg",
+        "DSOLCOD_250583.jpg"
+      ],
+      "labels": [
+        "ACK",
+        "MEL",
+        "SEK"
+      ]
+    },
+    {
+      "images": [
+        "DSOLCOD_131390.jpg",
+        "DSOLCOD_234336.jpg"
+      ],
+      "labels": [
+        "BCC",
+        "SCC"
+      ]
+    },
+    {
+      "images": [
+        "DSOLCOD_140071.jpg",
+        "DSOLCOD_213644.jpg"
+      ],
+      "labels": [
+        "ACK",
+        "NEV"
+      ]
+    },
+    {
+      "images": [
+        "DSOLCOD_147476.jpg",
+        "DSOLCOD_160642.jpg",
+        "DSOLCOD_167245.jpg"
+      ],
+      "labels": [
+        "BCC",
+        "NEV"
+      ]
+    },
+    {
+      "images": [
+        "DSOLCOD_210968.jpg",
+        "DSOLCOD_242900.jpg"
+      ],
+      "labels": [
+        "BCC",
+        "SCC"
+      ]
+    },
+    {
+      "images": [
+        "DSOLCOD_222210.jpg",
+        "DSOLCOD_240654.jpg"
+      ],
+      "labels": [
+        "ACK",
+        "NEV"
+      ]
+    },
+    {
+      "images": [
+        "DSOLCOD_223287.jpg",
+        "DSOLCOD_246947.jpg"
+      ],
+      "labels": [
+        "BCC",
+        "NEV"
+      ]
+    },
+    {
+      "images": [
+        "DSOLCOD_250887.png",
+        "DSOLCOD_253450.png"
+      ],
+      "labels": [
+        "SCC",
+        "SEK"
+      ]
+    }
+  ],
+  "excluded_img_ids": [
+    "DSOLCOD_125136.jpg",
+    "DSOLCOD_131390.jpg",
+    "DSOLCOD_140071.jpg",
+    "DSOLCOD_147476.jpg",
+    "DSOLCOD_160642.jpg",
+    "DSOLCOD_167245.jpg",
+    "DSOLCOD_191394.jpg",
+    "DSOLCOD_210968.jpg",
+    "DSOLCOD_213644.jpg",
+    "DSOLCOD_222210.jpg",
+    "DSOLCOD_223287.jpg",
+    "DSOLCOD_234336.jpg",
+    "DSOLCOD_240654.jpg",
+    "DSOLCOD_242900.jpg",
+    "DSOLCOD_246947.jpg",
+    "DSOLCOD_250583.jpg",
+    "DSOLCOD_250887.png",
+    "DSOLCOD_253450.png"
+  ],
+  "released_count": 1719,
+  "retained_count": 1701,
+  "retained_class_counts": {
+    "BCC": 444,
+    "SEK": 420,
+    "NEV": 358,
+    "ACK": 241,
+    "SCC": 121,
+    "MEL": 117
+  },
+  "retained_manifest_sha256": "22ea69cb232400566e1a8d65b6173340de4aec540fb0c96ee970a66d5c3d179b",
+  "used_model_predictions": false
+}

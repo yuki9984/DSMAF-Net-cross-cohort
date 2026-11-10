@@ -1,0 +1,16 @@
+fold,subset,images,patients
+0,all_cases,460,277
+0,restricted,386,256
+0,excluded,74,21
+1,all_cases,460,276
+1,restricted,406,260
+1,excluded,54,16
+2,all_cases,459,276
+2,restricted,402,259
+2,excluded,57,17
+3,all_cases,459,273
+3,restricted,377,250
+3,excluded,82,23
+4,all_cases,460,271
+4,restricted,411,258
+4,excluded,49,13

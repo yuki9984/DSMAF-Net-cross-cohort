@@ -1,0 +1,55 @@
+{
+  "methods": [
+    "full",
+    "image_only",
+    "late_fusion",
+    "metablock_cv",
+    "rg_dermnet_adapted_cv",
+    "dsmaf_age_only",
+    "dsmaf_age_recorded"
+  ],
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "pairs": [
+    [
+      "dsmaf_age_recorded",
+      "dsmaf_age_only"
+    ],
+    [
+      "full",
+      "dsmaf_age_recorded"
+    ],
+    [
+      "dsmaf_age_only",
+      "image_only"
+    ],
+    [
+      "metablock_cv",
+      "image_only"
+    ],
+    [
+      "metablock_cv",
+      "late_fusion"
+    ],
+    [
+      "metablock_cv",
+      "full"
+    ],
+    [
+      "rg_dermnet_adapted_cv",
+      "image_only"
+    ],
+    [
+      "rg_dermnet_adapted_cv",
+      "late_fusion"
+    ],
+    [
+      "rg_dermnet_adapted_cv",
+      "full"
+    ]
+  ],
+  "bootstrap_seed": 2026102901
+}

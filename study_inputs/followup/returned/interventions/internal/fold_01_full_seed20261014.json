@@ -1,0 +1,49 @@
+{
+  "arm": "full",
+  "best_epoch": 10,
+  "checkpoint_sha256": "a5597020515b50f95629758a0cb712aa5688a983baff7bde8d3c4972278885aa",
+  "config_sha256": "4f36861e642ebef4d3aaffcf94789b6c599477e3135303e43270c2bb89314b24",
+  "fold": 1,
+  "history_sha256": "7dd64ac856d33587d19eeffa199981a81b5b46e6237cf0a78c5def452a6cb5fe",
+  "seed": 20261014,
+  "summary_sha256": "2d0d074d48b2edc34faff7aab1db5edd5457da0aa08fb7692a63def89b0dbfed",
+  "plan_sha256": "da91d6e46808af2c2fd8ff892555d53bcbc5d321fc0890c74de6641f83733e38",
+  "source_manifest_sha256": "b39432c83ebba8871c4d49ad6e2d20098cf78121e4a194f17048c6796c0df67f",
+  "cohort": "internal",
+  "model": "fold_01_full_seed20261014",
+  "permutation_indices_sha256": "b9433eecb4f18789a9436972bf8fccfa445503b85530e7359c57d3b55e2b484d",
+  "observed_direct_vs_original": {
+    "max_abs_probability_error": 1.1102230246251565e-16,
+    "changed_hard_predictions": 0
+  },
+  "cached_vs_direct": {
+    "max_abs_probability_error": 0.0,
+    "changed_hard_predictions": 0
+  },
+  "cached_vs_original": {
+    "max_abs_probability_error": 1.1102230246251565e-16,
+    "changed_hard_predictions": 0
+  },
+  "perturbed_direct_spot_checks": {
+    "sex_unknown": {
+      "max_abs_probability_error": 0.0,
+      "changed_hard_predictions": 0
+    },
+    "sex_recorded_perm_000": {
+      "max_abs_probability_error": 0.0,
+      "changed_hard_predictions": 0
+    },
+    "sex_recorded_perm_050": {
+      "max_abs_probability_error": 0.0,
+      "changed_hard_predictions": 0
+    },
+    "sex_recorded_perm_099": {
+      "max_abs_probability_error": 0.0,
+      "changed_hard_predictions": 0
+    }
+  },
+  "metadata_invariant_by_construction": false,
+  "perturbed_neural_conditions_executed": 101,
+  "seconds": 163.86000000004424,
+  "artifact_sha256": "c671009cabd6f60ee0e21e4920c16e1a6ab303593fd388a05391d4a035ef968a"
+}

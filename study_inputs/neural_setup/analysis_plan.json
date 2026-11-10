@@ -1,0 +1,105 @@
+{
+  "protocol": "posthoc_same_models_interventions_and_recipe45_20261023",
+  "date": "2026-10-23",
+  "authorization": "User selected same-model interventions plus 45 training-recipe sensitivity fits in this conversation. No 30-fit recording decomposition, temperature calibration, new backbone, new cohort or cloud startup authorized by this plan.",
+  "status": "Specified after v21 outcomes and reviewer suggestions were known; not preregistered or independent confirmation",
+  "original_v21_primary_unchanged": true,
+  "arms": [
+    "full",
+    "image_only",
+    "late_fusion"
+  ],
+  "intervention_seeds": [
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017
+  ],
+  "training_seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "outer_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "new_training_fits": 45,
+  "new_recipe": {
+    "loss": "ordinary_cross_entropy",
+    "label_smoothing": 0.0,
+    "class_weights": null,
+    "sampling": "shuffle without replacement; every training image once per epoch",
+    "scc_oversampling": false
+  },
+  "common_training": {
+    "batch_size": 16,
+    "max_epochs": 150,
+    "patience": 15,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR(T_max=150)",
+    "pretrained": "ResNet50 ImageNet1K V2 original SHA256",
+    "checkpoint": "first maximum inner-selection BACC; no outer/external use",
+    "augmentation": "unchanged train_hfpa.build_transforms(224)",
+    "amp": true,
+    "num_workers": 0,
+    "rng_reset_after_model_initialization": true
+  },
+  "interventions": {
+    "sex_unknown": "Replace sex columns with [0,0,1] for every case; leave age and age-missing indicator unchanged",
+    "sex_recorded_permutation": "100 label-agnostic permutations among female/male recorded cases only; retain all unrecorded positions. Shared case indices across arms and seeds. Internal permutations stay within each held-out outer fold; external permutations are shared across all fold models.",
+    "repeats": 100,
+    "permutation_seed": 2026102301,
+    "age_permutation": false,
+    "models_with_metadata": 50,
+    "image_only_models": 25,
+    "image_only_policy": "Verify ordinary predictions for all image-only checkpoints; metadata ignored by construction and perturbed spot checks. Reuse unchanged reference responses rather than claim repeated neural perturbation runs."
+  },
+  "inference": {
+    "torch": "2.6.0+cu124",
+    "torchvision": "0.21.0+cu124",
+    "cuda": "12.4",
+    "gpu_contains": "4060",
+    "batch_size": 16,
+    "amp": true,
+    "tta": false,
+    "observed_reproduction_probability_tolerance": 0.0001,
+    "observed_reproduction_hard_changes": 0,
+    "cache_equivalence_tolerance": 0.0001,
+    "cache_gate": "Every case observed cached/direct/reference agreement plus unknown and permutation direct spot checks. Fail closed on disagreement.",
+    "python": "3.11.9"
+  },
+  "statistics": {
+    "primary_recipe_sensitivity": "Change with recipe in the external-minus-internal full-minus-image_only BACC contrast",
+    "other_pairs": [
+      "late_fusion-minus-image_only",
+      "full-minus-late_fusion"
+    ],
+    "recipe_pairing": "Restrict old recipe to same first three seeds, folds and patients; keep original five-seed v21 results untouched",
+    "bootstrap_repeats": 2000,
+    "bootstrap_seed": 2026102302,
+    "patient_cluster_pairing": "Independent cohort resampling; same within-cohort patient draws across recipes, models, seeds and intervention conditions; no model-fit resampling",
+    "fold_weights": "Retain original per-class outer-fold support weights for external recalls/BACC; image-count fold weights for NLL, Brier and overall prediction flips. No probability ensembling.",
+    "intervention_permutation_summary": "Average repetitions within each seed first; seed SD across five seed means. Distinguish permutation SD of five-seed means and MCSE/10. Patient intervals condition on the fixed repetitions.",
+    "metrics": [
+      "BACC",
+      "six class recalls",
+      "SEK-to-MEL",
+      "NLL (clip 1e-12)",
+      "multiclass Brier",
+      "prediction flip fraction for interventions"
+    ],
+    "multiplicity": "Descriptive unadjusted percentile intervals; no result-dependent stopping",
+    "scope": "Joint loss+sampling recipe sensitivity, not separate loss/sampler causation; input responses do not establish recording causes or clinical benefit."
+  },
+  "resume": "Completed model/cohort artifacts verified and skipped. Interrupted incomplete new training attempts are retained and the affected fit restarts from its original seed; completed fits never rerun. This is fit-level resume, not exact mid-epoch resume.",
+  "completion": "Freeze all 45 new fits before any outer-test or external evaluation. Keep best weights locally; return summary archive, intervention logits/probabilities, logs, configs, histories, checkpoint inventory and progress.",
+  "prior_campaign_manifest_sha256": "e2278823b3842cf1d03ab8447c1608dc8b15304844b4f6cf1142e078a2142a4b",
+  "baseline_projection_sha256": "cffb58c19c7d112e20c25022df0aec52f0a98dbeeed6db1bee15cde026b2fbfc"
+}

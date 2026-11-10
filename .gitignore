@@ -69,3 +69,28 @@ external_dependencies/
 local_verification/
 
 !**/models/module_wrappers.py
+
+# Explicitly reviewed public reproduction inputs (2026-11-10)
+!study_inputs/**/*.csv
+!study_inputs/**/*.npz
+!study_inputs/**/*.npy
+!results_replay/**/*.csv
+!results_replay/**/*.npz
+!extension60/materials/*.csv
+!extension60/materials/*.npz
+!extension30/materials/*.csv
+!extension30/materials/*.npz
+!extension60/runtime/protocol_v2_supplemental_20261019/splits/*.csv
+
+!extension60/materials/
+!extension30/materials/
+!extension60/materials/*
+!extension30/materials/*
+new_runs/
+verification_results*/
+study_inputs/verification_output/
+results_replay/**/verification_output/
+
+!extension60/source_manifest.json
+!extension30/source_manifest.json
+!study_inputs/followup/inputs/source_manifest.json

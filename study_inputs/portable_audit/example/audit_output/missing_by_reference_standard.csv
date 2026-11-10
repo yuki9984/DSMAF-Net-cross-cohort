@@ -1,0 +1,49 @@
+cohort,diagnosis,reference_standard,field,images,missing_images,missing_fraction
+train,ACK,False,age,330,0,0.0
+train,ACK,False,sex,330,261,0.7909090909090909
+train,ACK,True,age,112,0,0.0
+train,ACK,True,sex,112,0,0.0
+train,BCC,True,age,498,0,0.0
+train,BCC,True,sex,498,0,0.0
+train,MEL,True,age,33,0,0.0
+train,MEL,True,sex,33,0,0.0
+train,NEV,False,age,101,0,0.0
+train,NEV,False,sex,101,90,0.8910891089108911
+train,NEV,True,age,42,0,0.0
+train,NEV,True,sex,42,0,0.0
+train,SCC,True,age,115,0,0.0
+train,SCC,True,sex,115,0,0.0
+train,SEK,False,age,139,0,0.0
+train,SEK,False,sex,139,121,0.8705035971223022
+train,SEK,True,age,9,0,0.0
+train,SEK,True,sex,9,0,0.0
+tuning,ACK,False,age,105,0,0.0
+tuning,ACK,False,sex,105,94,0.8952380952380953
+tuning,ACK,True,age,39,0,0.0
+tuning,ACK,True,sex,39,0,0.0
+tuning,BCC,True,age,169,0,0.0
+tuning,BCC,True,sex,169,0,0.0
+tuning,MEL,True,age,9,0,0.0
+tuning,MEL,True,sex,9,0,0.0
+tuning,NEV,False,age,40,0,0.0
+tuning,NEV,False,sex,40,37,0.925
+tuning,NEV,True,age,10,0,0.0
+tuning,NEV,True,sex,10,0,0.0
+tuning,SCC,True,age,34,0,0.0
+tuning,SCC,True,sex,34,0,0.0
+tuning,SEK,False,age,34,0,0.0
+tuning,SEK,False,sex,34,28,0.8235294117647058
+tuning,SEK,True,age,3,0,0.0
+tuning,SEK,True,sex,3,0,0.0
+external,ACK,(not supplied),age,241,0,0.0
+external,ACK,(not supplied),sex,241,0,0.0
+external,BCC,(not supplied),age,444,0,0.0
+external,BCC,(not supplied),sex,444,2,0.0045045045045045045
+external,MEL,(not supplied),age,117,0,0.0
+external,MEL,(not supplied),sex,117,0,0.0
+external,NEV,(not supplied),age,358,0,0.0
+external,NEV,(not supplied),sex,358,1,0.002793296089385475
+external,SCC,(not supplied),age,121,0,0.0
+external,SCC,(not supplied),sex,121,1,0.008264462809917356
+external,SEK,(not supplied),age,420,0,0.0
+external,SEK,(not supplied),sex,420,0,0.0

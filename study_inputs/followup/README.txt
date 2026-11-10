@@ -1,0 +1,16 @@
+FOLLOW-UP: SAME-MODEL SEX INTERVENTIONS AND PAIRED RECIPE SENSITIVITY
+
+Run from the archive root: python -B verify_followup.py
+This invokes the independent receiving verifier, not the worker's analysis code.
+Outputs: verification_output/followup/verification_report.json and seven CSV tables.
+
+inputs contains the unchanged pinned plan, original source manifest, original probability projection, frozen split rows, and required original model configurations. It is a documented subset of the full worker input bundle; the full source manifest lists additional worker materials that are not required by this CPU replay. INPUT_MANIFEST.json hashes the actual supplied subset. The pinned plan/source hashes retain the pre-run bindings; they are not a preregistration claim.
+returned retains all 150 model/cohort intervention NPZ files and bindings, 90 new recipe prediction files, 45 configuration/history/summary records, completion inventories, deterministic permutation indices and expected worker summaries/bootstrap draws. GPU environment/input gates are projected to scientific fields. Operator logs, machine paths, images and weight binaries are excluded. The saved NPZ logits and training record files are unchanged from receipt.
+neural_source preserves the frozen follow-up Python scripts for inspection; those scripts are not invoked by this replay. Running the actual GPU campaign requires the full worker project and the dependency/model files described in the handoff, as well as raw images and weights. This archive is not a self-contained GPU retraining bundle.
+
+The verifier checks source and split hashes, first-maximum inner-BACC selection and patience, complete 45-fit freezing before paired evaluation, original-vs-observed prediction agreement, deterministic recorded-only permutations, unknown-position preservation, and all new summary values and both 2,000-draw bootstrap arrays. It checks reported cache/direct GPU gates but does not independently rerun them or load new checkpoint tensors. The weight inventory certifies recorded hashes and binding only, not the absent tensors.
+
+Internal estimates pool outer tests; external class outcomes use fixed class-support fold weights, and losses/flip rates use image-count weights. Three original seeds (20261013--15) match the 45 new fits. Interventions retain all five original seeds, 50 metadata-bearing checkpoints and 25 metadata-invariant image-only controls. The latter have zero perturbation responses by construction plus reported direct spot checks. Probabilities are not ensembled.
+Unknown sex sets only the sex indicators to [0,0,1]. Recorded-category permutation leaves unknown positions unchanged. Repetition and seed SDs and MCSE are distinct; patient intervals condition on fitted models and the 100 fixed permutation draws. These are post hoc analyses of a previously examined cohort. Joint recipe effects cannot separate loss from sampling, and intervention responses cannot identify a causal recording mechanism.
+
+Main manuscript follow-up figures and supplement Tables S30--S38 are derived from these saved outputs. Expected full-precision CSVs retain every planned class/pair/seed endpoint, including results favoring or not favoring DSMAF-Net.

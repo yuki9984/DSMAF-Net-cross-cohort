@@ -1,0 +1,393 @@
+{
+  "exact_duplicate_groups": 15,
+  "external_used_for_training_or_model_selection": false,
+  "folds": [
+    {
+      "fold": 0,
+      "roles": {
+        "test": {
+          "class_counts": [
+            146,
+            169,
+            11,
+            49,
+            38,
+            47
+          ],
+          "class_patients": [
+            105,
+            102,
+            8,
+            37,
+            27,
+            34
+          ],
+          "file": "fold_00_test.csv",
+          "images": 460,
+          "patients": 277,
+          "sha256": "365343d362c73e7eb7a47591dddd348a0ba7b3734ec85b470c8eaf7edc421dbe"
+        },
+        "train": {
+          "class_counts": [
+            467,
+            541,
+            32,
+            156,
+            123,
+            151
+          ],
+          "class_patients": [
+            334,
+            329,
+            22,
+            118,
+            85,
+            115
+          ],
+          "file": "fold_00_train.csv",
+          "images": 1470,
+          "patients": 876,
+          "sha256": "23a70e5b7a2564d829e0aed5686d7878ccbe84e102796bff621f7634cf1b2069"
+        },
+        "valid": {
+          "class_counts": [
+            117,
+            135,
+            9,
+            39,
+            31,
+            37
+          ],
+          "class_patients": [
+            86,
+            82,
+            6,
+            30,
+            21,
+            27
+          ],
+          "file": "fold_00_valid.csv",
+          "images": 368,
+          "patients": 220,
+          "sha256": "a579e82320907bf55765fc4750e2c5ded13173a25d3e60bf05021f115542da5c"
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "roles": {
+        "test": {
+          "class_counts": [
+            146,
+            169,
+            10,
+            49,
+            39,
+            47
+          ],
+          "class_patients": [
+            106,
+            102,
+            7,
+            37,
+            27,
+            35
+          ],
+          "file": "fold_01_test.csv",
+          "images": 460,
+          "patients": 276,
+          "sha256": "80a8160566f9dca3feefe1ecc9e2fa3d544f5eef79e361f4e3f79c2904db8f88"
+        },
+        "train": {
+          "class_counts": [
+            467,
+            541,
+            34,
+            156,
+            122,
+            150
+          ],
+          "class_patients": [
+            335,
+            329,
+            24,
+            119,
+            84,
+            112
+          ],
+          "file": "fold_01_train.csv",
+          "images": 1470,
+          "patients": 877,
+          "sha256": "43fa1fa96ab775aa41d811b1f036ec354e2cbe206d385d4f9dcadeb764d1ca9d"
+        },
+        "valid": {
+          "class_counts": [
+            117,
+            135,
+            8,
+            39,
+            31,
+            38
+          ],
+          "class_patients": [
+            84,
+            82,
+            5,
+            29,
+            22,
+            29
+          ],
+          "file": "fold_01_valid.csv",
+          "images": 368,
+          "patients": 220,
+          "sha256": "7e2d54a78e906a9837b8624be8f5cef07c389f3e56a263833d12ba0bab39ad83"
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "roles": {
+        "test": {
+          "class_counts": [
+            146,
+            169,
+            10,
+            48,
+            39,
+            47
+          ],
+          "class_patients": [
+            105,
+            104,
+            6,
+            36,
+            26,
+            35
+          ],
+          "file": "fold_02_test.csv",
+          "images": 459,
+          "patients": 276,
+          "sha256": "33fd0a2454ec9036c09899c6b9f0fd1437424680b5aa897469da092c12ff87da"
+        },
+        "train": {
+          "class_counts": [
+            467,
+            541,
+            33,
+            157,
+            123,
+            150
+          ],
+          "class_patients": [
+            336,
+            326,
+            24,
+            120,
+            86,
+            112
+          ],
+          "file": "fold_02_train.csv",
+          "images": 1471,
+          "patients": 876,
+          "sha256": "7b36f96b151eceaf97cfa58ddde1b1416cd77d27c292c92dcf4f8f77aa6c1766"
+        },
+        "valid": {
+          "class_counts": [
+            117,
+            135,
+            9,
+            39,
+            30,
+            38
+          ],
+          "class_patients": [
+            84,
+            83,
+            6,
+            29,
+            21,
+            29
+          ],
+          "file": "fold_02_valid.csv",
+          "images": 368,
+          "patients": 221,
+          "sha256": "3ffbce225dff8c3112c780c76d6b2fb7eace02a2733f3e1b1eeb02b3eb146c48"
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "roles": {
+        "test": {
+          "class_counts": [
+            146,
+            169,
+            10,
+            49,
+            38,
+            47
+          ],
+          "class_patients": [
+            104,
+            101,
+            7,
+            38,
+            26,
+            37
+          ],
+          "file": "fold_03_test.csv",
+          "images": 459,
+          "patients": 273,
+          "sha256": "e8c32faf735b07c6ce059621dd38bf9260b3f3d2aeab4cf7bbcf6e1cf67c0e67"
+        },
+        "train": {
+          "class_counts": [
+            467,
+            541,
+            33,
+            156,
+            123,
+            151
+          ],
+          "class_patients": [
+            337,
+            330,
+            22,
+            117,
+            85,
+            113
+          ],
+          "file": "fold_03_train.csv",
+          "images": 1471,
+          "patients": 880,
+          "sha256": "9bafee8586ad7eca54eebc059df8612c4c428329383bcbd8faf4923616c9a1d7"
+        },
+        "valid": {
+          "class_counts": [
+            117,
+            135,
+            9,
+            39,
+            31,
+            37
+          ],
+          "class_patients": [
+            84,
+            82,
+            7,
+            30,
+            22,
+            26
+          ],
+          "file": "fold_03_valid.csv",
+          "images": 368,
+          "patients": 220,
+          "sha256": "2c01aa7defda607afa1604cabaa351715d1ea9abb49431570db94a84f098c3c5"
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "roles": {
+        "test": {
+          "class_counts": [
+            146,
+            169,
+            11,
+            49,
+            38,
+            47
+          ],
+          "class_patients": [
+            105,
+            104,
+            8,
+            37,
+            27,
+            35
+          ],
+          "file": "fold_04_test.csv",
+          "images": 460,
+          "patients": 271,
+          "sha256": "af2cbada2a83b11a58cec9114e8063f69d62c074cef1259d426a902de8837859"
+        },
+        "train": {
+          "class_counts": [
+            467,
+            541,
+            32,
+            156,
+            123,
+            151
+          ],
+          "class_patients": [
+            335,
+            327,
+            22,
+            119,
+            85,
+            115
+          ],
+          "file": "fold_04_train.csv",
+          "images": 1470,
+          "patients": 881,
+          "sha256": "d470a742d2cf34e84643b0ae6f6bbec9027ca2de6d6f83980aba029d47e5d439"
+        },
+        "valid": {
+          "class_counts": [
+            117,
+            135,
+            9,
+            39,
+            31,
+            37
+          ],
+          "class_patients": [
+            85,
+            82,
+            6,
+            29,
+            21,
+            26
+          ],
+          "file": "fold_04_valid.csv",
+          "images": 368,
+          "patients": 221,
+          "sha256": "d6925ba6d0e0b721fc8172340f2f505c9cfcd28a3843919d8683106d0915953b"
+        }
+      }
+    }
+  ],
+  "historical_PAD_architecture_development_exposure_not_erased": true,
+  "hyperparameter_search": false,
+  "image_hashes_sha256": "1f6e3ae7299bb8b55d3b7681dc7ed902021708c7c6a3d39b3a74ca9d7bc32508",
+  "images": 2298,
+  "inner_method": "First fold of five-fold patient-grouped stratified splitter, used only for early stopping",
+  "inner_seeds": [
+    20261100,
+    20261101,
+    20261102,
+    20261103,
+    20261104
+  ],
+  "outer_seed": 20261019,
+  "patient_grouping": "Connected components of patient IDs linked by identical image hashes",
+  "patients": 1373,
+  "sklearn_version": "1.9.0",
+  "source": [
+    {
+      "role": "train",
+      "sha256": "75830b098dbec597406b912d7049dab32728e4177426c757aa3a0dacc75857e0"
+    },
+    {
+      "role": "valid",
+      "sha256": "ce2ee3790d13766eceab1eb7b3a70dd19fff169f44ef72ca3c922380c4bf223b"
+    },
+    {
+      "role": "test",
+      "sha256": "0ea5d49ea6f7ea6fab6f8fede5ff90c6f47d7f61878a5384ae8bc5896c3a95b1"
+    }
+  ],
+  "status": "FOLDS_LOCKED_BEFORE_SUPPLEMENTAL_OUTCOMES",
+  "version": "posthoc_internal_grouped_cv_20261019"
+}

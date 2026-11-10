@@ -1,0 +1,40 @@
+{
+  "official_PAD_metadata_sha256": "14d145235cedb022548257acb0d84dcd949e2c916f65d2baa7c38ed5339e9527",
+  "PAD_dataset_doi": "10.17632/zr7vgbcyr2.1",
+  "PAD_dataset_url": "https://data.mendeley.com/datasets/zr7vgbcyr2/1",
+  "PAD_credit": "Pacheco and colleagues, PAD-UFES-20, 2020",
+  "external_metadata_source_sha256": "a862af6e19e6db600b9f089968ab79f404801259ba21533ae631222beff24b4a",
+  "external_dataset_doi": "10.17632/g5bj76p2z3.2",
+  "external_dataset_url": "https://data.mendeley.com/datasets/g5bj76p2z3/2",
+  "external_credit": "Dias and colleagues, DermatoNet-TelessaudeRS v2, 2026",
+  "external_projection_note": "Only image ID, age, recorded gender, and diagnostic mapping retained; clinical free text omitted.",
+  "external_excluded_img_ids": [
+    "DSOLCOD_125136.jpg",
+    "DSOLCOD_131390.jpg",
+    "DSOLCOD_140071.jpg",
+    "DSOLCOD_147476.jpg",
+    "DSOLCOD_160642.jpg",
+    "DSOLCOD_167245.jpg",
+    "DSOLCOD_191394.jpg",
+    "DSOLCOD_210968.jpg",
+    "DSOLCOD_213644.jpg",
+    "DSOLCOD_222210.jpg",
+    "DSOLCOD_223287.jpg",
+    "DSOLCOD_234336.jpg",
+    "DSOLCOD_240654.jpg",
+    "DSOLCOD_242900.jpg",
+    "DSOLCOD_246947.jpg",
+    "DSOLCOD_250583.jpg",
+    "DSOLCOD_250887.png",
+    "DSOLCOD_253450.png"
+  ],
+  "data_license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+  "patient_unit_external": "One released image per reported patient; no new linkage inferred.",
+  "seed_order": [
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017
+  ]
+}

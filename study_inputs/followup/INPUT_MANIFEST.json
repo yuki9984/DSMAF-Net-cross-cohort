@@ -1,0 +1,4010 @@
+{
+  "scope": "Public projected subset; original pinned worker manifest preserved for source provenance. No worker logs or weight tensors.",
+  "files": [
+    {
+      "path": "expected/intervention_intervals.csv",
+      "bytes": 19135,
+      "sha256": "014a8b07df496f9ed773b9cff7eaf46c13d74092a59d0ed943d1351ed07360df"
+    },
+    {
+      "path": "expected/intervention_seed_metrics.csv",
+      "bytes": 12362,
+      "sha256": "d4d03a709040c38439968674714626c48338090b4131782b4fe1b74395d68794"
+    },
+    {
+      "path": "expected/permutation_repetitions.csv",
+      "bytes": 138320,
+      "sha256": "87dddf97cd110c64d388f44f211fd73d1bd74af42cbcec2d6e13ddd502299952"
+    },
+    {
+      "path": "expected/permutation_summary.csv",
+      "bytes": 629,
+      "sha256": "1040ee26f72c35f62714931ce8bd7b93629e74ee7d2f98f2dd587ff49a715a8d"
+    },
+    {
+      "path": "expected/recipe_intervals.csv",
+      "bytes": 33170,
+      "sha256": "a4a4cc5d221a89441078a0b9e542d46f07165c3ecd78018e49807c936b731ff6"
+    },
+    {
+      "path": "expected/recipe_seed_contrasts.csv",
+      "bytes": 13788,
+      "sha256": "8ad1b956588d53459055d006e0409aef48fcb8ed7729cb7a467778855aceacf1"
+    },
+    {
+      "path": "expected/recipe_seed_metrics.csv",
+      "bytes": 8131,
+      "sha256": "fdb113622b0fc0ab7503c8b7bdfbd0189b07fbe440b41c724fd35583ffe101d0"
+    },
+    {
+      "path": "inputs/analysis_plan.json",
+      "bytes": 5239,
+      "sha256": "da91d6e46808af2c2fd8ff892555d53bcbc5d321fc0890c74de6641f83733e38"
+    },
+    {
+      "path": "inputs/baseline_probabilities.npz",
+      "bytes": 7461276,
+      "sha256": "cffb58c19c7d112e20c25022df0aec52f0a98dbeeed6db1bee15cde026b2fbfc"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/full_seed20261013/config.json",
+      "bytes": 2058,
+      "sha256": "8ec8af71b00a9b7fa4d7cbfb98f85f122f9204afedf5c57b96ee81fabe8b6476"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/full_seed20261014/config.json",
+      "bytes": 2058,
+      "sha256": "450679a7ca2d939204e843ffcd22b0ac7fa348cd604ca6a7f775db04811326f4"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/full_seed20261015/config.json",
+      "bytes": 2058,
+      "sha256": "4f246fe0bc8246beb696f5676e4f610eb9787fb342d50fba70052cd8016e1d5f"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/full_seed20261016/config.json",
+      "bytes": 2058,
+      "sha256": "e4f5c0ffb6785bd3d5189eabeaad40c975719fddfb3055a682a6954da9a02359"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/full_seed20261017/config.json",
+      "bytes": 2058,
+      "sha256": "ea6cf7ee889413a9590082b34ef34dd0077adee11ed8d04f9e315ae6a6fdba6e"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/image_only_seed20261013/config.json",
+      "bytes": 2064,
+      "sha256": "0e30ce35a3b2e2a144c63adaebbd2b3265233a20b3cdd59f23429bcc623fe051"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/image_only_seed20261014/config.json",
+      "bytes": 2064,
+      "sha256": "758111f8fe5d0a32f8eac1524103d901337f671bbaa73838dc34fb8f96de3323"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/image_only_seed20261015/config.json",
+      "bytes": 2064,
+      "sha256": "e2479f0b0315c57e250ce95aa3fccf56949265c4ed7a659449a708827bbd2caf"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/image_only_seed20261016/config.json",
+      "bytes": 2064,
+      "sha256": "7d14a3894d9e765e7708d1f7f07b72fab3f4cf1d35b7dbaefc95be7dfbf1790d"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/image_only_seed20261017/config.json",
+      "bytes": 2064,
+      "sha256": "a014df938e22c6c9c142c4b5649cae82a30d72f44663f3c13575879754b4cb88"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/late_fusion_seed20261013/config.json",
+      "bytes": 2065,
+      "sha256": "a41bf3eab873931a2e563f3c46fc5c943c3fbcf69ba750b880fb518b57c601b1"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/late_fusion_seed20261014/config.json",
+      "bytes": 2065,
+      "sha256": "9b4d83b0c5f517ce58efd250f8aff18332c8b5954ed1d80ddc18e013bb05e64b"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/late_fusion_seed20261015/config.json",
+      "bytes": 2065,
+      "sha256": "3960d020dc57f87bd590072fb6cffe003421518f9958f58ecf1a191ea7a2be8a"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/late_fusion_seed20261016/config.json",
+      "bytes": 2065,
+      "sha256": "96cb2d217b75ab390bfa5f98820dae30c943480b46643af1044beb16794cc113"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_00/late_fusion_seed20261017/config.json",
+      "bytes": 2065,
+      "sha256": "0ffa0c3e4fdca770e7230df75f160cf5fb8bae6255bb337960471f999720f85b"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/full_seed20261013/config.json",
+      "bytes": 2058,
+      "sha256": "51d7f0266ae9fcf314bb0346163e5e983e8d666ed7b7cbc3575ef5198a98cf7e"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/full_seed20261014/config.json",
+      "bytes": 2058,
+      "sha256": "4f36861e642ebef4d3aaffcf94789b6c599477e3135303e43270c2bb89314b24"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/full_seed20261015/config.json",
+      "bytes": 2058,
+      "sha256": "584bb664b068d0db7da107fc681e29174391a8b4cf8c2bcb08fbc59b5c1a9af1"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/full_seed20261016/config.json",
+      "bytes": 2058,
+      "sha256": "9cb460a579f696cf6c08084011de4c1199c16527c05afec321c2b07fc2e9bfd9"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/full_seed20261017/config.json",
+      "bytes": 2058,
+      "sha256": "7905788048e50235c67ba79a01a11d9cc28bb292013612f1519df3f6621e3bb0"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/image_only_seed20261013/config.json",
+      "bytes": 2064,
+      "sha256": "4ea9b5d5cbc2b61ac4fda4d0c86026ed37a4060b708525d5a05020652fe383cb"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/image_only_seed20261014/config.json",
+      "bytes": 2064,
+      "sha256": "5f301972f6294751450b397c7b7b5b9b4cf67a5f0cd88db9818335b26c1424a8"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/image_only_seed20261015/config.json",
+      "bytes": 2064,
+      "sha256": "3d2358484ec7c5da5944d2be748226d8a0660702ea139c903ab2dff526163c29"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/image_only_seed20261016/config.json",
+      "bytes": 2064,
+      "sha256": "dd4b0e5df85f443cf40349398a1d408d2b954a703f1db600c46980b93f7613b5"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/image_only_seed20261017/config.json",
+      "bytes": 2064,
+      "sha256": "14bf3d00acf19d8e915419bd717bd11fff5cf13e0264e1bccb08d598bf8d5511"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/late_fusion_seed20261013/config.json",
+      "bytes": 2065,
+      "sha256": "9e6b4a72736f10249eb485e8adc97b341d0c72e0ac05603751083ee435cf28b6"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/late_fusion_seed20261014/config.json",
+      "bytes": 2065,
+      "sha256": "03efb10457ddd34a98cff2b8c8c200338b0cde0f0fd81d62d1e4e464785d2e11"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/late_fusion_seed20261015/config.json",
+      "bytes": 2065,
+      "sha256": "3fd56cb960ae5b4ee28ffafaa9c22fad41291f0a622083d86a945777e0d3d138"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/late_fusion_seed20261016/config.json",
+      "bytes": 2065,
+      "sha256": "b3073b7615b74c03a0af13c9b3782322bff94c5c7c6265569d8839cd137cacab"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_01/late_fusion_seed20261017/config.json",
+      "bytes": 2065,
+      "sha256": "f4c88abafbf61aff5cf91154764bee767b98b5b3c795965daccfa71c6a95ba2a"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/full_seed20261013/config.json",
+      "bytes": 2058,
+      "sha256": "1e573be3954d89d3fab497e9d95ba9940aa439617a0ce4a4972ca08ca1c2686f"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/full_seed20261014/config.json",
+      "bytes": 2058,
+      "sha256": "6fa2d64f983b22d2594306d101ad34080d767759ae8ef45ca92f2f1afba96fa0"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/full_seed20261015/config.json",
+      "bytes": 2058,
+      "sha256": "db9d0b664db8c675f081efe23e02158d0f2a22466f24e5d30c9616b2cd012492"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/full_seed20261016/config.json",
+      "bytes": 2058,
+      "sha256": "11c0e35d8c6e2a1df3eb4e9fb0cc65afc2f2d81bd5c191c3a78e171be0e463ea"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/full_seed20261017/config.json",
+      "bytes": 2058,
+      "sha256": "5a37f89a87d48a3a176cab0ec027462067111005da81d81e35fae961e6540e03"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/image_only_seed20261013/config.json",
+      "bytes": 2064,
+      "sha256": "038a8327083afc7a1d788d73466405de6c80362942a31e2c898ba2a261666744"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/image_only_seed20261014/config.json",
+      "bytes": 2064,
+      "sha256": "e78c3fbdedc2d4c52a1c9863221eff2aa3338651a91341d184439b98151ebc27"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/image_only_seed20261015/config.json",
+      "bytes": 2064,
+      "sha256": "845368ae882cfd859a5a2b5308c6832d02a542b8ba7c5031a7984065933d0668"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/image_only_seed20261016/config.json",
+      "bytes": 2064,
+      "sha256": "efab3307434fd52e10126a512aa2b93eecea9dd11b4be9e29fc0e7796a736543"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/image_only_seed20261017/config.json",
+      "bytes": 2064,
+      "sha256": "960b62aa97c999c12715e5b6b88e4d0913172707d3ce04ffd2918d18aaa4eecd"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/late_fusion_seed20261013/config.json",
+      "bytes": 2065,
+      "sha256": "96290d8e4a68f752bb393c82d6cb1839f680396555668707751bfdd04efa760a"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/late_fusion_seed20261014/config.json",
+      "bytes": 2065,
+      "sha256": "ab57cd4ec32e94881296a17930dc7c0b13347eeda65facfd66a207bb7619847a"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/late_fusion_seed20261015/config.json",
+      "bytes": 2065,
+      "sha256": "a00b5fba03f13f5ea482be07845232405b9b6013279f09b371daaab2354b1ed6"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/late_fusion_seed20261016/config.json",
+      "bytes": 2065,
+      "sha256": "b47dccdbd90ba83d7c031c5b6e5dacc3df34b3e068640b61e31e31ab61c8c037"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_02/late_fusion_seed20261017/config.json",
+      "bytes": 2065,
+      "sha256": "97e4e3f9ebe15e92a8e74574a49de079761aa6c0f61327273cafb5c94f94e11c"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/full_seed20261013/config.json",
+      "bytes": 2057,
+      "sha256": "2663758b27accca8afa1f0d2cd789c792d207cf9b7115cbe8bed7453ff2740f2"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/full_seed20261014/config.json",
+      "bytes": 2057,
+      "sha256": "1b986ff5e5618a3d8fafa62724418d4f438aa7ee59bc025b54e880c9da153822"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/full_seed20261015/config.json",
+      "bytes": 2057,
+      "sha256": "18660396739098b2001527280720df15fc2f2f6661f44527f22d321505e9d966"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/full_seed20261016/config.json",
+      "bytes": 2057,
+      "sha256": "238a69b8d821a43fd9d08bfb319f462f10b8750e1849e1bed4f6f7fcb39319c0"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/full_seed20261017/config.json",
+      "bytes": 2057,
+      "sha256": "a6476a08b0c9764e53e293f7a871eb5cbf5713059b17e134695fec0817cf331b"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/image_only_seed20261013/config.json",
+      "bytes": 2063,
+      "sha256": "7a3d9122412b66564baac292d5c29d5b29f90dab29003cb23ca3814891badb1f"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/image_only_seed20261014/config.json",
+      "bytes": 2063,
+      "sha256": "75d8744657b6fb16cb62a66409612d27b83d8eca9b941a4cbeb1261e67e9e405"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/image_only_seed20261015/config.json",
+      "bytes": 2063,
+      "sha256": "702807684005cdf090d584b4f94c1c444344a876a4009797e427a892e9cfadcd"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/image_only_seed20261016/config.json",
+      "bytes": 2063,
+      "sha256": "a8bac631495f45efc45a19c378571626523435765ec87a1a63ab1cc2eb647cbe"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/image_only_seed20261017/config.json",
+      "bytes": 2063,
+      "sha256": "b98b56921cf9fb3bfaa21e8b7529eab1fd7b4462345b0d970f0a2ac8e8b337c2"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/late_fusion_seed20261013/config.json",
+      "bytes": 2064,
+      "sha256": "36006efffad6d9a180067cac1459b0fb9b1f6709c0aecc3cbf70020dfa7e6650"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/late_fusion_seed20261014/config.json",
+      "bytes": 2064,
+      "sha256": "c52098f7972625635400555ca36819cebb86db42cf5305894810ea4b84b66f2f"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/late_fusion_seed20261015/config.json",
+      "bytes": 2064,
+      "sha256": "7682327e90c6d94bb1376c4a2f212f6a5d8a447467c5900f3fac2893915c99ea"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/late_fusion_seed20261016/config.json",
+      "bytes": 2064,
+      "sha256": "a60db1bb28ab443a4eccb144ceeeae98c11a8b65bc7a82547a01dd446edf80f6"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_03/late_fusion_seed20261017/config.json",
+      "bytes": 2064,
+      "sha256": "27f1b87058a9fd7ea2ed5d4ddb8466e2fcae1172651e5c3c6132459ecc6d65e0"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/full_seed20261013/config.json",
+      "bytes": 2057,
+      "sha256": "063705bf43c85e236148071c0983d1f8e1278c8a08fbd21131c47365ab72f3b1"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/full_seed20261014/config.json",
+      "bytes": 2057,
+      "sha256": "24ee9ecdee5eb0b984fec34c72ac295668dcb19a1b805055d2e4668d451360f4"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/full_seed20261015/config.json",
+      "bytes": 2057,
+      "sha256": "28316a78360406283e776c18a7d52d8a02a8cb0345743ae121252b50186daca3"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/full_seed20261016/config.json",
+      "bytes": 2057,
+      "sha256": "403991fe2b6d46e970fe051c2b81c936a16aa929505d5881718bbf28867f2fc3"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/full_seed20261017/config.json",
+      "bytes": 2057,
+      "sha256": "19b99c2947191a2db349d7bd926cb12bd2cd6c377b65d170c6d71ed1dfc37d0b"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/image_only_seed20261013/config.json",
+      "bytes": 2063,
+      "sha256": "84a3ecaf0e323cc149f71a1428f7d82a8c2f400f2b227b5a365d0f208b115110"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/image_only_seed20261014/config.json",
+      "bytes": 2063,
+      "sha256": "0d90383719dc686230334976e2e9f1b732c539ddc62434cd3f798b0370e86c23"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/image_only_seed20261015/config.json",
+      "bytes": 2063,
+      "sha256": "599dfd2f4afed4eda8a3d8c55ca5e8867ce5e932d78182ab82e9488a21422523"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/image_only_seed20261016/config.json",
+      "bytes": 2063,
+      "sha256": "516dfea402ecef4206b0b56bafd0986ce32db17781f0326d24c2571adf546706"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/image_only_seed20261017/config.json",
+      "bytes": 2063,
+      "sha256": "ffa835917fb50a6bfd0a38816f4fd3e1c3b417de416b793e57976382babd737e"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/late_fusion_seed20261013/config.json",
+      "bytes": 2064,
+      "sha256": "d72ee429c03c5fa30f916b5a5d3bf75054cf0953622b211e24acb5f43e0161b7"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/late_fusion_seed20261014/config.json",
+      "bytes": 2064,
+      "sha256": "77ee9404fffdf6273271c4d54fa0a915d3605bcfaef64763dbb7aec077dc24cf"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/late_fusion_seed20261015/config.json",
+      "bytes": 2064,
+      "sha256": "bfe77a618d90d2bc17276aa2ed2c7cf4465f02ea8168ae1cd8e204eba0d053a6"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/late_fusion_seed20261016/config.json",
+      "bytes": 2064,
+      "sha256": "f4abc739ab3026dde154f64309fdcdfcde342401452956be95a64afb0161199f"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/fold_04/late_fusion_seed20261017/config.json",
+      "bytes": 2064,
+      "sha256": "140d0ee4aad114a2548e5ed1bfd524c658b463aef1ac0f17a47c38b89cd818b1"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/cv/training_complete.json",
+      "bytes": 35590,
+      "sha256": "05d063b802a50173da113a1c996cfe46f153aea6de1b1f67066ead587a39b00d"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/external_cases.csv",
+      "bytes": 97884,
+      "sha256": "e9f0c19e052315981b5fdfc0632e5a1291f4b0394c2fd401cb86c8711eeba98f"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_00_test.csv",
+      "bytes": 100191,
+      "sha256": "365343d362c73e7eb7a47591dddd348a0ba7b3734ec85b470c8eaf7edc421dbe"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_00_train.csv",
+      "bytes": 317050,
+      "sha256": "23a70e5b7a2564d829e0aed5686d7878ccbe84e102796bff621f7634cf1b2069"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_00_valid.csv",
+      "bytes": 80462,
+      "sha256": "a579e82320907bf55765fc4750e2c5ded13173a25d3e60bf05021f115542da5c"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_01_test.csv",
+      "bytes": 100273,
+      "sha256": "80a8160566f9dca3feefe1ecc9e2fa3d544f5eef79e361f4e3f79c2904db8f88"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_01_train.csv",
+      "bytes": 317012,
+      "sha256": "43fa1fa96ab775aa41d811b1f036ec354e2cbe206d385d4f9dcadeb764d1ca9d"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_01_valid.csv",
+      "bytes": 80418,
+      "sha256": "7e2d54a78e906a9837b8624be8f5cef07c389f3e56a263833d12ba0bab39ad83"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_02_test.csv",
+      "bytes": 100059,
+      "sha256": "33fd0a2454ec9036c09899c6b9f0fd1437424680b5aa897469da092c12ff87da"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_02_train.csv",
+      "bytes": 317206,
+      "sha256": "7b36f96b151eceaf97cfa58ddde1b1416cd77d27c292c92dcf4f8f77aa6c1766"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_02_valid.csv",
+      "bytes": 80438,
+      "sha256": "3ffbce225dff8c3112c780c76d6b2fb7eace02a2733f3e1b1eeb02b3eb146c48"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_03_test.csv",
+      "bytes": 99916,
+      "sha256": "e8c32faf735b07c6ce059621dd38bf9260b3f3d2aeab4cf7bbcf6e1cf67c0e67"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_03_train.csv",
+      "bytes": 317365,
+      "sha256": "9bafee8586ad7eca54eebc059df8612c4c428329383bcbd8faf4923616c9a1d7"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_03_valid.csv",
+      "bytes": 80422,
+      "sha256": "2c01aa7defda607afa1604cabaa351715d1ea9abb49431570db94a84f098c3c5"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_04_test.csv",
+      "bytes": 100208,
+      "sha256": "af2cbada2a83b11a58cec9114e8063f69d62c074cef1259d426a902de8837859"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_04_train.csv",
+      "bytes": 316997,
+      "sha256": "d470a742d2cf34e84643b0ae6f6bbec9027ca2de6d6f83980aba029d47e5d439"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_04_valid.csv",
+      "bytes": 80498,
+      "sha256": "d6925ba6d0e0b721fc8172340f2f505c9cfcd28a3843919d8683106d0915953b"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/fold_manifest.json",
+      "bytes": 8739,
+      "sha256": "9e76ecd94475540729156c928984560f3fe5d3cfab031532bc2df9d0dc7e73e5"
+    },
+    {
+      "path": "inputs/prior_campaign/inputs/splits/pad_image_hashes.csv",
+      "bytes": 197101,
+      "sha256": "1f6e3ae7299bb8b55d3b7681dc7ed902021708c7c6a3d39b3a74ca9d7bc32508"
+    },
+    {
+      "path": "inputs/source_manifest.json",
+      "bytes": 425985,
+      "sha256": "b39432c83ebba8871c4d49ad6e2d20098cf78121e4a194f17048c6796c0df67f"
+    },
+    {
+      "path": "inputs/train_recipe.py",
+      "bytes": 9443,
+      "sha256": "de8c34f1652297d064331cbf930bea8aa3186a6c9a999d9eaddc17494c40054c"
+    },
+    {
+      "path": "neural_source/analyze_followup.py",
+      "bytes": 11278,
+      "sha256": "b55b7ad766b825733223bef6d6f2fd194f8682ae8fcb071f77a5194030379721"
+    },
+    {
+      "path": "neural_source/followup_settings.py",
+      "bytes": 5823,
+      "sha256": "50d2f02191602c50441eeb11872278973506cd57d9b0691d5a1bc7377263c9e1"
+    },
+    {
+      "path": "neural_source/gpu_tasks.py",
+      "bytes": 9425,
+      "sha256": "4f34bb67d524774b1e5ad51a0730c79ea10df37acfc1b498e60c8e7968f68557"
+    },
+    {
+      "path": "neural_source/inference_core.py",
+      "bytes": 2597,
+      "sha256": "20d54e7eb13cc77caf24470abbb9f28bb944aaa5e20a614a1de621d9b34a29eb"
+    },
+    {
+      "path": "neural_source/interventions.py",
+      "bytes": 1065,
+      "sha256": "b7f47c442dcc91082c68cc553d00b3e0316a1831516bd35aa12710df077d7a78"
+    },
+    {
+      "path": "neural_source/original_trainer_reference.txt",
+      "bytes": 9332,
+      "sha256": "fb6aeb8b992f4d1527a558b2b4af12f57a04adef99197f9a3ea6074e81ce0c0d"
+    },
+    {
+      "path": "neural_source/run_followup.py",
+      "bytes": 9206,
+      "sha256": "c4baf1edc8a98282cb8214c00238b8b88736e185d6b16ea8df92c0d6ae5771fc"
+    },
+    {
+      "path": "neural_source/stat_core.py",
+      "bytes": 2589,
+      "sha256": "839d5ef08a4570160eef252326ded8af9c838dd2a860083e2facea12a1ef43cb"
+    },
+    {
+      "path": "neural_source/test_cpu.py",
+      "bytes": 12968,
+      "sha256": "fdc8dde5c604fb5868a80f33cce2535e91eb6b9d1bdcfe6c91978fff69686cb1"
+    },
+    {
+      "path": "neural_source/train_recipe.py",
+      "bytes": 9443,
+      "sha256": "de8c34f1652297d064331cbf930bea8aa3186a6c9a999d9eaddc17494c40054c"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 3249,
+      "sha256": "318fd38fb6e29b076203a889f3caaf8fc07f432d91a0667545221735941c46ab"
+    },
+    {
+      "path": "receiver_statistics.py",
+      "bytes": 6127,
+      "sha256": "021519fc7e37f5f19028d13e257b702ad20ae0c070d14be2c5aa0ab16115b86d"
+    },
+    {
+      "path": "returned/analysis/interventions/all_intervention_patient_cluster_intervals.csv",
+      "bytes": 19146,
+      "sha256": "d599d69f35238685775c5df2fcb7f2edfb70d28a0a4e18f76feb7ae8147d38a9"
+    },
+    {
+      "path": "returned/analysis/interventions/all_repetition_BACC_deltas.csv",
+      "bytes": 138320,
+      "sha256": "87dddf97cd110c64d388f44f211fd73d1bd74af42cbcec2d6e13ddd502299952"
+    },
+    {
+      "path": "returned/analysis/interventions/all_seed_intervention_deltas.csv",
+      "bytes": 12364,
+      "sha256": "ff8ce510c391de3be790412844f2c1cad96f7fe5952270df3e9dc3b3bee6cfbb"
+    },
+    {
+      "path": "returned/analysis/interventions/paired_patient_cluster_draws.npz",
+      "bytes": 1322834,
+      "sha256": "bde81f9bc249452cb3c5bff04d4208da8e371e2fe24c68e8af49a967e4b5704a"
+    },
+    {
+      "path": "returned/analysis/interventions/permutation_seed_SD_permutation_SD_and_MCSE.csv",
+      "bytes": 629,
+      "sha256": "1040ee26f72c35f62714931ce8bd7b93629e74ee7d2f98f2dd587ff49a715a8d"
+    },
+    {
+      "path": "returned/analysis/recipe45/all_paired_three_seed_metrics.csv",
+      "bytes": 8132,
+      "sha256": "b7e7e7b374c94b3afd31334761f89527b15ed4b0fd21765c6665d62dcc21e21b"
+    },
+    {
+      "path": "returned/analysis/recipe45/all_recipe_contrasts_and_interactions.csv",
+      "bytes": 33168,
+      "sha256": "b87b0ce94950737cc166801cff8aefa78517267478d4a510e52b1b273fb2243d"
+    },
+    {
+      "path": "returned/analysis/recipe45/all_seed_paired_contrasts.csv",
+      "bytes": 13826,
+      "sha256": "762fdbb34d6acdc719d40defb1fbd32b334a5baaed5635157f248e4d2b72690f"
+    },
+    {
+      "path": "returned/analysis/recipe45/paired_cluster_draws.npz",
+      "bytes": 2455567,
+      "sha256": "27d45f92870711ba33ed7d7044081dabdb5d35ea4c8e95c43391633e1ede086e"
+    },
+    {
+      "path": "returned/analysis/recipe45/three_seed_means_and_sample_SDs.csv",
+      "bytes": 5142,
+      "sha256": "26dbd02bb067f7e035e219434bffd57a60aa3c9610c8d15b155c1fc72ca15505"
+    },
+    {
+      "path": "returned/campaign_status.json",
+      "bytes": 428,
+      "sha256": "afa8928e8111e7978208cf354a8498787aac883eed9546cabcb4062bd207fc17"
+    },
+    {
+      "path": "returned/checkpoint_inventory45.json",
+      "bytes": 9040,
+      "sha256": "28d00bb8d1756f686a85afc32efe88f5450b6801071ac9f42eefaf9b059f37e4"
+    },
+    {
+      "path": "returned/input_audit/input_verification.json",
+      "bytes": 95,
+      "sha256": "386b1685a8acff5612f9745ebe9e2f990ca5eb6c0cf0e884132a6c6d8ab62e7a"
+    },
+    {
+      "path": "returned/input_audit/runtime.json",
+      "bytes": 177,
+      "sha256": "32ce61f1ef4e39a3fdcbb383fffa8d64eb67bbb3ce234f1b8c35bd29c1363c37"
+    },
+    {
+      "path": "returned/interventions/complete.json",
+      "bytes": 276919,
+      "sha256": "443a785d3a4a2057faaab563e71465a95ea177f4299aef45713a3f47647e1cb6"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261013.json",
+      "bytes": 1876,
+      "sha256": "2ef3c577278c5afa1b5d88651514e81924a12b75d9be62cf04ba927582d7aa2b"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261013.npz",
+      "bytes": 2444274,
+      "sha256": "99cda1e01ee6a7c1811e8a5d20cde792663abc42d3820cebcd505f9fb686a515"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261014.json",
+      "bytes": 1865,
+      "sha256": "7c721307aa7d95d378c3b9a86151db501fdf9cbed8d3992cc149af098ff9816b"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261014.npz",
+      "bytes": 2404383,
+      "sha256": "e8c0210bce2a0f757962924cc98fcf1be3a206bf29af475cc3560e5ab097a7be"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "8373c609fb531683b2eb4cfeba5ce889e707664a357991851ce31d8ed6e0814e"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261015.npz",
+      "bytes": 2396182,
+      "sha256": "62bcba85b9475781b080c46cd2fc47537756006b2cd390011675ff672d68c2ae"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261016.json",
+      "bytes": 1877,
+      "sha256": "6815584713845b8a96108fc28041687a5c2f7fbdf2070c2449a91f4603a4a42c"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261016.npz",
+      "bytes": 2452774,
+      "sha256": "920166dd1ac7235583fa8b2c8a24d9ccf6efe45f985ef10c28d233c72bcb6188"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261017.json",
+      "bytes": 1876,
+      "sha256": "05fa051dd14eaf66590853c601836838077a1715e4fe447b1936d63202af8c36"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_full_seed20261017.npz",
+      "bytes": 2414950,
+      "sha256": "535db3fe04be5cea70287457b43ae5f67c9c82edd35e7216ceeb7d5f41b9667f"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261013.json",
+      "bytes": 1253,
+      "sha256": "a7e3adc67f5cb3161165a5f53ceebca4081b19287910a8d67c76331f400b789e"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261013.npz",
+      "bytes": 43608,
+      "sha256": "1b900315e8ec5abb05ac94642457e8c5d633b30f9afa338f6952efdc52386002"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261014.json",
+      "bytes": 1255,
+      "sha256": "4911a31d6f3b31c81854650e60e5f54ec458f50ead2420dac8ef38eb4d75a4ca"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261014.npz",
+      "bytes": 43371,
+      "sha256": "09bd232a53d62f0d9f655dcdef4ee97f838e9dd49d935506e8380323f50e851b"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261015.json",
+      "bytes": 1268,
+      "sha256": "1c249648c41c7c714a63cc5e68ed3c71c6013fa603264fb5f7c61df5d0670999"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261015.npz",
+      "bytes": 43150,
+      "sha256": "c3f980b2720a86cdccc70e0d78c7a46fd1320ef0c8c5ba33cd142b1ab0d4c9ae"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261016.json",
+      "bytes": 1257,
+      "sha256": "0cd24f8956d707b0f472321209a04cd5b35376549eace0c8fbab6d7b66fd02a1"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261016.npz",
+      "bytes": 42891,
+      "sha256": "d36e6af2e9b625d118e68fc5465438f14b7302b2480be1425fb45d3083d09514"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261017.json",
+      "bytes": 1268,
+      "sha256": "cd045b836dde27692c1dde124ca133677e3690990533b0584d39e355c5e5cf2f"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_image_only_seed20261017.npz",
+      "bytes": 43306,
+      "sha256": "5c31f1fac27ab5c9d677872022ccd3976bf6a9bf15b1cc9e0ca7f5d9aa81baeb"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261013.json",
+      "bytes": 1890,
+      "sha256": "4965fc21581512db16ea03765a34e27de0d04094a08d1870706d9ba93c6b2779"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261013.npz",
+      "bytes": 2444662,
+      "sha256": "fe345db90c96204b69ba97896a06b23baaa008e9d46c35b35876f6b184080829"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261014.json",
+      "bytes": 1877,
+      "sha256": "8b7e22a233e1d5ec6e916d5d4090ff9bef547a45b97e26a3370bfd96c75bbbd8"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261014.npz",
+      "bytes": 2427868,
+      "sha256": "823d010536c44b127d9f0bddb2cdef79fe56872f1a4c04fe61bd123f48178294"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "a44398e0ed119a24d9cec3a4dd66a470d676e804f60138a1b6886528dc311e52"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261015.npz",
+      "bytes": 2450388,
+      "sha256": "7857c5afe5429a43245310fbfa277d6efb43471318c9eaa394ec5de67938d785"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261016.json",
+      "bytes": 1890,
+      "sha256": "b941df261b81fd37d2c10a6072d18efcd7ace9a6365141b04c0deec06a0e9d86"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261016.npz",
+      "bytes": 2424923,
+      "sha256": "2d8ce4f01746cff50d9938a6cf29cb3095c1939f90c550fbfe5dbcb66f76e543"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "d86ff0314cc5708c492c2627666b9f631981d0720399287837a4fff631b0334f"
+    },
+    {
+      "path": "returned/interventions/external/fold_00_late_fusion_seed20261017.npz",
+      "bytes": 2438886,
+      "sha256": "2fe4f2d65f65bf42145d13948dca266ec5bea5a21484b331e0b25686d7917fc4"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261013.json",
+      "bytes": 1877,
+      "sha256": "d4499b789e247756a6fcf544d033e65912bb3cc2136b7a212bcb9d2de509adff"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261013.npz",
+      "bytes": 2405052,
+      "sha256": "0f0d83600a36c931f84abfefdbd3519940521058f45c3308e4e9c36c386a6321"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261014.json",
+      "bytes": 1876,
+      "sha256": "13929d3107622b8ca7b1d6f711de9dffd2ea10048338e3f90a8ab51302d4bdf7"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261014.npz",
+      "bytes": 2437454,
+      "sha256": "a32356a58865cfb3917941cab7c4bae62507e5a4e0032f8707069ae3884364dd"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "40cd240bdde51ede7ee5a180cb3b6933c329f8d249f307e69815c0afe3dc5b12"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261015.npz",
+      "bytes": 2412819,
+      "sha256": "b2336a74ccc9aa8c291260107546b5fcc022438012efea3400d649a71c9a9a11"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261016.json",
+      "bytes": 1876,
+      "sha256": "17c42e7d5498a9b1aa8cb3d5e4fa40f91b8d12e0271dc81926f0ac253a530c45"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261016.npz",
+      "bytes": 2457420,
+      "sha256": "fc6cb14cae5ec22e9f7c0815329415e1e2c33de84bdcfc363d0962cc367b18d4"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261017.json",
+      "bytes": 1876,
+      "sha256": "599946eaca6680b769c4891db1522f6d5d715844938aa5fa00b75cea57b36d90"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_full_seed20261017.npz",
+      "bytes": 2441944,
+      "sha256": "aec2d91027f0ba2e12a3a99b7afb356f097e7043a54c263fba13c38908f05c52"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261013.json",
+      "bytes": 1268,
+      "sha256": "c2e8b5c17c787fe62983262b5f6225154eefb49a564df929a494b11196ae4e03"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261013.npz",
+      "bytes": 43577,
+      "sha256": "d8dcf90400c668ce91fd84096fce2adf7c72412f8a76f9b2cc1d0934a0f2c3d8"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261014.json",
+      "bytes": 1269,
+      "sha256": "1f44713358790d3fc09e7b8ff9ba7abda717964a04dd8690319cc13901224202"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261014.npz",
+      "bytes": 43296,
+      "sha256": "9237d844cf91f59de919e6feacf4ba40be45f76e1e4609898406cf3a6804405e"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261015.json",
+      "bytes": 1269,
+      "sha256": "6244a85f4cf75ad88890e1aa026aaf33d537898cf6b1256c4677a222f72dcca3"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261015.npz",
+      "bytes": 42932,
+      "sha256": "2103cf289ca2a4a7fe3cc611dab2bf319e1f7af21771f7614a4a98ba2b4afc7a"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "b21ceab39656274d1c9f55607d4d415418c6326bf8cc0f433ee9c26fb41f945a"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261016.npz",
+      "bytes": 43243,
+      "sha256": "fe39f73be652e4a558683a76e414aa673ca2d498f4042236e8cb9b36b4740788"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261017.json",
+      "bytes": 1268,
+      "sha256": "1bdf9daf43c0524a1ae317d1d077613572eeda65de1a91098adb5a6efe2b2df0"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_image_only_seed20261017.npz",
+      "bytes": 43375,
+      "sha256": "ddb34842ba76c1041d3dc15e22a31e4de0da9191edd43ca46e65ec39396a254e"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261013.json",
+      "bytes": 1890,
+      "sha256": "a3dd9f95cb7b1f123a1a43db225ce025923efcb89ed599b23f1d6ea38b69c61c"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261013.npz",
+      "bytes": 2458731,
+      "sha256": "5d1df1211d97525c700586e8df302da15865714cdf8c49d49e0695028414cf3d"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261014.json",
+      "bytes": 1890,
+      "sha256": "98ed018a525c504e42fed345bb4cc2ed45b75682d06bc77f6e13143335419aea"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261014.npz",
+      "bytes": 2428346,
+      "sha256": "d72313a3ae9933dda22d0488a9f79f37e34a70aec8182a457a1190a02955d6e2"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "c206632bc8097c6772325606828bed4ac935749e99ed831998ccf01b8e3ce92c"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261015.npz",
+      "bytes": 2462154,
+      "sha256": "2a2bef5a1b8330f6633e2f92aa81053118d57ae13e0c18c7d0ef9f64062e6112"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261016.json",
+      "bytes": 1889,
+      "sha256": "1b5f533e3c60c2518c7f487bef84c2cfbae3ea16481493367d2b2762607882ef"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261016.npz",
+      "bytes": 2444825,
+      "sha256": "030451827f231ef310251c1b28b70bb27621d658cccb6df4b57b2d37da0e8e11"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "ee2ce3c045aa7170501ae1db9e0ac8c06eee5505db332fee332d6342741c38d7"
+    },
+    {
+      "path": "returned/interventions/external/fold_01_late_fusion_seed20261017.npz",
+      "bytes": 2440003,
+      "sha256": "8447ca28bc0410dda893e676a0b0f16b967b04fb6f644677d35416e53eb110fa"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261013.json",
+      "bytes": 1877,
+      "sha256": "59e398b8badf83dbc40ad155b7e2ceacec5d0778e534abee7b940a3fd47583ad"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261013.npz",
+      "bytes": 2422661,
+      "sha256": "8f82a79f3fe2d480a2d50e14b3bd6eb5fe6791177c305ea8fe40e26720089578"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261014.json",
+      "bytes": 1877,
+      "sha256": "3bdde9e14338272fc7aaa2960f145fc0ad7dd838954aa69af49f6434d27e1986"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261014.npz",
+      "bytes": 2422995,
+      "sha256": "ed4cfe70b6664882f8fab0e4c95dc3463e6015dae93e0c02f3861c193f4b4a22"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "d0b3bc2890c4856b40bdff03d3ad7f17b27a005e0605cbcab94c4d218b6aaa35"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261015.npz",
+      "bytes": 2401574,
+      "sha256": "5f6bdab74cd06b4feaa890013b5fc308d04156190d0cd3e0027687a720da2c11"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261016.json",
+      "bytes": 1877,
+      "sha256": "a327a4ab3cb25d1e4667183b703bd541f8ece656de4cc9fe956307984f8709f0"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261016.npz",
+      "bytes": 2408740,
+      "sha256": "989c3441e2a32cce5c58b2abeb39a86d7165d7f7a3698d735f12b399fee51629"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261017.json",
+      "bytes": 1877,
+      "sha256": "bbe360320beff7650946d0249aa0fd7ea1621cc9fabfe888a82f28eb8c3bc90e"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_full_seed20261017.npz",
+      "bytes": 2398554,
+      "sha256": "a7b5a7045d5e0a45610fe28eae851127e75725044e7d12adbc8af20d2de3de89"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261013.json",
+      "bytes": 1269,
+      "sha256": "62d7427288b0032f33f39cca67eda0a5bcb7fa975f40d530c44fd148a59b6fd7"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261013.npz",
+      "bytes": 43369,
+      "sha256": "af6cee8f4a3b771ac8080e763f24e11f0cc2a446276e78854774b049766e545f"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261014.json",
+      "bytes": 1268,
+      "sha256": "58fe79b54ed3ef6a8488df7002a482270a592eabc9646cab989dad8937d6f018"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261014.npz",
+      "bytes": 43742,
+      "sha256": "18c473a0974b1788ebfbbf01ec38f9daaeca48766d543eb6f7a48dc2d829c4b7"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261015.json",
+      "bytes": 1268,
+      "sha256": "5bc9a064cf2ce5fb3b0bcd5e33ec11f39ac03e4b14cad6d611295f410b70b6d3"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261015.npz",
+      "bytes": 43268,
+      "sha256": "803abbec3b4a0cd7ec1f903ac35d2303aac505612a4351001b2cf55d1b3e4a06"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "3123134fb1ab057bb4df7686bc4d3f7c1188ba856628bdd159fe0fa3f0b732d3"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261016.npz",
+      "bytes": 42840,
+      "sha256": "072a0c3a64a0b2ca873a2cc1a78833bec65448c852b4281c0049048ece930d52"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261017.json",
+      "bytes": 1269,
+      "sha256": "adf8df4c14f9dd25b4649f44d8691a01b67b29dab447702cdb0d607248330e76"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_image_only_seed20261017.npz",
+      "bytes": 43388,
+      "sha256": "dbff7ba8510c1897ebbc82a3c498cef125214ec467bf07e7a28ed9f40fce0feb"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261013.json",
+      "bytes": 1889,
+      "sha256": "c9bebf048c43dbae0b44732542399e6800e3be5a60c26c788a82c8b2502ccc3b"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261013.npz",
+      "bytes": 2446685,
+      "sha256": "d0f558249d069b532dedaafcdee04aead78d5173527787a10cbb9af16a55bba2"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261014.json",
+      "bytes": 1890,
+      "sha256": "9bbcf16f6a55810790473b5340c180a7c99e5836baada349d79e8adadf6c5058"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261014.npz",
+      "bytes": 2438040,
+      "sha256": "46e069946aa07c3dc903cfb83dfca79a56f583d5f44c757d067cff4da82a66f5"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "870181c7b060f5cf6cf707167f56a2fd150ee94348d6199712a4f967ba22330e"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261015.npz",
+      "bytes": 2442122,
+      "sha256": "662622aa2c80302e5247806c1ae0e9d9d3cc1e1ddc97d185408ac713bf352cbb"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261016.json",
+      "bytes": 1889,
+      "sha256": "fd46e5137dca248d5066d505eb8c98ca7a8830b73cfeccdeae94b34a1f76a75f"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261016.npz",
+      "bytes": 2434757,
+      "sha256": "555453d243b722230e6cbb4e06c7e5c3844d89396a6cf3299af2f940c84a4fbb"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "c86e68c147c634a03825df3e5bf16145b6075de15fbb952bae2e3f29864a8c5f"
+    },
+    {
+      "path": "returned/interventions/external/fold_02_late_fusion_seed20261017.npz",
+      "bytes": 2443582,
+      "sha256": "ed4678a3dd96df76962665cae3b7ddc1511be0ef5002f475c55bbf52e486de2e"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261013.json",
+      "bytes": 1875,
+      "sha256": "a20b5544510329c1be7ba648404980c8db6a3e631470cc6d6fd856b60e9489af"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261013.npz",
+      "bytes": 2440632,
+      "sha256": "e73a51561ec9a05e88344558e7033ba2c876449982e83ee1789d22ae91bc5ea6"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261014.json",
+      "bytes": 1877,
+      "sha256": "1c41623c1fcfc47b212fa943423a6581ab12864991779a3faffe95b400faa8de"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261014.npz",
+      "bytes": 2426086,
+      "sha256": "2f1a498f8e7bb7e31810103a96f7e375176e452211e6cad8781a4dd8fa9b3ece"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261015.json",
+      "bytes": 1865,
+      "sha256": "e69ffd56a44a5c8fe3196acc6d6d0a59b8fc0088521fdf3e42847b598a21a7ca"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261015.npz",
+      "bytes": 2414230,
+      "sha256": "7c34347aa08d1801704910816181b7dec4dfaa5e64989cac2a95130408c03be2"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261016.json",
+      "bytes": 1877,
+      "sha256": "a6d903a4b1917f1d87ebfa661e73cc10fe18a59eccf3f5ff9717d842d04fb94a"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261016.npz",
+      "bytes": 2396250,
+      "sha256": "b5cc3c0f8742c3d5fc1989830b313fb6813b1f353bd572d735dfc4e9c06ce9bd"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261017.json",
+      "bytes": 1877,
+      "sha256": "cd71b8a9947fbfe8b601bdba58948e66e986fd0390f5fce21ca9b9d07713005e"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_full_seed20261017.npz",
+      "bytes": 2407509,
+      "sha256": "b9172900cb524df1121e53ce72af04f376a0fa17c80c1872ba9c109c3e8bf738"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261013.json",
+      "bytes": 1268,
+      "sha256": "9be7cfa86cc1d436abb84d4eb58c60ed5ec6aa35b7cfa0f68ed6a16bb48e6ee5"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261013.npz",
+      "bytes": 43074,
+      "sha256": "826afd1d936cbaeef5ebafa6884e3632c9d123fbe30a291be4ccc4cf102bd099"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261014.json",
+      "bytes": 1269,
+      "sha256": "e69df8beb83c7e837b830a2e43bbe3c59cd110dccf99928776741a65dd463cf8"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261014.npz",
+      "bytes": 43496,
+      "sha256": "3e93b03f4e5254c96ab7e311fab30d821be40ea1242def90f9825e87edbe0955"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261015.json",
+      "bytes": 1269,
+      "sha256": "33fff50bcc6eeb0c8d4113e17dea4fff89cda6871fc3a67c04d9c867b712415d"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261015.npz",
+      "bytes": 43555,
+      "sha256": "98e14835b9635abbabec90e2359133ec6493e38309988a2e0e0a355cdf72ad59"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "5a7168ba16e7c7d0a1438e18a6c31579b28707ceb7e4cb45fd69c9b45a238763"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261016.npz",
+      "bytes": 43665,
+      "sha256": "76a7f9200fddd784bbc777123768bed40d85c7e9e95f44cb70b45658331ea75a"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261017.json",
+      "bytes": 1269,
+      "sha256": "064c2bf8284033ce42af7196ae54e8006fb79649aa24117d0406d3fc5e1e77c9"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_image_only_seed20261017.npz",
+      "bytes": 43789,
+      "sha256": "507b09b5d4594f131c74a78dc83f299d1edeb27bfd8cbe77212113cb4541ae29"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261013.json",
+      "bytes": 1890,
+      "sha256": "3f6fd8b272cc4c4cb6934b02ae04c8c32b7ff552e0fa7d67f5e9288f0c27460b"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261013.npz",
+      "bytes": 2439931,
+      "sha256": "d48d4ec1b89a9099e042e50d81c2c71b35a32e07a5ee6f467458cf33789788ed"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261014.json",
+      "bytes": 1890,
+      "sha256": "623c8ce9488c073b7d586aa4a34c49536a8b7d10d7e3f5cb113daf62da62c905"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261014.npz",
+      "bytes": 2437456,
+      "sha256": "36fdd302c3791fded9dad3ad6f081ad1e6f74d368b83765dfcc15ab849e2e08a"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "2dc10b83bae15f0735318733f8ebb674050289c13ad433767cf5c6ff35bc39aa"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261015.npz",
+      "bytes": 2433002,
+      "sha256": "a690a30fba7100c61b00f3722888b6b32cda9b518b77f51c685e1775fcb81108"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261016.json",
+      "bytes": 1890,
+      "sha256": "54d5f2a916ad4f19f670112863f974e483f8f8a72d063d703a8d7a86df4101fb"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261016.npz",
+      "bytes": 2428502,
+      "sha256": "7794555441454cc8dca9e0d0ece8f1be17aed484a3fd9a14db40a95c02825d74"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "73d60588c31abe7025f54f6028f3102ee799d0e42a7edf0a174acb37288f611f"
+    },
+    {
+      "path": "returned/interventions/external/fold_03_late_fusion_seed20261017.npz",
+      "bytes": 2428302,
+      "sha256": "0678600063e88a56ff713f84ea907a69ee8d3a24653c4596fbb076036a3555aa"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261013.json",
+      "bytes": 1876,
+      "sha256": "797667ef724ad85ade1767824fb2d7b60fe9f90b1563422f18b4a1a025e619d6"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261013.npz",
+      "bytes": 2381980,
+      "sha256": "0bb8ade0d6fe92f3695c4a2ff1b8ad185c99cc44fc2361fcd2cb19431a2cc918"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261014.json",
+      "bytes": 1867,
+      "sha256": "e0ed75b7a9fd2823ab56dc4e9ae636da51ef1fe81842081b53f3f99da0d7377d"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261014.npz",
+      "bytes": 2397202,
+      "sha256": "d118f16fda1910a6e8332f73f7a18298a76a2bf472f033bf5b6c8583ed27d5e6"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "791aabf4a6ed9d4eca317619d06c280eb5ac57b298646c553ead1dc714f803cb"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261015.npz",
+      "bytes": 2409421,
+      "sha256": "ae8a24d14d529d7dd156e22719d81092dfba9581e7513891268e7318468cb98c"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261016.json",
+      "bytes": 1876,
+      "sha256": "51e176ee4c745a80565ab7a318ae15cf4f040db458a6f7f3163166dd8661482b"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261016.npz",
+      "bytes": 2411523,
+      "sha256": "3f84f0ebb8898532693d673191219a7fd5a7529b1e32c871e487a301a2c39a57"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261017.json",
+      "bytes": 1876,
+      "sha256": "e0b92817fa30f76615b9b6e619231832de39ea265c1d8de5b45121d6555228c9"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_full_seed20261017.npz",
+      "bytes": 2453447,
+      "sha256": "f2b938fc93f4de46c3c63db24ef48f8e2242ff9a7226f4b8c968ef5c126c3c06"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261013.json",
+      "bytes": 1269,
+      "sha256": "cc285dc8a60174688ff1c1b0a108cc5edd767b953d6cbab4f78f9abba5815dfd"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261013.npz",
+      "bytes": 42906,
+      "sha256": "a91b0a0be737549cc06495dac5ba79e6868c3c2d518cbd79189e2c23a76bc971"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261014.json",
+      "bytes": 1269,
+      "sha256": "21b7a87077be2a2196d3ada472abeb0b2e50300967d38ed18e7eb60e60bd7cd9"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261014.npz",
+      "bytes": 43319,
+      "sha256": "0a00a42b57d5b061934f781266c7e6518fa7ebb14524e286c4c9a7fea842e176"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261015.json",
+      "bytes": 1268,
+      "sha256": "ce2ce4fb4771525fe19d03a3d1e7e6485586938c2e27d332dbbe053b69435d9d"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261015.npz",
+      "bytes": 43749,
+      "sha256": "e438dc7bc841c987649860546674832e984e62ff19961b6b9540fcea536b6493"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "4ec8218713b5cafab0f040ef7839fcee1b14e8c58c246655d5ee06ed26e1ead9"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261016.npz",
+      "bytes": 43433,
+      "sha256": "db231b1ce075fa3676ad8a998b9fb1f50d88f419b06f9b97942a78b142bee9b2"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261017.json",
+      "bytes": 1268,
+      "sha256": "581bd451399a5f375f2e1186d7d52747c1dd5ccf2fab87195283c4685f1a97c1"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_image_only_seed20261017.npz",
+      "bytes": 43363,
+      "sha256": "66f26d46111c2209905155dae8dbd3f6cb93c7c543c8af16b6f99bf6a0f97ec6"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261013.json",
+      "bytes": 1889,
+      "sha256": "efa316672224bf753ffec427c6fcae280949427705760488d51da5d1a63a0c7b"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261013.npz",
+      "bytes": 2435796,
+      "sha256": "8644503e4a7d2c6d7138c0c7f6a1f5340cb741c6d51d1c6444fb23400cc6a71c"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261014.json",
+      "bytes": 1890,
+      "sha256": "b88a17491470b646436f07c5cdf8f42ac8b8b60be339a4fd19032753bdab1ee4"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261014.npz",
+      "bytes": 2448508,
+      "sha256": "bac885ca9dfef86168e40d51c521ec51d92da1346ad60e587d3cbac38fef81a1"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "1c6f5ee8528661b1175b7bf83324a87d9e0bd17bc166d31e6cd967f0b7f14ee7"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261015.npz",
+      "bytes": 2438674,
+      "sha256": "dbb0388a0da6d77bf9a1e52010ac7d92e76ad1d8156f0bcb3b0bebc8dea1e26c"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261016.json",
+      "bytes": 1889,
+      "sha256": "74000ae9d7302f815104db5fe85fd03472fbcd47f5a447f7ef9be1b0b47c0b36"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261016.npz",
+      "bytes": 2453263,
+      "sha256": "610b7b4472a3807489cafa23b465d29da07c0f96455ef0ac4f61460c3c1f319d"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "dc2387780ad6f8b203475a2492c4a49fa428629dd3e6d6319bea24d80817d2a2"
+    },
+    {
+      "path": "returned/interventions/external/fold_04_late_fusion_seed20261017.npz",
+      "bytes": 2442347,
+      "sha256": "727a4ae2bdd8ac979d2ad10ef994cba1c0c3039dcf86966f2612d9cc626697f8"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261013.json",
+      "bytes": 1877,
+      "sha256": "f93910a565d75f020e910327d85754f0dfa36805c9fb5cabb6ac6dd39e4a4a1e"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261013.npz",
+      "bytes": 169778,
+      "sha256": "45470fc2beebc73381590f15cb8c4cf4c02317013274689059b734a650202ccf"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261014.json",
+      "bytes": 1876,
+      "sha256": "f3f325ef10a039c27bc8d4fd0b624e590e72c5643f7f97c7d6fc19ececc84eb9"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261014.npz",
+      "bytes": 167071,
+      "sha256": "7fb6db66323f4fe0db700ad7bb9f5858444c61fd18875141f190f97d71e34daf"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261015.json",
+      "bytes": 1865,
+      "sha256": "677de4b208f8bb57ddbd051313e5ab0d68be05c59f8b12d23e23b7d644e2b647"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261015.npz",
+      "bytes": 166801,
+      "sha256": "64bc12917355398c546ca4a8239d8844609300255b11c645aef0d9d54f8cf396"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261016.json",
+      "bytes": 1877,
+      "sha256": "6b08c56916ce3ab714b3c2189a1d92f3527eee78011eefc342abc8cf9c393090"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261016.npz",
+      "bytes": 168956,
+      "sha256": "ed15e1dbea41b326094cacf3d43aee3e31d8e32c2a0c817422ea35ec50c820a9"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261017.json",
+      "bytes": 1876,
+      "sha256": "33b6c79a80e86075e24831ba86ceaa59ba710b4458a5db85d78c042c585049a7"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_full_seed20261017.npz",
+      "bytes": 169534,
+      "sha256": "0cdfd4af1fbc64edf0633dc865e6b0115eb0307d9ff3e43962c99b606d3eb1df"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261013.json",
+      "bytes": 1255,
+      "sha256": "1110aaf53be383154ea1f927d705a3ec92243bda45a0c7791af85fcf12e4e5b7"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261013.npz",
+      "bytes": 14020,
+      "sha256": "ce1fb8cd6d148959f68e12e221ad45670989df98c6e5fa9e294cf7294ec342f0"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261014.json",
+      "bytes": 1268,
+      "sha256": "ba86974a36cd284d7b03ef1b6f870f15fab370260d20aa7de8c06441a3a110d8"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261014.npz",
+      "bytes": 14027,
+      "sha256": "fe482cc3cf9ba9f4c32228fca052c29c9ce6718c8344415a99be0628b20a7d4a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261015.json",
+      "bytes": 1269,
+      "sha256": "d3364bb4092c8860436e7c12d0df45448ef4e2b1bd4d88e16343977536eb9e86"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261015.npz",
+      "bytes": 13991,
+      "sha256": "020b5e52030f863fb83fdd38564208ff24d82eef9f0eb98d871a8c8b74ee2d90"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "f98204f9f0ff1540a03be7a2722a338e39fc72ec29a928dd27058510f39f3196"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261016.npz",
+      "bytes": 13926,
+      "sha256": "33e0b2188175892644d23406873fe1070cd4a2cc9d33a7d888be0baf45a521a4"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261017.json",
+      "bytes": 1269,
+      "sha256": "1329cd5806d5c6fdfdd52e4013dd97b4362b8ba5daef93526eb43d8034b02e25"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_image_only_seed20261017.npz",
+      "bytes": 14023,
+      "sha256": "da63288fb2aaa35ebc880aa50445146c55cbe3eb705f1664cc94bb74e2b20b7c"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261013.json",
+      "bytes": 1890,
+      "sha256": "8445b7a6872b0c0f1848d6688b8511e0a8cfd105a696ea978c65ae02f9b2fb80"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261013.npz",
+      "bytes": 170622,
+      "sha256": "533c7b8c7a9b1fd0f8e8d26a3abde17630508aa743b70bfe282ed598f543088f"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261014.json",
+      "bytes": 1890,
+      "sha256": "63494662e660c6dd915b70da5cc0052807dc58af74b48db6d56f8f14ba569fe7"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261014.npz",
+      "bytes": 169858,
+      "sha256": "9bce3ed9044c7d25f75d5069f4070a9ebf8eb39e5a702ccf0ef7ef83d76289ce"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "5c4cb602e0e18efb87202c595f056baac8487fcf92a23cbcddc0737c830fef36"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261015.npz",
+      "bytes": 170113,
+      "sha256": "9a71884562d8ffc7f8e1b30f577fa913c7559f2c1ddac70e81d44ae0a5065eb4"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261016.json",
+      "bytes": 1889,
+      "sha256": "888e3376ca37f761404c56c5d6a53dcadbda967048b60c0cbfbc8a2e43bf0346"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261016.npz",
+      "bytes": 169699,
+      "sha256": "ca6a8c768538ff1e14fdd3bc9ae6bbe0414c69bd571cf9863a9ff63ff649069b"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261017.json",
+      "bytes": 1876,
+      "sha256": "a781864732a4c4013de53ead8f5b8ffacf4a8982a9456376f6292589a2632211"
+    },
+    {
+      "path": "returned/interventions/internal/fold_00_late_fusion_seed20261017.npz",
+      "bytes": 170410,
+      "sha256": "ff6e20ed8f769cb86ba51e6870f84f60f009175ce1df56f8f93d0c14f7a7ce43"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261013.json",
+      "bytes": 1877,
+      "sha256": "c8cc3dc4564df1008395711bc59e2fa625e694cb95eee3012ccfd9f3ba3ac2fb"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261013.npz",
+      "bytes": 166173,
+      "sha256": "b99fa96650389e914d9b0ac3a8a55187e42960464c2a8c1c79219646053a6cb4"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261014.json",
+      "bytes": 1877,
+      "sha256": "0d4e5009338fb5e6c92a476d221e314d9e2b35e8fccef0b0bcee9cc79796f9ab"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261014.npz",
+      "bytes": 167290,
+      "sha256": "c671009cabd6f60ee0e21e4920c16e1a6ab303593fd388a05391d4a035ef968a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "b3a90dff112e06e683df615b25fa6d9ccb32a9c37a05ee087b490b0d031318b8"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261015.npz",
+      "bytes": 165858,
+      "sha256": "616c3334a39270501296e952d6d972b3223dfb1899ccc4312ba179b89dc2ce6d"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261016.json",
+      "bytes": 1876,
+      "sha256": "b85446594d49cf0165de1d63cac9d1ea139c8a2e8a8682421480e6f8281024f0"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261016.npz",
+      "bytes": 166453,
+      "sha256": "41a83da06de65e0641ecdc181531f2b30a26d883bbc36726b0abc0b3eefe4c83"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261017.json",
+      "bytes": 1876,
+      "sha256": "c6ad430ff476c1a340ffdb44e719b7bd33ab3e1a6ce1d834eaed6917a423c95f"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_full_seed20261017.npz",
+      "bytes": 166957,
+      "sha256": "3abea479f2cfda7144d84d153997635adf713f80eb4ab8a5d8e8316e45bf4b22"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261013.json",
+      "bytes": 1269,
+      "sha256": "41dfec9a0b8c7ab145e1e6b43c22858e39ebe199a3573db8bd18bbb18f36cc69"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261013.npz",
+      "bytes": 14054,
+      "sha256": "d92f32c202161a5a3dac307792c36b6920abd4c860a4aa265196527715a29135"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261014.json",
+      "bytes": 1269,
+      "sha256": "a5f529f215007c3dae7c8f6c8a7dac93bf5123c2c3e0b9ab7445788395d3e8b3"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261014.npz",
+      "bytes": 13982,
+      "sha256": "e57e5e191821fa853c1396a7664ef92935bce09a8396083460788b44667fea3d"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261015.json",
+      "bytes": 1268,
+      "sha256": "97d75398c7f4f2945dad8782c1e59550c4eb6559adce90f549941fa579b68572"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261015.npz",
+      "bytes": 13931,
+      "sha256": "64cac889d10fadc4d4bd437051973ecd6c271e1e38e554acec18956034f83d3c"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261016.json",
+      "bytes": 1268,
+      "sha256": "8250b1096d902648a66b244c45d0806e7e4eb8838b16d2e66a253c7f43b1e60e"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261016.npz",
+      "bytes": 13980,
+      "sha256": "d314af34be4cabf14a649a1f4e61de2b1602b813e1a2c6c3b9533a7bc059becc"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261017.json",
+      "bytes": 1269,
+      "sha256": "679c160d826f6309f5af0ebe04cc7e0a95f23f2c1f3a433c87a646ef82707d4a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_image_only_seed20261017.npz",
+      "bytes": 14078,
+      "sha256": "11f7b48a1531e7bbd90c87e0302b550cff68881744160a897e4a4a51e0b72684"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261013.json",
+      "bytes": 1878,
+      "sha256": "1acfd4fb950a3656b9b9cef0c5c8bba935451c2a6cb36a343eaa572705d25df5"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261013.npz",
+      "bytes": 167705,
+      "sha256": "f3f4223fc5b6970638a6fc87702e82452c01315810202ab9bdadccd2fab02e8b"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261014.json",
+      "bytes": 1891,
+      "sha256": "6f4e7f2f81900e9fe92810851b6614238e034732219a68d98aca429a0ec67afa"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261014.npz",
+      "bytes": 167625,
+      "sha256": "beaba465263bfccd3360c81349d8eb960c7a66fbf10ab769a4686ace4021c634"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261015.json",
+      "bytes": 1891,
+      "sha256": "42a43b1abf01a2a318f30b5f8a914989d90afb5e873b6d73d62b70f0ca2f0478"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261015.npz",
+      "bytes": 168570,
+      "sha256": "84be9eb2414f2db39931df3cbfc0ca18a5945cf238f41c187c74ba5ddd3bd481"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261016.json",
+      "bytes": 1889,
+      "sha256": "499dfd546b0ee9edb5535f4e06fd80595fef93d7e424e6bb1b9e1d3c6d0022e7"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261016.npz",
+      "bytes": 167747,
+      "sha256": "36dce787fb0f3cd91e31f29e773b77b49e6cb2e01f2d75f032e28bf5a2604701"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "3b1ff10d1e5fd2722ad67bb31c364fbf6fff2c06a3d8262ee03d852a20088698"
+    },
+    {
+      "path": "returned/interventions/internal/fold_01_late_fusion_seed20261017.npz",
+      "bytes": 166631,
+      "sha256": "2a95024f214400f58ddb8ea39564af889b893b765fb5dc78aa7d4b55486d1cb0"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261013.json",
+      "bytes": 1877,
+      "sha256": "97ab363651ce9b82ec65ff287df8cdfbce6c8e8fde5f929b3af1d2011abb2b87"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261013.npz",
+      "bytes": 167504,
+      "sha256": "24fe677fa538e3c0ea6b9bc821c7de681fec91f8afc8fc91a56e822843e69830"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261014.json",
+      "bytes": 1877,
+      "sha256": "3986f67a02c5a5f01ddf1100f4eff61a575df6d4cfa556748ddb0659d39d1653"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261014.npz",
+      "bytes": 164797,
+      "sha256": "e801bebc33d6dbb0233181d2edd941eaa0c974da7d0f11056e6142e46500362b"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261015.json",
+      "bytes": 1865,
+      "sha256": "b3c2572b153fe984b3bd49c12cb73889727595b5e451700e838a8d11ab741489"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261015.npz",
+      "bytes": 164335,
+      "sha256": "a86d93535d8a424ac8fe8d2ecab63542ed48ad66c2f93efcea84ed14049e9c96"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261016.json",
+      "bytes": 1877,
+      "sha256": "2e064b936ac46a974c94dc756448d0b616190eaea61289180382db334f37c0a7"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261016.npz",
+      "bytes": 163980,
+      "sha256": "8af12345a841ad0cc7b664fcc97f75a8092f13d59c5b1bcc0e11d1bef7b85315"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261017.json",
+      "bytes": 1877,
+      "sha256": "15a71dd76c30b6cb6ca0889e70f370ed204afc0b69efc87c864fce790583f7d1"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_full_seed20261017.npz",
+      "bytes": 166832,
+      "sha256": "1c6e21838ea4c3247bb6dc48312b1290cc42952a79c286893dcb0b3dddf7c59a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261013.json",
+      "bytes": 1268,
+      "sha256": "2248e259cc84fa0e7cc0bb0bae6367884642fe51f29e7dc2b58d3132e7f2ebb6"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261013.npz",
+      "bytes": 13927,
+      "sha256": "79944683d8475f0f62d8644406ea453451a636cf4bc108d908666e05ee1530a1"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261014.json",
+      "bytes": 1269,
+      "sha256": "58651192a06ef40565d90aa0ee35c6d43b074fecd764b4fcbe7fb33d2b549c2e"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261014.npz",
+      "bytes": 13985,
+      "sha256": "3bc8b723cd1a4cfbeb57089b57d2d12f684f36777cccd1d590cf510c2d86f55b"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261015.json",
+      "bytes": 1269,
+      "sha256": "bd5662d8e18b9f0824360e292f80eaa48ec3a0f4e473446b9acaf3c00c1b349b"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261015.npz",
+      "bytes": 13950,
+      "sha256": "2e09765f8a23c9d8059e1453cebf5b51a9116392032181870a614dda49cc1001"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "3e91352b94b1d7f16db44adfd0435c8fa8bf91e0a05e1d5edff23df357f46ff0"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261016.npz",
+      "bytes": 13901,
+      "sha256": "7a635fbecb07e4339dbd18359477bf20281448d0028b172286a094cb95dca665"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261017.json",
+      "bytes": 1269,
+      "sha256": "0b80347bfb3edc2fb2fa080d2c6ff7ff1a013e4a9b5287329d16ed308c44c1e2"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_image_only_seed20261017.npz",
+      "bytes": 13951,
+      "sha256": "a69672d119e217fc06388c087c418b76e87b47eced393489cbc13f383c6c98b0"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261013.json",
+      "bytes": 1888,
+      "sha256": "a3605027648591f3057f423eb12d2a9380496c50778cb0eb061e36bb793eb601"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261013.npz",
+      "bytes": 167862,
+      "sha256": "3eff28a2e45b6195226b1dda5d8b98c4f03bc0d5ac2c9e5dd35f4d6271eeb60a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261014.json",
+      "bytes": 1876,
+      "sha256": "d1054377f9b9fc3efd5beb715b82752168b1b8d4acc18bac40dd85625471dd43"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261014.npz",
+      "bytes": 166943,
+      "sha256": "b55edee9f6fd0f5f9f598b7609197d8ce8fe0f260b39ba516a9b41478b07dd2f"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "ba3d06678e3bbcdfdd632d7c64e0745ac9e233435857fdfe712365f55c39e79a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261015.npz",
+      "bytes": 167198,
+      "sha256": "c9531d671a6f1d30f6adf7ab5980d27a3250e4ab9ca7ac97775c5fc23e0f11b3"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261016.json",
+      "bytes": 1877,
+      "sha256": "7a4b02910bbd84f338ef32bda84780cecf689bc50c4eb731e1686cc51db0953c"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261016.npz",
+      "bytes": 166886,
+      "sha256": "bbb96844dc46ca121ae92e852884ad186ea5f010e1dcce78688554aecff092a2"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "b98009fca9adca9863efcb8aabb191e114e0a22596f33d33b84e5787fac61db7"
+    },
+    {
+      "path": "returned/interventions/internal/fold_02_late_fusion_seed20261017.npz",
+      "bytes": 166630,
+      "sha256": "325649532c650b48566aff0026d05007145567673ac83b4554c217c7ca576b08"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261013.json",
+      "bytes": 1874,
+      "sha256": "91693cf33ccebb5268ede1f7a985fbadc9d2da6ff3ff130872017843aec55028"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261013.npz",
+      "bytes": 172276,
+      "sha256": "ac314aaa3d61202b88b72b60939a1431e92d22ed522245b7355daf1b251aacb2"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261014.json",
+      "bytes": 1877,
+      "sha256": "7ec5189bbd547ce461cd0fd99a8d0f87efec4482655725312e4d7b9a06dd9648"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261014.npz",
+      "bytes": 171649,
+      "sha256": "e9b09a545dcbc11c7bcc6b0ef896cdcfaf913749f8dd45d6dc8f8151eee1a21c"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "b2e036febf1cbc388b19630098b191fadfd318fa57462c630333baacb9c09854"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261015.npz",
+      "bytes": 170535,
+      "sha256": "707225398c0a2c8027495c729c07240fb71522aad65424a9ddc8f9eda3d0690a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261016.json",
+      "bytes": 1877,
+      "sha256": "8996dfac30828c073caf2154eeda1e9687afed955830ca0ebb3a19b3972720e2"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261016.npz",
+      "bytes": 169794,
+      "sha256": "89c1a0b5843d178c3a08571493bb9e5f0f5250abf133307cba4f83b83a59eaaf"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261017.json",
+      "bytes": 1864,
+      "sha256": "48bf68f64adc8eb255d75b398343a6a945ed7a1569291befee3889c2293c6602"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_full_seed20261017.npz",
+      "bytes": 171684,
+      "sha256": "21bc186d0a98496abde80f17ba13624b74c70fae2098d6c5b186a6fa47055fb9"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261013.json",
+      "bytes": 1269,
+      "sha256": "1e0f27f26dfe92da597fbb7f7f283324c15fb1a7fb017e945c183989713423d5"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261013.npz",
+      "bytes": 13909,
+      "sha256": "93a98e90c7fd1b480531ebf626509afecd936a62b4adcdaa4f2c645119203d8a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261014.json",
+      "bytes": 1269,
+      "sha256": "cfab7658db5648d3b8ae42b71ad9a6e409132e37c3acf90eed08db3905045dac"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261014.npz",
+      "bytes": 13975,
+      "sha256": "fb08befe5fa84e34a4e000d0d7f29afb35d4a1f756bf762c23a8e61a848519c2"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261015.json",
+      "bytes": 1269,
+      "sha256": "3524ef40dfbe89f945016c471af5d8ae9adf50495d5f929d2dd559abbb2e3422"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261015.npz",
+      "bytes": 13966,
+      "sha256": "ba4ed55a41e582578e142cc3deb8ad2fb587df85a13f5b3b37120816fd169f26"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "6da9a44f91575ab007a2d1db0e0c4fe8fc630a26454547176b8c90869b09bbba"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261016.npz",
+      "bytes": 13999,
+      "sha256": "27e17403c308e54dc08e519233960bc5ac8c53d0fc089156dca1daecae21e535"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261017.json",
+      "bytes": 1256,
+      "sha256": "2b694590ee9f12a4b154771cd483cede9637adc3e5cab994ebcaebe1b29ea5dc"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_image_only_seed20261017.npz",
+      "bytes": 13964,
+      "sha256": "88fbcb3653a45f2c3e092895ee1bf69e6c6c03f9ee1cb6a4c8d7a682b1372015"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261013.json",
+      "bytes": 1891,
+      "sha256": "decfa2a3b4cd0d958c36773c7cdff126d754591d73a04a32498f29887701e17f"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261013.npz",
+      "bytes": 173981,
+      "sha256": "8d4b7beca9a2fb5df7b1226b089b58ed75de471d22ff0c0b67cbc6392dc61870"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261014.json",
+      "bytes": 1891,
+      "sha256": "1c9a2f7b5eaf1bce413fb944454d565353a9ce085ab6dcd0d0632641eadc23a4"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261014.npz",
+      "bytes": 172614,
+      "sha256": "b4b21e915ceb5a5eb4cf48e245c50f301ee5ed51f4e9a79e60158cd48c3f2cac"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "f0e1e4a49840b912ee8f93f057116bf21c4e46cdf1cadcd76e7f920af89b506b"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261015.npz",
+      "bytes": 171055,
+      "sha256": "59e39883df63b979dac7617a6fd358bc4885083c4ad8e8e0c7f96f36ed3c7ed2"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261016.json",
+      "bytes": 1891,
+      "sha256": "9a28d4ea7651f7855fac12aae7b67882dbea5d449f70e5e73c1f76b30cefc576"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261016.npz",
+      "bytes": 173169,
+      "sha256": "0197f2d4a73d09f21dfcab094f47f02c197211f8a37bba7a29ade5b291514f12"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261017.json",
+      "bytes": 1890,
+      "sha256": "20ca83d05655571624f9ef27e0305d792c18675fd7ee7707f104bf68bbd39d7a"
+    },
+    {
+      "path": "returned/interventions/internal/fold_03_late_fusion_seed20261017.npz",
+      "bytes": 171750,
+      "sha256": "50dee1c18ee58c3abfb9e69b9f84d11e4658cbba65a025cf1d021062c1ae73bd"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261013.json",
+      "bytes": 1877,
+      "sha256": "b23abe58894dd0ba66af834e5bc45b821401b1bff782e559d22897ce00cefeb6"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261013.npz",
+      "bytes": 168855,
+      "sha256": "474f105e96f663f1c94269e8d8d0e86a83fcf1d140e14ed63ecb70f3829fa0bd"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261014.json",
+      "bytes": 1877,
+      "sha256": "31abee0645f879fb1145a7d591ca0a89b650a0db983f7aae7a046ad4c750eaa1"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261014.npz",
+      "bytes": 169578,
+      "sha256": "623e222f30376ec6477dbc61c09785cc9e98e60532a4ab1accd5a018b0d45ca1"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261015.json",
+      "bytes": 1877,
+      "sha256": "617da22602904979dfd86a29064d5bc61ff286b7e71b892b1fba55df7708ef2e"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261015.npz",
+      "bytes": 169829,
+      "sha256": "cac8a7162315ef780f2fc49e2f21e40938b0498532addbbc5062537cf722a661"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261016.json",
+      "bytes": 1876,
+      "sha256": "47c926bdf9a63e0e2080447e1b969ce41720473e03302b58b060c7eb236d36de"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261016.npz",
+      "bytes": 169849,
+      "sha256": "81eb3b0285e89381a426b265156c588b6f34294285c2ac5df78588fe5992c6f6"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261017.json",
+      "bytes": 1876,
+      "sha256": "90afd06283c5787b697aab5740d4d2282422c4718497abe6130bfb810cbc6619"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_full_seed20261017.npz",
+      "bytes": 170577,
+      "sha256": "b160b38188e75d164931836a3c229d314274170955f7084bca020ade9f8874a9"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261013.json",
+      "bytes": 1269,
+      "sha256": "f9d5b11112152fce54ed06f0577a5864cfa50cfeaf5fdf3f4345fb06a3b88a57"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261013.npz",
+      "bytes": 13797,
+      "sha256": "44c7b0243375ee50f0fff591ed7e3df078fba9b9a81d4b11dd4d7dc711b6aaa6"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261014.json",
+      "bytes": 1268,
+      "sha256": "9cab323ba2e4de7eebed77e514215189ac68f508bb0d25e4854899d2271e15cb"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261014.npz",
+      "bytes": 13932,
+      "sha256": "565c2c639dcdde32b1397f424fdb65b048d14f9c968d4a5225835ec87d632c5f"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261015.json",
+      "bytes": 1268,
+      "sha256": "ef572ac958b501604399fb01971145dde4736ad1840e72f16e74e57bf6de6948"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261015.npz",
+      "bytes": 14040,
+      "sha256": "4a2181f0d91ec76bb43128516ff469d868750e2a083d8dbb10950208b60798af"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261016.json",
+      "bytes": 1269,
+      "sha256": "a1f321420c7d8e2892180658ea6a1d125cff14ba85b409d55660ad8c84fff921"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261016.npz",
+      "bytes": 13891,
+      "sha256": "eae78c5f30bcb994ebf4be98ebbc763fdc1ecb0ac1f69b22765cafe088f5aed9"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261017.json",
+      "bytes": 1269,
+      "sha256": "1937fff7e3ba9ff6de804e471772a708020f8d755385078cde75b89bc778a3c8"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_image_only_seed20261017.npz",
+      "bytes": 13934,
+      "sha256": "72d3a8f75b28900c6ebcebc68a97d761bef05c6056f1ad0ef55f1484b7f4130c"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261013.json",
+      "bytes": 1889,
+      "sha256": "78261b1b41b5153ae9450af735260d1028c44bef759a74e14850aca20e226bc2"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261013.npz",
+      "bytes": 172276,
+      "sha256": "f145a0baf62ed3d783c38f507899c9ea99258ac370d6e5d43d15388882a787aa"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261014.json",
+      "bytes": 1890,
+      "sha256": "b261bd5fb96351da732515710c8ebe6079dd9ad38979d9ad2316164b9f208ff1"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261014.npz",
+      "bytes": 172159,
+      "sha256": "6163e236ae0b90f140844b4d575752913120ff61c35095b1c9c00cb1c4490958"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261015.json",
+      "bytes": 1890,
+      "sha256": "7cd9a647a27374b0d343597c03fb9830c0fbec262777c289052204cc9369fb53"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261015.npz",
+      "bytes": 171896,
+      "sha256": "3ba35bbd6a8e034296c123f331aa8499af8e52df027df4a564823c44921b0a3b"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261016.json",
+      "bytes": 1888,
+      "sha256": "39dc50117e4f867fac7539542b89263b567159130769619e3d09d4f30aaad8a5"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261016.npz",
+      "bytes": 172364,
+      "sha256": "26609efe27a3e0ea1d57e0bc9862ad5ec2002c325294cd6b34a5b5bd726c1914"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261017.json",
+      "bytes": 1889,
+      "sha256": "4489ae2b5d9d7d306b625b89dafb8346cfe248ee43ca4adda12506cc4259e114"
+    },
+    {
+      "path": "returned/interventions/internal/fold_04_late_fusion_seed20261017.npz",
+      "bytes": 170136,
+      "sha256": "043bae8fc9ebe07928574d63072da6f8d251351c1b944bd12c67881be21fe28b"
+    },
+    {
+      "path": "returned/interventions/permutation_indices/external.npz",
+      "bytes": 321549,
+      "sha256": "426ea1aa3aff9ffce4303147ead155de9db2c49611b6a6ed194bb6027d55257c"
+    },
+    {
+      "path": "returned/interventions/permutation_indices/internal_fold_00.npz",
+      "bytes": 57686,
+      "sha256": "0553e3ac4d287f1c8ba7c4df1daacac19749fdd3bd2ecc61c86f38acc20388d8"
+    },
+    {
+      "path": "returned/interventions/permutation_indices/internal_fold_01.npz",
+      "bytes": 56274,
+      "sha256": "edb88c81a4c8149f3d18e8b5ee635b6b08ee4d35e72068644373ba9c7a8e1e8a"
+    },
+    {
+      "path": "returned/interventions/permutation_indices/internal_fold_02.npz",
+      "bytes": 56284,
+      "sha256": "453ced358eea0a0a7eaf9fe9b17d6c9d21b36758f7507a9e17da4d17b0d43999"
+    },
+    {
+      "path": "returned/interventions/permutation_indices/internal_fold_03.npz",
+      "bytes": 58065,
+      "sha256": "d17f4d32d1094a43a50a85dd6893af1b65addc7f56cb5e7f686ca4582ac52d0d"
+    },
+    {
+      "path": "returned/interventions/permutation_indices/internal_fold_04.npz",
+      "bytes": 58573,
+      "sha256": "1faf071a8d7122eb9ab4d349d08ad6d52ae3b73795e534b61458e8eff295a17b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "89f775a9a4c7690d5222d54f3da04766355bf45c3bbd2db34b5a20c675d61957"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_full_seed20261013.npz",
+      "bytes": 43143,
+      "sha256": "8194e7547438cfe7d6a8c0556bbbce2772c4d650fa5421d0489cc1c954c23a8b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "ba25f598a6cffc12181b019cff1f91957e35738fdf27f368b432038a80370771"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_full_seed20261014.npz",
+      "bytes": 43104,
+      "sha256": "1ccedf724dd9b82e996732cb2f1ecda4d4e032470d72d4308eebbbd495f5d0c6"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "652fbb8807f7b3d561c67569a8a753c61bc333857295ce06cf0bc4f1ace44a3d"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_full_seed20261015.npz",
+      "bytes": 43178,
+      "sha256": "7d32484e39cdd2caee8173da764f65aa9b73809944f11d1bd720c356e2983f5b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "acf519ec086f2d372b5a6ae755bcb8eb674b57be1fa65b77c7b6643db705283c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_image_only_seed20261013.npz",
+      "bytes": 43309,
+      "sha256": "4f3be0b14e10eed8b421689075df9227935183bb012dd3c5fe9608a9be47dc4f"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "01719c40c7075384b276a026b13fb2bdc10ca59e4f0fbf36f9e024c83bea6371"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_image_only_seed20261014.npz",
+      "bytes": 42789,
+      "sha256": "959f631ca5eb28905587c7dcf19a710107adef0ea2149734b14245e4237f2e5d"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "36ab9215323294402340c89bdbfc6accce28821a9255b198705b5c53bacc82d0"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_image_only_seed20261015.npz",
+      "bytes": 42933,
+      "sha256": "9425bac248d2d0780befa55d70c78665900968af7759cc8acfa13c03ccf70308"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_late_fusion_seed20261013.json",
+      "bytes": 743,
+      "sha256": "1076032a392c4d6c3595ad652dcbd4d524f77c79f832313473819a9090244cd9"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_late_fusion_seed20261013.npz",
+      "bytes": 43473,
+      "sha256": "40d84eb4f60fc7d85af935691b61605f3e72eb26489b538e8fbd86aa29c2bd62"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "a763fe592cdd494f9daa2bd8ceef2ce777536863b0b999c666b87e14d0267c7c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_late_fusion_seed20261014.npz",
+      "bytes": 43388,
+      "sha256": "eb93df462be9b3d3a0c0c3d6830add2a98f296fd2a2e3ba162990cf68755e583"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "7a85487a1caeff90adff8ccf2d14ae01b91c2c5cb25492f6e6f5f46c3a88682b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_00_late_fusion_seed20261015.npz",
+      "bytes": 43135,
+      "sha256": "e6db2561c32b7958ab5383bb95bf89c93cd4514e6c0728a51291854462e6c0e5"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_full_seed20261013.json",
+      "bytes": 736,
+      "sha256": "6ad6b590996e52e9c3dfe7686302d604c00daa6912fc821c45812277f2610f2a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_full_seed20261013.npz",
+      "bytes": 43386,
+      "sha256": "ca2aa8e6feaf5e053f4fa2926b0470b9fbf30b641d10d9c5ea02ecf96baa2e92"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "adaa06b8f84abe036fca8e83851c4b2fa438995e4865e4ae74d1f4f394da1cc7"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_full_seed20261014.npz",
+      "bytes": 43043,
+      "sha256": "36af5271d3e8f0e85681210f20eadfa3b24588339072ced9dab1e4c33d1098b4"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "0b5b44be1eed22bfdd6444254f50d201a0ce155431a18aff204841fbb7612cde"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_full_seed20261015.npz",
+      "bytes": 43097,
+      "sha256": "a2fab9ffec195a241182109a10aee06b979eaba9f67cd06e6012a00d2e230002"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "6edef9ff9ed1d77f9cbc2e46b7f2d1403cb2c4fb876cbe7851289b0699e1958e"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_image_only_seed20261013.npz",
+      "bytes": 42766,
+      "sha256": "75f9a96f4354f42bbc42fe055544ab6668d02d37713b3b9cd55e72659009ed07"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "2df0267ffec1cb30de714d559b26c3676752dff0a8a507332bb06571246ffc0a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_image_only_seed20261014.npz",
+      "bytes": 42843,
+      "sha256": "5860c99c78bd27c562d052f6e1704e50560e8425154410e9a489b19b7ad8c7be"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "182a7f04773ae8de501e4c843b6606b2bab232f08b93d925313bdbee6c5d7729"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_image_only_seed20261015.npz",
+      "bytes": 42615,
+      "sha256": "75981a933ea613125a269e09031bec3f5cb97874c064fc80f893c9eb04501780"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "f27d1432a6068f8978fd70ffb5a8b77f9a068c926a978b02523eee736b5a7573"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_late_fusion_seed20261013.npz",
+      "bytes": 43517,
+      "sha256": "0fc970be119eec982a3e26e90f4750504fc33f6a027997785717d45622afe38a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_late_fusion_seed20261014.json",
+      "bytes": 743,
+      "sha256": "e95b6fd9d494b56f0a7284a12a53df07807e34a59adcb422de9e7a216efb1dc2"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_late_fusion_seed20261014.npz",
+      "bytes": 43518,
+      "sha256": "113431eb6c1984171c7f3a8f8ca31b338eaac84636a2a07525966a281601e8d5"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "047797582397a509bd4379e547dd2d4027db6c25536e67294997f57ce4a98853"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_01_late_fusion_seed20261015.npz",
+      "bytes": 43144,
+      "sha256": "6762483cc17f8ec0707ba9f500ff0e3abef2fdae20e09541f7570114bdc12686"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "819dea6468473ed2dfd0418efdd797da1eed31a3aeb87b31e830f1e6b0418b3e"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_full_seed20261013.npz",
+      "bytes": 42963,
+      "sha256": "16c1933b6b7c437a5fc94a4c3826cf64261f3bc4af06a17e9d269cdf3fa4cbb9"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "a6560fc7928682ec5bc4785f4fa713a7130a70a2a494c833d608a54eb4509ae5"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_full_seed20261014.npz",
+      "bytes": 42873,
+      "sha256": "5816bb8580f7c60a97b1a45c3a57a16306e413cfb51d31c3a312987f42554575"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "e056ca4626a1c87bf97f632ef0f7f548276186c76e67b04cb6322e880973fb4c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_full_seed20261015.npz",
+      "bytes": 42863,
+      "sha256": "eaebfdfb873a380f31b05b47eade54c63a55f5d95201b4123e959c01c2c2fa05"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "91eb77f7b31577dc30bf257c640819d420506c39b7eb06aa7ea0339419fe4663"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_image_only_seed20261013.npz",
+      "bytes": 42981,
+      "sha256": "ea3f703e80a4b092dfb8742a1a4b6d342d6f9ff612cea6f481d99a4381c8fa0f"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "fddce23d22c563d2dd6b92482cccacfcbef12ab32be1525f0f4661a5d67bc003"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_image_only_seed20261014.npz",
+      "bytes": 42963,
+      "sha256": "ba2f1134a8339065ebb3a373b460287cb69f6775424f136a9de8b9443cd6ded6"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "3e9eccedb9f6a88eb72751568bc5df61755fe8dd1c56a22d8e548b52aed6591c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_image_only_seed20261015.npz",
+      "bytes": 42879,
+      "sha256": "9f0384e8500c8d2df5f883747a0f9d4727e934965ddc543de204e8f5b662e2c6"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "93705130d370560db0ff59f1c2da6880647cf38205ceeb496b5def6f730b75cb"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_late_fusion_seed20261013.npz",
+      "bytes": 43262,
+      "sha256": "0786984ecd5c1b4ed6d7a2d957c87c9d7cdd92510d16aa0d83cf39ca2c387451"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "70f36bbf4e3e5b917edea9fdba2c1da548ef934e24f5addff442e84aa95941fe"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_late_fusion_seed20261014.npz",
+      "bytes": 43336,
+      "sha256": "c3a8c6d907ebac330717746e45133fadc814d180e94d927e03e7b16909e4bcaf"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "48bab0a3e9feae210c126aa56426a18c1f53ca79830d361b8a8bf172ba57c2a3"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_02_late_fusion_seed20261015.npz",
+      "bytes": 43224,
+      "sha256": "ed529d17c57d6bb329f6b36cefc9e6d9dc0a9ae6b2ff8eff1c46ab5344bbc031"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "93f74f376e66328c918fa15c12f75d589dd146ac3c7351fef6a6da6c033072bd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_full_seed20261013.npz",
+      "bytes": 42891,
+      "sha256": "4d6a1971836c3232e201466f02fbfed3e8f8e587568986068ecef93ca383b42a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "d5f013b7d68e8f20400825fb3cf5213a04f17434621e34bea3865546988133bd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_full_seed20261014.npz",
+      "bytes": 42984,
+      "sha256": "4e62722581768d964fa3d86ca42fdf37d698070efda355e04013b4b4ca6c7d2c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "1b98065117309b0e336577f7e4d18b4119232251a86ba4055935677108c3df9e"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_full_seed20261015.npz",
+      "bytes": 42955,
+      "sha256": "0aef4f9be52ce98417eabca5be18013eb3e120c2f1a030eccaf86056f8723dbd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "196cff6b1da120f068c96016fcc36cbc841168743a453dec9731fb86702df143"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_image_only_seed20261013.npz",
+      "bytes": 42868,
+      "sha256": "ceaf5b9f2eda5e66d0c14a0a5ef80b209a450a415b7f4ddcd88a1d31dea85059"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "2c75e2611b84634bb0c879bb65f1c1838a3e16690585a4cbcf29fa1d0712e221"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_image_only_seed20261014.npz",
+      "bytes": 42986,
+      "sha256": "8e5af259d294a1be2610af27644ac3f5f9b79af092ec3bafea61034a81c4e9da"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "bb5b0019b87c40ba2ebb5cff7b1ca446023805a4a9c87c03813197ed1b2a40ff"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_image_only_seed20261015.npz",
+      "bytes": 43227,
+      "sha256": "4b3768b5bce10de2fa8ac0ee7cf3eacc06a7e2cd45b641e3407c8b2f2a115893"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "630e9536fd0087493dd1bcb884f2bc2e1ab6612875ae4deacaa63898c8a49b88"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_late_fusion_seed20261013.npz",
+      "bytes": 43315,
+      "sha256": "a6f5c3ab804e5fb06d270658b6c4b7484e32433b28eb61458be4824cbbb1bdc5"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "009c1b919dda3b85e30e3ab7723e62b3b1b2d08e02575c679007190cd33b1039"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_late_fusion_seed20261014.npz",
+      "bytes": 43234,
+      "sha256": "574be921ed0277ffc675d17b89a10ac2fe6dd28a62ab4581cb25822f8bb3cba3"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "d565290cd94c24adfdd51f5926d3b6615e0a85b12c52a7f9dcb285140b9a5327"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_03_late_fusion_seed20261015.npz",
+      "bytes": 43449,
+      "sha256": "b89bac6e3cc16b06a65a1d3cb896c5d40d1fa92f98f7d81066093f0247f87f12"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "243e500ad613c0b011eef44429c43a97b175948111ebb0957c83d8ffb8acd495"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_full_seed20261013.npz",
+      "bytes": 42753,
+      "sha256": "6c202ec673ae9f91a977f126e7f29db9da80df16b6f26ef96c47657485c8c96c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "13a2f28441afae48cb71c83707b416e6219931a409a1c5f805205dcec42d5872"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_full_seed20261014.npz",
+      "bytes": 42961,
+      "sha256": "ca787076ea053295aa0de72baa6ee08659a70b20a50cdae6b8199de4e967e12c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "d23fe042567b8dc3dd65710448c76a1955cc33b7e00fa4777c71ec17033d8de4"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_full_seed20261015.npz",
+      "bytes": 43031,
+      "sha256": "fd0b8ba38dd2ddb30dc3b36ff85295fb1e6ca21b3cf6320d20d560b96292e90b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "23d78d15269013b52d5b0bbd5233e1ccf7b20e9f8bfb2a27bad91982e4f4b9ed"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_image_only_seed20261013.npz",
+      "bytes": 43147,
+      "sha256": "68a54f1f80892f3bae4ce7fada6daa167efc423c83f29c3fb0eb6aadbfc5a9c5"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "edf41608e5910fe74870757208679193310906738074fe9e7e225df69eb095b9"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_image_only_seed20261014.npz",
+      "bytes": 42699,
+      "sha256": "5c6ab5301b2694e129d341438089b0ca6e262d28c0f9a80efe96328fc74f0cba"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "b68638176c46f6a81d53c29d5139c77dbb56b130ec3dd4743d0c1c0f45171420"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_image_only_seed20261015.npz",
+      "bytes": 42915,
+      "sha256": "d49f16e0f49464563ff746839996a7fb40981434bda631cc683e3331d347ee46"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "1f0c785993ccdc3c3b3e02eb5affdc18e7108db942fcd2346c88613547c02cbd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_late_fusion_seed20261013.npz",
+      "bytes": 43417,
+      "sha256": "9a3ef4fb8bae67ee638259a11ff521d9b9649f6b0e378c088e7bd5c893ed3284"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "7842030601c1d564844780c907fea2727236814e7222bc7cc19c8824d5ce85a1"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_late_fusion_seed20261014.npz",
+      "bytes": 43634,
+      "sha256": "513b1375695e985371539793710f3902b73c1ff1e706d49313c6a6d04c65e0ab"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "b9287423e2b77ec9f3e9c3822909d0acf1f8696d3800c208513bae036ee12cce"
+    },
+    {
+      "path": "returned/recipe45/evaluation/external/fold_04_late_fusion_seed20261015.npz",
+      "bytes": 42982,
+      "sha256": "3f65d81027e021aad9f3aed3f6bfbf79260a076cb633c8d2d9a269a7b58c95aa"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "d6a03d396a9072cd11f779281342779658fea92e3936df5f94a9b3dd67ec88eb"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_full_seed20261013.npz",
+      "bytes": 13653,
+      "sha256": "416b9da2330dd32d20dcb799189a9779ea37c2deed1f2fd4d7df0f89166cafca"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "9b567aede79450cfaf92852eb941fca33aeb27c888abbe60a268ee9d5c182cb7"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_full_seed20261014.npz",
+      "bytes": 13628,
+      "sha256": "1d34097bd402b41be704d162eedfafbbe9f77c705a1487e4eafbed5a47efd6c7"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "5a56ff46c8c34e2aec4ed4d5fb021d8c1266b38183d521f5922441a7e6738f78"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_full_seed20261015.npz",
+      "bytes": 13653,
+      "sha256": "8a7a379d7ff336333acc401560dca328cdce0d09758a13064c21dd669a0f13fe"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "4321d4e34fcfd8e1c03eff92668e140cbb508e8910256574e6f15b2d16dca311"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_image_only_seed20261013.npz",
+      "bytes": 13717,
+      "sha256": "13e9165c6954bfab3e07d1e2ab1924226f260b0031ea517c912529c251283284"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "0d25faefaaa34b0b542c8bfe58fd2f132c53e01d6656ecac695f4c74beed7b26"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_image_only_seed20261014.npz",
+      "bytes": 13646,
+      "sha256": "5312670dbd0929aab0064971ced5bce0185c7d767fff4a97f4250b5db09f8c46"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "052d0bb45ae98384e0a7665857af3a7a61ad1f8043417c820471289bb1ba8afa"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_image_only_seed20261015.npz",
+      "bytes": 13674,
+      "sha256": "a2a76c3be4d2d91a5fe1dc930d61d65bedd78534b9089d0e37fb08967db5d416"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_late_fusion_seed20261013.json",
+      "bytes": 743,
+      "sha256": "f34a8351a44fdecc7d5a60e84935b7232160db9fcda1def04608925e3b80a528"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_late_fusion_seed20261013.npz",
+      "bytes": 13684,
+      "sha256": "c10ea5882a64e2f1c46bed7de6d4f8a7a2cc0825c690411354a7adb3f59ded65"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "af86c14764da4139385c23c6aa613f6effc9cb7fb607d2904d744d659eb8fec1"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_late_fusion_seed20261014.npz",
+      "bytes": 13665,
+      "sha256": "07f41261d7a8092493329f20ecf194cd837fbbe4e14d9f6a0f0bf491e013336d"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "cb18f12058a4ef23015ba7c791800f988b2b7ce3be9ca9da7e2e13314b93aa0b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_00_late_fusion_seed20261015.npz",
+      "bytes": 13640,
+      "sha256": "f1c8c4ceaa98193e7196ff3e9c6452c4ced8ab32aa8e520002f8a0540da018c4"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_full_seed20261013.json",
+      "bytes": 736,
+      "sha256": "963dbe99676ef41c31819adf3749b34016ee6c8295efe2d7be1346df43ba54ad"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_full_seed20261013.npz",
+      "bytes": 13702,
+      "sha256": "78b6dce360d2f9ce291d4f7634060328bde75dad239bf417aa4e0322c1ced2bf"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "4086001f9882b3d37c88612809731b0e69cb848e37934b13c5c405400e0dce11"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_full_seed20261014.npz",
+      "bytes": 13649,
+      "sha256": "a852b7915dda64b157df14e0b9f936e7ad67d6400454d25e925674ac1a692797"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "5fec9cb096076e2cf55f5bfb0a9cb9fbad7ba781251fb5c138d2acf9d8bc6798"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_full_seed20261015.npz",
+      "bytes": 13652,
+      "sha256": "c445aac15be566850235ba92355ac0b00e9c2815276353420186de44fe6597dd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "cc955a788d230e57c2d3349e07f05528933c4209ba7d7bb843d4c3972ff89089"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_image_only_seed20261013.npz",
+      "bytes": 13637,
+      "sha256": "8397f295a9114bcfa717031ba64731182faeed0d9f66367515962b13b2e6aeef"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "da0b8a0d0b65829030f9cd1d7d5637b721703074e8c2f9fd1082b9e063c9073b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_image_only_seed20261014.npz",
+      "bytes": 13672,
+      "sha256": "2444aed651329449bf2e1524eb431dc08a5529e9e36756de631bc04bf6ea8a83"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "c892b40d83b4de83ff9fe4f3b4fcf613cce85d7c5702d2f7892e4002c3939ef9"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_image_only_seed20261015.npz",
+      "bytes": 13593,
+      "sha256": "e1f471ad7d42c6316a84719f248c9e9975360da2d99f7c63377460d723e1523c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "c69149fef39efa0ed25886978c9f56dc68d0d0001ae2b2af68509c3aa936ac93"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_late_fusion_seed20261013.npz",
+      "bytes": 13713,
+      "sha256": "8e5c59c9428a0052ddee2fcc671133fe12efa3e13ff75a792dd99b8a1ac1d893"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_late_fusion_seed20261014.json",
+      "bytes": 743,
+      "sha256": "c751eda91c966f61bb97e083ee77780ede8abb8a93e302afaebb1b6f51b7b849"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_late_fusion_seed20261014.npz",
+      "bytes": 13640,
+      "sha256": "bebb902f1d589aef2e4f4fe210d85d6828d6497f382ff98299c28f67a8f5fbdc"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "f63a923ad7d51ee02c5b41381719b57b9f38c1936df9ad5b7aa4668630d8b2e3"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_01_late_fusion_seed20261015.npz",
+      "bytes": 13633,
+      "sha256": "b15dff388cab01b3186a57f901afa3f83e67c14651f7fe2f34b6857a70e1a56a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "ce5805f44bfc3769ec04b3fe348b80334dfe71becc2fd6a508511a837bdcd31a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_full_seed20261013.npz",
+      "bytes": 13510,
+      "sha256": "0a0b9e22d9210b2a02587c90a455b707297ae402fdfcba205e5ceb9fcc0c8ed4"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "383beaea3a17000950ecd94b83b383f60aa5666fe34f9ebd7bec651355dab26e"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_full_seed20261014.npz",
+      "bytes": 13547,
+      "sha256": "8147dd59cfad5ee8f237e540554193f26e7aae38dfc4107e578c0539e863acda"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "4857e0e294ca484a0d8d4d9b65d883a05791e110ef0e5f8fef913f3f18ca02cd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_full_seed20261015.npz",
+      "bytes": 13470,
+      "sha256": "cd2ee2cf5a43b63447056ef587e0257174429f7909c84f552eb4a087d525e45b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "35f232630f90b7b07e12873f3df1e1fb8587ca3b6cd97b7bda6bc0cae40a86a5"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_image_only_seed20261013.npz",
+      "bytes": 13628,
+      "sha256": "a6fdbf88adaadf31e3b68c69f22ae91d62d50609d665e621c89fff2bf500a786"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "229c88d45d88faec3c1ae9af373565ebaf11c26d1d7a8231a533f40cc85b5c33"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_image_only_seed20261014.npz",
+      "bytes": 13646,
+      "sha256": "d79e0ff402d39754a3868c10bb97a1d5df1f52922d644a6a0f8c3a4c7c6d9dad"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "9db95c5911e8d2eb7df2290ae1b0d7d484e344c3094d3626de2b2198eaa853a4"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_image_only_seed20261015.npz",
+      "bytes": 13563,
+      "sha256": "b0f2bf61525a00d4a4a1b2377132961d07413eb46e989b373afbb8eaafec8771"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "77f3abb6058c7a6671efbf4197fe0d5972fd8dd2d83db0096fca7bd2022e70f9"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_late_fusion_seed20261013.npz",
+      "bytes": 13589,
+      "sha256": "e694f93d2a42ed43623a5ff23891fca7b8ff5007804fe6f267b76e66866cf4b9"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "fc056ef4199931644c52f69f95747bee574cca1ad94eae5f839bed4479dafdf2"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_late_fusion_seed20261014.npz",
+      "bytes": 13606,
+      "sha256": "397eef80339a1d250f1a4ce70ea05fc9658e765fe9fb7c29fe94458ce8ea7974"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "e9381585fb529e06328a4479eca2f7a36389b26163e6d9b25679404cdee0dc18"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_02_late_fusion_seed20261015.npz",
+      "bytes": 13586,
+      "sha256": "fe246a686338dfe051dc86329f819c4bf307f7396c52c5bfdea05802ba20e81a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "8c93563009fac774f1e6d933a8c53b3455a12ef1d9ff15a3e5cd9590a99f35e9"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_full_seed20261013.npz",
+      "bytes": 13483,
+      "sha256": "4b3f8f79172c6ed14a50be165a97bffc1b51f3282874deb8fbb8fdf828fb9aaf"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "f2acb26d0f55aa019169fb1739984c8d31ecce42d6c06648960e1ef528aba9a6"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_full_seed20261014.npz",
+      "bytes": 13570,
+      "sha256": "68f6a0e785437773087b1360eebd14ddfd6f3fa784ab8e732e421fd0d71b2de2"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "3941a650afbf8556920311b97f350493e621fac9207cc1e3b39f8670e77cc4af"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_full_seed20261015.npz",
+      "bytes": 13568,
+      "sha256": "52435f94f9ba60986224f131b946a93be1f65ec7109ccaf17976865ece546ea0"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "bcbf8e7a0eb0b3e36f635f38bebf54500c802469c26d9af125ed48e28885a813"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_image_only_seed20261013.npz",
+      "bytes": 13565,
+      "sha256": "6cb5e9942962f5e2e215f8eefa731b6a0f059283ca97c7b54fffd097b18dcc58"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "faa9bb6a8641b4f593853310a3cd2724056555f1f9fa3c84fed2a350eeab3d3b"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_image_only_seed20261014.npz",
+      "bytes": 13582,
+      "sha256": "625d7eff60bcb786468f7208084429b2064a79a25881b3cf623b4f0f12acf916"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "4fc1ce92b42756719e39f4128253ac72e6bbd9aecd79a7f2d70540891fbc057e"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_image_only_seed20261015.npz",
+      "bytes": 13635,
+      "sha256": "abc9071ed873a4d039e574b18e89985fa869618106b6a033d6f76e860dbb2686"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "0a18149f70dfec3e42c96fad1bd0b805e2f514f1a3dd237eebebfedf18264121"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_late_fusion_seed20261013.npz",
+      "bytes": 13577,
+      "sha256": "fa86706c530b484b594fae4ea2179399b60b06970a075b1baf1a46ba30ca72a2"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "df5a2b708cbfd75338099a2d9389ffda20916398dda9e611147cae69312c4201"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_late_fusion_seed20261014.npz",
+      "bytes": 13542,
+      "sha256": "f5d3323b87e6143e75e6931c686afd38144bbcce6d3daccbaa21f4895248fcd2"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "c5205aec84f09ef7b00670195ff1220bcc041028ad1be7b300b928a7acb8ecc6"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_03_late_fusion_seed20261015.npz",
+      "bytes": 13580,
+      "sha256": "a63be4a429e54ef344b22041a3143c702f68d9ea997e97e284233bfe87d9f609"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_full_seed20261013.json",
+      "bytes": 737,
+      "sha256": "2f701c87acbe7d7534656890c097a01b64bb388c92131efffd5f259e64c43d97"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_full_seed20261013.npz",
+      "bytes": 13490,
+      "sha256": "ce59bb26669b11a4deacc348a70c9640740f41d7df99df2fe21d60f9c99db646"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_full_seed20261014.json",
+      "bytes": 737,
+      "sha256": "7d01fc53674c305678a9b1babe7bb4cc10aac6f374d2b9f4c45ccd0b036f5da2"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_full_seed20261014.npz",
+      "bytes": 13466,
+      "sha256": "a5ac4746c328cb0f28ba0c55cdf906ec652756c4686fab86caa9d1aa823bb05a"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_full_seed20261015.json",
+      "bytes": 737,
+      "sha256": "b7b568e1459b83cca205d33ca84253a35dd2d4026e5736ede4d2741d45175567"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_full_seed20261015.npz",
+      "bytes": 13538,
+      "sha256": "25d818013c62246430d539f9358ca6c3e5e99e2c7f9076c4b902a243cdc9b5cd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_image_only_seed20261013.json",
+      "bytes": 743,
+      "sha256": "dfd478e5a90c34f00b14a6fbd861662bf37a1ac299b26e35d46408920b5f5e00"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_image_only_seed20261013.npz",
+      "bytes": 13600,
+      "sha256": "02bb35d0518add80601ff59bd395f9181811745e1016a1f48a4a52349cbdc42f"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_image_only_seed20261014.json",
+      "bytes": 743,
+      "sha256": "5dedd06b061e4b0f9cb9dedb0da892c946cd348e286511e3cabcb140c8359e21"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_image_only_seed20261014.npz",
+      "bytes": 13507,
+      "sha256": "e1dc601bd784b693ebb3d2d045b3227b2afbb41c3b871305cd4e42c0480feabc"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_image_only_seed20261015.json",
+      "bytes": 743,
+      "sha256": "b475237217c78eda8bc98b4caca49b8566f5bb28c1a42ed5f458c8733448e2b0"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_image_only_seed20261015.npz",
+      "bytes": 13560,
+      "sha256": "9071dc753787892550c36e0a37f881939f9602ae8c2b2f4ca44c1647e0d705dd"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_late_fusion_seed20261013.json",
+      "bytes": 744,
+      "sha256": "0096cd5527c2a4f2cada13dc6bee6634ace29f1ecb1a30f9d71dfaea86acc170"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_late_fusion_seed20261013.npz",
+      "bytes": 13598,
+      "sha256": "2a218463f3621a2b9a2ddc395445083b272de7f6ea75008635dc9475606700e4"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_late_fusion_seed20261014.json",
+      "bytes": 744,
+      "sha256": "7d8e84726e8568af289c4b12f85ed3757d80d8a05fb59dca42a41b75c7385d1c"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_late_fusion_seed20261014.npz",
+      "bytes": 13548,
+      "sha256": "173d6040d323fa773b171ae6dc5afa61f7444cefb05dc3f8cacbe1dff7c5d173"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_late_fusion_seed20261015.json",
+      "bytes": 744,
+      "sha256": "f70483ee3f0a7320925fccb4d1866bf4a1b1c5ae6053973d67c0d96fa5d6a7a4"
+    },
+    {
+      "path": "returned/recipe45/evaluation/internal/fold_04_late_fusion_seed20261015.npz",
+      "bytes": 13508,
+      "sha256": "a3cba0e597208494763dfb17e73289dff6de741e942158e8f68792de249214ef"
+    },
+    {
+      "path": "returned/recipe45/evaluation_complete.json",
+      "bytes": 72035,
+      "sha256": "fc822c71ea1da49751b127308603ce248f04cb811f8237869c5c0944d29d5c5a"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261013/config.json",
+      "bytes": 2075,
+      "sha256": "86b30bfc4e802b9bb0fa86ca6fb881fc8fd026a13e2b8707a5c5089c4db30c3c"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261013/DONE.json",
+      "bytes": 479,
+      "sha256": "81c67a671d9d099cf2cfd9ebbd8d49101bb0d15b380adcb3d66ae4dec2c07d34"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261013/history.json",
+      "bytes": 170890,
+      "sha256": "df5fb744f4210b2e3c78201e8251f75ab40e6c0f254d562ff6a3a8cf7f9b817e"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261013/summary.json",
+      "bytes": 289,
+      "sha256": "6d6028887dc2bec6e84f3c991bec4f67502de74cc78dcfb253c4ad5206cdbb4a"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261014/config.json",
+      "bytes": 2075,
+      "sha256": "bbc00c3c47db3dc06b1a70499aeae82403789ba2928c56536d942e09bc96ee42"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261014/DONE.json",
+      "bytes": 470,
+      "sha256": "ca043593bbedcfbf60a1510ab30e18e60d1f95b79d77f7f163e4082eb49e0271"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261014/history.json",
+      "bytes": 89384,
+      "sha256": "0e3a898122f25fa42bf332122d16425c01d353f481620a66ad5ac9f62aa3b5b8"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261014/summary.json",
+      "bytes": 280,
+      "sha256": "a0122714da2c9293ebf1fca6249e6c381f0605a6f202c9e3702d5bf7e0490c19"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261015/config.json",
+      "bytes": 2075,
+      "sha256": "accb3decfd2e90c5ddc1de0ed0b7cf7bda171da751d0b8ea1e4fc02301f5130c"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261015/DONE.json",
+      "bytes": 479,
+      "sha256": "cf293f09cec96484dcf0491c267f5ede7433d9ad48bcf5fb2a9c523153dacc70"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261015/history.json",
+      "bytes": 99977,
+      "sha256": "612e0b20903959646dd93ee1902a5abaf4c443f31edcd7fc669256f7017c09b8"
+    },
+    {
+      "path": "returned/recipe45/fold_00/full_seed20261015/summary.json",
+      "bytes": 289,
+      "sha256": "7c84b8cc021ea6dd6569db693809c14a56a327d6ce2b9a0744fab5f614af1057"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "04e76a562a50739677c0f0cffbf22b557fbff938a94b4625947bac41b2ced4bd"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261013/DONE.json",
+      "bytes": 486,
+      "sha256": "ce3e16a6255b54c8934fdff3933046e97fac46fdad4e92f8c3a70147c38d9b1c"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261013/history.json",
+      "bytes": 83552,
+      "sha256": "ada028a0939fa0287c809b4e749996b989cd0dcdc1e54a62e8d667719089a34b"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261013/summary.json",
+      "bytes": 290,
+      "sha256": "45952c064600f6646104b33118c09c8b600484f0313a4a2f867426600d07fdc0"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "c9923337933bc52a051c1ef2215ce30558b49129d02131aba8ef080d465d0829"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261014/DONE.json",
+      "bytes": 486,
+      "sha256": "dd09a38db13eed100ae24e62a7ba93086af83a4cc3e5ba89057b4639146c4ff3"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261014/history.json",
+      "bytes": 86673,
+      "sha256": "5f3fb09df836ff57a34bc93bc5e240a828287148d7bee9d131fd4aa01321c95e"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "f7938252eea924659e8dccb6016618035f1eb6652ede79d01fee8d0cdbc3c103"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "ae93ddafea5af834130b8b4dd71880c389afeabbed0c3d85407e010a1506e785"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261015/DONE.json",
+      "bytes": 486,
+      "sha256": "a9311032dcf5ec8c90997878f2126e26a4a44db88af24b6dc87be67ae7865b0a"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261015/history.json",
+      "bytes": 113635,
+      "sha256": "952ea6b3b8bf529dacbf00ecf7423ea1dcbbd97233eb000efa79326c80ce49f3"
+    },
+    {
+      "path": "returned/recipe45/fold_00/image_only_seed20261015/summary.json",
+      "bytes": 290,
+      "sha256": "f146a7648ad9b0115e777ba87782035aac815913e2221a7bbe2c80a9a0a5bc5c"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261013/config.json",
+      "bytes": 2082,
+      "sha256": "4bdaededa228e3ebd41d28e38ab7333d8cbbf5a1414808a31fcddab097f41995"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261013/DONE.json",
+      "bytes": 487,
+      "sha256": "1c345eee4e200670ef89e3698c105603518e02480d678ca16751450f7993d033"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261013/history.json",
+      "bytes": 62312,
+      "sha256": "87a91f0447524e88666e21d8d92c1204cc125d06e91389bc872e7251bde0fae1"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261013/summary.json",
+      "bytes": 288,
+      "sha256": "d6d7ac1836f496450141be64ebca0df9bbefb1b390a251fc1a012b0603e3faf2"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261014/config.json",
+      "bytes": 2082,
+      "sha256": "22babd587b0f43c8d27c57b0a78671de342e139d8306bc655b20a91cb64075c7"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261014/DONE.json",
+      "bytes": 487,
+      "sha256": "057f0fd3f77bdf8551e4eca963e388f4573cb6febaea2e1fcba7cd1748cef5d3"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261014/history.json",
+      "bytes": 67725,
+      "sha256": "cf109b894033609b22458fc1f3ad0e58e5f7c12f9c86e3b1db78713305b022a2"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "a1011fb1d5e29a48e4f151009afba969111e6578b3897e357ff60c4f123afe2c"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261015/config.json",
+      "bytes": 2082,
+      "sha256": "e0260df1f6d14c0eb619971c1f65fc3e47b8ed31cfb7f7ed0fe33ab9c782fc6c"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261015/DONE.json",
+      "bytes": 487,
+      "sha256": "f4825ec2ec8542f6243a88910088417c997756ddbeb0f0d63537195feeb7e7c2"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261015/history.json",
+      "bytes": 187267,
+      "sha256": "c1d901efe95bff0b3ca2a290db34cef97a9ea12c834ea04d05638694b990da17"
+    },
+    {
+      "path": "returned/recipe45/fold_00/late_fusion_seed20261015/summary.json",
+      "bytes": 290,
+      "sha256": "c5ce8fabd8d5c5a0e6313c17e35db4e4d5c20fce85e17939207e445b48417ad1"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261013/config.json",
+      "bytes": 2075,
+      "sha256": "2d3c220af0b03c22a3109da236d0faa3da736f5fb2c4eb058c2ce2495248f4c0"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261013/DONE.json",
+      "bytes": 479,
+      "sha256": "b96d3f462d2d914ba6036cdcca7b24a67cfdc93771ed54cbda0eb8fde7fdaeca"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261013/history.json",
+      "bytes": 64730,
+      "sha256": "e6b3df55faf88a6c0c4378bfd5b79914f159a3ad82ef7ab6433a96aadd190fcf"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261013/summary.json",
+      "bytes": 288,
+      "sha256": "236516a8065ea4e35f3711c40717e99fc460bc701f0e05795cb18d824d6c003e"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261014/config.json",
+      "bytes": 2075,
+      "sha256": "d577739a4d7866ec01c439e882f7eb5c0aed53cf3b4ea37a4424561f3d6f2e16"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261014/DONE.json",
+      "bytes": 480,
+      "sha256": "fb65370a0a6f690a705d2130f9d07dadb57b9ba72c4432fc2989942d5e2f0bcc"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261014/history.json",
+      "bytes": 88890,
+      "sha256": "2c724958f6bedd28356287d00ed7492e3bda0e943bbf4f241e6d7161ed85e101"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "04e618651777b8257e298b0202490ff69f03df88e9cb952e1119d2644bcfe6dd"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261015/config.json",
+      "bytes": 2075,
+      "sha256": "ee86e0e084d538a2cf2eed7f130359bf93bd36db2ede75ffe317c1412c6d3c99"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261015/DONE.json",
+      "bytes": 480,
+      "sha256": "ad22b81255c50761df1da9fa0764ebb9808e71a341b12b96002332975f266937"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261015/history.json",
+      "bytes": 94107,
+      "sha256": "3ab5889798a4b9db9aab0f58e0151008d69a9d8fcde9bbd74a21b44ec83c7005"
+    },
+    {
+      "path": "returned/recipe45/fold_01/full_seed20261015/summary.json",
+      "bytes": 289,
+      "sha256": "d60d8dd1ad37129c07893204628b3952b01777dc4c469efacb4cf956d7193517"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "6200ea621e6a585b7cf94483eb10b6891f9973bc98a3810f13342185b9ddb521"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261013/DONE.json",
+      "bytes": 485,
+      "sha256": "d00d6206195c28b53710488ac6d3adc3bca55a97ef17a645a32e6d9310fbae77"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261013/history.json",
+      "bytes": 186338,
+      "sha256": "d114d5739224c0e3582de49a7902efb7066a38799be672b47e6756ac7869b096"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261013/summary.json",
+      "bytes": 289,
+      "sha256": "fc9fa29a25328d4a263c2bc0e8222c0a31a9e0a7f380072e8a8adc988b69d3bb"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "bfafdea609d7cfe07c6cedee35132ae563b234e0ecf839b3610fa799540b0f43"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261014/DONE.json",
+      "bytes": 474,
+      "sha256": "a9e84aa1e31acb6eac4867b52cc72d04ad9beeea3558593926ba0cd5bb7d8825"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261014/history.json",
+      "bytes": 80861,
+      "sha256": "462d86756a00ea85c67080730c1e5e5d72a56058d3bbaeeb2f7a4bc35f4058c8"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261014/summary.json",
+      "bytes": 277,
+      "sha256": "2c818c0641257c56f9afcfcac904d4a2180a8d8abcf92924ce88f0ecff824ee1"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "cfeed87b4271ae8cd7bd851f3febff5a557490fa5306f33453b73366377aab11"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261015/DONE.json",
+      "bytes": 485,
+      "sha256": "8067f398a95555021f63d32477415c10fa52e29956c56eb17bb5059c8c523ff1"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261015/history.json",
+      "bytes": 145569,
+      "sha256": "1856d1193c877e4ff817112795a164d675a1dd4599013c330a26504c1358a952"
+    },
+    {
+      "path": "returned/recipe45/fold_01/image_only_seed20261015/summary.json",
+      "bytes": 289,
+      "sha256": "ad006a34b27d3553c7b38dbc4a67a110623fd736279b45320d5d98b05aa194ab"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261013/config.json",
+      "bytes": 2082,
+      "sha256": "de2636afa04d387693607c66191f1a52533bb86351e74854496d4af6ac648ad2"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261013/DONE.json",
+      "bytes": 487,
+      "sha256": "22f2a77e57e00288b59413b68e424272d6b6670e498675dcb217dc71a3b70b91"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261013/history.json",
+      "bytes": 67338,
+      "sha256": "d4a92af62504816a60c13cdc0de765df9721fb716935c075ffa82ae59ddf262f"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261013/summary.json",
+      "bytes": 290,
+      "sha256": "92a2f2857cc376bbd78e2168e954c4e90b2d6d5b4b0f1329864393626d7afb57"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261014/config.json",
+      "bytes": 2082,
+      "sha256": "402d52f2eacbd8ee73cff118327ccba99a4253aea9d16b76d70566bce3e3d321"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261014/DONE.json",
+      "bytes": 477,
+      "sha256": "274265aeca4d1de38abfb5a27aa63ef6f2d68065f9c107d04dc99aa2a79a8a38"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261014/history.json",
+      "bytes": 45748,
+      "sha256": "3658777781a9c979a267e04fd925e75d1083f1596f4b07a548e59c0b29c17006"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261014/summary.json",
+      "bytes": 279,
+      "sha256": "3865d57ed128596c9848e19ab473988731bf523682cf0f2a68e66f1606cb5a04"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261015/config.json",
+      "bytes": 2082,
+      "sha256": "ee9b8a35fdeb5904aa7f5723d7eec625075b16e67d52923c7bf7eef97c6d4ab1"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261015/DONE.json",
+      "bytes": 475,
+      "sha256": "7ba0f6ed4fdbe777ecbf8fe3c0edcea2910d40a92a595de642d25aece7079894"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261015/history.json",
+      "bytes": 150874,
+      "sha256": "27598a32d4e1b5da837958c4251d79dda6e14458d32352ffed4aaca5e18d3d6d"
+    },
+    {
+      "path": "returned/recipe45/fold_01/late_fusion_seed20261015/summary.json",
+      "bytes": 278,
+      "sha256": "94526f4677bc24a9f9c6ee768e2e25bfb4aac9f820d7ca4cf565b9d239a0817b"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261013/config.json",
+      "bytes": 2075,
+      "sha256": "121881ba460db546e21322110614eb57a34a6cbe813700fc0969113ea26e1299"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261013/DONE.json",
+      "bytes": 470,
+      "sha256": "76a3a5952d6ddb05202cf6edcd032147a8f2e68cd860cdd0de1da742cd23dc6e"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261013/history.json",
+      "bytes": 127049,
+      "sha256": "1669061683d3445ade92e9711dcce58310536252f7586da3f7f95d980061032e"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261013/summary.json",
+      "bytes": 280,
+      "sha256": "315efb8dfb99ed54455aacc72d499e4f7b567c1804bf6142e3e63e78234250c4"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261014/config.json",
+      "bytes": 2075,
+      "sha256": "de96820528cd13be39fa261bb0db387e9c97a50a2669d835caae00efa53a4503"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261014/DONE.json",
+      "bytes": 479,
+      "sha256": "e1d54c0afaf52a8736acfc45cf49af76b48d97a05589e8810a3f175d4f7619d1"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261014/history.json",
+      "bytes": 86388,
+      "sha256": "6c85a7dc33cea83c24904ab781a4c8bcd7b5dda7a52673bdd7424961d7715fbd"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261014/summary.json",
+      "bytes": 289,
+      "sha256": "0dc3c65a3c04d19d06c360f5722712924b6c58fc19af3e611b4a1537d589cd8f"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261015/config.json",
+      "bytes": 2075,
+      "sha256": "8d70c76722146aa7ecb18e0245359c54e7aca4aecf64b0990527ad6cb1da1847"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261015/DONE.json",
+      "bytes": 480,
+      "sha256": "dee23d28510afef7f3f03d7b3fff3c171f959fce65705708b077b120f1f08b09"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261015/history.json",
+      "bytes": 116149,
+      "sha256": "89abd9ec99bf640c165fece8ceca12033730c3f73b461032cc2d361ecceb3902"
+    },
+    {
+      "path": "returned/recipe45/fold_02/full_seed20261015/summary.json",
+      "bytes": 289,
+      "sha256": "bde881c1d957c3d96ed10f475c5b07a1737208f3e8feb455f42b24aa14df3365"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "38d665b1240971979397f15451e4550ace4bcbe4fac4acd8b73f11f5c30fc955"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261013/DONE.json",
+      "bytes": 486,
+      "sha256": "bf9cbe1408ad5c30d11bc722efb0bf48b807e7233abed8c6af961e55fbb08001"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261013/history.json",
+      "bytes": 86121,
+      "sha256": "1b82db84b76eb22f3196fe7df93bc43bbe5cccea14b0231f13113b7682ee5872"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261013/summary.json",
+      "bytes": 290,
+      "sha256": "27c42e5a97e62e930c3b02b1ba167af6c84ed7222570790d806575160a496d9f"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "09cf28c0767a10e874db7949dd3d8fcf18616987a2acbb68249cd55c2797db2c"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261014/DONE.json",
+      "bytes": 486,
+      "sha256": "a59155416239d4b55a153bcb43d7d8f9bc7891981007ada474b7b500c0b13056"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261014/history.json",
+      "bytes": 167326,
+      "sha256": "02939edd7a803c80db1f73c32eef1dde2e83c52c230e8b3d9939cada1eb246b9"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "05b46cb720e840f682b2bdd2071b01cd8ee913b6a363ef7ded7449e10c233b50"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "562c5f83e7b2ab24343f97b4f12025371475bc35d581209efcad8131cf1757ea"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261015/DONE.json",
+      "bytes": 486,
+      "sha256": "ad4cc3f29d258b6278529fca33f178bad8213c174d535a2bd770737cb684a82c"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261015/history.json",
+      "bytes": 116111,
+      "sha256": "3b71b2d329f9ac3925b6daa7203e65561def652c5ef87fb403eabeaacbc4d46e"
+    },
+    {
+      "path": "returned/recipe45/fold_02/image_only_seed20261015/summary.json",
+      "bytes": 290,
+      "sha256": "463b3835eea24ad6d61d0b24d211326185eebeb8db2c8309bcc613f3defa7b95"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261013/config.json",
+      "bytes": 2082,
+      "sha256": "d790d3f54dac66e27fb217c789602721ef92c274442617f959fecbfb4b091388"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261013/DONE.json",
+      "bytes": 487,
+      "sha256": "67ec71cb518103439ad5681f8c8014f74892ad4a1c22af26868057c363b9079c"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261013/history.json",
+      "bytes": 197567,
+      "sha256": "4b53eead2184e7804f728a719a99241fe003321a0fa508aa869f3f8b632a7fab"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261013/summary.json",
+      "bytes": 290,
+      "sha256": "b84c14a5059008b5a22cac7fe0006e9b5713ff89d335a0f3ced486a4db10b5d7"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261014/config.json",
+      "bytes": 2082,
+      "sha256": "bbc575c76819ece0f79822c3c7b2e58224b834af7868f91e9ee41909661b835a"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261014/DONE.json",
+      "bytes": 486,
+      "sha256": "d2f3f2ee7be7858146538977e3d77a843c909d67cf2487f9d423c4d4f07b7e47"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261014/history.json",
+      "bytes": 70486,
+      "sha256": "0828fa5842d082d699047e05c351c82b0d4287d1679d988c0977e635b01c289e"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261014/summary.json",
+      "bytes": 289,
+      "sha256": "38d913f027a32979c60c0e357e1914aac77c92152ea02c2454743d3c983667ca"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261015/config.json",
+      "bytes": 2082,
+      "sha256": "72683fd65ba7a5250f846cc09174c0ef567cb152e5b57e4959c94bbfe426084b"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261015/DONE.json",
+      "bytes": 487,
+      "sha256": "79ffaf6ab98f2e1769b5624aaafef35352696366c75ba4e5036bc3c3ade9347f"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261015/history.json",
+      "bytes": 159828,
+      "sha256": "3989ca43ebe39d6e8aa89f9c2383faf7d0d8f74c164c042c2ef415340342e103"
+    },
+    {
+      "path": "returned/recipe45/fold_02/late_fusion_seed20261015/summary.json",
+      "bytes": 290,
+      "sha256": "40a1f40de452c07a9cec1369860266f04f40f2471d0b2685131b39aa9ba7c57d"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261013/config.json",
+      "bytes": 2074,
+      "sha256": "a603095a401d09873ff56bb55e081c5fae834208a3d32d33cc27ed1e65cfcc2d"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261013/DONE.json",
+      "bytes": 479,
+      "sha256": "311295f6b7b64528a9db19c2f54ce00e32f35f949e4f53b7ed4e30025b8637c1"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261013/history.json",
+      "bytes": 108264,
+      "sha256": "ffbac551228a585dca220c12dbd734ea81a47f93d64020ba2cf97c8e811f3cc6"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261013/summary.json",
+      "bytes": 289,
+      "sha256": "0b9cc86983549e8335f40bdf6ed445faaa46a216b857ac803e34ccad0dd2aaf3"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261014/config.json",
+      "bytes": 2074,
+      "sha256": "5bd134a2b9ea34e3ca56871eca173a4f1dbf2c066a9d5e7e13422e51dceb0744"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261014/DONE.json",
+      "bytes": 480,
+      "sha256": "27d77e09a011f83d1c0fbb1bb49143737d03fa252b2d799150b0e498a66e2c0e"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261014/history.json",
+      "bytes": 83845,
+      "sha256": "dd972c8a0c1c3e57947f8541c170a8b5086c8624226b3a9b5412c9a89734bdcf"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "ea488e40e3b29b2d428ba238a14bc31e9e612c99564a6186d17b28b319cfec2d"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261015/config.json",
+      "bytes": 2074,
+      "sha256": "4afcbfc16e9db27c3025e99ef05f4621582d0f37edd9c404c830a6c7bd78b6ca"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261015/DONE.json",
+      "bytes": 479,
+      "sha256": "0d47c1de0053c774dd1636ed2324477a47c7b6a564c05377f1a50ada19a81f60"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261015/history.json",
+      "bytes": 75735,
+      "sha256": "0063894e4d2716cac441381f58de6ff421a90371b98fc6326e431cb16f4b1a32"
+    },
+    {
+      "path": "returned/recipe45/fold_03/full_seed20261015/summary.json",
+      "bytes": 289,
+      "sha256": "5400c1d7a8f6ec5b1ad7c04317684d9c721b895eac6346f7c49026af09de2a3f"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261013/config.json",
+      "bytes": 2080,
+      "sha256": "024196f5206a5df8d1ef60a7ceea9e278af53bddb3ebec118fa0fb82727c85e1"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261013/DONE.json",
+      "bytes": 485,
+      "sha256": "baec756db5adec50babaffae99fa2d8b513ec3730de48a70538d8657811a7bb9"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261013/history.json",
+      "bytes": 97137,
+      "sha256": "71b3c2554b85f5a34515f99bee448d16001843526ae38136eda1198bca04b1c4"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261013/summary.json",
+      "bytes": 289,
+      "sha256": "f7722e5a8fa2860a4da593c1e3d84c0f970403a47ceade7c2bbfc0ba0355cbf9"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261014/config.json",
+      "bytes": 2080,
+      "sha256": "101ef16afc3e9341c4d5d3e630929c654e64925fd291094d38f73d308532093c"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261014/DONE.json",
+      "bytes": 486,
+      "sha256": "7274eb2498f046fbc46e56dddb2c1cac31751533395babd12a7f80975133c2be"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261014/history.json",
+      "bytes": 88844,
+      "sha256": "e8680624a9b08779837a7e761ab9b492992361446cf3ad21173fee6e533316a1"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "d755fa32dba3c2ed04755bc7782a768999bfce5b40c9f0ad531d7043dddff848"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261015/config.json",
+      "bytes": 2080,
+      "sha256": "a9c4ee162428524a48a80db1bfad273ec466150130d5b7eace13a99f2a4e9502"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261015/DONE.json",
+      "bytes": 485,
+      "sha256": "4f41bbbf068d8ed5e705035e618ac9886b72d7ea417e3995c145fb621ab84465"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261015/history.json",
+      "bytes": 78423,
+      "sha256": "4178dd294e5d1545f1a222875a499e7a92072887afa4fc70b67477b8f1b49be8"
+    },
+    {
+      "path": "returned/recipe45/fold_03/image_only_seed20261015/summary.json",
+      "bytes": 289,
+      "sha256": "fb01040be65a4b909fb4bf79e2745f47c3e4183941c13ccf37fd7cc882ae16bc"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "d89500ce2a6abbacb940dfebd7a8c63146c90bda74ab77f5b862146aefd29067"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261013/DONE.json",
+      "bytes": 486,
+      "sha256": "b69ca8c5ae203f5dbf32b27ea6ba359f4dd4beb5243c5978f0f7be95706fa42b"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261013/history.json",
+      "bytes": 119441,
+      "sha256": "7bb5966f9498498457aa878a623a41e5c64c4444ad7868625bcc4d09a06c600f"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261013/summary.json",
+      "bytes": 289,
+      "sha256": "9377521c71f93924d42f4e21813a454f610c9c153d4ec1b709d571adcbcfc85f"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "66bdb789468e29f832095ca098b8417adf133982540f704b8dd1ca1514189077"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261014/DONE.json",
+      "bytes": 487,
+      "sha256": "942013b5092f0c7bd494c98ad4dfdb9436f0fc51d68a1c62f2b047b5d123c702"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261014/history.json",
+      "bytes": 100262,
+      "sha256": "748e41a41ca41f4953ad8b5e2eb9e1d86ffeaca8ab2f525694e158eed9bf1c70"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "9c13c6e78d59d7c5f46c796d4bcd3f86002f0038dd204789a04ec450b65c065f"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "4daec4f40963a3c887ba16582723aff59b3d3626f6bf02549d57afd444b41bfe"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261015/DONE.json",
+      "bytes": 487,
+      "sha256": "dea81cb208c45b3896a460f7b9f76692b7534729d1efaea1210cc0a93b2e3cdc"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261015/history.json",
+      "bytes": 86764,
+      "sha256": "9b639c48c619bb5faeea3d5f7ff8a8a6b8f7594f2f0a036acd453d924f665f85"
+    },
+    {
+      "path": "returned/recipe45/fold_03/late_fusion_seed20261015/summary.json",
+      "bytes": 290,
+      "sha256": "6d719b5faff6ce17cd3f225db35eed391b1837973d310154f15e2f88c9fd19b4"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261013/config.json",
+      "bytes": 2074,
+      "sha256": "989bcc024fb41e81ac33363ce0eef924d033687ef73eb4680631d2091daa69bd"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261013/DONE.json",
+      "bytes": 480,
+      "sha256": "3af8c3692ce7bb56dd550dfbf630b8c5cc24febc501abde8d578cc27ea27be54"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261013/history.json",
+      "bytes": 192495,
+      "sha256": "b8d0b916a66a6f2b26b3e6bda38152b408dc329e220b2abaf72229d302a09009"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261013/summary.json",
+      "bytes": 290,
+      "sha256": "68f89584debabadbab356762acacfcd6ab14413142023f4234258db391aa0822"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261014/config.json",
+      "bytes": 2074,
+      "sha256": "813a39b0eebf8bcb86ccc1a53e53529be4dd9efe935a350480b9f8cfb70bca23"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261014/DONE.json",
+      "bytes": 480,
+      "sha256": "6ff6a5c64bdf0783742fc92e155b9a7bc79e9e637f00253bcf1ba4bd0444dcdb"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261014/history.json",
+      "bytes": 92279,
+      "sha256": "cc73d31727ce977ef1f6e979735fe02e8dd7e06b28d0b6e45ebb6306ecf6ae0b"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261014/summary.json",
+      "bytes": 290,
+      "sha256": "712f43047d83bf2376fe2b866a4946c0db00365ecc4908835cbda806efc19907"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261015/config.json",
+      "bytes": 2074,
+      "sha256": "97af6bf0675e9ffbb40696432448b648cb97e2386fa52033bdc0e538ccfda1d3"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261015/DONE.json",
+      "bytes": 480,
+      "sha256": "421092bb5f8cbcc6eafb8654ff6a40e0c33bf59a4aad27a320a19cc0a3667fcc"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261015/history.json",
+      "bytes": 97516,
+      "sha256": "40d87db1ec39d37425795788b2480e7520e9edd56586ff6363c21eca40b632df"
+    },
+    {
+      "path": "returned/recipe45/fold_04/full_seed20261015/summary.json",
+      "bytes": 290,
+      "sha256": "3df1ffa12b34d202cd1f21f9e0ef00153064143a0bfd4bd11e737b6976b6ab4b"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261013/config.json",
+      "bytes": 2080,
+      "sha256": "4d77b75c26b354b269d5eb3f1a5a18462b228c1f326a90b4f612430623e5d21b"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261013/DONE.json",
+      "bytes": 486,
+      "sha256": "bfa9d47f46c88fa2b6f3a14e387324c84063a6396ac9804736a23ce49e5f0dad"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261013/history.json",
+      "bytes": 81146,
+      "sha256": "05753a1b52e47c011b8b00fa81d25a2ec785e9521706f052c3faca9af15968c8"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261013/summary.json",
+      "bytes": 290,
+      "sha256": "98c26c1dd5ea9b8585779e81287dcbf3c434887495a48ad32f8dd901ccc2e43b"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261014/config.json",
+      "bytes": 2080,
+      "sha256": "33e1cb8289d271a8e2e66c8785db431440e83139d64e5866095da1dd5a47d1d9"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261014/DONE.json",
+      "bytes": 485,
+      "sha256": "2e1de377146b6a2f5cc4154caaf18d195d2ec4ac9ed4ebfe4c2c5b421f02d77c"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261014/history.json",
+      "bytes": 156974,
+      "sha256": "b9800cdc6d3129ea159ff2d8ce6eae03c8afa57996a12e6e424a4a6e4511bf45"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261014/summary.json",
+      "bytes": 289,
+      "sha256": "82d5d402a92974d4ceecd9fbefacad3e2841d2979a0921db343d407248732a43"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261015/config.json",
+      "bytes": 2080,
+      "sha256": "4720c84eedc4ae1af579f433ac6fcc31ba6fa80b94425c9f26a477b2481e35e8"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261015/DONE.json",
+      "bytes": 486,
+      "sha256": "b895dca6013e664d48e5ac64452bda12c2303d06f447079a18045dc1b16d9527"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261015/history.json",
+      "bytes": 127091,
+      "sha256": "5dd4c3836b01cdb6dc3ea849bfcd47b745a18abf8e0b4a45929b4312e3cfafb7"
+    },
+    {
+      "path": "returned/recipe45/fold_04/image_only_seed20261015/summary.json",
+      "bytes": 289,
+      "sha256": "1bdc00b012398f2c84cef9ccfefdc827a851e5af57d3daa6b6090b681cae4b59"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "4e227edfbd974ac19014467666ed634fcf361c0a3b7b0840f8b076f2d29e54cc"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261013/DONE.json",
+      "bytes": 486,
+      "sha256": "5bf38de06425b338e81143e86201341c90c8c270bf4ade673515b750c91a9509"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261013/history.json",
+      "bytes": 75657,
+      "sha256": "19b48fc3828a52f2bbe705f4b43db5b2984d2eb870d5f152aa71cbaa87b5b002"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261013/summary.json",
+      "bytes": 289,
+      "sha256": "8c575688aedf038e591a0cc393375ab60bbdee58ccf397b27118e4c9b9fa9638"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "2e0d687a9d579f6f73f1472dee11f768cbf08b83c08ddfd5ba40fd90b1ee39fd"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261014/DONE.json",
+      "bytes": 487,
+      "sha256": "1032a3e419b4fd4454630a43411e8757c6a108e585b62cd0125047444b391f15"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261014/history.json",
+      "bytes": 102905,
+      "sha256": "f2513bec125f3b8318ce7e59a89faef89a8a4638caa7bff7a33bbc25bc4676c7"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261014/summary.json",
+      "bytes": 289,
+      "sha256": "3ab255df273689e64acebf26c82c021678f9229e17c89b5c7ebd5333038c185d"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "d6891f808b06c603b023fb6e65a013a96fb9f33f3ff4d1297ec6f1079ad8bba2"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261015/DONE.json",
+      "bytes": 487,
+      "sha256": "83d3351ecb68c3994bb105a28ad01c7b7f9305b99115d2d3ce0b469c15f3f3da"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261015/history.json",
+      "bytes": 178971,
+      "sha256": "6d4595dcb300a67ae2fa7b06f1ef95b1450ff65152c5a82d13bd8ba3fbfa7adb"
+    },
+    {
+      "path": "returned/recipe45/fold_04/late_fusion_seed20261015/summary.json",
+      "bytes": 290,
+      "sha256": "be33450e6a28f37c7205a72ab60cbb1029df9fe5e72d9a3a32bf1f12e3a567ee"
+    },
+    {
+      "path": "returned/recipe45/training_complete.json",
+      "bytes": 21918,
+      "sha256": "2ad3d2a4f31fce3d9f7998af298220efd6868d301658b611aa519009275ff975"
+    },
+    {
+      "path": "verify_followup.py",
+      "bytes": 21737,
+      "sha256": "63de857e00cd2754e673f8f3113ce4d81b47b21671b92c7e6e47718947407f77"
+    }
+  ]
+}

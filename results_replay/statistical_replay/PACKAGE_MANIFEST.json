@@ -1,0 +1,200 @@
+{
+  "scope": "Public saved-output statistical reproduction.",
+  "files": [
+    {
+      "path": "late_fusion_followup/analysis_core.py",
+      "bytes": 4664,
+      "sha256": "f7c3ff971ba3540e1dc31b832090a117d1944c3271dbdb9b9be1cded81b14981"
+    },
+    {
+      "path": "late_fusion_followup/bootstrap_reference.npz",
+      "bytes": 1790515,
+      "sha256": "5f444da985288fcc467ff02b3523bd6d2d90faae4c7eaab840077ef9b97f8eb0"
+    },
+    {
+      "path": "late_fusion_followup/file_hashes.json",
+      "bytes": 824,
+      "sha256": "1eff363d8253eb068ba0c434cbd5f3bd03b16e740c02b656f31bbc648a27213d"
+    },
+    {
+      "path": "late_fusion_followup/matched.npz",
+      "bytes": 7433722,
+      "sha256": "b8bd875f350e7b5bdcd7c091205283f34643280718f1f1f3844fb652e85cbe25"
+    },
+    {
+      "path": "late_fusion_followup/metrics_and_contrasts_by_seed.csv",
+      "bytes": 53943,
+      "sha256": "6198e7a19bc6c878768220c1b1e6d258e841f4fddcd00db2a93544dcfc7a3076"
+    },
+    {
+      "path": "late_fusion_followup/plan.json",
+      "bytes": 402,
+      "sha256": "a881a62c8fd14eab7500aa2393d77ac4d021c52e1da0df4fa99fc1d080840103"
+    },
+    {
+      "path": "late_fusion_followup/README.txt",
+      "bytes": 338,
+      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
+    },
+    {
+      "path": "late_fusion_followup/replay.py",
+      "bytes": 2264,
+      "sha256": "45f6a0a927940a128ae9dcdefdb8d29a303991d5ccb507e2cddf0450373168c7"
+    },
+    {
+      "path": "late_fusion_followup/statistics_reference.py",
+      "bytes": 2588,
+      "sha256": "3a3810260429d47afcc52b879856cdfa4c7e2e2f5c9ff8ed83aa84d6b05f8b6a"
+    },
+    {
+      "path": "late_fusion_followup/summary_intervals.csv",
+      "bytes": 35193,
+      "sha256": "ffe3983820bf1a176e4face5aaf14007b7ebf5d7acdd6586cecccddd1acd68c4"
+    },
+    {
+      "path": "MILK10k/all_135_model_metrics.csv",
+      "bytes": 65132,
+      "sha256": "65a0298e030407360c60ec82535b4436a401119b87a1ff4469049f607906ed4c"
+    },
+    {
+      "path": "MILK10k/all_eligible_all_seeds.csv",
+      "bytes": 51891,
+      "sha256": "7b957b57c076da66cc21d9ae9abae7092a4463c4beb698c9bac0ec8874786bcc"
+    },
+    {
+      "path": "MILK10k/all_eligible_resamples.npz",
+      "bytes": 1079052,
+      "sha256": "d80d4f565faa01a4036512eab017baf70afa38d62b6aa305c0cee0404d4dbbce"
+    },
+    {
+      "path": "MILK10k/all_eligible_summary.csv",
+      "bytes": 40219,
+      "sha256": "0f380eb2f71add06d3400d53091b71f168372eb6e3c1f8c437e20e0db2ce4a67"
+    },
+    {
+      "path": "MILK10k/coded_responses.npz",
+      "bytes": 9858407,
+      "sha256": "fa1d4c156743bb8401a35ef35258cce4e0cff407dee4b806ba2f74477c21e2ab"
+    },
+    {
+      "path": "MILK10k/effective_reference.npz",
+      "bytes": 2006503,
+      "sha256": "fabd0fab90eaf5d1fc59fd44235eb70edd46b267c8be3f8da5365b5f2a19f429"
+    },
+    {
+      "path": "MILK10k/file_hashes.json",
+      "bytes": 1251,
+      "sha256": "affa6d5b0f7ce25ab4d7a76980ef3c616446721bff9a68db70096a2b810b1037"
+    },
+    {
+      "path": "MILK10k/histopathology_only_all_seeds.csv",
+      "bytes": 55485,
+      "sha256": "a5df47dfe16200b10eaaed706761949d1b42b519379f780d362401cae172b45c"
+    },
+    {
+      "path": "MILK10k/histopathology_only_resamples.npz",
+      "bytes": 1082030,
+      "sha256": "e9bbbc9f460a13169a861c95cf15413dc717e60941ce481b9ca58f0fdbb2d292"
+    },
+    {
+      "path": "MILK10k/histopathology_only_summary.csv",
+      "bytes": 41402,
+      "sha256": "46499e37dd43f75ec4f299a756898c03491430defe5bc37cdc928107d5c59e7c"
+    },
+    {
+      "path": "MILK10k/milk_statistics.py",
+      "bytes": 4861,
+      "sha256": "3ecc7b164f60844828481bbae8e432dc0f4460e35ff7113dcdb4c44029e1476d"
+    },
+    {
+      "path": "MILK10k/plan.json",
+      "bytes": 809,
+      "sha256": "542abf1ffd3a044250daa750845e868ee52a64c012f2d2978687f503109cf816"
+    },
+    {
+      "path": "MILK10k/README.txt",
+      "bytes": 338,
+      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
+    },
+    {
+      "path": "MILK10k/replay.py",
+      "bytes": 3464,
+      "sha256": "a01e159eb16d57235c701a966220acd4d63999e8b409f248bd7144e942c24d15"
+    },
+    {
+      "path": "original_and_PAA60/analysis_core.py",
+      "bytes": 4664,
+      "sha256": "f7c3ff971ba3540e1dc31b832090a117d1944c3271dbdb9b9be1cded81b14981"
+    },
+    {
+      "path": "original_and_PAA60/bootstrap_reference.npz",
+      "bytes": 4060244,
+      "sha256": "584c19c240e8dec430acfc77724a1866f02dfbae2ec5706dae74600a40719b08"
+    },
+    {
+      "path": "original_and_PAA60/file_hashes.json",
+      "bytes": 1010,
+      "sha256": "7fa3f629e5da674b8879cea9250b0a72ad764c1778393214f0f256f8e2d4effc"
+    },
+    {
+      "path": "original_and_PAA60/matched.npz",
+      "bytes": 10371223,
+      "sha256": "a14469817d928501acbd6585f9f81bed0266bc45962737676e74396f9c7ff317"
+    },
+    {
+      "path": "original_and_PAA60/metrics_and_contrasts_by_seed.csv",
+      "bytes": 134123,
+      "sha256": "81a5cff9b36162e97d78c1c1edf3f6225119d584b6e41650576f7f5cd37688ed"
+    },
+    {
+      "path": "original_and_PAA60/plan.json",
+      "bytes": 846,
+      "sha256": "ac1a8626cdf532bd524b15bda2447244a38130781cca5e47188c17ab0ba49f67"
+    },
+    {
+      "path": "original_and_PAA60/primary.npz",
+      "bytes": 2726930,
+      "sha256": "68eeba926094a28d4717e19f840506f69673bd9acca05bb69a82e02712516f12"
+    },
+    {
+      "path": "original_and_PAA60/primary_reference.json",
+      "bytes": 1362,
+      "sha256": "af1e0bcd0855d5ef5b0d7a17cd58ce5886a14adad72d89a3e90cc63489a44877"
+    },
+    {
+      "path": "original_and_PAA60/README.txt",
+      "bytes": 338,
+      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
+    },
+    {
+      "path": "original_and_PAA60/replay_core.py",
+      "bytes": 3721,
+      "sha256": "0d9ccee6efd15d90d3e38d9be5b3af38f42084cb169f86f1f9794293fb261e11"
+    },
+    {
+      "path": "original_and_PAA60/statistics_reference.py",
+      "bytes": 2588,
+      "sha256": "3a3810260429d47afcc52b879856cdfa4c7e2e2f5c9ff8ed83aa84d6b05f8b6a"
+    },
+    {
+      "path": "original_and_PAA60/summary_intervals.csv",
+      "bytes": 84171,
+      "sha256": "9a2d0645d1bda95e2f77005e0a81c49af2c07e44581ac7af90cb07acd95730da"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 338,
+      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
+    },
+    {
+      "path": "replay_all.py",
+      "bytes": 1767,
+      "sha256": "5b61de5d7d15c921a740a842a423947431e8fcc3af91f294412db5372a336101"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 14,
+      "sha256": "6ef1f341bc35eed0cb84c6cf2e001da6f36973654c90a5bfac023b668f57aeaf"
+    }
+  ]
+}

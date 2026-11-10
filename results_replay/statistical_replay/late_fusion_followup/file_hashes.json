@@ -1,0 +1,11 @@
+{
+  "analysis_core.py": "f7c3ff971ba3540e1dc31b832090a117d1944c3271dbdb9b9be1cded81b14981",
+  "bootstrap_reference.npz": "5f444da985288fcc467ff02b3523bd6d2d90faae4c7eaab840077ef9b97f8eb0",
+  "matched.npz": "b8bd875f350e7b5bdcd7c091205283f34643280718f1f1f3844fb652e85cbe25",
+  "metrics_and_contrasts_by_seed.csv": "6198e7a19bc6c878768220c1b1e6d258e841f4fddcd00db2a93544dcfc7a3076",
+  "plan.json": "a881a62c8fd14eab7500aa2393d77ac4d021c52e1da0df4fa99fc1d080840103",
+  "README.txt": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a",
+  "replay.py": "45f6a0a927940a128ae9dcdefdb8d29a303991d5ccb507e2cddf0450373168c7",
+  "statistics_reference.py": "3a3810260429d47afcc52b879856cdfa4c7e2e2f5c9ff8ed83aa84d6b05f8b6a",
+  "summary_intervals.csv": "ffe3983820bf1a176e4face5aaf14007b7ebf5d7acdd6586cecccddd1acd68c4"
+}

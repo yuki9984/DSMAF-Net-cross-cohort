@@ -1,0 +1,7 @@
+cohort,field,images,missing_images,missing_percent,patients_with_any_missing_image
+train,age,1379,0,0.0,0
+train,sex,1379,472,34.22770123277738,340
+tuning,age,443,0,0.0,0
+tuning,sex,443,159,35.89164785553047,123
+external,age,1701,0,0.0,0
+external,sex,1701,4,0.23515579071134626,4

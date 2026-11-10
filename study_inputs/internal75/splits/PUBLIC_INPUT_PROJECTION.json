@@ -1,0 +1,134 @@
+{
+  "scope": "Only actual training inputs are retained; unused source clinical attributes are omitted. Original study partitions and input tensors are unchanged.",
+  "original_fold_manifest_sha256": "9e76ecd94475540729156c928984560f3fe5d3cfab031532bc2df9d0dc7e73e5",
+  "required_columns": [
+    "img_id",
+    "patient_id",
+    "diagnostic_number",
+    "age",
+    "gender_FEMALE",
+    "gender_MALE"
+  ],
+  "files": [
+    {
+      "file": "fold_00_train.csv",
+      "original_sha256": "23a70e5b7a2564d829e0aed5686d7878ccbe84e102796bff621f7634cf1b2069",
+      "sha256": "6daa0ecd53403cf0830f654a09df66814c971e1b0e782f1dcbf310972a240a9b",
+      "rows": 1470,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_00_valid.csv",
+      "original_sha256": "a579e82320907bf55765fc4750e2c5ded13173a25d3e60bf05021f115542da5c",
+      "sha256": "26c51c8339e63a287d5141fe9a16ee3582b3881e294cb217b4dc48bbedd52966",
+      "rows": 368,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_00_test.csv",
+      "original_sha256": "365343d362c73e7eb7a47591dddd348a0ba7b3734ec85b470c8eaf7edc421dbe",
+      "sha256": "5f0becb6695474c97f78f70c63820f73b8dc3acd45c582b34d57baa95bb3090b",
+      "rows": 460,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_01_train.csv",
+      "original_sha256": "43fa1fa96ab775aa41d811b1f036ec354e2cbe206d385d4f9dcadeb764d1ca9d",
+      "sha256": "73bc8e56f41b6cc9021534e0657029d22bb0988cf83fc97e335d2a9e6cc4212a",
+      "rows": 1470,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_01_valid.csv",
+      "original_sha256": "7e2d54a78e906a9837b8624be8f5cef07c389f3e56a263833d12ba0bab39ad83",
+      "sha256": "c657a2cf4ef07527f0cc400c7904a0a3ca416e5253d903efdb314b9c6ee18b09",
+      "rows": 368,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_01_test.csv",
+      "original_sha256": "80a8160566f9dca3feefe1ecc9e2fa3d544f5eef79e361f4e3f79c2904db8f88",
+      "sha256": "41e4ebb31b54b6a34b18439ea87a65174edeb61ca7dcc53e7bd4c4cf13799560",
+      "rows": 460,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_02_train.csv",
+      "original_sha256": "7b36f96b151eceaf97cfa58ddde1b1416cd77d27c292c92dcf4f8f77aa6c1766",
+      "sha256": "27dfe41d54e87e1215f45579bcc9aab706527119bdc14839d092d89b388ba23c",
+      "rows": 1471,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_02_valid.csv",
+      "original_sha256": "3ffbce225dff8c3112c780c76d6b2fb7eace02a2733f3e1b1eeb02b3eb146c48",
+      "sha256": "7154b6fc4c91ed5c0ff4446a96f049bef2b4d98f68cf36e3b9990fdcedf76e04",
+      "rows": 368,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_02_test.csv",
+      "original_sha256": "33fd0a2454ec9036c09899c6b9f0fd1437424680b5aa897469da092c12ff87da",
+      "sha256": "f0d80f3bd68b23818aab1e3689c8ca440617c348bb8b379e6487821aa3384648",
+      "rows": 459,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_03_train.csv",
+      "original_sha256": "9bafee8586ad7eca54eebc059df8612c4c428329383bcbd8faf4923616c9a1d7",
+      "sha256": "dd1b83219e39539f2caf60dbb0b5d349c6f23c42949523759f1efcebfcb58f41",
+      "rows": 1471,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_03_valid.csv",
+      "original_sha256": "2c01aa7defda607afa1604cabaa351715d1ea9abb49431570db94a84f098c3c5",
+      "sha256": "d27613d7f4bfb98d6b4993322c9734acd34d9844970319e090e572df4ddebe5a",
+      "rows": 368,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_03_test.csv",
+      "original_sha256": "e8c32faf735b07c6ce059621dd38bf9260b3f3d2aeab4cf7bbcf6e1cf67c0e67",
+      "sha256": "3424cc168c15ee9d76a338cccfcb98be137c3a86df7bb33ae335c01ef29256b2",
+      "rows": 459,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_04_train.csv",
+      "original_sha256": "d470a742d2cf34e84643b0ae6f6bbec9027ca2de6d6f83980aba029d47e5d439",
+      "sha256": "a375af2b8592cdf760998a54f473d0abea9b4638048838d67666f1e870735197",
+      "rows": 1470,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_04_valid.csv",
+      "original_sha256": "d6925ba6d0e0b721fc8172340f2f505c9cfcd28a3843919d8683106d0915953b",
+      "sha256": "7e46710cd4887e3e6974e3b3b00a87d8891e19e455aaed87c96be6ec1679fddc",
+      "rows": 368,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    },
+    {
+      "file": "fold_04_test.csv",
+      "original_sha256": "af2cbada2a83b11a58cec9114e8063f69d62c074cef1259d426a902de8837859",
+      "sha256": "bb9837f979cc1efa09d9291d2439952d687550cb1da71d2c47bb04574140ba56",
+      "rows": 460,
+      "actual_input_columns_equal": true,
+      "row_order_equal": true
+    }
+  ]
+}

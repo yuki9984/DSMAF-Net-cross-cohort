@@ -1,0 +1,161 @@
+{
+  "status": "COMPLETED",
+  "training_only_age_statistics": {
+    "mean": 60.36475707034083,
+    "std": 15.5945158540891,
+    "median": 62.0
+  },
+  "cohort_counts": {
+    "train": {
+      "images": 1379,
+      "patients": 821,
+      "reference_standard_supplied": true,
+      "encoding_fields_checked": [
+        "sex"
+      ],
+      "encoding_check_available": true
+    },
+    "tuning": {
+      "images": 443,
+      "patients": 276,
+      "reference_standard_supplied": true,
+      "encoding_fields_checked": [
+        "sex"
+      ],
+      "encoding_check_available": true
+    },
+    "external": {
+      "images": 1701,
+      "patients": 1701,
+      "reference_standard_supplied": false,
+      "encoding_fields_checked": [],
+      "encoding_check_available": false
+    }
+  },
+  "encoding_mismatched_rows": 0,
+  "fixed_reference_status": "FITTED_ON_TRAINING_COHORT_ONLY",
+  "new_neural_training": false,
+  "scope": "Descriptive recording/encoding audit and fixed CPU references. Associations do not establish label leakage, causal model mechanisms or clinical benefit. Repeated perturbations are within fixed models, not independently trained replicates.",
+  "python": "3.13.12",
+  "tables": [
+    "missing_by_diagnosis",
+    "missing_by_reference_standard",
+    "raw_to_encoding_consistency",
+    "states_relative_to_training",
+    "within_patient_consistency",
+    "fixed_reference_metrics",
+    "fixed_model_perturbation_metrics",
+    "reference_model_coverage",
+    "cohort_field_coverage"
+  ],
+  "training_age_reference_status": "ESTIMABLE",
+  "reference_model_coverage": [
+    {
+      "reference_model": "intercept_only",
+      "status": "FITTED",
+      "reason": ""
+    },
+    {
+      "reference_model": "age_only",
+      "status": "FITTED",
+      "reason": ""
+    },
+    {
+      "reference_model": "recording_only",
+      "status": "FITTED",
+      "reason": ""
+    },
+    {
+      "reference_model": "age_recording",
+      "status": "FITTED",
+      "reason": ""
+    },
+    {
+      "reference_model": "age_recorded_sex",
+      "status": "FITTED",
+      "reason": ""
+    }
+  ],
+  "tool_version": "2.1.0",
+  "known_sex_conflict_patients": 0,
+  "encoding_scope": "Only explicitly mapped encoding columns are compared. A missing mapping is NOT_EVALUATED, never evidence of agreement.",
+  "state_scope": "State checks cover sex categories and binary recording/missing indicators; they do not assess continuous-age support or image-domain shift.",
+  "denominator_scope": "Missing-field fractions use images. Patients with any missing image are distinct counts, not patient missingness fractions.",
+  "uncertainty_scope": "No patient-resampling intervals or retraining uncertainty are estimated by this tool. Repetition summaries remain within fixed models.",
+  "reference_feature_definitions": {
+    "intercept_only": [
+      "constant zero column; fitted intercept"
+    ],
+    "age_only": [
+      "training-standardized age",
+      "age-missing indicator"
+    ],
+    "recording_only": [
+      "sex recorded indicator"
+    ],
+    "age_recording": [
+      "training-standardized age",
+      "age-missing indicator",
+      "sex recorded indicator"
+    ],
+    "age_recorded_sex": [
+      "training-standardized age",
+      "age-missing indicator",
+      "female",
+      "male",
+      "unknown"
+    ]
+  },
+  "fixed_reference_specification": {
+    "C": 1,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 0.0001,
+    "class_weight": null,
+    "hyperparameter_search": false,
+    "probability_clipping": 2.220446049250313e-16,
+    "feature_precision": "float32 then float64 (study convention)"
+  },
+  "input_provenance": [
+    {
+      "kind": "configuration",
+      "configured_path": "audit_config.json",
+      "bytes": 1627,
+      "sha256": "fffb85895f83ec07a0d2e23bda8372b34cc1ad47e1f34aabb1bae61acc6622e0"
+    },
+    {
+      "kind": "metadata:train",
+      "configured_path": "data/train.csv",
+      "bytes": 70121,
+      "sha256": "1cc0a8ce979c0f585952f52c11cbe8fad621af96e52690b17b162b61dc2f5961"
+    },
+    {
+      "kind": "metadata:tuning",
+      "configured_path": "data/tuning.csv",
+      "bytes": 22480,
+      "sha256": "9a65743be589b5bf36def34192eb06c802c5853f1537bffc1d5f1bb56d4d1296"
+    },
+    {
+      "kind": "metadata:external",
+      "configured_path": "data/external.csv",
+      "bytes": 97884,
+      "sha256": "e9f0c19e052315981b5fdfc0632e5a1291f4b0394c2fd401cb86c8711eeba98f"
+    }
+  ],
+  "software": {
+    "python": "3.13.12",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0"
+  },
+  "tool_source_sha256": {
+    "audit_metadata.py": "89555192882fac690bb2c13fcab007e9b49a118e1aba25778c22be5d2ce95b1b",
+    "audit_reporting.py": "59978e6c3bb792bebf90fe4907bf2543fe2baf51a99e1ab226affe28899a15cf"
+  },
+  "unseen_categorical_states": [],
+  "prediction_input_status": "NOT_SUPPLIED",
+  "warnings": [
+    "One or more cohorts have no supplied model encodings; raw-to-encoding consistency is not evaluated there.",
+    "No fixed-model prediction inputs were supplied; prediction-response analyses were not performed."
+  ]
+}

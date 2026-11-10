@@ -1,0 +1,21 @@
+{
+  "analysis": "Full-PAD and frozen fold-role demographics for reporting completeness",
+  "status": "POST_HOC_DESCRIPTIVE_ONLY",
+  "units": "Age and sex summarized once per distinct patient within each partition; image counts reported separately",
+  "roles": "Full PAD plus train/inner-selection/outer-test for five frozen outer folds",
+  "preconditions": [
+    "All raw ages finite",
+    "Sex state invariant within patient; differing age values are retained and counted, not adjudicated or replaced in model inputs.",
+    "Each frozen split age/sex/patient/image/diagnosis agrees with raw release",
+    "Train/selection/test patient and image-hash roles disjoint; outer tests cover all cases once"
+  ],
+  "uncertainty": "Sample SD for age; no inferential tests or new model metrics",
+  "publication": "Add Table S29 only if all preconditions and independent frozen-split numerical checks pass",
+  "new_training": false,
+  "new_neural_inference": false,
+  "new_model_selection": false,
+  "initial_precondition_failure": "Raw source contains multiple ages under 90 released patient identifiers; sex states are invariant. No current model output or input record was changed.",
+  "aggregation_revision": "Reuse the original deterministic cohort-summary rule documented in generate_posthoc_analysis.py: sort by patient_id,img_id and retain first age per patient, only for descriptive summaries. Model predictors remain per-image values. Report multiplicity separately.",
+  "historical_rule_source_sha256": "8e7595c3d297bd807f977e3d83e4f40c68f88771d8c3498163d19d4c3c0b0f41",
+  "source_archive": "Previous anonymous saved-prediction archive; numerical study inputs unchanged"
+}

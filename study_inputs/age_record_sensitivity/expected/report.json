@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "post_hoc": true,
+  "original_images": 2298,
+  "original_patients": 1373,
+  "excluded_age_variable_patients": 90,
+  "excluded_images": 316,
+  "retained_patients": 1283,
+  "retained_images": 1982,
+  "all_five_seeds": [
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017
+  ],
+  "fitted_models": 75,
+  "recipe": "Original balanced-softmax plus SCC oversampling",
+  "class_order": [
+    "ACK",
+    "BCC",
+    "MEL",
+    "NEV",
+    "SCC",
+    "SEK"
+  ],
+  "contrasts": [
+    {
+      "contrast": "full-minus-image_only",
+      "all_cases_mean_pp": 7.667871211763672,
+      "restricted_mean_pp": 8.981388315478373,
+      "restricted_seed_sd_pp": 2.367207537055071,
+      "restricted_ci95_low_pp": 6.932011362298374,
+      "restricted_ci95_high_pp": 11.175910923892387
+    },
+    {
+      "contrast": "late_fusion-minus-image_only",
+      "all_cases_mean_pp": 8.411352495538853,
+      "restricted_mean_pp": 10.06960295609002,
+      "restricted_seed_sd_pp": 1.4158236782144211,
+      "restricted_ci95_low_pp": 7.751724536595802,
+      "restricted_ci95_high_pp": 12.635350577569854
+    },
+    {
+      "contrast": "full-minus-late_fusion",
+      "all_cases_mean_pp": -0.7434812837751821,
+      "restricted_mean_pp": -1.0882146406116449,
+      "restricted_seed_sd_pp": 1.8074839210730522,
+      "restricted_ci95_low_pp": -2.9188402287062836,
+      "restricted_ci95_high_pp": 0.6656856408597961
+    }
+  ],
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 20261019,
+  "rejected_missing_class_draws": 0,
+  "independent_bootstrap_implementation_max_error_pp": 8.881784197001252e-15,
+  "original_per_seed_metric_max_error_pp": 2.1316282072803006e-14,
+  "source_age_rule_independently_matched": true,
+  "pooled_and_matched_model_probabilities_identical": true,
+  "all_inputs_unchanged": true,
+  "training_records_removed": false,
+  "new_training": false,
+  "new_inference": false,
+  "probability_ensemble": false,
+  "interval_scope": "Paired patient-cluster percentile intervals, unadjusted and conditional on the fixed models; no model/seed resampling.",
+  "interpretation_scope": "Restricts evaluation only; does not remove prior training/selection influence. Multiple ages are not adjudicated errors. Case composition changes; not causal evidence.",
+  "source_hashes": {
+    "data/PAD_metadata.csv": "14d145235cedb022548257acb0d84dcd949e2c916f65d2baa7c38ed5339e9527",
+    "internal75/pooled_predictions.npz": "ebf0d42cb0af9d0905aa9f1da7b67246a497d86efaeeeef1998b3bd0f4e9d5c1",
+    "matched_cohort/probabilities.npz": "cffb58c19c7d112e20c25022df0aec52f0a98dbeeed6db1bee15cde026b2fbfc"
+  }
+}

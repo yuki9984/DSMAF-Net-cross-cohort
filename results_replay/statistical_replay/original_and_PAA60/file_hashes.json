@@ -1,0 +1,13 @@
+{
+  "analysis_core.py": "f7c3ff971ba3540e1dc31b832090a117d1944c3271dbdb9b9be1cded81b14981",
+  "bootstrap_reference.npz": "584c19c240e8dec430acfc77724a1866f02dfbae2ec5706dae74600a40719b08",
+  "matched.npz": "a14469817d928501acbd6585f9f81bed0266bc45962737676e74396f9c7ff317",
+  "metrics_and_contrasts_by_seed.csv": "81a5cff9b36162e97d78c1c1edf3f6225119d584b6e41650576f7f5cd37688ed",
+  "plan.json": "ac1a8626cdf532bd524b15bda2447244a38130781cca5e47188c17ab0ba49f67",
+  "primary.npz": "68eeba926094a28d4717e19f840506f69673bd9acca05bb69a82e02712516f12",
+  "primary_reference.json": "af1e0bcd0855d5ef5b0d7a17cd58ce5886a14adad72d89a3e90cc63489a44877",
+  "README.txt": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a",
+  "replay_core.py": "0d9ccee6efd15d90d3e38d9be5b3af38f42084cb169f86f1f9794293fb261e11",
+  "statistics_reference.py": "3a3810260429d47afcc52b879856cdfa4c7e2e2f5c9ff8ed83aa84d6b05f8b6a",
+  "summary_intervals.csv": "9a2d0645d1bda95e2f77005e0a81c49af2c07e44581ac7af90cb07acd95730da"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "Post hoc extension after v20 results and reviewer-supplied numerical leads were known",
+  "new_training": false,
+  "comparisons": [
+    "full-minus-image_only",
+    "full-minus-late_fusion",
+    "late_fusion-minus-image_only"
+  ],
+  "metrics": [
+    "BACC",
+    "six class recalls"
+  ],
+  "class_decomposition": "External-minus-internal change in class recall contrast divided by six; mathematical BACC decomposition, no causal attribution",
+  "bootstrap": "Retain v20 fixed-model aggregation and same 2000 independent-cohort patient-cluster draws, seed 20261022. Preserve all model/seed/fold pairing. New contrast CI is formed from paired values, never from subtracting marginal CI endpoints.",
+  "new_audit": "Full PAD raw sex/biopsy/diagnosis records plus all 15 fold-role encoding projections; repeated role checks do not create new patients",
+  "tool_revision": "Non-estimable training-age references skipped explicitly; basic audit and available non-age references continue. No arbitrary age scaling or borrowed evaluation statistics."
+}

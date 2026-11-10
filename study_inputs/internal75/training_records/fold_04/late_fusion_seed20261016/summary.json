@@ -1,0 +1,7 @@
+{
+  "best_epoch": 9,
+  "best_valid_bac": 0.7305154616982574,
+  "epochs_completed": 24,
+  "checkpoint": "best_valid.pth",
+  "external_evaluated": false
+}

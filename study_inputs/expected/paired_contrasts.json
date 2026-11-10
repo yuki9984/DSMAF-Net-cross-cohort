@@ -1,0 +1,21 @@
+{
+  "order": [
+    "primary_mean",
+    "primary_low",
+    "primary_high",
+    "interaction_mean",
+    "interaction_low",
+    "interaction_high"
+  ],
+  "values": [
+    0.00039627129597394816,
+    -0.01178230361058676,
+    0.012805585025115598,
+    -0.025958100198336304,
+    -0.04450489304867883,
+    -0.008866582519978313
+  ],
+  "bootstrap_seed": 20261016,
+  "resamples": 2000,
+  "unit": "patient, class-stratified, conditional on five paired checkpoints"
+}

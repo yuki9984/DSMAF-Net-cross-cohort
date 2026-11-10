@@ -1,0 +1,16 @@
+fold,role,images,patients,sex_not_recorded_images,sex_encoding_mismatches,age_value_mismatches
+0,train,1470,876,511,0,0
+0,valid,368,220,135,0,0
+0,test,460,277,158,0,0
+1,train,1470,877,504,0,0
+1,valid,368,220,134,0,0
+1,test,460,276,166,0,0
+2,train,1471,876,510,0,0
+2,valid,368,221,126,0,0
+2,test,459,276,168,0,0
+3,train,1471,880,526,0,0
+3,valid,368,220,124,0,0
+3,test,459,273,154,0,0
+4,train,1470,881,522,0,0
+4,valid,368,221,124,0,0
+4,test,460,271,158,0,0

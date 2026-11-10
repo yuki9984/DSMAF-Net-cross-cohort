@@ -1,0 +1,12 @@
+{
+  "original_locked_plan_sha256": "ec1bbc1c98924c541f56fd027e1dbf2115279118781c2d8833d0c6912d91c4e6",
+  "original_worker_source_manifest_sha256": "cbd12ba09baf270c454004aaa80ae8b9bd6d4f7521914213ea49614078e195a2",
+  "original_fold_manifest_sha256": "9e76ecd94475540729156c928984560f3fe5d3cfab031532bc2df9d0dc7e73e5",
+  "prediction_source": "75 frozen outer-fold predictions pooled separately for each of three models and five initialization seeds",
+  "split_projection": "Image ID, patient ID, mapped diagnosis, age, two recorded-sex indicators and exact image hash; other metadata columns omitted. These are documented projections, not byte-identical original CSV files.",
+  "PAD_source_credit": "Pacheco and colleagues, PAD-UFES-20; original public CSV is included under data/PAD_metadata.csv with CC BY 4.0 attribution.",
+  "checkpoint_binary_files_included": false,
+  "off_device_checkpoint_binary_reverification_performed": false,
+  "bootstrap": "2000 paired patient-cluster resamples, RNG seed 20261019; fixed fitted models and partitions",
+  "histories_and_configurations": "Unmodified received files, with no author-machine paths or identities detected."
+}

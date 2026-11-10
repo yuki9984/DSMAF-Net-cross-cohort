@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fold": 2,
+  "arm": "full",
+  "seed": 20261014,
+  "checkpoint_sha256": "3d597143c042fe8e6c8c3464f00b1c5c9011110b173e721e5211e1d210deced6",
+  "config_sha256": "de96820528cd13be39fa261bb0db387e9c97a50a2669d835caae00efa53a4503",
+  "history_sha256": "6c85a7dc33cea83c24904ab781a4c8bcd7b5dda7a52673bdd7424961d7715fbd",
+  "summary_sha256": "0dc3c65a3c04d19d06c360f5722712924b6c58fc19af3e611b4a1537d589cd8f",
+  "training_seconds": 2254.780999999959
+}

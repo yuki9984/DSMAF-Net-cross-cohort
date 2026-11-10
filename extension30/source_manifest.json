@@ -1,0 +1,125 @@
+{
+  "scope": "Public source and explicit input projections; original model input values retained.",
+  "files": [
+    {
+      "path": "analysis_core.py",
+      "sha256": "5b5ecf1b2522c3a71095e4514d5099639f6494f47d14bbc3e37b0ac5c98ea216",
+      "bytes": 4731
+    },
+    {
+      "path": "analysis_plan.json",
+      "sha256": "46f7544f81e5719a9272dc8928c75e2b610ec46057f3dacdc01d74d0f25117f5",
+      "bytes": 5687
+    },
+    {
+      "path": "analyze_extension.py",
+      "sha256": "5332429bff4e4d26d093ad78a84c662c3ae6874cc8c7b488f6a3ecf3353d9984",
+      "bytes": 8840
+    },
+    {
+      "path": "campaign_support.py",
+      "sha256": "a65fc0e5e4062138d2af5c6a0ecee839c6ecee4309d61946ff690a2892530c13",
+      "bytes": 4867
+    },
+    {
+      "path": "engineering_trials.py",
+      "sha256": "fc4515ed8ef4b2f51e15e67181b05ec54cf00598f9583f22f979500e709ae5bf",
+      "bytes": 5123
+    },
+    {
+      "path": "evaluate_extension.py",
+      "sha256": "2acda7e3e503b3d04035b591aa3633dfcd72398bb90ca131ce7ae34cb15d0287",
+      "bytes": 9358
+    },
+    {
+      "path": "extension_models.py",
+      "sha256": "76c73aa6410ce80676a0ef1760f57d1196d1f7925978c5a97508fd078a133371",
+      "bytes": 547
+    },
+    {
+      "path": "extension_settings.py",
+      "sha256": "6e6fd3f22cf35235a2d25f5c3ec90f87cd1bfbee68b0c5923bb7a5e868c97856",
+      "bytes": 6154
+    },
+    {
+      "path": "information_conditions.py",
+      "sha256": "062c86679ec1707469dbc55512135f6e7a8665f1ff9dfa58535541896b9e9d86",
+      "bytes": 893
+    },
+    {
+      "path": "materials/control_configs.json",
+      "sha256": "5523531e48e3e44d7da29842a057fa392c55f49c660b735dda31de46302a2c56",
+      "bytes": 111437
+    },
+    {
+      "path": "materials/controls.npz",
+      "sha256": "50892cdbe89a82a499621503a2dc62af90884be36c784d1cc71f456101bdce1d",
+      "bytes": 4496307
+    },
+    {
+      "path": "materials/DATA_PROVENANCE.json",
+      "sha256": "166f28316f9aaa35c242a4f116775f3ec4615b0901db35d125293657284a8811",
+      "bytes": 2556
+    },
+    {
+      "path": "materials/external_cases.csv",
+      "sha256": "e9f0c19e052315981b5fdfc0632e5a1291f4b0394c2fd401cb86c8711eeba98f",
+      "bytes": 97884
+    },
+    {
+      "path": "materials/external_encoding.py",
+      "sha256": "ea4c313f2e988ad9bca651f766562702c69ff09572b6cd7e6c3c5c3d23b1bfb8",
+      "bytes": 1065
+    },
+    {
+      "path": "materials/external_image_hashes.csv",
+      "sha256": "45c25980f8c26d70aeb0e3ca0cabf1047155a94d0cc95c2c2420d3144b114543",
+      "bytes": 154800
+    },
+    {
+      "path": "materials/original_external_cohort_lock.json",
+      "sha256": "6e65bb7cf476a175ac0f51466f133643669f41d4dd5e9109381a2701a75c2103",
+      "bytes": 2676
+    },
+    {
+      "path": "preflight_models.py",
+      "sha256": "980e831af24e0ed509f3828e83953288ff0946cb7090cf027d003f5518b6f950",
+      "bytes": 5538
+    },
+    {
+      "path": "README.md",
+      "sha256": "6e1898c173c5fbf07cf498568162939341cd509d4dd6dfef2a6bd6fc58e38232",
+      "bytes": 1594
+    },
+    {
+      "path": "run_campaign.py",
+      "sha256": "f5e37fba80facf97bb7dcc922c807acc70a1a0dc29f8b56f327d0e5bdffdf499",
+      "bytes": 7491
+    },
+    {
+      "path": "run_matrix.py",
+      "sha256": "df1125f33ed6221dbd2ffb486f787282266f0c82028440a2f11d441e88e4504a",
+      "bytes": 5730
+    },
+    {
+      "path": "statistics_reference.py",
+      "sha256": "1d1057b1ea8ca46cb7207eb64530e9bb491bdb542ec3852c531c91b35671a991",
+      "bytes": 2628
+    },
+    {
+      "path": "train_extension.py",
+      "sha256": "22aeea6958d36df51c71e653187186bd136c0ad706e91120510a376614dda9b3",
+      "bytes": 3210
+    },
+    {
+      "path": "verify_return.py",
+      "sha256": "64cf626fa3767347613c349a0d9a04e978ffa38e36252868c97616669df498ad",
+      "bytes": 6021
+    },
+    {
+      "path": "worker_inputs.py",
+      "sha256": "7530617a1f21aa9c62df4b5556ebaf2f8bf26f2882ef332975cb935ede469d19",
+      "bytes": 5670
+    }
+  ]
+}

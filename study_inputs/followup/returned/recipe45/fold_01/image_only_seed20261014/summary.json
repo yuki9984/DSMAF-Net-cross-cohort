@@ -1,0 +1,9 @@
+{
+  "best_epoch": 15,
+  "best_valid_bac": 0.599321648713273,
+  "epochs_completed": 30,
+  "checkpoint": "best_valid.pth",
+  "training_seconds": 3081.0,
+  "plan_sha256": "da91d6e46808af2c2fd8ff892555d53bcbc5d321fc0890c74de6641f83733e38",
+  "external_evaluated": false
+}

@@ -1,0 +1,232 @@
+{
+  "new_best_weights": 45,
+  "files": [
+    {
+      "path": "recipe45/fold_00/full_seed20261013/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "370e6484f2cdcf36afe93aa252743c7e2562bf96907051ea1c92cdaa14a65c0e"
+    },
+    {
+      "path": "recipe45/fold_00/full_seed20261014/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "6380bc7a80d90493355bae5b5b67bfa3d6f58bc67f28234a7da22f402d5398d8"
+    },
+    {
+      "path": "recipe45/fold_00/full_seed20261015/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "e9ec45c1b9f028fc3f31cf74b0809032257f7804d44bd39b3d57baff28f32c32"
+    },
+    {
+      "path": "recipe45/fold_00/image_only_seed20261013/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "3effe2f8f530520b5c7dab818a1973a87cdf1662e0e69404de72106164af927a"
+    },
+    {
+      "path": "recipe45/fold_00/image_only_seed20261014/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "4448ecd2a6ac9794f254b9a70dcd5669c619cd9470be78c42eb0880888579b3d"
+    },
+    {
+      "path": "recipe45/fold_00/image_only_seed20261015/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "9459029ca99bf6c2f2b0a0e212f58de2baa262d05417c5ad0e71b6a6d0d6855d"
+    },
+    {
+      "path": "recipe45/fold_00/late_fusion_seed20261013/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "b038b84e598da248f2216d24927629f365c0462b38a827d3468a8e71da5083c5"
+    },
+    {
+      "path": "recipe45/fold_00/late_fusion_seed20261014/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "2dab1b46a820a447679c47579b2c2a1cdd0fa9e40c8bf28b2390c8b19388d6c9"
+    },
+    {
+      "path": "recipe45/fold_00/late_fusion_seed20261015/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "f9bf930b1ec5ed350cbe0b638521d013bd121bf783f4592494ecbb71c2ecd9e5"
+    },
+    {
+      "path": "recipe45/fold_01/full_seed20261013/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "faa7325eba2a66526ef5824a547e529af8bedb8b1209889b2c8fbb67ce12bb75"
+    },
+    {
+      "path": "recipe45/fold_01/full_seed20261014/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "0052d03fee3929bc04330a2daeb3ba74a1ee51f05408e782062745dff9519589"
+    },
+    {
+      "path": "recipe45/fold_01/full_seed20261015/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "b362494f4b035570100bc818aa0b037abb36fb6374eb7dbd63a0bd1d51b4333c"
+    },
+    {
+      "path": "recipe45/fold_01/image_only_seed20261013/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "6dd08c1a46978773999f0d711bea86cebfa8c54ee3be656a7bcd6a6bd69260ed"
+    },
+    {
+      "path": "recipe45/fold_01/image_only_seed20261014/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "3214e725c64984d55250870771840d4ee841864260b8e6c25ebf3168aee9279b"
+    },
+    {
+      "path": "recipe45/fold_01/image_only_seed20261015/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "e2184c18520c5a1bec11a80b3948fa8fca395030fc2399b579dec44f9118d887"
+    },
+    {
+      "path": "recipe45/fold_01/late_fusion_seed20261013/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "092250dbd3db14cd086d813e115feaab26d5f6cc1ea0e2538ff9d649922ab655"
+    },
+    {
+      "path": "recipe45/fold_01/late_fusion_seed20261014/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "55f5a55c11dd2107cfd8ce1ee784f6d1854aab6a0ed71f2179422e3fc12c8a09"
+    },
+    {
+      "path": "recipe45/fold_01/late_fusion_seed20261015/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "7643d630b4786378a8b4561044e82caa1309d0d5a3fdc39ac5332a4167f58404"
+    },
+    {
+      "path": "recipe45/fold_02/full_seed20261013/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "f4645fed55d251f31698eda3e194720cce6694b2e7da3e6fb97aa1a541087da2"
+    },
+    {
+      "path": "recipe45/fold_02/full_seed20261014/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "3d597143c042fe8e6c8c3464f00b1c5c9011110b173e721e5211e1d210deced6"
+    },
+    {
+      "path": "recipe45/fold_02/full_seed20261015/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "be52b31a97db5ff62483815035a45fc60f110c27790e19935bd2cd58c2775fe5"
+    },
+    {
+      "path": "recipe45/fold_02/image_only_seed20261013/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "06a43bde41542446e181d866e6e61fbec0a86ac9683ee9704c8a59b85d71297f"
+    },
+    {
+      "path": "recipe45/fold_02/image_only_seed20261014/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "427a40b4eb537089b5d49b79a0b005f1ebdee160e745fa712a66acbf80552a6b"
+    },
+    {
+      "path": "recipe45/fold_02/image_only_seed20261015/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "dc7983a1848c1ef776e1b0bea2202fcf4e52e63a273cdb0c1723036ce5d78a7c"
+    },
+    {
+      "path": "recipe45/fold_02/late_fusion_seed20261013/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "b4a33098afeb3b516958056a3a1be3403eac988397fb08353cdc57e109b00b7b"
+    },
+    {
+      "path": "recipe45/fold_02/late_fusion_seed20261014/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "e96d2f870627378dca3143921bc10825479aa83ea833ae2205b3b73d396b92c3"
+    },
+    {
+      "path": "recipe45/fold_02/late_fusion_seed20261015/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "bf558677b368ab98afe84961cd19548eb0a9c843c742b403d667fc7cb3dc63fa"
+    },
+    {
+      "path": "recipe45/fold_03/full_seed20261013/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "eb5dd810eed270d600996adeeb1935b9cfa783c5bcb998e159fa315365a87ca9"
+    },
+    {
+      "path": "recipe45/fold_03/full_seed20261014/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "fa1c8b08117b462f8bb1d7ecfc35b6fd0787354b48492d72f5309fea5ff6cc0a"
+    },
+    {
+      "path": "recipe45/fold_03/full_seed20261015/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "927de0f80401fcfbfc1141da770f4a55fdbba644761e96c86424b06f69dd51bd"
+    },
+    {
+      "path": "recipe45/fold_03/image_only_seed20261013/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "98cde184c33b1f7f34a76c02afa32119a31e1c6274115c6fc5f62513673f2dcc"
+    },
+    {
+      "path": "recipe45/fold_03/image_only_seed20261014/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "577aadc0e08bb0463f32e2b3fb538160b3ef6ad42e7121bab76937bffa154485"
+    },
+    {
+      "path": "recipe45/fold_03/image_only_seed20261015/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "265956ea379a031d7aa10a09c952fc1900e907b5536d95116f1056cf8792192d"
+    },
+    {
+      "path": "recipe45/fold_03/late_fusion_seed20261013/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "f21d52e46bab5c2e844a4ad330b5e90f93ab8f6b3bf8552588319e5d6d3d54fb"
+    },
+    {
+      "path": "recipe45/fold_03/late_fusion_seed20261014/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "a59e9a9f4f28d864fde773da0dab7795a9927df9b87aad0813f12af4a03b7e92"
+    },
+    {
+      "path": "recipe45/fold_03/late_fusion_seed20261015/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "3cfa37cbf70a29e661c9879faa6def2b15f16a2164f9eb3ba3d1aa5f9a63f7a8"
+    },
+    {
+      "path": "recipe45/fold_04/full_seed20261013/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "96c6dd47633aa3895259e736c9b752cb9d1a87397e5e9167efc0c657925c332a"
+    },
+    {
+      "path": "recipe45/fold_04/full_seed20261014/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "c1d884c8d2fe8b092c22bb13bdaab79c5d663a68f3ad5998146ccabc9a2e7fff"
+    },
+    {
+      "path": "recipe45/fold_04/full_seed20261015/best_valid.pth",
+      "bytes": 142897970,
+      "sha256": "329e30493d592a2d9435a7c87e790a9645b5788b9d007b39457ba7e50283eea1"
+    },
+    {
+      "path": "recipe45/fold_04/image_only_seed20261013/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "47ecf58a0ec74ad73100af39069221cd14e17419d782b0f53cac858a20a778e9"
+    },
+    {
+      "path": "recipe45/fold_04/image_only_seed20261014/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "b1e2543ffa29f978b37749bb16eb5c717446c068d93c1c53cea8881ee8b8c632"
+    },
+    {
+      "path": "recipe45/fold_04/image_only_seed20261015/best_valid.pth",
+      "bytes": 103048596,
+      "sha256": "d5cf21d560196a826dc4e6b7d89c7e1708ad638806c7dcf9f1af60e68102c82e"
+    },
+    {
+      "path": "recipe45/fold_04/late_fusion_seed20261013/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "84c00e5134f291e85a550a0c52f35f99000d22c919be27c2314542472ba71eed"
+    },
+    {
+      "path": "recipe45/fold_04/late_fusion_seed20261014/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "ff499b71d90d3ba2d8334e458ba2258b59f1048632db1c18d26ad316f89a721b"
+    },
+    {
+      "path": "recipe45/fold_04/late_fusion_seed20261015/best_valid.pth",
+      "bytes": 103331402,
+      "sha256": "179d3ec96ed1eb66407e2a7137de9e45298b03ea4cdd9bed9f169968443656fb"
+    }
+  ],
+  "keep_locally": true,
+  "tensors_in_return_archive": false
+}

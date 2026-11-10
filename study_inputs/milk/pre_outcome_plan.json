@@ -1,0 +1,90 @@
+{
+  "status": "PRE_OUTCOME_PLAN_PENDING_IMAGE_SCREENING_AND_WEIGHTS",
+  "created_utc": "2026-11-03T16:05:32.295074+00:00",
+  "cohort": "MILK10k clinical close-up strict six-class subset",
+  "no_new_cohort_predictions_viewed": true,
+  "analysis_role": "Additional external transport evaluation; the existing DermatoNet analysis is exploratory and remains separately reported",
+  "labels": [
+    "ACK",
+    "BCC",
+    "MEL",
+    "NEV",
+    "SCC",
+    "SEK"
+  ],
+  "diagnosis_policy": {
+    "ACK": "Solar or actinic keratosis only; exclude SCC in situ/Bowen",
+    "BCC": "Basal cell carcinoma",
+    "MEL": "Primary invasive melanoma and melanoma in situ; exclude melanoma metastasis",
+    "NEV": "Nevus parent category, retain subtypes",
+    "SCC": "Squamous cell carcinoma, Invasive only; exclude keratoacanthoma and in situ",
+    "SEK": "Seborrheic keratosis only; exclude other BKL"
+  },
+  "eligibility": "One clinical close-up per lesion; no dermoscopic input; retain missing age using original training-fitted imputation and flag; no outcome-based exclusions",
+  "sex_information_limit": "All distributed records have sex recorded. C-B tests transport of separately trained models, not an association between missingness and diagnosis within this cohort; do not manufacture missingness for primary evaluation.",
+  "age": "Released age_approx in five-year bins is used as supplied; use each model original inner-training mean/std/median, never fit on MILK10k",
+  "patient_linkage": "No patient identifiers provided. Cluster unit is lesion; patient dependence and overlap remain unverified.",
+  "models": {
+    "existing_controls": [
+      "image_only",
+      "late_fusion",
+      "full"
+    ],
+    "PAA60": [
+      "metablock_cv",
+      "rg_dermnet_adapted_cv",
+      "dsmaf_age_only",
+      "dsmaf_age_recorded"
+    ],
+    "PAA30_when_all_frozen": [
+      "late_age_only",
+      "late_age_recorded"
+    ],
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seeds": [
+      20261013,
+      20261014,
+      20261015
+    ],
+    "total_existing": 105,
+    "total_with_pending30": 135
+  },
+  "freeze": "Complete and freeze all planned new training before formal new external evaluation; register checksums of models/configs and final cohort lock; no fine-tuning, no external selection of checkpoints/seeds/preprocessing",
+  "preprocessing": "Use original deterministic build_transforms(224): Resize(256,256), CenterCrop(224), ToTensor, ImageNet normalization; preserve training metadata ordering and encoding",
+  "aggregation": "Compute each frozen model separately. For recalls/BACC use original PAD class-specific test-fold support weights. For NLL/Brier use original PAD total-image test-fold support weights. No probability ensemble; report all three seeds and seed SD.",
+  "metrics": [
+    "BACC percentage",
+    "six class recalls",
+    "NLL",
+    "multiclass Brier (sum over six classes)"
+  ],
+  "primary_contrasts": [
+    "DSMAF C-B",
+    "DSMAF D-C",
+    "ordinary late-fusion C-B if complete",
+    "ordinary late-fusion D-C if complete"
+  ],
+  "secondary_contrasts": [
+    "Every full-information fusion versus image-only",
+    "DSMAF versus ordinary late-fusion",
+    "DSMAF B versus image-only with architecture-confounding limitation"
+  ],
+  "intervals": {
+    "resamples": 2000,
+    "random_seed": 20261104,
+    "unit": "lesion",
+    "class_stratified": true,
+    "paired_indices_shared_across_models_seeds": true,
+    "coverage": "95% percentile conditional on fitted models and released lesions; not patient-cluster intervals; training variability shown separately"
+  },
+  "duplicate_policy": "Before outcomes: exact bytes and decoded-pixel hashes within candidates and against all available PAD/DermatoNet images; pHash candidate screening followed by manual review. Cross-cohort confirmed duplicate groups excluded from MILK10k. Within-MILK repeated confirmed images across lesions excluded as whole groups. Preserve all exclusion reasons. Absence of image match does not prove patient independence.",
+  "additional_prespecified_sensitivity": "Histopathology-only subset, same frozen models, no retraining; report class support and avoid claiming it resolves reference-standard bias",
+  "precision": "Local feasibility test CPU float32. Formal device/precision must be documented before outcomes; original AMD iGPU is not a CUDA device. CPU performance tests use synthetic inputs only.",
+  "publication": "No clinical images or case-level metadata automatically published; original official access links and attribution retained."
+}

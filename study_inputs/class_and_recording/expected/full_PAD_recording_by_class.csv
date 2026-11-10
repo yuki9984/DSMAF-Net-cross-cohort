@@ -1,0 +1,8 @@
+diagnosis,images,patients,sex_not_recorded_images,missing_percent,unrecorded_sex_with_biopsy_confirmation
+ACK,730,525,447,61.23287671232877,0
+BCC,845,513,0,0.0,0
+MEL,52,36,0,0.0,0
+NEV,244,185,169,69.26229508196722,0
+SCC,192,133,0,0.0,0
+SEK,235,176,188,80.0,0
+All classes,2298,1373,804,34.9869451697128,0

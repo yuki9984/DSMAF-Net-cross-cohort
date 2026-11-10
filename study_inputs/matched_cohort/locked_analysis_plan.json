@@ -1,0 +1,166 @@
+{
+  "protocol": "posthoc_same_cv75_cross_cohort_20261022",
+  "analysis_status": "Exploratory; specified after original 35-model external outcomes and 75-fit internal OOF outcomes were known. New CV75 external predictions have not been generated.",
+  "new_training": false,
+  "original_prespecified_external_comparison_unchanged": true,
+  "models": [
+    "full",
+    "image_only",
+    "late_fusion"
+  ],
+  "seeds": [
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017
+  ],
+  "outer_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "planned_checkpoints": 75,
+  "checkpoint_inventory_sha256": "20d5848c5433cb0d145a51c3a37e4e37db96b086a30b903aa1be8a1f50bbea82",
+  "original_cv_plan_sha256": "ec1bbc1c98924c541f56fd027e1dbf2115279118781c2d8833d0c6912d91c4e6",
+  "training_complete_sha256": "05d063b802a50173da113a1c996cfe46f153aea6de1b1f67066ead587a39b00d",
+  "external_patients": 1701,
+  "internal_images": 2298,
+  "internal_patients": 1373,
+  "internal_reproduction_required_before_external": true,
+  "reproduction_max_abs_probability_error": 0.0001,
+  "reproduction_max_changed_hard_predictions": 0,
+  "inference": {
+    "batch_size": 16,
+    "num_workers": 0,
+    "torch": "2.6.0+cu124",
+    "torchvision": "0.21.0+cu124",
+    "cuda_build": "12.4",
+    "designated_gpu_contains": "4060",
+    "amp": true,
+    "tta": false,
+    "decision_rule": "argmax of ordinary unadjusted logits",
+    "nll_clip": 1e-12,
+    "age_stats": "Each checkpoint uses its own inner-training config statistics; never refitted on external data",
+    "deterministic_input_cache": "Optional in-memory float32 image tensor cache, computed using the unchanged archived evaluation transform; checked against original dataset tensors"
+  },
+  "bacc_aggregation": {
+    "internal": "Existing pooled OOF per seed is retained exactly.",
+    "external": "Average model correctness across folds using w[f,c]=original internal outer-fold support for class c / full internal support for class c. Then average recalls equally over six classes and average the five seeds.",
+    "fold_class_counts": [
+      [
+        146,
+        169,
+        11,
+        49,
+        38,
+        47
+      ],
+      [
+        146,
+        169,
+        10,
+        49,
+        39,
+        47
+      ],
+      [
+        146,
+        169,
+        10,
+        48,
+        39,
+        47
+      ],
+      [
+        146,
+        169,
+        10,
+        49,
+        38,
+        47
+      ],
+      [
+        146,
+        169,
+        11,
+        49,
+        38,
+        47
+      ]
+    ],
+    "fixed_external_fold_class_weights": [
+      [
+        0.2,
+        0.2,
+        0.21153846153846154,
+        0.20081967213114754,
+        0.19791666666666666,
+        0.2
+      ],
+      [
+        0.2,
+        0.2,
+        0.19230769230769232,
+        0.20081967213114754,
+        0.203125,
+        0.2
+      ],
+      [
+        0.2,
+        0.2,
+        0.19230769230769232,
+        0.19672131147540983,
+        0.203125,
+        0.2
+      ],
+      [
+        0.2,
+        0.2,
+        0.19230769230769232,
+        0.20081967213114754,
+        0.19791666666666666,
+        0.2
+      ],
+      [
+        0.2,
+        0.2,
+        0.21153846153846154,
+        0.20081967213114754,
+        0.19791666666666666,
+        0.2
+      ]
+    ],
+    "equal_fold_sensitivity": "Also report the unweighted mean of the five fold-specific metrics per seed for each cohort, without replacing pooled OOF.",
+    "not_probability_ensemble": true
+  },
+  "probability_metrics_aggregation": "For NLL and Brier, external per-model losses are averaged using original fold image counts / 2298; internal pooled losses retained. Per-fold model metrics also retained.",
+  "new_main_descriptive_comparison": "full-minus-late_fusion",
+  "secondary_comparison": "full-minus-image_only",
+  "cross_cohort_effect": "External minus internal difference in the paired BACC contrast for the same fixed fitted model collection. Association only; not causal domain shift.",
+  "bootstrap": {
+    "unit": "patient cluster separately within each cohort",
+    "repeats": 2000,
+    "seed": 20261022,
+    "pairing": "Identical sampled patients for all arms, seeds and folds within cohort; two cohorts sampled independently.",
+    "fixed": "All fitted weights, fold identities, initialization seeds and original aggregation weights are fixed, not independent replicate patients.",
+    "rare_missing_class_draw": "Reject and redraw if any of six classes has zero sampled support; report rejected draw count.",
+    "multiplicity": "Descriptive unadjusted intervals; not confirmatory or full-retraining uncertainty"
+  },
+  "required_outputs": [
+    "All 75 external prediction CSVs and checkpoint hashes",
+    "All 75 internal reproduction comparisons",
+    "All per-fold/per-seed internal and external metrics",
+    "15 seed-level cohort summaries and paired comparisons",
+    "Patient-cluster intervals for each cohort and external-minus-internal contrasts",
+    "SEK-to-MEL rates, NLL and Brier summaries"
+  ],
+  "interpretation_limits": [
+    "Same previously examined external cohort; no new independent institution",
+    "Internal PAD historical architecture-development exposure remains",
+    "Case mix, acquisition and reference standards differ; no causal domain-shift interpretation",
+    "No model, seed, checkpoint, threshold, training recipe or subset will be selected using these outcomes"
+  ]
+}

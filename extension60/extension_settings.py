@@ -79,7 +79,15 @@ def frames_for_fold(fold,include_test=False):
  out={}
  for role in (['train','valid','test'] if include_test else ['train','valid']):
   row=fm['folds'][fold]['roles'][role];p=SPLITS/row['file']
-  if sha(p)!=row['sha256']:raise RuntimeError('Split changed: '+row['file'])
+  expected=row['sha256']
+  projection_path=SPLITS/'PUBLIC_INPUT_PROJECTION.json'
+  if projection_path.exists():
+   projection=read(projection_path)
+   if projection['original_fold_manifest_sha256']!=sha(SPLITS/'fold_manifest.json'):raise RuntimeError('Projection/source manifest mismatch')
+   projected=next(v for v in projection['files'] if v['file']==row['file'])
+   if projected['original_sha256']!=row['sha256']:raise RuntimeError('Projection/source split identity mismatch')
+   expected=projected['sha256']
+  if sha(p)!=expected:raise RuntimeError('Split changed: '+row['file'])
   out[role]=pd.read_csv(p)
  for i,(ra,a) in enumerate(out.items()):
   for rb,b in list(out.items())[i+1:]:
