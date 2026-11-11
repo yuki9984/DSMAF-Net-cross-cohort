@@ -24,7 +24,7 @@ def main():
     manifest=json.loads((ROOT/'file_hashes.json').read_text('utf8'))
     for name,expected in manifest.items():
         if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=expected:raise ValueError('Input mismatch: '+name)
-    plan=json.loads((ROOT/'plan.json').read_text())
+    plan=json.loads((ROOT/'plan.json').read_text(encoding="utf-8"))
     with np.load(ROOT/'matched.npz',allow_pickle=False) as z:
         a={k:z[k] for k in z.files}
     result=calculate_statistics(plan['methods'],plan['seeds'],a['yi'],a['gi'],a['folds'],a['pi'],a['ye'],a['ge'],a['pe'],plan['pairs'],2000,plan['bootstrap_seed'])
@@ -37,7 +37,7 @@ def main():
         for k in ('point_internal','point_external','draws_internal','draws_external','class_fold_weights','loss_fold_weights'):
             v=result['arrays'][k] if k in result['arrays'] else result[k]
             check(v,ref[k]);errors.append(float(np.max(np.abs(v-ref[k]))))
-    expected=json.loads((ROOT/'primary_reference.json').read_text())
+    expected=json.loads((ROOT/'primary_reference.json').read_text(encoding="utf-8"))
     with np.load(ROOT/'primary.npz',allow_pickle=False) as z:
         y=z['labels'];g=[np.flatnonzero(y==i) for i in range(6)]
         correct={k[6:]:(z[k].argmax(axis=-1)==y) for k in z.files if k.startswith('probs_')}

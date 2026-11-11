@@ -14,7 +14,7 @@
     {
       "path": "late_fusion_followup/file_hashes.json",
       "bytes": 824,
-      "sha256": "1eff363d8253eb068ba0c434cbd5f3bd03b16e740c02b656f31bbc648a27213d"
+      "sha256": "c665774fb3fbdb8e716f17fd042838acb2ad91899e1a5f759e75bc268688288e"
     },
     {
       "path": "late_fusion_followup/matched.npz",
@@ -38,8 +38,8 @@
     },
     {
       "path": "late_fusion_followup/replay.py",
-      "bytes": 2264,
-      "sha256": "45f6a0a927940a128ae9dcdefdb8d29a303991d5ccb507e2cddf0450373168c7"
+      "bytes": 2259,
+      "sha256": "a4c94810ebd5d395c9be9de757251e697ff4229ae9254658276935db1e795f45"
     },
     {
       "path": "late_fusion_followup/statistics_reference.py",
@@ -84,7 +84,7 @@
     {
       "path": "MILK10k/file_hashes.json",
       "bytes": 1251,
-      "sha256": "affa6d5b0f7ce25ab4d7a76980ef3c616446721bff9a68db70096a2b810b1037"
+      "sha256": "43df692f34a323a2bc8b49b388362fab9c5b5fa022ee7ccfdec3abf62134bb53"
     },
     {
       "path": "MILK10k/histopathology_only_all_seeds.csv",
@@ -118,8 +118,8 @@
     },
     {
       "path": "MILK10k/replay.py",
-      "bytes": 3464,
-      "sha256": "a01e159eb16d57235c701a966220acd4d63999e8b409f248bd7144e942c24d15"
+      "bytes": 3438,
+      "sha256": "293ff9a7538dc27d1e0204ad35b5ea8b500e6ebf4367c1a881ba63b9bd09a2d1"
     },
     {
       "path": "original_and_PAA60/analysis_core.py",
@@ -134,7 +134,7 @@
     {
       "path": "original_and_PAA60/file_hashes.json",
       "bytes": 1010,
-      "sha256": "7fa3f629e5da674b8879cea9250b0a72ad764c1778393214f0f256f8e2d4effc"
+      "sha256": "5ae5e37ffd1c539c982102dbf1713c8ea4a05efebd5d7abc40305013123a8472"
     },
     {
       "path": "original_and_PAA60/matched.npz",
@@ -168,8 +168,8 @@
     },
     {
       "path": "original_and_PAA60/replay_core.py",
-      "bytes": 3721,
-      "sha256": "0d9ccee6efd15d90d3e38d9be5b3af38f42084cb169f86f1f9794293fb261e11"
+      "bytes": 3752,
+      "sha256": "47fb53e1a8e3d00ec33e653ecb44612d122b54ee080d1a55ca736eb9ad8598dc"
     },
     {
       "path": "original_and_PAA60/statistics_reference.py",

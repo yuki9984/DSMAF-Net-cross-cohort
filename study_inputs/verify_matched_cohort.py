@@ -7,11 +7,11 @@ matched=root/'matched_cohort'
 z=np.load(matched/'probabilities.npz',allow_pickle=False);old=np.load(root/'internal75/pooled_predictions.npz',allow_pickle=False)
 for newkey,oldkey in [('internal_labels','labels'),('internal_patients','patient_ids'),('internal_images','img_ids'),('internal_folds','outer_folds')]:assert np.array_equal(z[newkey],old[oldkey])
 for i,arm in enumerate(['full','image_only','late_fusion']):assert np.array_equal(z['prob_internal'][i],old['probs_'+arm])
-inventory=json.loads((root/'internal75/checkpoint_inventory.json').read_text())['files'];weightmap={}
+inventory=json.loads((root/'internal75/checkpoint_inventory.json').read_text(encoding="utf-8"))['files'];weightmap={}
 for r in inventory:
  m=re.search(r'fold_(\d+)/(.*)_seed(\d+)/best_valid.pth$',r['path']);assert m
  weightmap[(int(m[1]),m[2],int(m[3]))]=r['sha256']
-binding=json.loads((matched/'prediction_bindings.json').read_text())
+binding=json.loads((matched/'prediction_bindings.json').read_text(encoding="utf-8"))
 for stage in ['reproduction_complete','external_inference_complete']:
  records=binding[stage]['records'];assert len(records)==75
  assert set((r['fold'],r['arm'],r['seed']) for r in records)==set(weightmap)

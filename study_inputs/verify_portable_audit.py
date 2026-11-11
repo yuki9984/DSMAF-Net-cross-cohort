@@ -4,7 +4,7 @@ import pandas as pd
 root=Path(__file__).resolve().parent
 out=root/'verification_output/portable_audit'
 subprocess.run([sys.executable,'-B',str(root/'portable_audit/audit_metadata.py'),'--config',str(root/'portable_audit/example/audit_config.json'),'--output',str(out)],check=True,cwd=root)
-r=json.loads((out/'audit_report.json').read_text())
+r=json.loads((out/'audit_report.json').read_text(encoding="utf-8"))
 assert r['encoding_mismatched_rows']==0 and r['known_sex_conflict_patients']==0
 assert not r['cohort_counts']['external']['encoding_check_available'] and r['prediction_input_status']=='NOT_SUPPLIED'
 c=pd.read_csv(out/'cohort_field_coverage.csv')

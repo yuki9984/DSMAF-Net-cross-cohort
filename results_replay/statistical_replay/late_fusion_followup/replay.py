@@ -18,9 +18,9 @@ def verify(actual,reference,keys,numeric):
  assert error<1e-10
  return error
 def main():
- for n,h in json.loads((R/"file_hashes.json").read_text()).items():
+ for n,h in json.loads((R/"file_hashes.json").read_text(encoding="utf-8")).items():
   assert Path(n).name==n and hashlib.sha256((R/n).read_bytes()).hexdigest()==h,n
- p=json.loads((R/"plan.json").read_text())
+ p=json.loads((R/"plan.json").read_text(encoding="utf-8"))
  with np.load(R/"matched.npz",allow_pickle=False) as z:a={k:z[k] for k in z.files}
  result=calculate_statistics(p["methods"],p["seeds"],a["yi"],a["gi"],a["folds"],a["pi"],a["ye"],a["ge"],a["pe"],p["pairs"],p["bootstrap_repeats"],p["bootstrap_seed"])
  keys=["type","comparison","metric","target","unit"]

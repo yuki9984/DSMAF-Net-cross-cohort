@@ -62,7 +62,7 @@ def main():
  rng=np.random.default_rng(20261016);groups=[np.flatnonzero(y==c) for c in range(6)];draws=[];idraws=[]
  for _ in range(2000):
   picks=[rng.choice(ids,len(ids),replace=True) for ids in groups];draws.append(np.mean([delta[q].mean() for q in picks]));idraws.append(np.mean([interaction[q].mean() for q in picks]))
- ci=np.quantile(draws,[.025,.975]);ici=np.quantile(idraws,[.025,.975]);expected_boot=json.loads((root/'expected/paired_contrasts.json').read_text())
+ ci=np.quantile(draws,[.025,.975]);ici=np.quantile(idraws,[.025,.975]);expected_boot=json.loads((root/'expected/paired_contrasts.json').read_text(encoding="utf-8"))
  for actual,expected_value in zip([np.mean([delta[g].mean() for g in groups]),*ci,np.mean([interaction[g].mean() for g in groups]),*ici],expected_boot['values']):assert abs(actual-expected_value)<1e-12
  result={'status':'PASS','raw_development_records_checked':len(train)+len(valid),'patient_sex_conflicts':conflict,'demographic_rows_recomputed':10,'neural_seed_rows_recomputed':35,'primary_difference':float(np.mean([delta[g].mean() for g in groups])),'primary_patient_bootstrap_95ci':ci.tolist(),'interaction':float(np.mean([interaction[g].mean() for g in groups])),'interaction_patient_bootstrap_95ci':ici.tolist(),'scope':'Frozen-prediction statistics and fixed CPU demographic references; no neural retraining, images, or weights required.'}
  (dest/'verification_report.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8');print(json.dumps(result,indent=2),flush=True)

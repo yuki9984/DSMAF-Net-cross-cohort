@@ -1,0 +1,581 @@
+{
+  "status": "EQUAL_FOLD_ANALYSIS_PASS",
+  "post_hoc": true,
+  "retraining_or_neural_inference": false,
+  "seed": 2026111101,
+  "paired_resamples": 2000,
+  "arms": [
+    "image_only",
+    "late_fusion",
+    "full",
+    "metablock_cv",
+    "rg_dermnet_adapted_cv",
+    "dsmaf_age_only",
+    "dsmaf_age_recorded",
+    "late_age_only",
+    "late_age_recorded"
+  ],
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "input_hashes": [
+    {
+      "path": "results_replay/statistical_replay/original_and_PAA60/matched.npz",
+      "sha256": "a14469817d928501acbd6585f9f81bed0266bc45962737676e74396f9c7ff317"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/matched.npz",
+      "sha256": "b8bd875f350e7b5bdcd7c091205283f34643280718f1f1f3844fb652e85cbe25"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_image_only_seed20261013.npz",
+      "sha256": "000ffdaa3719242dc16df1ad5e372c5d840d10a3f26e530d888ac268751f2ddd"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_image_only_seed20261013.npz",
+      "sha256": "0acf363a68c8f7c9ed81cc6a9dbd86826cdff58f9a862c9385d36ec78c70bbbd"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_image_only_seed20261013.npz",
+      "sha256": "1e87220e641a446d273380012ebe9e5dd8d81185fa5381ef0da6e8dd761f034b"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_image_only_seed20261013.npz",
+      "sha256": "30d3b9ee76ec976f50ab2a378bec16e949516ba034ee5554f074e83f821ac59e"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_image_only_seed20261013.npz",
+      "sha256": "eea7161936e0166fc3d4ca5e4278447b0aa87d00011d705ac6696701a756e41f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_image_only_seed20261014.npz",
+      "sha256": "833bec0ab1a19e2522bfa70c412099c48cc7ed131cd2aab849314e0b5cbccbc2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_image_only_seed20261014.npz",
+      "sha256": "7418e9a69d055d128dcbdef71ab834c1e7fc2acb213048fbaf8745390a4ba987"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_image_only_seed20261014.npz",
+      "sha256": "6781cf6a7a30c9714e0f7cfadd6df0b0fc46a01b4020ac5353835ad41b1f2a19"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_image_only_seed20261014.npz",
+      "sha256": "5ffd8c96c9e4a82fcdd6cf48e77268eb82c3b2011fad18524136e517009aeb5f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_image_only_seed20261014.npz",
+      "sha256": "63ee5180dd7633dcbf6946056b409926f4e8fe408ee5d9fdf0eed20e36d9b202"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_image_only_seed20261015.npz",
+      "sha256": "7d78ee2aebaf967d6b34f00ca90a4cbd87dd3250930cf22f45c398767154c01e"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_image_only_seed20261015.npz",
+      "sha256": "110ddf97acd0c6a26e412dfeb26c1abe9508131338a37b3a89d02bb77fb0231b"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_image_only_seed20261015.npz",
+      "sha256": "3638f6539fa1f9db4f9685f46fdaff65ae519f6233f357d42536db1cbde66be2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_image_only_seed20261015.npz",
+      "sha256": "4b11a2ae3f32517dc744bc058636001f98660aa0b1a6aa7e01cc7180fa689f9c"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_image_only_seed20261015.npz",
+      "sha256": "11baf3c9797d06cfde3a7939919bc458cd00e0943d60782a7c3af5c01a063a40"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_fusion_seed20261013.npz",
+      "sha256": "7d64e39dbcfd3395f812e9004c700f245c778ac9bab5edd823d3ea2fef329e44"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_fusion_seed20261013.npz",
+      "sha256": "d4820d9bb332ffd91bcc4612e3d277e0e85e6d40f71125dc0baf7637ce29bb99"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_fusion_seed20261013.npz",
+      "sha256": "c2a6a90a524f36d9af69fadd2ef829b3eb3d2f91ff7dcce2818272a6c2432a5e"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_fusion_seed20261013.npz",
+      "sha256": "f65e54649c8b705889d8038bc85b7a77682437b4731c286c5b8d2d0b143d8c73"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_fusion_seed20261013.npz",
+      "sha256": "ab0dfb57b3e783e01c0b32ba8537ade7d2daa4d90589e36f99407d0a1ca73c3a"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_fusion_seed20261014.npz",
+      "sha256": "51e90f7e6fd97b228546596c3a798c5cb1b96bab5ebf07fa334ea30fc6e8d966"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_fusion_seed20261014.npz",
+      "sha256": "f7b0bb9649fbcd49600759ec6c640ad9f5251a2b0431b6306bbd2cd11621c1f7"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_fusion_seed20261014.npz",
+      "sha256": "99e83fdce861e88f82f346ffc082de98aeca5ef3be14459cd4464c3dbd9dbfb2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_fusion_seed20261014.npz",
+      "sha256": "2334be6f17d60f79733cf3c1ead2908c8657062a1820190086bad937eca375c9"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_fusion_seed20261014.npz",
+      "sha256": "29153c6bc5054527ba95579a029228ec3ca101be34d9c187b6fd13b9b6a8a43d"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_fusion_seed20261015.npz",
+      "sha256": "4f432841af3716cc3185a7cd682a8179bfb1edca277fc8a83c93896166122c9e"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_fusion_seed20261015.npz",
+      "sha256": "979a966550968f7810f3fb9975ea7441e0e2704ac90ef9706003d1f9274123fd"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_fusion_seed20261015.npz",
+      "sha256": "52f951c74f1c8640161286ab19693537f849344b55a6aa4a9abeb5e2d901e248"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_fusion_seed20261015.npz",
+      "sha256": "1c4c5172b1c02d6ac3072ee065131b581ad675034be43bd0902327d4e2cd8fec"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_fusion_seed20261015.npz",
+      "sha256": "bb023f1738cb920bb9b4b846546aa1cb9dbdd4dbbe900cc915c1092dc1eeaf95"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_full_seed20261013.npz",
+      "sha256": "1e4306e827d3d7a1b1b0b018c361ad01e3fd42fdfc35c3efc4faf1a9470eee6f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_full_seed20261013.npz",
+      "sha256": "c36626a500a7fb31ec13a20201f560f6acf6e93426a03ff818287463c5289de0"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_full_seed20261013.npz",
+      "sha256": "60c42a833204f6eab182aa675a04a02583f9e76c423ccee8b533ecef9bd1d81d"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_full_seed20261013.npz",
+      "sha256": "265309193c7b8cf751a145cce8870f6951fac6081e81ad0d79df34d2aeda8b3e"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_full_seed20261013.npz",
+      "sha256": "85e3e610c81f07d6409eabf2bda36a549220cdea79daa2955fa440a14a9c5e9d"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_full_seed20261014.npz",
+      "sha256": "8c926f5808c1f82b9818f44228a31ef73d7a43119a292ece920ba202707b1dd3"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_full_seed20261014.npz",
+      "sha256": "f51726c7cd3fe3d0574589425cca4d665f2e1d348dc2cc258c7b250d1dfbf0c0"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_full_seed20261014.npz",
+      "sha256": "ccccd1a65dac5faf94f9b8f30d3cb9bdcf1dfecc435bb0f178586e354a5bc4c6"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_full_seed20261014.npz",
+      "sha256": "da44825ddfd692b49600f6e5f075669539f7601bf910acf1dd9c200acef2e635"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_full_seed20261014.npz",
+      "sha256": "cefeb3e19767e7134258e4e2030c3a7021e2e5ef46ec73530daf6292aea5b4d7"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_full_seed20261015.npz",
+      "sha256": "a9c9ddb07626c311af13ce2d6c66de64487b442d5f796ac5173b659349e8c5be"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_full_seed20261015.npz",
+      "sha256": "d1c66e0b9c6f9c3c74a81d526bfdec6f5184d63ef0f89f0dbda6f444d16a6713"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_full_seed20261015.npz",
+      "sha256": "af133d38aa2b0aaa2f45e188270a93b1af5edf988e88a59f0dc1f98ec66a4a30"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_full_seed20261015.npz",
+      "sha256": "abdaba93c9670b28f730c32870745bffb75649cdf814e401f54b09471dc4735f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_full_seed20261015.npz",
+      "sha256": "47e11ae19443d8707737dba43a3d9931f264be085741bcf9f1b336770b67f084"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_metablock_cv_seed20261013.npz",
+      "sha256": "2b897dce0a725b3179ada564d9bac2c51233a3dc5b5a4c25c65c20339f7f34a9"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_metablock_cv_seed20261013.npz",
+      "sha256": "1a3b2ff7e1f646bc2740ebf0b31be2300c160e3e92eea0b82c87e029dbd0c4c5"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_metablock_cv_seed20261013.npz",
+      "sha256": "e9aea6499794e72de0a85754d6e5706940bb183bf03030193acc9b8bba9e2d87"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_metablock_cv_seed20261013.npz",
+      "sha256": "92e802ad6258f65c31ac9268407a3d40796b11990e96cce67ae81274a7b7f288"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_metablock_cv_seed20261013.npz",
+      "sha256": "d9c5f3d35d00b38d07ad093fa2f99fb6ae9debca7788ff9e1b9976f2208692d6"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_metablock_cv_seed20261014.npz",
+      "sha256": "3ccb33f2c91269f1954bf9ca880e73d4826f9b783a258941dfd2836953fe86af"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_metablock_cv_seed20261014.npz",
+      "sha256": "a085f0abfc860ec6e4ec5cff801bb5c4c9013a55f7d0f63f6b43cf7c9f94ff12"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_metablock_cv_seed20261014.npz",
+      "sha256": "da52635bbaeba046b62ab15f46490076416c1a369eb25ee0cc61103311742f0c"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_metablock_cv_seed20261014.npz",
+      "sha256": "8d3dd51a05d521c625a9db035ff2a47b21c5cbeba2ad0b14ecbc3e32caf4dc34"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_metablock_cv_seed20261014.npz",
+      "sha256": "5a4fac9a70503875f4d3af4cb7938ede021e9ccba8f2d1f61b92ef7df732b203"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_metablock_cv_seed20261015.npz",
+      "sha256": "c8d51609a53b8923312d7cccfddf5223d69f41c47f4db9d5132b46a01095ab95"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_metablock_cv_seed20261015.npz",
+      "sha256": "b3393cc925ba63e6d05c66045c9facf4fec0644cea24537e518af998277a1096"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_metablock_cv_seed20261015.npz",
+      "sha256": "d928c97c814bb4a771d4a18742a10dc6a556fecf4bc33bbab1a81c4b05b1640b"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_metablock_cv_seed20261015.npz",
+      "sha256": "df002cdf80edb0d68805e001ed89ce41efdec3724fd924c7e80f5aa6881c88c2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_metablock_cv_seed20261015.npz",
+      "sha256": "f1ba1df1f35a39b479bf97a47c790d6a74fbe096305a1cc976721c71f24ca1e5"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_rg_dermnet_adapted_cv_seed20261013.npz",
+      "sha256": "6ac26d5eb5a4a96c8a0e49c646983e7303cc1f9bb7370d7eac11ea3ed79ec0d2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_rg_dermnet_adapted_cv_seed20261013.npz",
+      "sha256": "03fcb6607aa03496f3643e5905aacf73f4979f8cb9332392538148624c27b535"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_rg_dermnet_adapted_cv_seed20261013.npz",
+      "sha256": "504e740e2b81d758ea66876a725133f85f3f0890bd077ee48bf7d226e3c1c53f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_rg_dermnet_adapted_cv_seed20261013.npz",
+      "sha256": "19f9db76177cd558554c4ca3c2a16246a259975d8a1f1856e79f3986054c65c8"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_rg_dermnet_adapted_cv_seed20261013.npz",
+      "sha256": "8eb7dada47b319784baa663432ae9feed6674926d39b2edd7ad6569c5644248f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_rg_dermnet_adapted_cv_seed20261014.npz",
+      "sha256": "53c5a6f18b0f1b6638cdf2c1736c27e3e6931e63fb7da6470da4445d572a2b18"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_rg_dermnet_adapted_cv_seed20261014.npz",
+      "sha256": "b3dae52ebad1b5af1a19fe010eae94d92e2a0b53bb0f72124ad2147ec6188197"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_rg_dermnet_adapted_cv_seed20261014.npz",
+      "sha256": "3c8075881d65ff15ace897248a21c41d71bb3ad786fc6407fec46b6aba8807c7"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_rg_dermnet_adapted_cv_seed20261014.npz",
+      "sha256": "e212dabb0e7a50f0b16e922cb117dd71482119554ffc671d6858f44e65c04892"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_rg_dermnet_adapted_cv_seed20261014.npz",
+      "sha256": "e6a492a4b99fa5cb11a7b8a40377de8b4a0f291bb7b4868fa8d7c9a905510030"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_rg_dermnet_adapted_cv_seed20261015.npz",
+      "sha256": "c13100d4b8a913c793b620936efb625bcd41f0ee0242a0c5dc334c46bd2ffb52"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_rg_dermnet_adapted_cv_seed20261015.npz",
+      "sha256": "5337d6eeab4780d78686cc19dbab1adaa4d2bfea6432f19c2fdd13267fab6f69"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_rg_dermnet_adapted_cv_seed20261015.npz",
+      "sha256": "6967afdacee48245f2858acb2c90ce5364fead9c78a12eae5cfb4faa45449d46"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_rg_dermnet_adapted_cv_seed20261015.npz",
+      "sha256": "43ade5270a47b58440fa50d0322b3f6b68b8b170aac663817c3ac4f82c62e163"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_rg_dermnet_adapted_cv_seed20261015.npz",
+      "sha256": "2b8e52964b69cfe88b26d45ef4646ab5c197818297aff237f6fa48815949b4c5"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_dsmaf_age_only_seed20261013.npz",
+      "sha256": "e7ea717db7d20e0a55e0917cddf455c542bebcff85595cd9e3e3184cdbd8aed5"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_dsmaf_age_only_seed20261013.npz",
+      "sha256": "53a89d75a32662629bcf3041716f5259cdd7e0516546ba0bc3da332883fe48c0"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_dsmaf_age_only_seed20261013.npz",
+      "sha256": "d4938c5fab5625eb7df8f8e4856b69f33b76f857be4797a0380c6c3fb8004651"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_dsmaf_age_only_seed20261013.npz",
+      "sha256": "dcfdc1b66c04ec337391b283f74acfeed4fd82e8412b1253c6ffb91723d221ab"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_dsmaf_age_only_seed20261013.npz",
+      "sha256": "1469a154cccedefb8e11991bb854210118e0b46f2b40a11e1301eb976dad20ed"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_dsmaf_age_only_seed20261014.npz",
+      "sha256": "1d6e270a6695715602706ba864f3faf749c19ee5c237208f1c964e2c1cc552cc"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_dsmaf_age_only_seed20261014.npz",
+      "sha256": "2ccd0eabc6eda2ab2424767a5f0c55ff47693625fe32ddd5680549d6cba0187f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_dsmaf_age_only_seed20261014.npz",
+      "sha256": "70170456418e0f1c907f52c533a7f30a9e0c38e1f3f6ab83eb0522957ac0330e"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_dsmaf_age_only_seed20261014.npz",
+      "sha256": "098652f8a265cba24a15c0b44f7b8d70ab862f143e50e7f16eb648e345aeafc1"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_dsmaf_age_only_seed20261014.npz",
+      "sha256": "bc4bdf77086ac36505e996b35390c2678167061b2bafec4ba5c9f329813b7f41"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_dsmaf_age_only_seed20261015.npz",
+      "sha256": "3252bbc5c3e53301dea95c1c6cbdddcc08250ad21331ef7ce6e7d1663ea561c7"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_dsmaf_age_only_seed20261015.npz",
+      "sha256": "fc819a257f03df2e36d870831a2202732c674288a09bdafb091f0a9373897787"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_dsmaf_age_only_seed20261015.npz",
+      "sha256": "73cbd8dd028f00f36bee2ad144a93f3364a256130c84f84b9885c152c023d823"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_dsmaf_age_only_seed20261015.npz",
+      "sha256": "de7cce2d2e602288fc417b8469cfd64da1528fcd98b1005b552f522d36d1c6d8"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_dsmaf_age_only_seed20261015.npz",
+      "sha256": "428106abb8351809024a9943cd8ad1d05b9fd0ee4bb13bb72605925d7e60ac94"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_dsmaf_age_recorded_seed20261013.npz",
+      "sha256": "36bbd5791966369b7b8dccc1dd12b8c1f9470620792e54d097e019e2bea78a91"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_dsmaf_age_recorded_seed20261013.npz",
+      "sha256": "1a2481c87a002e836b842a8ca2fe211d7be8f0039b867a73f0b737bc034a3422"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_dsmaf_age_recorded_seed20261013.npz",
+      "sha256": "52b9c0f22564a8d241411af154cf31cc976a0dc5096bd3caf8586eec6b212fc0"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_dsmaf_age_recorded_seed20261013.npz",
+      "sha256": "baa5b97e050d47239ccffa05b9e17c6a830238080ac97c7bc5e7c2195ea0ff61"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_dsmaf_age_recorded_seed20261013.npz",
+      "sha256": "bf4dd94ea5f34a90299d11f9fed87413885dc8c06e08ed03c7a50e07be260a81"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_dsmaf_age_recorded_seed20261014.npz",
+      "sha256": "ba3539b9db88e39e3cce61ad6f32ed063cafc3bea9494bf36828b5887c2d1363"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_dsmaf_age_recorded_seed20261014.npz",
+      "sha256": "cf3df9067b42bb71fe549890f751eeb8d4026a6ab382ec0c7b561db46165c4b2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_dsmaf_age_recorded_seed20261014.npz",
+      "sha256": "24c20b54e70544cc3b72516fb915088e61b232d6851582fb074cd769ba571686"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_dsmaf_age_recorded_seed20261014.npz",
+      "sha256": "ceff94c8408f194ef3962abc3e1cff1acd585024b4f55c6049bee3b87b8391bf"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_dsmaf_age_recorded_seed20261014.npz",
+      "sha256": "8b6bf1c381ad918ffb41619b61b1d60f234f16643dfc70f096fb27716e956a03"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_dsmaf_age_recorded_seed20261015.npz",
+      "sha256": "70a61e662df52e735b1ca34245b4f1775e2de53511a381a40eaf749ccaa67a81"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_dsmaf_age_recorded_seed20261015.npz",
+      "sha256": "9793ea67a06ec2a40aba98fec9a44de34881078b7fd8fd15a64112b3e9e71aac"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_dsmaf_age_recorded_seed20261015.npz",
+      "sha256": "c2b07cee92de2445ddbb9682e812794e9b462dd8bc9a06aef0b0d1137a0e3f66"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_dsmaf_age_recorded_seed20261015.npz",
+      "sha256": "4546f341448d8b2d068918e4dd8412e054928d579f5174bccb22a3ed0a1d144f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_dsmaf_age_recorded_seed20261015.npz",
+      "sha256": "c66dd0cb01eeeb37e120e7dff3b698f593b702e46cea7d11e0383836254d3a0e"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_age_only_seed20261013.npz",
+      "sha256": "070f7c44c3da707d95f438b84fdce0c0e64b85614dc51d92c4a00adaf35f0c2f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_age_only_seed20261013.npz",
+      "sha256": "00870f91eeee9dad78f97d064770745733af1e7856df0b9d2031b7b0f00495a9"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_age_only_seed20261013.npz",
+      "sha256": "1e13ea2a9eb4297354157fb46366dcac7b53e97510f06a0bc3a7c6e5c31bea59"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_age_only_seed20261013.npz",
+      "sha256": "2c10dd034b80ed30d16f852ef6d9a71a2437d32f3ef93f3433151ff5278e09c2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_age_only_seed20261013.npz",
+      "sha256": "370d1150a6b0e381e970d4b91fd28c7d524f07d8210099be5a14d0a8146ca2e8"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_age_only_seed20261014.npz",
+      "sha256": "6babba0070e316d41dbd54980f2031759900018250d1747037f7a928231aa2d2"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_age_only_seed20261014.npz",
+      "sha256": "d6a69bbef947adfaa60eb5787fca603800aa480c832d90719ca0f16b2c555d7a"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_age_only_seed20261014.npz",
+      "sha256": "b674975885eca365b8bc4d0db4913eaee79d7346617749a2fe3b1cd2ac188f29"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_age_only_seed20261014.npz",
+      "sha256": "1e787a52aaa6561081f8958fa2035fbcaf4cd376fb008842350e20e4af3ddb6f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_age_only_seed20261014.npz",
+      "sha256": "e6b434f715747de745b26eb88fd024614b69b45fea993822db6046fc8a1498cd"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_age_only_seed20261015.npz",
+      "sha256": "4c2226ce8d436bf334b565ff41fdb46621678e43fab97ac222fb44885297cbf9"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_age_only_seed20261015.npz",
+      "sha256": "dfcb3e7b8977afe621dcaa55c09f256b45febf40a66d674d21e1fd4047342b1f"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_age_only_seed20261015.npz",
+      "sha256": "8322fca61bfbd6376271cafd179aac1ade0b55ea5f243886a7d1f11e2b36f9de"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_age_only_seed20261015.npz",
+      "sha256": "f081f45f41b6fccb08ec596273cd2acf01c2bd995dfcd4762e7a0a8572427977"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_age_only_seed20261015.npz",
+      "sha256": "27d8034d705a7cff86d260d8a5a7005e93c70b09e534acaad355ffa25ff23deb"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_age_recorded_seed20261013.npz",
+      "sha256": "36bda4304ac3bc4078ab43eb60462903ef74c1e6b33fdb76778fca960b52003c"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_age_recorded_seed20261013.npz",
+      "sha256": "92e52bf8861c35ea9b7b0cb08880440b3a218dddee31f824aca3728a2582e66c"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_age_recorded_seed20261013.npz",
+      "sha256": "ebcb7a2bb94090677d538af611d3d7caf495e93d646e50243c9869d112879fd5"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_age_recorded_seed20261013.npz",
+      "sha256": "751299b9258725cf50b5b2614fcf4fc92f94190a85a8a8f1fb52dd9a7ef8c098"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_age_recorded_seed20261013.npz",
+      "sha256": "617fb01a0c5138c1c79b447b508f68c57303a771767ceb6a2db88b9b6e43fd76"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_age_recorded_seed20261014.npz",
+      "sha256": "56ea6b0583ae4aa434643fd9aa7f9599bb0bc916a6f6a544c409ac352e60d123"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_age_recorded_seed20261014.npz",
+      "sha256": "0d6b3f2a2defcf788643c8860a550612d4488156fc758b066eab6da452fd970d"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_age_recorded_seed20261014.npz",
+      "sha256": "eafd70c1b3e3e2b7a5b4ee3c0fab976e589e76e7dcd9e247ba695d3d0879e563"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_age_recorded_seed20261014.npz",
+      "sha256": "f4d947de7d7e9c1d1d9df55c442da86130d0c022a2a490e7a180b261c6abb364"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_age_recorded_seed20261014.npz",
+      "sha256": "8531772ebf6d643ed506e8912232690fb65333df6b7ca4543ed4a8b768a666a0"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_00_late_age_recorded_seed20261015.npz",
+      "sha256": "be707c5fc7037a5c9e32cf9237efc5350d33aaab184678486a6d5e3f0753a643"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_01_late_age_recorded_seed20261015.npz",
+      "sha256": "962675cb52ce5c1a20db37a1f4036c429543b9c0341ab41a90215289596da774"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_02_late_age_recorded_seed20261015.npz",
+      "sha256": "3b9488228f2d4541f6e39078f636966e567521f5fd0d2f7e47edbcab780fb096"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_03_late_age_recorded_seed20261015.npz",
+      "sha256": "aa51305557e52d5846335d8c20fe6e2b5b86a6456f7641bf7616d375132584f0"
+    },
+    {
+      "path": "study_inputs/milk/predictions/fold_04_late_age_recorded_seed20261015.npz",
+      "sha256": "d6fe8555584435064e158db61a743ff0541fa365123692fe89dc23ff37eb0b44"
+    }
+  ],
+  "fixed_weighted_points_match_published": true,
+  "equal_C_minus_B_negative_count": 12,
+  "direction_comparisons": 12,
+  "maximum_absolute_BACC_level_change": {
+    "DermatoNet": 0.06278789408542451,
+    "MILK10k": 0.11351856994151177
+  },
+  "interpretation": "Equal arithmetic means of separately scored fold models; no probability ensembling."
+}

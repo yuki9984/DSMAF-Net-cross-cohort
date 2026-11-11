@@ -18,9 +18,9 @@ def compare(left,right,keys,numeric):
  assert error<1e-10
  return error
 def main():
- for name,digest in json.loads((R/'file_hashes.json').read_text()).items():
+ for name,digest in json.loads((R/'file_hashes.json').read_text(encoding="utf-8")).items():
   assert Path(name).name==name and hashlib.sha256((R/name).read_bytes()).hexdigest()==digest
- plan=json.loads((R/'plan.json').read_text())
+ plan=json.loads((R/'plan.json').read_text(encoding="utf-8"))
  with np.load(R/'coded_responses.npz',allow_pickle=False) as z:
   a={k:z[k] for k in z.files}
  arms=a['arms'].tolist();seeds=a['seeds'].tolist();y=a['labels'];v=a['per_fold_responses']

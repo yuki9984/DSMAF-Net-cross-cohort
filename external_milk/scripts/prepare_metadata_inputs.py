@@ -17,7 +17,7 @@ def main():
  frame=pd.read_csv(ROOT/'prepared/candidate_cases.csv');rows=[];arrays={}
  returned=PROJECT/'output/PAA60_verified_return_20261103/received/outputs/fits'
  for fold in range(5):
-  configs=[json.loads(p.read_text()) for p in (returned/f'fold_{fold:02d}').glob('*/config.json')]
+  configs=[json.loads(p.read_text(encoding="utf-8")) for p in (returned/f'fold_{fold:02d}').glob('*/config.json')]
   assert len(configs)==12
   stats_dict=configs[0]['metadata_age_train_stats']
   assert all(c['metadata_age_train_stats']==stats_dict for c in configs)

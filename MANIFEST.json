@@ -1,5 +1,5 @@
 {
-  "scope": "Public source and exact model input projections, case-level outputs and replay inputs; original source licenses retained.",
+  "scope": "Public source and exact study inputs; original numerical measurements retained, explicit UTF-8 portability fixes and post hoc equal-fold sensitivity added.",
   "files": [
     {
       "path": ".gitattributes",
@@ -12,9 +12,9 @@
       "sha256": "35a1ef0833dc48378807a33722a8d5b1dd64e751adf8201a571e7f9347a805ee"
     },
     {
-      "path": "check_external_dependencies.py",
-      "bytes": 1440,
-      "sha256": "2449b1f88c373e53662ce56d140b9d698063270e606661d8bf6397d09c7d7108"
+      "path": "ASSET_VERIFICATION.json",
+      "bytes": 30506,
+      "sha256": "7c37634e896c1b431305653fbd82d90b9c6fb961ea6656d19381211f9ae3bc39"
     },
     {
       "path": "COMPATIBILITY_REPORT.json",
@@ -37,6 +37,66 @@
       "sha256": "9672e661b98d407315bd2ce5ecc20a5de7e573b414d4719253d3aed4f1c7815e"
     },
     {
+      "path": "LICENSES/AFPN-Apache-2.0.txt",
+      "bytes": 11601,
+      "sha256": "91547c0441a35c69750628b834b9caf65e881a05d0b02e11d79250a4f9eed8a7"
+    },
+    {
+      "path": "LICENSES/DANet-MIT.txt",
+      "bytes": 1197,
+      "sha256": "775da52fb0fc32e86f91eb18992060fbb2b1514076764440ff075eb4739dc091"
+    },
+    {
+      "path": "LICENSES/WaveViT-Apache-2.0.txt",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "MODEL_ASSETS.json",
+      "bytes": 88238,
+      "sha256": "ce4b6fdafe077253e668d0cd3b2f5d2ac03b4abc98b745b5703ba55a861f7b76"
+    },
+    {
+      "path": "NEURAL_DEPENDENCIES.json",
+      "bytes": 1287,
+      "sha256": "8c40c37b84585705f91273dc2a0d30f500583f0d9c75ee9d6d536fd2a21fef29"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4531,
+      "sha256": "59160d7c9d690d5693db626edeadb7198f19b72fafa2921f8523f074eef1af39"
+    },
+    {
+      "path": "RELEASE_STATUS.json",
+      "bytes": 951,
+      "sha256": "36e2ba32b4bfa195504ca38e9f791e376fb1a096ca59d188ee76d58aa1280bfc"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 7288,
+      "sha256": "1ec33b6bb840e8d4f635fae8bc553b20d232e2908e8f20ac855e6146422c8f7b"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 682,
+      "sha256": "44139ab5f33869a8ebeae468a53c357ed5d010f267fa00d4f8113cb99717fab2"
+    },
+    {
+      "path": "VERSION_NOTES.md",
+      "bytes": 1111,
+      "sha256": "c3ac2ba5a2a9088f15630de64488fdf2b503af88a6d1a743d4185ea34d6ac5a2"
+    },
+    {
+      "path": "ZENODO_ARCHIVE.json",
+      "bytes": 556,
+      "sha256": "702f3db8f5359ed74e02f9776bcc2b4c6a0d7bd266124c368d301aaf36b33c89"
+    },
+    {
+      "path": "check_external_dependencies.py",
+      "bytes": 1440,
+      "sha256": "2449b1f88c373e53662ce56d140b9d698063270e606661d8bf6397d09c7d7108"
+    },
+    {
       "path": "examples/synthetic/audit_config.json",
       "bytes": 1633,
       "sha256": "4dc31a3d79cbde49d63ac361280a3598381cd97db881fb7182a7af1675b38124"
@@ -55,6 +115,11 @@
       "path": "examples/synthetic/tuning.csv",
       "bytes": 797,
       "sha256": "722d7f26e85e0519a5fd7a24a72aa142cc76930cbcf57a92ce6294d414c98d99"
+    },
+    {
+      "path": "extension30/README.md",
+      "bytes": 1594,
+      "sha256": "6e1898c173c5fbf07cf498568162939341cd509d4dd6dfef2a6bd6fc58e38232"
     },
     {
       "path": "extension30/analysis_core.py",
@@ -102,6 +167,11 @@
       "sha256": "062c86679ec1707469dbc55512135f6e7a8665f1ff9dfa58535541896b9e9d86"
     },
     {
+      "path": "extension30/materials/DATA_PROVENANCE.json",
+      "bytes": 2556,
+      "sha256": "166f28316f9aaa35c242a4f116775f3ec4615b0901db35d125293657284a8811"
+    },
+    {
       "path": "extension30/materials/control_configs.json",
       "bytes": 111437,
       "sha256": "5523531e48e3e44d7da29842a057fa392c55f49c660b735dda31de46302a2c56"
@@ -110,11 +180,6 @@
       "path": "extension30/materials/controls.npz",
       "bytes": 4496307,
       "sha256": "50892cdbe89a82a499621503a2dc62af90884be36c784d1cc71f456101bdce1d"
-    },
-    {
-      "path": "extension30/materials/DATA_PROVENANCE.json",
-      "bytes": 2556,
-      "sha256": "166f28316f9aaa35c242a4f116775f3ec4615b0901db35d125293657284a8811"
     },
     {
       "path": "extension30/materials/external_cases.csv",
@@ -140,11 +205,6 @@
       "path": "extension30/preflight_models.py",
       "bytes": 5538,
       "sha256": "980e831af24e0ed509f3828e83953288ff0946cb7090cf027d003f5518b6f950"
-    },
-    {
-      "path": "extension30/README.md",
-      "bytes": 1594,
-      "sha256": "6e1898c173c5fbf07cf498568162939341cd509d4dd6dfef2a6bd6fc58e38232"
     },
     {
       "path": "extension30/run_campaign.py",
@@ -222,6 +282,11 @@
       "sha256": "9eb327e1706bcd77a58a2102a459e25cddd8ce6e54087fe1f8144ac8fa636d5e"
     },
     {
+      "path": "extension60/materials/DATA_PROVENANCE.json",
+      "bytes": 2556,
+      "sha256": "166f28316f9aaa35c242a4f116775f3ec4615b0901db35d125293657284a8811"
+    },
+    {
       "path": "extension60/materials/control_configs.json",
       "bytes": 111437,
       "sha256": "5523531e48e3e44d7da29842a057fa392c55f49c660b735dda31de46302a2c56"
@@ -230,11 +295,6 @@
       "path": "extension60/materials/controls.npz",
       "bytes": 4496307,
       "sha256": "50892cdbe89a82a499621503a2dc62af90884be36c784d1cc71f456101bdce1d"
-    },
-    {
-      "path": "extension60/materials/DATA_PROVENANCE.json",
-      "bytes": 2556,
-      "sha256": "166f28316f9aaa35c242a4f116775f3ec4615b0901db35d125293657284a8811"
     },
     {
       "path": "extension60/materials/external_cases.csv",
@@ -317,6 +377,11 @@
       "sha256": "6a97c431ff52496c348e39170d573f01bf7021579d2250f3123f6be42614fb91"
     },
     {
+      "path": "extension60/runtime/protocol_v2_supplemental_20261019/splits/PUBLIC_INPUT_PROJECTION.json",
+      "bytes": 5295,
+      "sha256": "05474eee6dd299f4b6bea38075276d501ba677965c9a2f1cd8c4ee51cd4403d7"
+    },
+    {
       "path": "extension60/runtime/protocol_v2_supplemental_20261019/splits/fold_00_test.csv",
       "bytes": 47950,
       "sha256": "5f0becb6695474c97f78f70c63820f73b8dc3acd45c582b34d57baa95bb3090b"
@@ -397,11 +462,6 @@
       "sha256": "9e76ecd94475540729156c928984560f3fe5d3cfab031532bc2df9d0dc7e73e5"
     },
     {
-      "path": "extension60/runtime/protocol_v2_supplemental_20261019/splits/PUBLIC_INPUT_PROJECTION.json",
-      "bytes": 5295,
-      "sha256": "05474eee6dd299f4b6bea38075276d501ba677965c9a2f1cd8c4ee51cd4403d7"
-    },
-    {
       "path": "extension60/runtime/protocol_v2_supplemental_20261019/train_cv.py",
       "bytes": 9334,
       "sha256": "91c7834ebf9cc5885c068af7da6aa01131e9309697ed7cfc25a989f0409c4672"
@@ -433,13 +493,13 @@
     },
     {
       "path": "external_milk/scripts/audit_images.py",
-      "bytes": 5324,
-      "sha256": "5eb991771567a1519aa39f5fea2f56cc668f1785f5edce79219ba792485d53cf"
+      "bytes": 5270,
+      "sha256": "fe3dfdaf461b5303c29230a228099defb4053b9c7c955e4a0c3395665884e44c"
     },
     {
       "path": "external_milk/scripts/audit_metadata.py",
-      "bytes": 5707,
-      "sha256": "e5e3d3b7e6790dee2fdb1acbee051f35cf6f0407ebf3c93bd05fdc381b74bef7"
+      "bytes": 5667,
+      "sha256": "a7e584316124a68ff3472790513bd21bda32df11b6577bfde8f64d97ad5f4cdc"
     },
     {
       "path": "external_milk/scripts/cache_evaluation_crops.py",
@@ -463,8 +523,8 @@
     },
     {
       "path": "external_milk/scripts/prepare_metadata_inputs.py",
-      "bytes": 2677,
-      "sha256": "df39334451c20be52cef9b6b67395612c9868a0feb633a2fae19a78ea0e3d2ee"
+      "bytes": 2654,
+      "sha256": "8921d352aac7be5cd02975408fd6ff8bcd742d732644871c7ec2d1125c63650d"
     },
     {
       "path": "external_milk/scripts/run_milk.py",
@@ -478,8 +538,8 @@
     },
     {
       "path": "fetch_dependencies.py",
-      "bytes": 1600,
-      "sha256": "af87ca1fac087b466290dcd283c33d4157a4b8b41fb0bfc23312677df545af92"
+      "bytes": 1618,
+      "sha256": "d03209e0ada0726deff938d1f6d54d9ee650012ee87b78ed2e6d8234b7d7382f"
     },
     {
       "path": "historical_study/followup/inputs/train_recipe.py",
@@ -582,54 +642,14 @@
       "sha256": "79f37d5729b8c0e8c1f9bb7051fcba38718702f0f6686efceaff639faeb0bc7e"
     },
     {
-      "path": "LICENSES/AFPN-Apache-2.0.txt",
-      "bytes": 11601,
-      "sha256": "91547c0441a35c69750628b834b9caf65e881a05d0b02e11d79250a4f9eed8a7"
-    },
-    {
-      "path": "LICENSES/DANet-MIT.txt",
-      "bytes": 1197,
-      "sha256": "775da52fb0fc32e86f91eb18992060fbb2b1514076764440ff075eb4739dc091"
-    },
-    {
-      "path": "LICENSES/WaveViT-Apache-2.0.txt",
-      "bytes": 11558,
-      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
-    },
-    {
       "path": "model_api.py",
       "bytes": 1413,
       "sha256": "1ad34a4357f168326128eb271b1e983a284aa47c1a7b7e6328a1ead28ce2b230"
     },
     {
-      "path": "MODEL_ASSETS.json",
-      "bytes": 88238,
-      "sha256": "ce4b6fdafe077253e668d0cd3b2f5d2ac03b4abc98b745b5703ba55a861f7b76"
-    },
-    {
-      "path": "NEURAL_DEPENDENCIES.json",
-      "bytes": 1287,
-      "sha256": "8c40c37b84585705f91273dc2a0d30f500583f0d9c75ee9d6d536fd2a21fef29"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4000,
-      "sha256": "750ea943ae2975c4dd43291e5cb2837ded1b629166e1658e7e1eb6d67610e5e9"
-    },
-    {
-      "path": "RELEASE_STATUS.json",
-      "bytes": 625,
-      "sha256": "277934b5ef3a4cd02d549144f8ef8a7b58f46ee503d52c452517a52af42fd716"
-    },
-    {
       "path": "reproduce_training.py",
       "bytes": 2702,
       "sha256": "2a3d0fa3c47c3d4a043fceaf5e826d0cf5e2a5df657cdf36273555c1ce2db3e5"
-    },
-    {
-      "path": "REPRODUCIBILITY.md",
-      "bytes": 6929,
-      "sha256": "fe4244a47205c72496c686a07c63453d96773b8c30cc90653c8be9ea85dbb780"
     },
     {
       "path": "requirements_neural.txt",
@@ -645,6 +665,46 @@
       "path": "requirements_verification.txt",
       "bytes": 47,
       "sha256": "cca7d5466250e11f73acd9ce8176eea9cb500d7e31d244af6db5d55c00f93c26"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/README.md",
+      "bytes": 837,
+      "sha256": "2e40a98ffc4ad9d6339f14a033a3d05aeab5f826bdd5d6151f3075e1c0843ee7"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/expected/REPORT.json",
+      "bytes": 25768,
+      "sha256": "b173cc78baaf43b54a8ca51eea8fa32c8c73bc50355254e178adb4b26f52c034"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/expected/all_seeds.csv",
+      "bytes": 181395,
+      "sha256": "9a5df5d701eb7238eb8ce0b48cf5afbeec19db3a4e0af650d0f2e612afd77407"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/expected/recording_status_directions.csv",
+      "bytes": 884,
+      "sha256": "bc2bb1deb04232b9900411358bb67acc367f6f6fe11f721b1d15116de1fe6f38"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/expected/resamples.npz",
+      "bytes": 3852740,
+      "sha256": "9b014f0121681564fc82cda0852530729ebebf66206a98de9ca45fc0039babdb"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/expected/summary.csv",
+      "bytes": 123588,
+      "sha256": "c4797cf726e9de90507026ef1bb25cf8432d9edac7181ba4ccd83b0627bc53c9"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/expected/weighting_changes.csv",
+      "bytes": 4994,
+      "sha256": "8036b7e08f3af8c10630687a2c4ffa6f1c31fbf303be12429cc3690da1f746a1"
+    },
+    {
+      "path": "results_replay/equal_fold_sensitivity/replay.py",
+      "bytes": 8835,
+      "sha256": "71fb65a3fc11f6ed05427453f3c4749e18f8db096787d66d94e05ebaeaece01b"
     },
     {
       "path": "results_replay/image_review_sensitivity/all_seeds.csv",
@@ -677,54 +737,9 @@
       "sha256": "f8d95af289d1dcc7a0242dfd05ee6b9cdd3e6b739c5449e2faf97e44dbb8a2d2"
     },
     {
-      "path": "results_replay/statistical_replay/late_fusion_followup/analysis_core.py",
-      "bytes": 4664,
-      "sha256": "f7c3ff971ba3540e1dc31b832090a117d1944c3271dbdb9b9be1cded81b14981"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/bootstrap_reference.npz",
-      "bytes": 1790515,
-      "sha256": "5f444da985288fcc467ff02b3523bd6d2d90faae4c7eaab840077ef9b97f8eb0"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/file_hashes.json",
-      "bytes": 824,
-      "sha256": "1eff363d8253eb068ba0c434cbd5f3bd03b16e740c02b656f31bbc648a27213d"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/matched.npz",
-      "bytes": 7433722,
-      "sha256": "b8bd875f350e7b5bdcd7c091205283f34643280718f1f1f3844fb652e85cbe25"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/metrics_and_contrasts_by_seed.csv",
-      "bytes": 53943,
-      "sha256": "6198e7a19bc6c878768220c1b1e6d258e841f4fddcd00db2a93544dcfc7a3076"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/plan.json",
-      "bytes": 402,
-      "sha256": "a881a62c8fd14eab7500aa2393d77ac4d021c52e1da0df4fa99fc1d080840103"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/README.txt",
+      "path": "results_replay/statistical_replay/MILK10k/README.txt",
       "bytes": 338,
       "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/replay.py",
-      "bytes": 2264,
-      "sha256": "45f6a0a927940a128ae9dcdefdb8d29a303991d5ccb507e2cddf0450373168c7"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/statistics_reference.py",
-      "bytes": 2588,
-      "sha256": "3a3810260429d47afcc52b879856cdfa4c7e2e2f5c9ff8ed83aa84d6b05f8b6a"
-    },
-    {
-      "path": "results_replay/statistical_replay/late_fusion_followup/summary_intervals.csv",
-      "bytes": 35193,
-      "sha256": "ffe3983820bf1a176e4face5aaf14007b7ebf5d7acdd6586cecccddd1acd68c4"
     },
     {
       "path": "results_replay/statistical_replay/MILK10k/all_135_model_metrics.csv",
@@ -759,7 +774,7 @@
     {
       "path": "results_replay/statistical_replay/MILK10k/file_hashes.json",
       "bytes": 1251,
-      "sha256": "affa6d5b0f7ce25ab4d7a76980ef3c616446721bff9a68db70096a2b810b1037"
+      "sha256": "43df692f34a323a2bc8b49b388362fab9c5b5fa022ee7ccfdec3abf62134bb53"
     },
     {
       "path": "results_replay/statistical_replay/MILK10k/histopathology_only_all_seeds.csv",
@@ -787,14 +802,74 @@
       "sha256": "542abf1ffd3a044250daa750845e868ee52a64c012f2d2978687f503109cf816"
     },
     {
-      "path": "results_replay/statistical_replay/MILK10k/README.txt",
+      "path": "results_replay/statistical_replay/MILK10k/replay.py",
+      "bytes": 3438,
+      "sha256": "293ff9a7538dc27d1e0204ad35b5ea8b500e6ebf4367c1a881ba63b9bd09a2d1"
+    },
+    {
+      "path": "results_replay/statistical_replay/PACKAGE_MANIFEST.json",
+      "bytes": 6644,
+      "sha256": "93751a49846892727ef380c874e93281eb286d8be9d651aec9d921042b9d322c"
+    },
+    {
+      "path": "results_replay/statistical_replay/README.txt",
       "bytes": 338,
       "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
     },
     {
-      "path": "results_replay/statistical_replay/MILK10k/replay.py",
-      "bytes": 3464,
-      "sha256": "a01e159eb16d57235c701a966220acd4d63999e8b409f248bd7144e942c24d15"
+      "path": "results_replay/statistical_replay/late_fusion_followup/README.txt",
+      "bytes": 338,
+      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/analysis_core.py",
+      "bytes": 4664,
+      "sha256": "f7c3ff971ba3540e1dc31b832090a117d1944c3271dbdb9b9be1cded81b14981"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/bootstrap_reference.npz",
+      "bytes": 1790515,
+      "sha256": "5f444da985288fcc467ff02b3523bd6d2d90faae4c7eaab840077ef9b97f8eb0"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/file_hashes.json",
+      "bytes": 824,
+      "sha256": "c665774fb3fbdb8e716f17fd042838acb2ad91899e1a5f759e75bc268688288e"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/matched.npz",
+      "bytes": 7433722,
+      "sha256": "b8bd875f350e7b5bdcd7c091205283f34643280718f1f1f3844fb652e85cbe25"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/metrics_and_contrasts_by_seed.csv",
+      "bytes": 53943,
+      "sha256": "6198e7a19bc6c878768220c1b1e6d258e841f4fddcd00db2a93544dcfc7a3076"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/plan.json",
+      "bytes": 402,
+      "sha256": "a881a62c8fd14eab7500aa2393d77ac4d021c52e1da0df4fa99fc1d080840103"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/replay.py",
+      "bytes": 2259,
+      "sha256": "a4c94810ebd5d395c9be9de757251e697ff4229ae9254658276935db1e795f45"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/statistics_reference.py",
+      "bytes": 2588,
+      "sha256": "3a3810260429d47afcc52b879856cdfa4c7e2e2f5c9ff8ed83aa84d6b05f8b6a"
+    },
+    {
+      "path": "results_replay/statistical_replay/late_fusion_followup/summary_intervals.csv",
+      "bytes": 35193,
+      "sha256": "ffe3983820bf1a176e4face5aaf14007b7ebf5d7acdd6586cecccddd1acd68c4"
+    },
+    {
+      "path": "results_replay/statistical_replay/original_and_PAA60/README.txt",
+      "bytes": 338,
+      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
     },
     {
       "path": "results_replay/statistical_replay/original_and_PAA60/analysis_core.py",
@@ -809,7 +884,7 @@
     {
       "path": "results_replay/statistical_replay/original_and_PAA60/file_hashes.json",
       "bytes": 1010,
-      "sha256": "7fa3f629e5da674b8879cea9250b0a72ad764c1778393214f0f256f8e2d4effc"
+      "sha256": "5ae5e37ffd1c539c982102dbf1713c8ea4a05efebd5d7abc40305013123a8472"
     },
     {
       "path": "results_replay/statistical_replay/original_and_PAA60/matched.npz",
@@ -837,14 +912,9 @@
       "sha256": "af1e0bcd0855d5ef5b0d7a17cd58ce5886a14adad72d89a3e90cc63489a44877"
     },
     {
-      "path": "results_replay/statistical_replay/original_and_PAA60/README.txt",
-      "bytes": 338,
-      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
-    },
-    {
       "path": "results_replay/statistical_replay/original_and_PAA60/replay_core.py",
-      "bytes": 3721,
-      "sha256": "0d9ccee6efd15d90d3e38d9be5b3af38f42084cb169f86f1f9794293fb261e11"
+      "bytes": 3752,
+      "sha256": "47fb53e1a8e3d00ec33e653ecb44612d122b54ee080d1a55ca736eb9ad8598dc"
     },
     {
       "path": "results_replay/statistical_replay/original_and_PAA60/statistics_reference.py",
@@ -855,16 +925,6 @@
       "path": "results_replay/statistical_replay/original_and_PAA60/summary_intervals.csv",
       "bytes": 84171,
       "sha256": "9a2d0645d1bda95e2f77005e0a81c49af2c07e44581ac7af90cb07acd95730da"
-    },
-    {
-      "path": "results_replay/statistical_replay/PACKAGE_MANIFEST.json",
-      "bytes": 6844,
-      "sha256": "594a0baa63f8570abca4217d3a7686f0dd2585de902acd2cea9b86ca088fd0c1"
-    },
-    {
-      "path": "results_replay/statistical_replay/README.txt",
-      "bytes": 338,
-      "sha256": "95e6e3702c63db2b84e90b9e99a032df3b3cc4d2e02a2176eb9205c260160e5a"
     },
     {
       "path": "results_replay/statistical_replay/replay_all.py",
@@ -885,6 +945,21 @@
       "path": "run_synthetic_milk.py",
       "bytes": 3973,
       "sha256": "0774d27cf0cd58846df714612495f574be8f98f621bc9c68fe17249f403aae07"
+    },
+    {
+      "path": "study_inputs/MANIFEST.json",
+      "bytes": 229359,
+      "sha256": "cdd50788b1bac83c73e07c4c08b43b6c1998bbe8e36c8e47e7064425c25cdd21"
+    },
+    {
+      "path": "study_inputs/README.txt",
+      "bytes": 764,
+      "sha256": "59d1414da458d8d0505a51412d120c22e392b830b3e094040becc93766bea82b"
+    },
+    {
+      "path": "study_inputs/age_record_sensitivity.py",
+      "bytes": 8377,
+      "sha256": "37d9148227b27ee07679aab672b7a282b39f3f1ae1160f0d3a76319b27bc1cc1"
     },
     {
       "path": "study_inputs/age_record_sensitivity/analysis_plan.json",
@@ -937,11 +1012,6 @@
       "sha256": "d67f0e4cf2e0eb2440579de9b4c9b9ad85992d0486b47ef39f855c24f9df7cee"
     },
     {
-      "path": "study_inputs/age_record_sensitivity.py",
-      "bytes": 8377,
-      "sha256": "37d9148227b27ee07679aab672b7a282b39f3f1ae1160f0d3a76319b27bc1cc1"
-    },
-    {
       "path": "study_inputs/class_and_recording/analysis_scope.json",
       "bytes": 1076,
       "sha256": "74385ffd64e991907c3cab13bd76b68ad1da4031059a96a289c8b1f770387b94"
@@ -992,14 +1062,14 @@
       "sha256": "670ea6da4060d3ea206534290a5943859d2ef3871b197e828cb6245674c7d343"
     },
     {
-      "path": "study_inputs/data/external_metadata_projection.csv",
-      "bytes": 62666,
-      "sha256": "663d777a3f0af98c40299a4244e3a21d171e104f3cacf2d2d54ea5132d2a3394"
-    },
-    {
       "path": "study_inputs/data/PAD_metadata.csv",
       "bytes": 316209,
       "sha256": "14d145235cedb022548257acb0d84dcd949e2c916f65d2baa7c38ed5339e9527"
+    },
+    {
+      "path": "study_inputs/data/external_metadata_projection.csv",
+      "bytes": 62666,
+      "sha256": "663d777a3f0af98c40299a4244e3a21d171e104f3cacf2d2d54ea5132d2a3394"
     },
     {
       "path": "study_inputs/data/pad_train.csv",
@@ -1020,6 +1090,16 @@
       "path": "study_inputs/expected/paired_contrasts.json",
       "bytes": 479,
       "sha256": "a0cb7bb103ad5cc6adadd63dfd91f70193b7fb6ae81f35ed7a9908f12cd9a6a8"
+    },
+    {
+      "path": "study_inputs/followup/INPUT_MANIFEST.json",
+      "bytes": 164472,
+      "sha256": "38cf5403601998b0a657de4508fbc16c821350ee49a0e0ba3d1aa368e2c47459"
+    },
+    {
+      "path": "study_inputs/followup/README.txt",
+      "bytes": 3249,
+      "sha256": "318fd38fb6e29b076203a889f3caaf8fc07f432d91a0667545221735941c46ab"
     },
     {
       "path": "study_inputs/followup/expected/intervention_intervals.csv",
@@ -1055,11 +1135,6 @@
       "path": "study_inputs/followup/expected/recipe_seed_metrics.csv",
       "bytes": 8131,
       "sha256": "fdb113622b0fc0ab7503c8b7bdfbd0189b07fbe440b41c724fd35583ffe101d0"
-    },
-    {
-      "path": "study_inputs/followup/INPUT_MANIFEST.json",
-      "bytes": 164472,
-      "sha256": "38cf5403601998b0a657de4508fbc16c821350ee49a0e0ba3d1aa368e2c47459"
     },
     {
       "path": "study_inputs/followup/inputs/analysis_plan.json",
@@ -1600,11 +1675,6 @@
       "path": "study_inputs/followup/neural_source/train_recipe.py",
       "bytes": 9443,
       "sha256": "de8c34f1652297d064331cbf930bea8aa3186a6c9a999d9eaddc17494c40054c"
-    },
-    {
-      "path": "study_inputs/followup/README.txt",
-      "bytes": 3249,
-      "sha256": "318fd38fb6e29b076203a889f3caaf8fc07f432d91a0667545221735941c46ab"
     },
     {
       "path": "study_inputs/followup/receiver_statistics.py",
@@ -4122,14 +4192,14 @@
       "sha256": "fc822c71ea1da49751b127308603ce248f04cb811f8237869c5c0944d29d5c5a"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261013/config.json",
-      "bytes": 2075,
-      "sha256": "86b30bfc4e802b9bb0fa86ca6fb881fc8fd026a13e2b8707a5c5089c4db30c3c"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261013/DONE.json",
       "bytes": 479,
       "sha256": "81c67a671d9d099cf2cfd9ebbd8d49101bb0d15b380adcb3d66ae4dec2c07d34"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261013/config.json",
+      "bytes": 2075,
+      "sha256": "86b30bfc4e802b9bb0fa86ca6fb881fc8fd026a13e2b8707a5c5089c4db30c3c"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261013/history.json",
@@ -4142,14 +4212,14 @@
       "sha256": "6d6028887dc2bec6e84f3c991bec4f67502de74cc78dcfb253c4ad5206cdbb4a"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261014/config.json",
-      "bytes": 2075,
-      "sha256": "bbc00c3c47db3dc06b1a70499aeae82403789ba2928c56536d942e09bc96ee42"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261014/DONE.json",
       "bytes": 470,
       "sha256": "ca043593bbedcfbf60a1510ab30e18e60d1f95b79d77f7f163e4082eb49e0271"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261014/config.json",
+      "bytes": 2075,
+      "sha256": "bbc00c3c47db3dc06b1a70499aeae82403789ba2928c56536d942e09bc96ee42"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261014/history.json",
@@ -4162,14 +4232,14 @@
       "sha256": "a0122714da2c9293ebf1fca6249e6c381f0605a6f202c9e3702d5bf7e0490c19"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261015/config.json",
-      "bytes": 2075,
-      "sha256": "accb3decfd2e90c5ddc1de0ed0b7cf7bda171da751d0b8ea1e4fc02301f5130c"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261015/DONE.json",
       "bytes": 479,
       "sha256": "cf293f09cec96484dcf0491c267f5ede7433d9ad48bcf5fb2a9c523153dacc70"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261015/config.json",
+      "bytes": 2075,
+      "sha256": "accb3decfd2e90c5ddc1de0ed0b7cf7bda171da751d0b8ea1e4fc02301f5130c"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/full_seed20261015/history.json",
@@ -4182,14 +4252,14 @@
       "sha256": "7c84b8cc021ea6dd6569db693809c14a56a327d6ce2b9a0744fab5f614af1057"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261013/config.json",
-      "bytes": 2081,
-      "sha256": "04e76a562a50739677c0f0cffbf22b557fbff938a94b4625947bac41b2ced4bd"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261013/DONE.json",
       "bytes": 486,
       "sha256": "ce3e16a6255b54c8934fdff3933046e97fac46fdad4e92f8c3a70147c38d9b1c"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "04e76a562a50739677c0f0cffbf22b557fbff938a94b4625947bac41b2ced4bd"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261013/history.json",
@@ -4202,14 +4272,14 @@
       "sha256": "45952c064600f6646104b33118c09c8b600484f0313a4a2f867426600d07fdc0"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261014/config.json",
-      "bytes": 2081,
-      "sha256": "c9923337933bc52a051c1ef2215ce30558b49129d02131aba8ef080d465d0829"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261014/DONE.json",
       "bytes": 486,
       "sha256": "dd09a38db13eed100ae24e62a7ba93086af83a4cc3e5ba89057b4639146c4ff3"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "c9923337933bc52a051c1ef2215ce30558b49129d02131aba8ef080d465d0829"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261014/history.json",
@@ -4222,14 +4292,14 @@
       "sha256": "f7938252eea924659e8dccb6016618035f1eb6652ede79d01fee8d0cdbc3c103"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261015/config.json",
-      "bytes": 2081,
-      "sha256": "ae93ddafea5af834130b8b4dd71880c389afeabbed0c3d85407e010a1506e785"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261015/DONE.json",
       "bytes": 486,
       "sha256": "a9311032dcf5ec8c90997878f2126e26a4a44db88af24b6dc87be67ae7865b0a"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "ae93ddafea5af834130b8b4dd71880c389afeabbed0c3d85407e010a1506e785"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/image_only_seed20261015/history.json",
@@ -4242,14 +4312,14 @@
       "sha256": "f146a7648ad9b0115e777ba87782035aac815913e2221a7bbe2c80a9a0a5bc5c"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261013/config.json",
-      "bytes": 2082,
-      "sha256": "4bdaededa228e3ebd41d28e38ab7333d8cbbf5a1414808a31fcddab097f41995"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261013/DONE.json",
       "bytes": 487,
       "sha256": "1c345eee4e200670ef89e3698c105603518e02480d678ca16751450f7993d033"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261013/config.json",
+      "bytes": 2082,
+      "sha256": "4bdaededa228e3ebd41d28e38ab7333d8cbbf5a1414808a31fcddab097f41995"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261013/history.json",
@@ -4262,14 +4332,14 @@
       "sha256": "d6d7ac1836f496450141be64ebca0df9bbefb1b390a251fc1a012b0603e3faf2"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261014/config.json",
-      "bytes": 2082,
-      "sha256": "22babd587b0f43c8d27c57b0a78671de342e139d8306bc655b20a91cb64075c7"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261014/DONE.json",
       "bytes": 487,
       "sha256": "057f0fd3f77bdf8551e4eca963e388f4573cb6febaea2e1fcba7cd1748cef5d3"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261014/config.json",
+      "bytes": 2082,
+      "sha256": "22babd587b0f43c8d27c57b0a78671de342e139d8306bc655b20a91cb64075c7"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261014/history.json",
@@ -4282,14 +4352,14 @@
       "sha256": "a1011fb1d5e29a48e4f151009afba969111e6578b3897e357ff60c4f123afe2c"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261015/config.json",
-      "bytes": 2082,
-      "sha256": "e0260df1f6d14c0eb619971c1f65fc3e47b8ed31cfb7f7ed0fe33ab9c782fc6c"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261015/DONE.json",
       "bytes": 487,
       "sha256": "f4825ec2ec8542f6243a88910088417c997756ddbeb0f0d63537195feeb7e7c2"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261015/config.json",
+      "bytes": 2082,
+      "sha256": "e0260df1f6d14c0eb619971c1f65fc3e47b8ed31cfb7f7ed0fe33ab9c782fc6c"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_00/late_fusion_seed20261015/history.json",
@@ -4302,14 +4372,14 @@
       "sha256": "c5ce8fabd8d5c5a0e6313c17e35db4e4d5c20fce85e17939207e445b48417ad1"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261013/config.json",
-      "bytes": 2075,
-      "sha256": "2d3c220af0b03c22a3109da236d0faa3da736f5fb2c4eb058c2ce2495248f4c0"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261013/DONE.json",
       "bytes": 479,
       "sha256": "b96d3f462d2d914ba6036cdcca7b24a67cfdc93771ed54cbda0eb8fde7fdaeca"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261013/config.json",
+      "bytes": 2075,
+      "sha256": "2d3c220af0b03c22a3109da236d0faa3da736f5fb2c4eb058c2ce2495248f4c0"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261013/history.json",
@@ -4322,14 +4392,14 @@
       "sha256": "236516a8065ea4e35f3711c40717e99fc460bc701f0e05795cb18d824d6c003e"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261014/config.json",
-      "bytes": 2075,
-      "sha256": "d577739a4d7866ec01c439e882f7eb5c0aed53cf3b4ea37a4424561f3d6f2e16"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261014/DONE.json",
       "bytes": 480,
       "sha256": "fb65370a0a6f690a705d2130f9d07dadb57b9ba72c4432fc2989942d5e2f0bcc"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261014/config.json",
+      "bytes": 2075,
+      "sha256": "d577739a4d7866ec01c439e882f7eb5c0aed53cf3b4ea37a4424561f3d6f2e16"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261014/history.json",
@@ -4342,14 +4412,14 @@
       "sha256": "04e618651777b8257e298b0202490ff69f03df88e9cb952e1119d2644bcfe6dd"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261015/config.json",
-      "bytes": 2075,
-      "sha256": "ee86e0e084d538a2cf2eed7f130359bf93bd36db2ede75ffe317c1412c6d3c99"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261015/DONE.json",
       "bytes": 480,
       "sha256": "ad22b81255c50761df1da9fa0764ebb9808e71a341b12b96002332975f266937"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261015/config.json",
+      "bytes": 2075,
+      "sha256": "ee86e0e084d538a2cf2eed7f130359bf93bd36db2ede75ffe317c1412c6d3c99"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/full_seed20261015/history.json",
@@ -4362,14 +4432,14 @@
       "sha256": "d60d8dd1ad37129c07893204628b3952b01777dc4c469efacb4cf956d7193517"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261013/config.json",
-      "bytes": 2081,
-      "sha256": "6200ea621e6a585b7cf94483eb10b6891f9973bc98a3810f13342185b9ddb521"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261013/DONE.json",
       "bytes": 485,
       "sha256": "d00d6206195c28b53710488ac6d3adc3bca55a97ef17a645a32e6d9310fbae77"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "6200ea621e6a585b7cf94483eb10b6891f9973bc98a3810f13342185b9ddb521"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261013/history.json",
@@ -4382,14 +4452,14 @@
       "sha256": "fc9fa29a25328d4a263c2bc0e8222c0a31a9e0a7f380072e8a8adc988b69d3bb"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261014/config.json",
-      "bytes": 2081,
-      "sha256": "bfafdea609d7cfe07c6cedee35132ae563b234e0ecf839b3610fa799540b0f43"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261014/DONE.json",
       "bytes": 474,
       "sha256": "a9e84aa1e31acb6eac4867b52cc72d04ad9beeea3558593926ba0cd5bb7d8825"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "bfafdea609d7cfe07c6cedee35132ae563b234e0ecf839b3610fa799540b0f43"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261014/history.json",
@@ -4402,14 +4472,14 @@
       "sha256": "2c818c0641257c56f9afcfcac904d4a2180a8d8abcf92924ce88f0ecff824ee1"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261015/config.json",
-      "bytes": 2081,
-      "sha256": "cfeed87b4271ae8cd7bd851f3febff5a557490fa5306f33453b73366377aab11"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261015/DONE.json",
       "bytes": 485,
       "sha256": "8067f398a95555021f63d32477415c10fa52e29956c56eb17bb5059c8c523ff1"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "cfeed87b4271ae8cd7bd851f3febff5a557490fa5306f33453b73366377aab11"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/image_only_seed20261015/history.json",
@@ -4422,14 +4492,14 @@
       "sha256": "ad006a34b27d3553c7b38dbc4a67a110623fd736279b45320d5d98b05aa194ab"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261013/config.json",
-      "bytes": 2082,
-      "sha256": "de2636afa04d387693607c66191f1a52533bb86351e74854496d4af6ac648ad2"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261013/DONE.json",
       "bytes": 487,
       "sha256": "22f2a77e57e00288b59413b68e424272d6b6670e498675dcb217dc71a3b70b91"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261013/config.json",
+      "bytes": 2082,
+      "sha256": "de2636afa04d387693607c66191f1a52533bb86351e74854496d4af6ac648ad2"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261013/history.json",
@@ -4442,14 +4512,14 @@
       "sha256": "92a2f2857cc376bbd78e2168e954c4e90b2d6d5b4b0f1329864393626d7afb57"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261014/config.json",
-      "bytes": 2082,
-      "sha256": "402d52f2eacbd8ee73cff118327ccba99a4253aea9d16b76d70566bce3e3d321"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261014/DONE.json",
       "bytes": 477,
       "sha256": "274265aeca4d1de38abfb5a27aa63ef6f2d68065f9c107d04dc99aa2a79a8a38"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261014/config.json",
+      "bytes": 2082,
+      "sha256": "402d52f2eacbd8ee73cff118327ccba99a4253aea9d16b76d70566bce3e3d321"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261014/history.json",
@@ -4462,14 +4532,14 @@
       "sha256": "3865d57ed128596c9848e19ab473988731bf523682cf0f2a68e66f1606cb5a04"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261015/config.json",
-      "bytes": 2082,
-      "sha256": "ee9b8a35fdeb5904aa7f5723d7eec625075b16e67d52923c7bf7eef97c6d4ab1"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261015/DONE.json",
       "bytes": 475,
       "sha256": "7ba0f6ed4fdbe777ecbf8fe3c0edcea2910d40a92a595de642d25aece7079894"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261015/config.json",
+      "bytes": 2082,
+      "sha256": "ee9b8a35fdeb5904aa7f5723d7eec625075b16e67d52923c7bf7eef97c6d4ab1"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_01/late_fusion_seed20261015/history.json",
@@ -4482,14 +4552,14 @@
       "sha256": "94526f4677bc24a9f9c6ee768e2e25bfb4aac9f820d7ca4cf565b9d239a0817b"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261013/config.json",
-      "bytes": 2075,
-      "sha256": "121881ba460db546e21322110614eb57a34a6cbe813700fc0969113ea26e1299"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261013/DONE.json",
       "bytes": 470,
       "sha256": "76a3a5952d6ddb05202cf6edcd032147a8f2e68cd860cdd0de1da742cd23dc6e"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261013/config.json",
+      "bytes": 2075,
+      "sha256": "121881ba460db546e21322110614eb57a34a6cbe813700fc0969113ea26e1299"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261013/history.json",
@@ -4502,14 +4572,14 @@
       "sha256": "315efb8dfb99ed54455aacc72d499e4f7b567c1804bf6142e3e63e78234250c4"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261014/config.json",
-      "bytes": 2075,
-      "sha256": "de96820528cd13be39fa261bb0db387e9c97a50a2669d835caae00efa53a4503"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261014/DONE.json",
       "bytes": 479,
       "sha256": "e1d54c0afaf52a8736acfc45cf49af76b48d97a05589e8810a3f175d4f7619d1"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261014/config.json",
+      "bytes": 2075,
+      "sha256": "de96820528cd13be39fa261bb0db387e9c97a50a2669d835caae00efa53a4503"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261014/history.json",
@@ -4522,14 +4592,14 @@
       "sha256": "0dc3c65a3c04d19d06c360f5722712924b6c58fc19af3e611b4a1537d589cd8f"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261015/config.json",
-      "bytes": 2075,
-      "sha256": "8d70c76722146aa7ecb18e0245359c54e7aca4aecf64b0990527ad6cb1da1847"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261015/DONE.json",
       "bytes": 480,
       "sha256": "dee23d28510afef7f3f03d7b3fff3c171f959fce65705708b077b120f1f08b09"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261015/config.json",
+      "bytes": 2075,
+      "sha256": "8d70c76722146aa7ecb18e0245359c54e7aca4aecf64b0990527ad6cb1da1847"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/full_seed20261015/history.json",
@@ -4542,14 +4612,14 @@
       "sha256": "bde881c1d957c3d96ed10f475c5b07a1737208f3e8feb455f42b24aa14df3365"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261013/config.json",
-      "bytes": 2081,
-      "sha256": "38d665b1240971979397f15451e4550ace4bcbe4fac4acd8b73f11f5c30fc955"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261013/DONE.json",
       "bytes": 486,
       "sha256": "bf9cbe1408ad5c30d11bc722efb0bf48b807e7233abed8c6af961e55fbb08001"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "38d665b1240971979397f15451e4550ace4bcbe4fac4acd8b73f11f5c30fc955"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261013/history.json",
@@ -4562,14 +4632,14 @@
       "sha256": "27c42e5a97e62e930c3b02b1ba167af6c84ed7222570790d806575160a496d9f"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261014/config.json",
-      "bytes": 2081,
-      "sha256": "09cf28c0767a10e874db7949dd3d8fcf18616987a2acbb68249cd55c2797db2c"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261014/DONE.json",
       "bytes": 486,
       "sha256": "a59155416239d4b55a153bcb43d7d8f9bc7891981007ada474b7b500c0b13056"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "09cf28c0767a10e874db7949dd3d8fcf18616987a2acbb68249cd55c2797db2c"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261014/history.json",
@@ -4582,14 +4652,14 @@
       "sha256": "05b46cb720e840f682b2bdd2071b01cd8ee913b6a363ef7ded7449e10c233b50"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261015/config.json",
-      "bytes": 2081,
-      "sha256": "562c5f83e7b2ab24343f97b4f12025371475bc35d581209efcad8131cf1757ea"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261015/DONE.json",
       "bytes": 486,
       "sha256": "ad4cc3f29d258b6278529fca33f178bad8213c174d535a2bd770737cb684a82c"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "562c5f83e7b2ab24343f97b4f12025371475bc35d581209efcad8131cf1757ea"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/image_only_seed20261015/history.json",
@@ -4602,14 +4672,14 @@
       "sha256": "463b3835eea24ad6d61d0b24d211326185eebeb8db2c8309bcc613f3defa7b95"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261013/config.json",
-      "bytes": 2082,
-      "sha256": "d790d3f54dac66e27fb217c789602721ef92c274442617f959fecbfb4b091388"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261013/DONE.json",
       "bytes": 487,
       "sha256": "67ec71cb518103439ad5681f8c8014f74892ad4a1c22af26868057c363b9079c"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261013/config.json",
+      "bytes": 2082,
+      "sha256": "d790d3f54dac66e27fb217c789602721ef92c274442617f959fecbfb4b091388"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261013/history.json",
@@ -4622,14 +4692,14 @@
       "sha256": "b84c14a5059008b5a22cac7fe0006e9b5713ff89d335a0f3ced486a4db10b5d7"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261014/config.json",
-      "bytes": 2082,
-      "sha256": "bbc575c76819ece0f79822c3c7b2e58224b834af7868f91e9ee41909661b835a"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261014/DONE.json",
       "bytes": 486,
       "sha256": "d2f3f2ee7be7858146538977e3d77a843c909d67cf2487f9d423c4d4f07b7e47"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261014/config.json",
+      "bytes": 2082,
+      "sha256": "bbc575c76819ece0f79822c3c7b2e58224b834af7868f91e9ee41909661b835a"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261014/history.json",
@@ -4642,14 +4712,14 @@
       "sha256": "38d913f027a32979c60c0e357e1914aac77c92152ea02c2454743d3c983667ca"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261015/config.json",
-      "bytes": 2082,
-      "sha256": "72683fd65ba7a5250f846cc09174c0ef567cb152e5b57e4959c94bbfe426084b"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261015/DONE.json",
       "bytes": 487,
       "sha256": "79ffaf6ab98f2e1769b5624aaafef35352696366c75ba4e5036bc3c3ade9347f"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261015/config.json",
+      "bytes": 2082,
+      "sha256": "72683fd65ba7a5250f846cc09174c0ef567cb152e5b57e4959c94bbfe426084b"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_02/late_fusion_seed20261015/history.json",
@@ -4662,14 +4732,14 @@
       "sha256": "40a1f40de452c07a9cec1369860266f04f40f2471d0b2685131b39aa9ba7c57d"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261013/config.json",
-      "bytes": 2074,
-      "sha256": "a603095a401d09873ff56bb55e081c5fae834208a3d32d33cc27ed1e65cfcc2d"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261013/DONE.json",
       "bytes": 479,
       "sha256": "311295f6b7b64528a9db19c2f54ce00e32f35f949e4f53b7ed4e30025b8637c1"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261013/config.json",
+      "bytes": 2074,
+      "sha256": "a603095a401d09873ff56bb55e081c5fae834208a3d32d33cc27ed1e65cfcc2d"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261013/history.json",
@@ -4682,14 +4752,14 @@
       "sha256": "0b9cc86983549e8335f40bdf6ed445faaa46a216b857ac803e34ccad0dd2aaf3"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261014/config.json",
-      "bytes": 2074,
-      "sha256": "5bd134a2b9ea34e3ca56871eca173a4f1dbf2c066a9d5e7e13422e51dceb0744"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261014/DONE.json",
       "bytes": 480,
       "sha256": "27d77e09a011f83d1c0fbb1bb49143737d03fa252b2d799150b0e498a66e2c0e"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261014/config.json",
+      "bytes": 2074,
+      "sha256": "5bd134a2b9ea34e3ca56871eca173a4f1dbf2c066a9d5e7e13422e51dceb0744"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261014/history.json",
@@ -4702,14 +4772,14 @@
       "sha256": "ea488e40e3b29b2d428ba238a14bc31e9e612c99564a6186d17b28b319cfec2d"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261015/config.json",
-      "bytes": 2074,
-      "sha256": "4afcbfc16e9db27c3025e99ef05f4621582d0f37edd9c404c830a6c7bd78b6ca"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261015/DONE.json",
       "bytes": 479,
       "sha256": "0d47c1de0053c774dd1636ed2324477a47c7b6a564c05377f1a50ada19a81f60"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261015/config.json",
+      "bytes": 2074,
+      "sha256": "4afcbfc16e9db27c3025e99ef05f4621582d0f37edd9c404c830a6c7bd78b6ca"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/full_seed20261015/history.json",
@@ -4722,14 +4792,14 @@
       "sha256": "5400c1d7a8f6ec5b1ad7c04317684d9c721b895eac6346f7c49026af09de2a3f"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261013/config.json",
-      "bytes": 2080,
-      "sha256": "024196f5206a5df8d1ef60a7ceea9e278af53bddb3ebec118fa0fb82727c85e1"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261013/DONE.json",
       "bytes": 485,
       "sha256": "baec756db5adec50babaffae99fa2d8b513ec3730de48a70538d8657811a7bb9"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261013/config.json",
+      "bytes": 2080,
+      "sha256": "024196f5206a5df8d1ef60a7ceea9e278af53bddb3ebec118fa0fb82727c85e1"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261013/history.json",
@@ -4742,14 +4812,14 @@
       "sha256": "f7722e5a8fa2860a4da593c1e3d84c0f970403a47ceade7c2bbfc0ba0355cbf9"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261014/config.json",
-      "bytes": 2080,
-      "sha256": "101ef16afc3e9341c4d5d3e630929c654e64925fd291094d38f73d308532093c"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261014/DONE.json",
       "bytes": 486,
       "sha256": "7274eb2498f046fbc46e56dddb2c1cac31751533395babd12a7f80975133c2be"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261014/config.json",
+      "bytes": 2080,
+      "sha256": "101ef16afc3e9341c4d5d3e630929c654e64925fd291094d38f73d308532093c"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261014/history.json",
@@ -4762,14 +4832,14 @@
       "sha256": "d755fa32dba3c2ed04755bc7782a768999bfce5b40c9f0ad531d7043dddff848"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261015/config.json",
-      "bytes": 2080,
-      "sha256": "a9c4ee162428524a48a80db1bfad273ec466150130d5b7eace13a99f2a4e9502"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261015/DONE.json",
       "bytes": 485,
       "sha256": "4f41bbbf068d8ed5e705035e618ac9886b72d7ea417e3995c145fb621ab84465"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261015/config.json",
+      "bytes": 2080,
+      "sha256": "a9c4ee162428524a48a80db1bfad273ec466150130d5b7eace13a99f2a4e9502"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/image_only_seed20261015/history.json",
@@ -4782,14 +4852,14 @@
       "sha256": "fb01040be65a4b909fb4bf79e2745f47c3e4183941c13ccf37fd7cc882ae16bc"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261013/config.json",
-      "bytes": 2081,
-      "sha256": "d89500ce2a6abbacb940dfebd7a8c63146c90bda74ab77f5b862146aefd29067"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261013/DONE.json",
       "bytes": 486,
       "sha256": "b69ca8c5ae203f5dbf32b27ea6ba359f4dd4beb5243c5978f0f7be95706fa42b"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "d89500ce2a6abbacb940dfebd7a8c63146c90bda74ab77f5b862146aefd29067"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261013/history.json",
@@ -4802,14 +4872,14 @@
       "sha256": "9377521c71f93924d42f4e21813a454f610c9c153d4ec1b709d571adcbcfc85f"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261014/config.json",
-      "bytes": 2081,
-      "sha256": "66bdb789468e29f832095ca098b8417adf133982540f704b8dd1ca1514189077"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261014/DONE.json",
       "bytes": 487,
       "sha256": "942013b5092f0c7bd494c98ad4dfdb9436f0fc51d68a1c62f2b047b5d123c702"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "66bdb789468e29f832095ca098b8417adf133982540f704b8dd1ca1514189077"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261014/history.json",
@@ -4822,14 +4892,14 @@
       "sha256": "9c13c6e78d59d7c5f46c796d4bcd3f86002f0038dd204789a04ec450b65c065f"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261015/config.json",
-      "bytes": 2081,
-      "sha256": "4daec4f40963a3c887ba16582723aff59b3d3626f6bf02549d57afd444b41bfe"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261015/DONE.json",
       "bytes": 487,
       "sha256": "dea81cb208c45b3896a460f7b9f76692b7534729d1efaea1210cc0a93b2e3cdc"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "4daec4f40963a3c887ba16582723aff59b3d3626f6bf02549d57afd444b41bfe"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_03/late_fusion_seed20261015/history.json",
@@ -4842,14 +4912,14 @@
       "sha256": "6d719b5faff6ce17cd3f225db35eed391b1837973d310154f15e2f88c9fd19b4"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261013/config.json",
-      "bytes": 2074,
-      "sha256": "989bcc024fb41e81ac33363ce0eef924d033687ef73eb4680631d2091daa69bd"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261013/DONE.json",
       "bytes": 480,
       "sha256": "3af8c3692ce7bb56dd550dfbf630b8c5cc24febc501abde8d578cc27ea27be54"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261013/config.json",
+      "bytes": 2074,
+      "sha256": "989bcc024fb41e81ac33363ce0eef924d033687ef73eb4680631d2091daa69bd"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261013/history.json",
@@ -4862,14 +4932,14 @@
       "sha256": "68f89584debabadbab356762acacfcd6ab14413142023f4234258db391aa0822"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261014/config.json",
-      "bytes": 2074,
-      "sha256": "813a39b0eebf8bcb86ccc1a53e53529be4dd9efe935a350480b9f8cfb70bca23"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261014/DONE.json",
       "bytes": 480,
       "sha256": "6ff6a5c64bdf0783742fc92e155b9a7bc79e9e637f00253bcf1ba4bd0444dcdb"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261014/config.json",
+      "bytes": 2074,
+      "sha256": "813a39b0eebf8bcb86ccc1a53e53529be4dd9efe935a350480b9f8cfb70bca23"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261014/history.json",
@@ -4882,14 +4952,14 @@
       "sha256": "712f43047d83bf2376fe2b866a4946c0db00365ecc4908835cbda806efc19907"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261015/config.json",
-      "bytes": 2074,
-      "sha256": "97af6bf0675e9ffbb40696432448b648cb97e2386fa52033bdc0e538ccfda1d3"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261015/DONE.json",
       "bytes": 480,
       "sha256": "421092bb5f8cbcc6eafb8654ff6a40e0c33bf59a4aad27a320a19cc0a3667fcc"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261015/config.json",
+      "bytes": 2074,
+      "sha256": "97af6bf0675e9ffbb40696432448b648cb97e2386fa52033bdc0e538ccfda1d3"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/full_seed20261015/history.json",
@@ -4902,14 +4972,14 @@
       "sha256": "3df1ffa12b34d202cd1f21f9e0ef00153064143a0bfd4bd11e737b6976b6ab4b"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261013/config.json",
-      "bytes": 2080,
-      "sha256": "4d77b75c26b354b269d5eb3f1a5a18462b228c1f326a90b4f612430623e5d21b"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261013/DONE.json",
       "bytes": 486,
       "sha256": "bfa9d47f46c88fa2b6f3a14e387324c84063a6396ac9804736a23ce49e5f0dad"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261013/config.json",
+      "bytes": 2080,
+      "sha256": "4d77b75c26b354b269d5eb3f1a5a18462b228c1f326a90b4f612430623e5d21b"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261013/history.json",
@@ -4922,14 +4992,14 @@
       "sha256": "98c26c1dd5ea9b8585779e81287dcbf3c434887495a48ad32f8dd901ccc2e43b"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261014/config.json",
-      "bytes": 2080,
-      "sha256": "33e1cb8289d271a8e2e66c8785db431440e83139d64e5866095da1dd5a47d1d9"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261014/DONE.json",
       "bytes": 485,
       "sha256": "2e1de377146b6a2f5cc4154caaf18d195d2ec4ac9ed4ebfe4c2c5b421f02d77c"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261014/config.json",
+      "bytes": 2080,
+      "sha256": "33e1cb8289d271a8e2e66c8785db431440e83139d64e5866095da1dd5a47d1d9"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261014/history.json",
@@ -4942,14 +5012,14 @@
       "sha256": "82d5d402a92974d4ceecd9fbefacad3e2841d2979a0921db343d407248732a43"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261015/config.json",
-      "bytes": 2080,
-      "sha256": "4720c84eedc4ae1af579f433ac6fcc31ba6fa80b94425c9f26a477b2481e35e8"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261015/DONE.json",
       "bytes": 486,
       "sha256": "b895dca6013e664d48e5ac64452bda12c2303d06f447079a18045dc1b16d9527"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261015/config.json",
+      "bytes": 2080,
+      "sha256": "4720c84eedc4ae1af579f433ac6fcc31ba6fa80b94425c9f26a477b2481e35e8"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/image_only_seed20261015/history.json",
@@ -4962,14 +5032,14 @@
       "sha256": "1bdc00b012398f2c84cef9ccfefdc827a851e5af57d3daa6b6090b681cae4b59"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261013/config.json",
-      "bytes": 2081,
-      "sha256": "4e227edfbd974ac19014467666ed634fcf361c0a3b7b0840f8b076f2d29e54cc"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261013/DONE.json",
       "bytes": 486,
       "sha256": "5bf38de06425b338e81143e86201341c90c8c270bf4ade673515b750c91a9509"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261013/config.json",
+      "bytes": 2081,
+      "sha256": "4e227edfbd974ac19014467666ed634fcf361c0a3b7b0840f8b076f2d29e54cc"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261013/history.json",
@@ -4982,14 +5052,14 @@
       "sha256": "8c575688aedf038e591a0cc393375ab60bbdee58ccf397b27118e4c9b9fa9638"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261014/config.json",
-      "bytes": 2081,
-      "sha256": "2e0d687a9d579f6f73f1472dee11f768cbf08b83c08ddfd5ba40fd90b1ee39fd"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261014/DONE.json",
       "bytes": 487,
       "sha256": "1032a3e419b4fd4454630a43411e8757c6a108e585b62cd0125047444b391f15"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261014/config.json",
+      "bytes": 2081,
+      "sha256": "2e0d687a9d579f6f73f1472dee11f768cbf08b83c08ddfd5ba40fd90b1ee39fd"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261014/history.json",
@@ -5002,14 +5072,14 @@
       "sha256": "3ab255df273689e64acebf26c82c021678f9229e17c89b5c7ebd5333038c185d"
     },
     {
-      "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261015/config.json",
-      "bytes": 2081,
-      "sha256": "d6891f808b06c603b023fb6e65a013a96fb9f33f3ff4d1297ec6f1079ad8bba2"
-    },
-    {
       "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261015/DONE.json",
       "bytes": 487,
       "sha256": "83d3351ecb68c3994bb105a28ad01c7b7f9305b99115d2d3ce0b469c15f3f3da"
+    },
+    {
+      "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261015/config.json",
+      "bytes": 2081,
+      "sha256": "d6891f808b06c603b023fb6e65a013a96fb9f33f3ff4d1297ec6f1079ad8bba2"
     },
     {
       "path": "study_inputs/followup/returned/recipe45/fold_04/late_fusion_seed20261015/history.json",
@@ -5060,6 +5130,11 @@
       "path": "study_inputs/internal75/provenance.json",
       "bytes": 1178,
       "sha256": "8a4044af49234d9df379ccef3042703b372f87466832de56d5ddf9ff8dba99fa"
+    },
+    {
+      "path": "study_inputs/internal75/splits/PUBLIC_INPUT_PROJECTION.json",
+      "bytes": 5295,
+      "sha256": "05474eee6dd299f4b6bea38075276d501ba677965c9a2f1cd8c4ee51cd4403d7"
     },
     {
       "path": "study_inputs/internal75/splits/fold_00_test.csv",
@@ -5140,11 +5215,6 @@
       "path": "study_inputs/internal75/splits/fold_manifest.json",
       "bytes": 8739,
       "sha256": "9e76ecd94475540729156c928984560f3fe5d3cfab031532bc2df9d0dc7e73e5"
-    },
-    {
-      "path": "study_inputs/internal75/splits/PUBLIC_INPUT_PROJECTION.json",
-      "bytes": 5295,
-      "sha256": "05474eee6dd299f4b6bea38075276d501ba677965c9a2f1cd8c4ee51cd4403d7"
     },
     {
       "path": "study_inputs/internal75/training_complete.json",
@@ -6277,9 +6347,9 @@
       "sha256": "a2bf0f0e0c7ff89f827dcb0dfe4697e5cacfbd834450266cd735aa8746e47b81"
     },
     {
-      "path": "study_inputs/MANIFEST.json",
-      "bytes": 234842,
-      "sha256": "0f914dc3d2b3f104c05c7471d469f4995cc74067bcb4a8ff3d26961514800c3f"
+      "path": "study_inputs/matched_cohort/PROVENANCE.json",
+      "bytes": 1106,
+      "sha256": "474950e22ecea928882f6f25838ec3cbfae6e61b750558fa7bee920ef9e0dcba"
     },
     {
       "path": "study_inputs/matched_cohort/expected/all_150_fold_cohort_metrics.csv",
@@ -6310,11 +6380,6 @@
       "path": "study_inputs/matched_cohort/probabilities.npz",
       "bytes": 7461276,
       "sha256": "cffb58c19c7d112e20c25022df0aec52f0a98dbeeed6db1bee15cde026b2fbfc"
-    },
-    {
-      "path": "study_inputs/matched_cohort/PROVENANCE.json",
-      "bytes": 1106,
-      "sha256": "474950e22ecea928882f6f25838ec3cbfae6e61b750558fa7bee920ef9e0dcba"
     },
     {
       "path": "study_inputs/milk/candidate_metadata_inputs.npz",
@@ -7732,6 +7797,11 @@
       "sha256": "ec1bbc1c98924c541f56fd027e1dbf2115279118781c2d8833d0c6912d91c4e6"
     },
     {
+      "path": "study_inputs/neural_setup/original_split/PUBLIC_INPUT_PROJECTION.json",
+      "bytes": 1490,
+      "sha256": "e97790ae4413ac820f5b6accee12ca28393b73dda80754bc8848d5e2084385a9"
+    },
+    {
       "path": "study_inputs/neural_setup/original_split/pad_test.csv",
       "bytes": 18643,
       "sha256": "98232c07d3b224e1d2ae585d2dc3323b1ac580990fa1389cb1ba453b1f1a63be"
@@ -7747,14 +7817,14 @@
       "sha256": "ba7626a965504be72feb3f9f59f4b24ac0a62da17a23435192403502239d0a6e"
     },
     {
-      "path": "study_inputs/neural_setup/original_split/PUBLIC_INPUT_PROJECTION.json",
-      "bytes": 1490,
-      "sha256": "e97790ae4413ac820f5b6accee12ca28393b73dda80754bc8848d5e2084385a9"
-    },
-    {
       "path": "study_inputs/neural_setup/original_split/split_manifest.json",
       "bytes": 2163,
       "sha256": "242d081350f5eab9b98b9941d4dc738a22c1eade28657251d97fe8c820067507"
+    },
+    {
+      "path": "study_inputs/portable_audit/DATA_PROVENANCE.json",
+      "bytes": 1536,
+      "sha256": "37af061b665ef55a56c1f3f2d89dc8cb7ad02cfdb7116b4579009a5eefdb029e"
     },
     {
       "path": "study_inputs/portable_audit/audit_metadata.py",
@@ -7765,11 +7835,6 @@
       "path": "study_inputs/portable_audit/audit_reporting.py",
       "bytes": 15658,
       "sha256": "59978e6c3bb792bebf90fe4907bf2543fe2baf51a99e1ab226affe28899a15cf"
-    },
-    {
-      "path": "study_inputs/portable_audit/DATA_PROVENANCE.json",
-      "bytes": 1536,
-      "sha256": "37af061b665ef55a56c1f3f2d89dc8cb7ad02cfdb7116b4579009a5eefdb029e"
     },
     {
       "path": "study_inputs/portable_audit/example/audit_config.json",
@@ -7852,19 +7917,14 @@
       "sha256": "dfd09e36b86beeae2b758bd545368d657e076bbcad1871afc16246a773255b38"
     },
     {
-      "path": "study_inputs/README.txt",
-      "bytes": 764,
-      "sha256": "59d1414da458d8d0505a51412d120c22e392b830b3e094040becc93766bea82b"
-    },
-    {
       "path": "study_inputs/reproduce.py",
-      "bytes": 6544,
-      "sha256": "ef75c94b7f8b5f256e52a12033646281b73454c0a0ee8767f4cb5ecddaeddcf7"
+      "bytes": 6491,
+      "sha256": "212d0cfd703de237bb7853133d383246334f242683326ac6a950cdfdc844f10e"
     },
     {
       "path": "study_inputs/reproduce_all.py",
-      "bytes": 1723,
-      "sha256": "ac6202e38e7508c057aa71863600e140c0290665051e69f365c2abf17f0359c3"
+      "bytes": 1853,
+      "sha256": "5ef575c3892cba0ee3ed82a1ecfc78ee642d65d7e6af84455bf9f80e92995868"
     },
     {
       "path": "study_inputs/requirements_review.txt",
@@ -7893,8 +7953,8 @@
     },
     {
       "path": "study_inputs/verify_cohort_characteristics.py",
-      "bytes": 7580,
-      "sha256": "1bf0c1d86c41a121d202c5298632fe4e818718a61ad3ff163c2f73b5517a8b0c"
+      "bytes": 7485,
+      "sha256": "a77e1ca9508eca732e6f2172c28ae39acdb07bc650747ea7cb8e1ee3eaf0aa21"
     },
     {
       "path": "study_inputs/verify_followup.py",
@@ -7908,28 +7968,13 @@
     },
     {
       "path": "study_inputs/verify_matched_cohort.py",
-      "bytes": 1577,
-      "sha256": "cd3c0c62134dad84be83333e20082392d801ac36739a4972d6aaab62d6b0dce1"
+      "bytes": 1609,
+      "sha256": "6e263f89e9642af37699a003f753aa32568eeb93a2955d63dd8230b021714652"
     },
     {
       "path": "study_inputs/verify_portable_audit.py",
-      "bytes": 1873,
-      "sha256": "d796afffa1c8eb42f3e794d73298a1ad7c5000316904795bb0565a9db3e89ec6"
-    },
-    {
-      "path": "THIRD_PARTY.md",
-      "bytes": 682,
-      "sha256": "44139ab5f33869a8ebeae468a53c357ed5d010f267fa00d4f8113cb99717fab2"
-    },
-    {
-      "path": "ASSET_VERIFICATION.json",
-      "bytes": 30506,
-      "sha256": "7c37634e896c1b431305653fbd82d90b9c6fb961ea6656d19381211f9ae3bc39"
-    },
-    {
-      "path": "ZENODO_ARCHIVE.json",
-      "bytes": 556,
-      "sha256": "702f3db8f5359ed74e02f9776bcc2b4c6a0d7bd266124c368d301aaf36b33c89"
+      "bytes": 1869,
+      "sha256": "4f48c585b9082fe574445828d648bdce414a77ce4920fa19189505ae4dff0bd7"
     }
   ]
 }

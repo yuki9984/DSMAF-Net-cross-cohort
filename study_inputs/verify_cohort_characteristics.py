@@ -101,7 +101,7 @@ if __name__=='__main__':
  result=calculate()
  expected=ROOT/'cohort_characteristics/expected.json'
  if expected.exists():
-  old=json.loads(expected.read_text())
+  old=json.loads(expected.read_text(encoding="utf-8"))
   for a,b in zip(result['rows'],old['rows']):
    assert a.keys()==b.keys()
    for k,v in a.items():

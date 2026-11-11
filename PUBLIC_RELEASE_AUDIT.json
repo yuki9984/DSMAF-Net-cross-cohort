@@ -120,5 +120,13 @@
   "full_new_gpu_training_performed": false,
   "public_input_projection_proof": "study_inputs/internal75/splits/PUBLIC_INPUT_PROJECTION.json",
   "source_terms": "DATA_LICENSES.md",
-  "large_assets_status": "All 135 checkpoint assets, the exact image cache and asset manifest passed complete server SHA256 verification. See ASSET_VERIFICATION.json."
+  "large_assets_status": "All 135 checkpoint assets, the exact image cache and asset manifest passed complete server SHA256 verification. See ASSET_VERIFICATION.json.",
+  "corrected_source_version": "2026.11.11",
+  "tracked_files": 1597,
+  "python_files": 112,
+  "old_numerical_measurements_unchanged": true,
+  "upstream_fetch_cache_free_hash_checks": "PASS_4_FILES",
+  "utf8_disabled_complete_verification": "PASS",
+  "equal_fold_replay": "PASS",
+  "full_neural_retraining_not_claimed": true
 }

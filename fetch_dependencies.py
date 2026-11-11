@@ -6,14 +6,14 @@ p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--accept-emcad-research-license',action='store_true')
 p.add_argument('--accept-rg-noncommercial-license',action='store_true')
 a=p.parse_args()
-items=json.loads((R/'NEURAL_DEPENDENCIES.json').read_text())['external']
+items=json.loads((R/'NEURAL_DEPENDENCIES.json').read_text(encoding="utf-8"))['external']
 if not a.accept_emcad_research_license or not a.accept_rg_noncommercial_license:
  p.error('Read DEPENDENCY_ACCESS.md and the linked upstream licenses, then explicitly acknowledge both with the corresponding flags.')
 for x in items:
  if x['component']=='EMCAD MSCBLayer':
-  files=[('decoders.py',x['url'].replace('github.com/','raw.githubusercontent.com/').replace('/blob/',''),x['normalized_source_sha256'],R/'external_dependencies/emcad')]
+  files=[('decoders.py',x['url'].replace('github.com/','raw.githubusercontent.com/').replace('/blob/','/'),x['normalized_source_sha256'],R/'external_dependencies/emcad')]
  else:
-  base=x['url'].replace('github.com/','raw.githubusercontent.com/').replace('/tree/','')
+  base=x['url'].replace('github.com/','raw.githubusercontent.com/').replace('/tree/','/')
   files=[(n,base+'/'+n,h,R/'external_dependencies/rg_dermnet') for n,h in x['normalized_source_sha256'].items()]
  for name,url,expected,folder in files:
   with urllib.request.urlopen(url,timeout=90) as f:raw=f.read()

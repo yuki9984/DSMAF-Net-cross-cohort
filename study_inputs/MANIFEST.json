@@ -1,5 +1,5 @@
 {
-  "scope": "Restricted historical statistical replay inventory. Byte-identical members verified against the prior archived inventory. Neural model implementations excluded.",
+  "scope": "Public historical statistical replay inventory. Original numerical inputs preserved; explicit UTF-8 source portability fixes recorded.",
   "original_manifest_sha256": "f63d515af3e94c3a64d0748033d996ea32376d22cf9f04cf85fea03a92f024cb",
   "files": [
     {
@@ -5509,13 +5509,13 @@
     },
     {
       "path": "reproduce.py",
-      "bytes": 6544,
-      "sha256": "ef75c94b7f8b5f256e52a12033646281b73454c0a0ee8767f4cb5ecddaeddcf7"
+      "bytes": 6491,
+      "sha256": "212d0cfd703de237bb7853133d383246334f242683326ac6a950cdfdc844f10e"
     },
     {
       "path": "reproduce_all.py",
-      "bytes": 1723,
-      "sha256": "ac6202e38e7508c057aa71863600e140c0290665051e69f365c2abf17f0359c3"
+      "bytes": 1853,
+      "sha256": "5ef575c3892cba0ee3ed82a1ecfc78ee642d65d7e6af84455bf9f80e92995868"
     },
     {
       "path": "same_models_statistics.py",
@@ -5539,8 +5539,8 @@
     },
     {
       "path": "verify_cohort_characteristics.py",
-      "bytes": 7580,
-      "sha256": "1bf0c1d86c41a121d202c5298632fe4e818718a61ad3ff163c2f73b5517a8b0c"
+      "bytes": 7485,
+      "sha256": "a77e1ca9508eca732e6f2172c28ae39acdb07bc650747ea7cb8e1ee3eaf0aa21"
     },
     {
       "path": "verify_followup.py",
@@ -5554,18 +5554,19 @@
     },
     {
       "path": "verify_matched_cohort.py",
-      "bytes": 1577,
-      "sha256": "cd3c0c62134dad84be83333e20082392d801ac36739a4972d6aaab62d6b0dce1"
+      "bytes": 1609,
+      "sha256": "6e263f89e9642af37699a003f753aa32568eeb93a2955d63dd8230b021714652"
     },
     {
       "path": "verify_portable_audit.py",
-      "bytes": 1873,
-      "sha256": "d796afffa1c8eb42f3e794d73298a1ad7c5000316904795bb0565a9db3e89ec6"
+      "bytes": 1869,
+      "sha256": "4f48c585b9082fe574445828d648bdce414a77ce4920fa19189505ae4dff0bd7"
     },
     {
       "path": "followup/neural_source/original_trainer_reference.txt",
       "bytes": 9332,
       "sha256": "fb6aeb8b992f4d1527a558b2b4af12f57a04adef99197f9a3ea6074e81ce0c0d"
     }
-  ]
+  ],
+  "before_portability_patch_manifest_sha256": "0f914dc3d2b3f104c05c7471d469f4995cc74067bcb4a8ff3d26961514800c3f"
 }

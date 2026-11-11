@@ -13,5 +13,10 @@
   "server_verified_assets": 137,
   "zenodo_record_public": true,
   "zenodo_doi": "10.5281/zenodo.24110942",
-  "zenodo_record_url": "https://zenodo.org/records/24110942"
+  "zenodo_record_url": "https://zenodo.org/records/24110942",
+  "corrected_source_tag": "reproduction-2026-11-11",
+  "corrected_archive_doi": "10.5281/zenodo.24124181",
+  "original_numerical_weights_unchanged": true,
+  "portability_checks": "Pinned upstream fetch and explicit UTF-8 file I/O verified",
+  "equal_fold_sensitivity": "Post hoc, no retraining; 12 of 12 external C-B BACC contrasts negative"
 }

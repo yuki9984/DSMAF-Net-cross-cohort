@@ -2,7 +2,7 @@
 
 **Release status:** Complete reproduction release. All 135 numerical checkpoints and the exact MILK input cache are available in the linked release; every server SHA256 matches the local artifact manifest. See ASSET_VERIFICATION.json.
 
-**Archived snapshot:** The same frozen code, processed study inputs, 135 core numerical checkpoints and exact MILK cache are preserved at [10.5281/zenodo.24110942](https://doi.org/10.5281/zenodo.24110942). The archive retains the component-specific source terms and references the original frozen source commit.
+**Archived snapshot:** The same frozen code, processed study inputs, 135 core numerical checkpoints and exact MILK cache are preserved at [10.5281/zenodo.24124181](https://doi.org/10.5281/zenodo.24124181). The archive retains the component-specific source terms and references the original frozen source commit.
 
 Code, study inputs and individual model outputs for **Age-and-Sex Fusion Across Cohorts: Separating Recording Status from Recorded Values in Skin Lesion Classification**.
 
@@ -16,9 +16,14 @@ Use Python 3.13 and the pinned numerical dependencies:
 python -m pip install -r requirements_verification.txt
 python -B results_replay/statistical_replay/replay_all.py --output verification_results
 python -B results_replay/image_review_sensitivity/replay.py
+python -B results_replay/equal_fold_sensitivity/replay.py --output verification_results_equal
 ```
 
 The first command checks the original primary comparison, the matched-method extension, the late-fusion information follow-up and both complete/histopathology-only MILK analyses, including all 2,000 paired resamples. The second checks the conservative author-review image-exclusion sensitivity. Earlier audits and sensitivity analyses can be rerun with `python -B study_inputs/reproduce_all.py`.
+
+## Portability correction (2026.11.11)
+
+The corrected source fixes upstream URL separators and specifies UTF-8 explicitly for text-file I/O. Original model weights, training inputs and reported primary measurements are unchanged. The added equal-fold sensitivity checks both external cohorts without refitting. On PowerShell, `$env:PYTHONUTF8="1"` is recommended for console consistency; file reads also work with UTF-8 mode disabled. See [VERSION_NOTES.md](VERSION_NOTES.md).
 
 ## Obtain the inputs and rerun models
 

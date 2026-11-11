@@ -16,7 +16,7 @@ def signature(item):
   b=np.asarray(gray.resize((9,8),Image.Resampling.LANCZOS));dh=int.from_bytes(np.packbits((b[:,1:]>b[:,:-1]).reshape(-1)).tobytes(),'big')
  return {'cohort':cohort,'path':str(path),'image_id':path.stem,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'pixel_sha256':pix,'width':size[0],'height':size[1],'mode':mode,'phash':f'{ph:016x}','dhash':f'{dh:016x}'}
 def main():
- archive=ROOT/'raw/milk10k.zip';receipt=json.loads(archive.with_suffix('.zip.download.json').read_text());assert sha(archive)==receipt['sha256']
+ archive=ROOT/'raw/milk10k.zip';receipt=json.loads(archive.with_suffix('.zip.download.json').read_text(encoding="utf-8"));assert sha(archive)==receipt['sha256']
  all_cases=pd.read_csv(ROOT/'prepared/all_clinical_selection.csv');cases=pd.read_csv(ROOT/'prepared/candidate_cases.csv')
  candidate_data={}
  with zipfile.ZipFile(io.BytesIO(archive.read_bytes())) as z:

@@ -9,7 +9,7 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
  frames={};sources={}
  for name,count in [('milk10k.csv',10480),('training_supp.csv',10480),('training_input.csv',10480),('training_gt.csv',5240)]:
-  p=ROOT/'raw'/name;r=json.loads(p.with_suffix('.csv.download.json').read_text())
+  p=ROOT/'raw'/name;r=json.loads(p.with_suffix('.csv.download.json').read_text(encoding="utf-8"))
   assert p.stat().st_size==r['size_bytes'] and sha(p)==r['sha256']
   d=pd.read_csv(p,keep_default_na=False);assert len(d)==count,(name,len(d))
   key='lesion_id' if name=='training_gt.csv' else 'isic_id'
