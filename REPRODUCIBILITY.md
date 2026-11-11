@@ -15,7 +15,7 @@ python -B study_inputs/reproduce_all.py
 python -B results_replay/equal_fold_sensitivity/replay.py --output verification_results_equal
 ```
 
-Use a new output folder. The first two scripts verify the reported numerical results and every stored paired bootstrap draw. The last command covers the earlier record audits, patient-grouped comparison, interventions, training-recipe sensitivity and restricted-age analysis. Data arrays use NumPy's non-pickle numerical format. Code and data are exposed as individual repository files.
+Use a new output folder. The first two scripts verify the reported numerical results and every stored paired bootstrap draw. The third command covers the earlier record audits, patient-grouped comparison, interventions, training-recipe sensitivity and restricted-age analysis. The fourth replays the equal-fold aggregation sensitivity for both full external cohorts. Data arrays use NumPy's non-pickle numerical format. Code and data are exposed as individual repository files.
 
 On Windows PowerShell, `$env:PYTHONUTF8="1"` keeps terminal text consistent. Public text-file reads specify UTF-8 explicitly, including when Python UTF-8 mode is disabled. The corrected pinned-source fetch command was checked without an existing dependency cache.
 
